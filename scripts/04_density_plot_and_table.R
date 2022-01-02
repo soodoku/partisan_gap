@@ -6,8 +6,8 @@ Partisan Gaps
 "
 
 # Set dir 
-setwd(dropboxdir)
-setwd("partisan_gap/pgap/rep_files/")
+setwd(githubdir)
+setwd("partisan_gap/")
 
 # Load libs
 library(devtools)
@@ -18,6 +18,7 @@ library(readr)
 library(xtable)
 library(sandwich)
 library(lmtest)
+library(stargazer)
 
 # Colnames
 item_meta     <-  c("item_name", "survey", "study", "year")
@@ -237,6 +238,7 @@ print(
         type = "latex", 
         sanitize.text.function = function(x){x},
         caption.placement = "top",
+        floating = FALSE,
         table.placement = "!htb",
         file = "tabs/append_table_1_all_partisan_gap_by_item.tex")
 
@@ -261,7 +263,7 @@ anes_retro  <- anes %>% left_join(anes_filter, by = c("item_name", "year"), keep
 anes_retro2 <- subset(anes_retro, select = -c(filter, econ_retro))
 
 # Combine
-econ_metadata <- read_csv("data/roush_sood/anes_econ_items_metadata.csv") %>%  mutate(survey = as.character(survey))
+econ_metadata <- read_csv("data/roush_sood/anes_econ_items_metadata.csv")
 retro_fin = anes_retro2 %>% left_join(econ_metadata, by = "item_name")
 
 # Sign Gap

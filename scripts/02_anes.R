@@ -1,8 +1,8 @@
 # ANES
 
 # Set dir
-setwd(dropboxdir)
-setwd("partisan_gap/pgap/rep_files/")
+setwd(githubdir)
+setwd("partisan_gap/")
 
 # Load libs
 library(tidyverse)
@@ -683,7 +683,7 @@ anes_2004 <- anes_2004 %>%
 ))
 
 anes_2004 <- anes_2004 %>%
-    mutate(dem = case_when(
+    mutate(dem_nolean = case_when(
       V043116 == 0 | V043116 == 1 ~ 1,
       V043116 == 5 | V043116 == 6 ~ 0
 ))

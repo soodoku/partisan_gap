@@ -2,8 +2,8 @@
 # Prior et al. 2015
 
 # Set dir
-setwd(dropboxdir)
-setwd("partisan_gap/pgap/rep_files/")
+setwd(githubdir)
+setwd("partisan_gap/")
 
 # Load libs
 library(tidyverse)

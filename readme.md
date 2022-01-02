@@ -37,6 +37,8 @@
 		5. Figure 1: figs/partisan_gap_density.pdf
 		6. Appendix Figure SI 3.1: figs/abs_value_p_gap.pdf
 
+5. [Run All The Above Scripts](scripts/05_run_all.R)
+6. 
 ## Cite
 
 Roush, Carrie and Gaurav Sood. 20XX. "A Gap in Our Understanding? Reconsidering the Evidence for Partisan Knowledge Gaps." The Quarterly Journal of Political Science. 

@@ -1,8 +1,8 @@
 # JnJ
 
 # Set dir
-setwd(dropboxdir)
-setwd("partisan_gap/pgap/rep_files/")
+setwd(githubdir)
+setwd("partisan_gap/")
 
 # Load libs
 # Loading the required libraries
