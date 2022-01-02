@@ -136,13 +136,9 @@ sd(p_gap$sign_gap)
 range(p_gap$sign_gap)
 #  [1] -0.1625473  0.4916665
 
-## Which items were min/max
-p_gap$description[p_gap$sign_gap < -.16]
-p_gap$description[p_gap$sign_gap > .49]
-
 # Proportion of partisan gaps > 10%
 mean(p_gap$sign_gap >= .1)
-# [1] 0.2834225
+# [1] 0.2941176
 
 # Proportion of 'statistically significant' partisan gaps
 mean(p_gap$p.value <= .05)
@@ -170,20 +166,26 @@ mean(p_gap$p.value[p_gap$n_rep > 100 & p_gap$n_dem > 100] <= .05)
 
 # Mean absolute gap
 mean(p_gap$abs_sign_gap)
+# [1] 0.09238132
 
 # Median absolute gap
 median(p_gap$abs_sign_gap)
+# [1] 0.06519015
 
 # Median absolute gap
 sd(p_gap$abs_sign_gap)
+# [1] 0.09207491
 
 # Actual partisan questions
 length(p_gap$sign_gap[p_gap$actual_partisan == 1])
 mean(p_gap$sign_gap[p_gap$actual_partisan == 1])
+# [1] 0.06746802
 
-# Mean R correct
+# Mean R/D correct
 mean(p_gap$prop_r_correct)
+# [1] 0.4162878
 mean(p_gap$prop_d_correct)
+# [1] 0.415894
 
 ## no lean
 # Load dat
@@ -195,11 +197,11 @@ all_items_nolean <-  rbind(anes_fin_nolean, bullock_prior_nolean, jnj_nolean)
 all_fin_nolean <- all_items_nolean %>% left_join(metadata, by = "item_name")
 all_fin_nolean$sign_gap <- -1*all_fin_nolean$dem_minus_rep*all_fin_nolean$sign
 mean(all_fin_nolean$sign_gap)
-# [1] 0.05869806
+# [1] 0.0622685
 median(all_fin_nolean$sign_gap)
-# [1] 0.04444444
+# [1] 0.04576809
 sd(all_fin_nolean$sign_gap)
-# [1] 0.1214155
+# [1] 0.124097
 
 # 3. Item-wise Appendix Table
 # ----------------------------
