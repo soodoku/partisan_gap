@@ -1,0 +1,5258 @@
+FILE nes04app.txt
+-----------------
+2004 American National Election Study (2004.T)
+Codebook appendix file
+VERSION 20050816 (Aug 16, 2005)
+
+
+>> 2004 CANDIDATE NUMBER MASTER CODE (House and Senate)
+
+
+SENATE
+------
+  RACE IN STATE                    
+   01.  Democratic candidate in open Senate race
+   02.  Republican candidate in open Senate race
+   03.  Democratic Senate running incumbent
+   04.  Republican Senate running incumbent
+   05.  Democratic Senate challenger
+   06.  Republican Senate challenger
+   07.  Independent/3rd-party Senate candidate -  nonincumbent
+   08.  Independent/3rd-party Senate candidate  - 2nd nonincument
+   09.  Independent/3rd-party Senate incumbent
+   21.  Retiring Democratic Junior Senator in state with open race
+   22.  Retiring Republican Junior Senator in state with open race
+   23.  Retiring Independent/3rd Party Junior Senator in state with open race
+   27.  Retiring Democratic Senior Senator in state with open race
+   28.  Retiring Republican Senior Senator in state with open race
+   29.  Retiring Independent/3rd Party Senior Senator in state with open race
+
+  SENATOR WITH TERM NOT UP (NOT RUNNING OR RETIRING)
+   11.  Democratic Junior Senator
+   12.  Republican Junior Senator
+   13.  Independent/3rd-Party Junior Senator
+   17.  Democratic Senior Senator
+   18.  Republican Senior Senator
+   19.  Independent/3rd Party Senior Senator
+
+HOUSE
+-----
+   31.  Democratic candidate in open House race
+   32.  Republican candidate in open House race
+   33.  Democratic House running incumbent
+   34.  Republican House running incumbent
+   35.  Democratic House challenger
+   36.  Republican House challenger
+   37.  Independent/3rd-party House candidate -  nonincumbent
+   38.  Independent/3rd-party House candidate  - 2nd nonincument
+   39.  Independent/3rd-party House incumbent
+   41.  Retiring Democratic House Representative
+   42.  Retiring Republican House Representative
+   43.  Retiring Independent/3rd-Party House Representative
+-----------------------------------------------------------------------------
+>> 2004 TYPE RACE MASTER CODE (HOUSE AND SENATE)
+
+
+INCUMBENT RUNNING
+   12  Democratic incumbent running - Republican challenger
+   13  Democratic incumbent running - other challenger
+   14  Democratic incumbent running - unopposed
+   19  Democratic incumbent running - Repub and other challengers
+   21  Republican incumbent running - Democratic challenger
+   23  Republican incumbent running - other challenger
+   24  Republican incumbent running - unopposed
+   29  Republican incumbent running - Dem and other challengers
+   31  Other incumbent running - Democratic challenger
+   32  Other incumbent running - Republican challenger
+   34  Other incumbent running - unopposed
+   35  Other incumbent running - Democratic and Republican challengers
+   36  Other incumbent running -- Republican and other challengers
+   37  Other incumbent running -- Democratic and other challengers
+   39  Other incumbent running -- Democratic, Republican, other challengers
+
+SPECIAL HOUSE TYPE RACE DUE TO REDISTRICTING
+   40  Democratic and Republican incumbents running - no other candidate
+   41  2 Democratic incumbents running - no other candidate
+   42  2 Republican incumbents running - no other candidate
+   43  Dem and Repub incumbents running - other candidate(s)
+   44  Dempcratic non-incumbent only - no retiree/unclear who is retiree
+   45  Republican non-incumbent only - no retiree/unclear who is retiree
+   46  Democratic and Republican cands - no retiree/unclear who is retiree
+   47  Democratic and other cands - no retiree/unclear who is retiree
+   48  Republican and other cands - no retiree/unclear who is retiree
+   49  Democratic, Republican, other cands - no retiree/unclear who is retiree
+
+NO INCUMBENT RUNNING:
+   51    Dem incumbent not running -- DEMOCRATIC CANDIDATE UNOPPOSED
+   52    Dem incumbent not running -- REPUBLICAN CANDIDATE UNOPPOSED
+   53    Dem incumbent not running -- OTHER CANDIDATE UNOPPOSED
+   55    Dem incumbent not running -- DEMOCRATIC AND REPUBLICAN CANDS
+   56    Dem incumbent not running -- REPUBLICAN AND OTHER CANDS
+   57    Dem incumbent not running -- DEMOCRATIC AND OTHER CANDS
+   59    Dem incumbent not running -- DEMOCRATIC, REPUBLICAN, OTHER CANDS
+   61    Rep incumbent not running -- DEMOCRATIC CANDIDATE UNOPPOSED
+   62    Rep incumbent not running -- REPUBLICAN CANDIDATE UNOPPOSED
+   63    Rep incumbent not running -- OTHER CANDIDATE UNOPPOSED
+   65    Rep incumbent not running -- DEMOCRATIC AND REPUBLICAN CANDS
+   66    Rep incumbent not running -- REPUBLICAN AND OTHER CANDS
+   67    Rep incumbent not running -- DEMOCRATIC AND OTHER CANDS
+   69    Rep incumbent not running -- DEMOCRATIC, REPUBLICAN, OTHER CANDS
+   71    Other incumbent not running -- DEMOCRATIC CANDIDATE UNOPPOSED
+   72    Other incumbent not running -- REPUBLICAN CANDIDATE UNOPPOSED
+   73    Other incumbent not running -- OTHER CANDIDATE UNOPPOSED
+   75    Other incumbent not running -- DEMOCRATIC AND REPUBLICAN CANDS
+   76    Other incumbent not running -- REPUBLICAN AND OTHER CANDS
+   77    Other incumbent not running -- DEMOCRATIC AND OTHER CANDS
+   79    Other incumbent not running -- DEMOCRATIC, REPUBLICAN, OTHER CANDS
+
+SENATE ONLY -NO RACE IN STATE
+   81    DEMOCRATIC INCUMBENTS, no race in state
+   82    REPUBLICAN INCUMBENTS, no race in state
+   85    DEMOCRATIC AND REPUBLICAN INCUMBENTS, no race in state
+   87    DEMOCRATIC AND OTHER INCUMBENT, no race in state
+   88    REPUBLICAN AND OTHER INCUMBENT, no race in state
+
+LOUISIANA DISTRICT ONLY
+   91  Rep incumbent not running - Democratic and 2 Republican candidates
+   92  Rep incumbent not running - Republican and 2 Democratic candidates
+   93  Dem incumbent not running - Democratic and 2 Republican candidates
+   94  Dem incumbent not running - Republican and 2 Democratic candidates
+
+
+   00  WASHINGTON D.C. (NO HOUSE OR SENATE RACE)
+------------------------------------------------------------------------------
+>> 2004 PARTY-CANDIDATE MASTER CODE ('Likes-Dislikes')
+
+*   indicates new or amended code in 2004
+!! indicates "other" codes
+
+PARTY ONLY -- PEOPLE WITHIN PARTY
+
+
+     0001 Johnson
+     0002 Kennedy, John; JFK
+     0003 Kennedy, Robert; RFK
+     0004 Kennedy, Edward; "Ted"
+     0005 Kennedy, NA which
+     0006 Truman
+     0007 Roosevelt; "FDR"
+     0008 McGovern
+     0009 Carter
+     0010 Mondale
+     0011 McCarthy, Eugene
+     0012 Humphrey
+     0013 Muskie
+     0014 Dukakis, Michael
+     0015 Wallace
+     0016 Jackson, Jesse
+     0017 Clinton, Bill
+     0018 Clinton, Hillary
+     0019 Gore, Al
+     0020 Lieberman, Joseph
+*    0021 Kerry, John
+*    0022 Edwards, John
+
+     0031 Eisenhower; Ike
+     0032 Nixon
+
+     0034 Rockefeller
+     0035 Reagan
+     0036 Ford
+     0037 Bush, Sr., George
+     0038 Connally
+     0039 Kissinger
+     0040 McCarthy, Joseph
+     0041 Buchanan, Pat
+     0042 Dole
+     0043 Gingrich, Newt
+     0044 Cheney, Dick
+     0045 Bush, Jr. George W.
+     0046 McCain, John
+
+
+     0051 Other national party figures (Senators, Congressman, etc.)
+     0052 Local party figures (city, state, etc.)
+     0053 Good/Young/Experienced leaders; like whole ticket
+     0054 Bad/Old/Inexperienced leaders; dislike whole ticket
+     0055 Reference to vice-presidential candidate
+
+!!   0097 Other people within party reasons
+
+
+
+PARTY ONLY -- PARTY CHARACTERISTICS
+
+
+     0101 Traditional Democratic voter: always been a Democrat; just a
+               Democrat; never been a Republican; just couldn't vote
+               Republican
+
+     0102 Traditional Republican voter: always been a Republican; just
+               a Republican; never been a Democrat; just couldn't vote
+               Democratic
+
+     0111 Positive, personal, affective terms applied to party--good/nice
+               people; patriotic; etc.
+
+     0112 Negative, personal, affective terms applied to party--bad/lazy
+               people; lack of patriotism; etc.
+
+     0121 Can trust them; they keep their promises; you know where they stand
+
+     0122 Can't trust them; they break their promises; you don't know
+               where they stand
+
+     0131 Party is well-organized, sticks together, is united; members
+               are disciplined; votes party line
+
+     0132 Party is poorly-organized/really two parties/divided/
+               factionalized; members not disciplined; doesn't vote party line
+
+     0133 Party is (more) representative/good cross-section of the
+               country; encompasses a wider variety of views/people; is
+               more at the center of the country's views
+
+     0134 Party is less/not representative;bad cross-section of the
+               country; encompasses more restricted views; is less at the
+               center of the country's views
+
+     0135 Reference to participation of minority candidate(s)
+
+     0141 Reference to party's most recent National Convention;
+               party's process/method of selecting
+               presidential/vice-presidential candidates
+
+     0151 Performance of local branch of party; how they've done in
+               this state/county/town
+
+     0161 Reference to the predominant faction that R sees as being in
+               control of the party (NA which faction); "I don't like the
+               people running it"
+
+     0162 Reference to Northerners/Liberals (as in control) of 
+               Democratic Party
+
+     0163 Reference to Southerners/Conservatives (as in control) of
+               Democratic Party
+
+     0164 Reference to Easterners/Liberals/Moderates (as in control)
+               of Republican Party
+
+     0165 Reference to Midwesterners/Westerners/Southerners/
+               Conservatives (as in control) of Republican Party; "Old Boy
+               Network"
+
+     0166 Reference to Christian Coalition/Religious Right (as in control) of
+               Republican Party
+
+     0167 Can't win; doesn't have a chance
+
+     0168 Can win; party can't be beat
+
+     0169 Too big a party; there are too many of them; party is too powerful
+
+     0170 Too small a party; there are not enough of them; party is too weak
+
+     0171 Listens (more) to people; takes (more) into consideration
+               the needs and wants of people; understands (better) the
+               people/the majority of the people
+
+     0172 Doesn't listen to/understand the needs and wants of the
+               people/the majority of the people
+
+     0173 Campaign tactics, uses too much money in campaigns, slings mud
+
+     0174 Party been in office too long (but use 0430 for candidate
+               been in office too long) 
+
+*    0191 Doesn't recognize need to reform some of its stands/initiatives
+                that haven't worked/won't work
+
+!!   0197 Other party-characteristic reasons
+
+
+
+CANDIDATE ONLY -- EXPERIENCE, ABILITY
+
+
+     0201 General reference to him as "a good/bad man or a good/bad
+               guy"; R has heard good/bad things about him; qualifications;
+               general ability; reference to his "personality" ("job being
+               done" is in code 0609)
+
+     0203 Not qualified for the office; the job is too big for him to handle
+
+     0211 Experienced (NA what kind) (see 0217, 0218, 0220 for
+               specific kinds of experience; if in foreign policy see 1100's)
+
+     0212 Inexperienced
+
+     0213 Dependable/Trustworthy/Reliable; a man you can trust with
+               the responsibilities of government ("trust" in the
+               capability sense, rather than the honesty sense)    
+
+     0214 Undependable/Untrustworthy/Unreliable; a man you can't trust
+               with the responsibilities of government
+
+*    0215 A military man; a good military/war record; served in Viet Nam: 
+                decorated veteran
+
+*    0216 Not a military man; bad military/war record; no military/war
+                record (but see 0719); dodged the draft; joined the National
+                Guard; questions his service in Viet Nam
+
+     0217 His record in public service; how well he's performed in
+               previous offices; voting record in Congress
+
+     0218 Has government experience/political experience/seniority/ 
+               incumbency (also see code 0722)
+
+     0219 Lacks government experience/political experience
+
+     0220 A statesman; has experience in foreign affairs
+
+     0221 Not a statesman; lacks experience in foreign affairs
+
+     0222 "He has done a good job so far"; he has brought us through
+                hard times"; has gotten things done has some good ideas;
+                trying to do right things
+
+     0223 Hasn't done anything; hasn't produced any results (general);
+               has not been able to get programs off the ground
+
+     0224 Has fulfilled/kept (campaign) promises
+
+     0225 Has not fulfilled/kept (campaign) promises
+                                 
+!!   0297 Other candidate experience/ability reasons
+
+
+
+CANDIDATE ONLY -- CANDIDATE LEADERSHIP QUALITIES
+
+
+     0301 Dignified/has dignity
+
+     0302 Undignified/lacks dignity
+
+     0303 Strong/decisive/self-confident/aggressive; will end all this
+                indecision; 'sticks to his guns' [2004]
+
+     0304 Weak/indecisive/lacks self-confidence/vacillating;
+               "waffles"; "wishy-washy"
+
+     0305 Inspiring; a man you can follow; "a leader"; charisma
+
+     0306 Uninspiring; not a man you can follow; not a leader; lacks charisma
+
+     0336 Has vision
+ 
+     0337 Lacks vision
+
+     0335 Makes people feel good about America/being Americans; is
+               patriotic/loves the country
+
+     0307 People have confidence in him
+
+     0308 People don't have confidence in him
+
+     0309 Good at communicating with blacks, young people, other 
+               "problem" groups
+
+     0310 Bad at communicating with blacks, young people, other
+               "problem" groups (if communicate in general, see 0441, 0442)
+
+     0311 Knows how to handle people (at personal level)
+
+     0312 Doesn't know how to handle people (at personal level)
+
+     0313 A politician/political person; (too) much in politics; a
+               good politician; part of Washington crowd; politically
+               motivated; just wants to be re-elected
+
+     0314 Not a politician; not in politics; above politics; a bad
+               politician
+
+     0315 Independent; no one runs him; his own boss
+
+     0316 Not independent; run by others; not his own man/boss
+
+     0317 Humble; knows his limitations; doesn't pretend to know all
+               the answers
+
+     0318 Not humble enough; too cocky/self-confident
+
+     0319 (Too) Careful/Cautious/Good judgment
+
+     0320 (Too) Impulsive/Careless/Bad/Poor judgment
+
+     0334 Poor at explaining himself/his positions; doesn't answer
+               questions clearly; speaks off the top of his head/doesn't
+               stop to think before he speaks
+
+     0321 Helps people in the district on a personal level; has helped
+               R personally with a problem (specific mention); tries to do
+               things for the people
+
+     0322 Doesn't help people in the district on a personal level; was
+               not helpful to R with a personal problem (specific mention)
+
+     0323 Represents (well) the views of the district; close to people
+               in the district; comes home regularly to chat and mix with
+               people
+
+     0324 Does not represent (well) the views of the district; not
+               close to the people in the district; doesn't interact enough
+               with the people
+
+     0325 Keeps people well informed about governmental matters;
+               communicates with constituents; any mention of R receiving
+               newsletters or communications from him/her; explains matters
+               well so people can understand
+
+     0326 Does not inform people enough about governmental matters;
+               does not send enough newsletters or communications; doesn't
+               explain matters well
+
+     0327 Listens to the people/solicits public opinion; any mention
+               of polls or questionnaires; is accessible to constituents (NFS)
+
+     0328 Doesn't listen to the people/does not solicit public
+               opinion; isn't accessible to constituents (NFS)
+
+     0329 Has helped local (district) economy; brought money,
+               projects, jobs to district
+
+     0330 Has not helped local (district) economy; not brought money,
+               projects, jobs to district
+
+     0331 Candidate helps the district; watches out for the interests
+               of the district or region in general
+
+     0332 Candidate has not protected/watched out for the interests of
+               the district (specific mentions)
+
+     0334 Located after 0320
+
+     0335 Located after 0306
+
+     0336 Located after 0306
+
+     0337 Located after 0306
+
+
+!!   0397 Other candidate leadership reason
+
+
+
+CANDIDATE ONLY -- PERSONAL QUALITIES
+
+
+     0401 Honest/Sincere; keeps promises; man of integrity; means what
+               he says; fair; not tricky; open and candid; straightforward;
+               positive Playboy references (1976)
+
+     0402 Dishonest/Insincere; breaks promises; no integrity; doesn't
+               mean what he says; tricky; not open and candid; not
+               straightforward
+
+     0403 Man of high principles/ideals; high moral purpose;
+               idealistic (if too idealistic, code 0416) ; morality
+
+     0404 Lacks principles/ideals
+
+     0405 Racist/Bigoted/Prejudiced
+
+     0406 Not a racist/bigoted/prejudiced
+
+     0407 Public servant; man of duty; conscientious; hard-working;
+               would be a full-time President; good attendance record in
+               Congress; dedicated; really interested in serving people
+
+     0408 Doesn't take public service seriously; lazy; would be a
+               part-time President; poor attendance record in office; not
+              dedicated; not really interested in serving people; "shallow"
+
+     0409 Doesn't use office for personal benefit; not in office to
+               maximize personal benefit
+
+     0410 Uses/in office (mostly) for personal benefits (junket trips,
+               big salary, other perks)
+
+*     0411 Patriotic; (88) like Bush's stand on Pledge of Allegiance issue;
+                 (Pro) Kerry statements/actions about the Viet Nam War. (The R
+                 says that Kerry was right, showed bravery, in
+                 statements/actions after he came home from the war.)
+
+*     0412 Unpatriotic; (88) dislike Dukakis' stand on Pledge of 
+                  Allegiance issue; (Anti) Kerry statements/actions about Viet
+                  Nam after he came back from war. (The R says Kerry was
+wrong,
+                  defamed America, was unpatriotic in statements/actions after 
+
+                  he came home from the war.)
+
+     0413 Understands the nation's/district's problems; well-informed;
+               studies up on issues
+
+     0414 Doesn't understand the nation's/district's problems; poorly
+               informed; doesn't study up on issues
+
+     0415 Realistic
+
+     0416 Unrealistic; too idealistic; (if "idealistic" in positive
+               sense, code 0403)
+
+     0417 Uses common sense; makes a lot of sense; pragmatic/
+               practical/down-to-earth
+
+     0418 Not sensible; impractical
+
+     0419 (Too) well educated; scholarly
+
+     0420 Poorly educated; unschooled
+
+     0421 Intelligent/Smart
+
+     0422 Unintelligent/Stupid/Dumb
+
+     0464 Uninformed; doesn't (seem to) know anything about the
+               issues/what is going on in the country/government (for being
+               "informed", see code 04130
+
+     0423 Religious; "moral" (in religious sense); God-fearing; "too"
+               religious
+
+     0424 "Irreligious"; "immoral" (in religious sense); Playboy
+               interview (reflects on Carter--1976)
+
+     0425 Self-made; not well off; started out as poor; worked his way
+               up; (started out) unpolished/unrefined/rough
+
+     0426 Wealthy; rich; born with silver spoon in mouth; polished/
+                refined/well-mannered; buy way into office; use of own money
+                to finance campaign
+
+     0427 Old hat; has run before; a die-hard; "a loser" (in the past)
+
+     0428 Someone new; a fresh face
+
+     0429 Don't change horses in midstream
+     0430 Time for a change (see 0174 for party has been in office too long)
+
+     0431 Unsafe/Unstable; dictatorial; craves power; ruthless
+
+     0432 Safe/Stable
+
+     0433 Sense of humor; jokes a lot (too much)
+
+     0434 No sense of humor; humorless (too serious)
+
+     0435 Kind/Warm/Gentle; caring
+
+     0436 Cold/Aloof
+
+     0437 Likeable; gets along with people; friendly; outgoing; nice
+
+     0438 Not likeable; can't get along with people
+
+     0439 Democratic (in non-partisan sense)
+
+     0440 Undemocratic (in non-partisan sense)
+
+     0441 High-fallutin'/High-brow; talks in circles; can't talk to
+               common man; can't communicate ideas well
+
+     0442 Not high-fallutin'/is low-brow; talks straight; can talk to
+               common man; can communicate ideas well
+
+     0443 Well-known; "I know him/her"
+
+     0444 Unknown; not well known
+
+     0445 Reference to his family (not 0457)
+
+     0446 Reference to his wife/spouse
+
+     0447 Speaking ability
+
+     0448 Health
+
+     0449 Appearance/Looks/Face/Appearance on TV; his smile
+
+     0450 Age (NA how perceived)
+
+     0451 (Too) Old
+
+     0452 (Too) Young
+
+     0453 Mature
+
+     0454 Immature
+
+     0455 Regional reference; "he's a Southerner"; "he's a
+               Midwesterner"; he comes from the country/a rural area; area
+               reference
+
+     0456 Previous occupation
+
+     0457 He's a family man
+
+*     0458  Will not disclose personal financial records, tax returns, or
+                   things related to finances.
+
+     0459 Energetic; too energetic
+
+     0460 Not energetic
+
+     0461 Gender, e.g., "She's a woman"
+
+     0462 Racial/Ethnic attribute; "He is a black man"
+
+     0463 Sexual orientation mentioned; "She is a lesbian"
+
+     0464 Located after 0422
+
+     0465 Taking undeserved credit; taking credit for actionc ,events,
+               or policies one is not responsible for; Gore claiming "to 
+               have invented the internet" 
+
+     0466 Overcoming adversity in one's personal life; overcoming      
+               handicaps, disabilities, disease, alcoholism, or other 
+               similar problem.
+
+*    0490. 'I like his character' (general)
+*    0491. 'I don't like his character' (general)
+               
+!!   0495 Other negative personal qualities
+
+!!   0496 Other positive personal qualities
+
+!!   0497 Other candidate personal qualities
+
+     0498 References to Playboy interview--NA direction or neutral;
+               "it's OK," "that is what the Bible says" (not 0401)--1976
+
+
+
+CANDIDATE ONLY--PARTY CONNECTIONS
+
+
+     0500 A Democrat; good Democrat; typical Democrat
+
+     0501 A Republican; good Republican; typical Republican
+
+     0502 Controlled by party regulars/bosses/machine
+
+     0503 Not controlled by party regulars/bosses
+
+     0504 Reference to men around him/staff/followers
+
+     0505 Reference to his speeches (exc. 0447), campaign tactics;
+               mud-slinging; (88) dislike Bush's stand on Pledge of
+               Allegiance issue; all campaign mentions
+
+     0506 Can win; best choice for party victory
+
+     0507 Cannot win; not good choice for party victory
+
+     0508 Reference to linkage with other party figures (he's close to
+               the Kennedy's; he was close to Eisenhower; etc.)
+
+     0509 Would continue/keep/follow Democratic policies (unspecified)
+
+     0510 Would change/get rid of        "         "
+
+     0511 Would continue/keep/follow Democratic domestic policies
+               (unspecified, not codeable in 0900's)
+
+     0512 Would change/get rid of        "         "         "
+
+     0513 Would continue/keep/follow Democratic foreign policies
+               (unspecified, not codeable in 1100's)
+
+     0514 Would change/get rid of        "         "         "
+
+     0515 Would continue/keep/follow Republican policies (unspecified)
+
+     0516 Would change/get rid of        "         "
+
+     0517 Would continue/keep/follow Republican domestic policies
+               (unspecified, not codeable in 0900's)
+
+     0518 Would change/get rid of        "         "         "
+
+     0519 Would continue/keep/follow Republican foreign policies
+               (unspecified, not codeable in 1100's)
+
+     0520 Would change/get rid of        "         "         "
+
+     0531 More liberal than most Democrats; a Northern Democrat
+
+     0532 More conservative   "      "    ; a Southern Democrat
+
+     0533 More liberal than most Republicans; an Eastern Republican
+
+     0534 More conservative   "      "      ; a Midwestern/Western/
+               Southern Republican
+
+     0535 Will bring in/listen to the (party) liberals
+
+     0536 Will bring in/listen to the (party) conservatives
+
+     0541 Reference to the Eagleton affair--1972; reference to
+               physical or mental health of vice-presidential incumbent/
+               candidate; emotional stability/state of V-P incumbent/
+               candidate
+
+     0542 Reference to vice-presidential incumbent/candidate, running mate
+
+     0543 Mondale's selection of a woman for vice-president (1984);
+               reference to age/gender/race/ethnicity of V-P incumbent/
+               candidate
+
+     0544 Mention of issues that V-P incumbent/candidate is identified
+               with or has taken a leading role in promoting: 1992--Gore's
+               position on environment
+
+     0551 References to link with "Watergate"--positive reference to
+              Watergate
+
+     0552 Not associated with "Watergate"--negative reference to
+              Watergate; making too much out of Watergate
+
+     0553 Ford's pardon of Nixon--NA direction or against pardon
+
+     0554   "       "       "   --pro; brave/right thing to do
+
+     0555 Positive references about independent candidacy; maybe the
+               country needs a third party; third parties should have more
+               recognition; the two party system needs buckling
+
+     0556 Negative references/liabilities related to independent
+              candidacy; "he's an independent" (NFS); "we don't need a
+              third party"; "he lacks backing from a party"
+
+!!   0597 Other candidate party connection reasons
+
+
+PARTY OR CANDIDATE--GOVERNMENT MANAGEMENT
+
+     0601 Good/Efficient/Businesslike administration; balanced budget;
+               lower/wouldn't increase national debt; cautious spending
+
+     0602 Bad/Inefficient/Unbusinesslike administration; wasteful;
+              "bureaucratic"; deficit budget; higher/increased national
+              debt; overspend
+
+     0603 Honest government; not corrupt; no "mess in Washington"
+
+     0604 Dishonest/Corrupt government; "mess in Washington";
+               immorality in government; reference to Hayes, Mills, Lance
+
+     0605 (Would) Spend less (than other side); (would) spend too
+               little
+
+     0606 (Would) Spend more (than other side); (would) spend too much
+
+     0607 Has brought/will bring about bureaucratic reform
+
+     0608 Has not brought/will not bring about bureaucratic reform
+
+     0609 General assessment of job he/they would do/are doing; is
+               good/bad President; are providing good/bad administration
+
+     0622 Doesn't work (hard) at job; not involved (enough) in the
+               work of his office/delegates too much authority to others;
+               has chosen poor/incompetent aides; his aides have not
+               performed well
+
+     0610 Reference to management/performance in Congress/Supreme
+               Court/other government agency; made poor appointments
+
+     0611 He has/has not worked well with (Democratic) Congress;
+               would/could have done better with (Republican) Congress; he
+               kept/would keep Congress in check
+
+     0612 He will work well/better with (Democratic) Congress
+
+     0613 Gets more done/accomplishes as much/more productive
+
+     0614 Gets less done/doesn't accomplish as much/less productive
+
+     0625 Mostly approve of/happy with job done so far, but doesn't
+               approve of everything that has been done
+
+     0615 Sympathy/understanding expressed for the complexity/
+               magnitude of the job (e.g., President): tough job
+
+     0616 Sympathy/understanding expressed for the difficult situation
+               ("a mess") inherited by the incumbent
+
+     0623 Doing the best he can (under the circumstances); doing as
+               good a job as anyone else could do; everyone makes some
+               mistakes
+
+     0617 Will face (difficult) issues; faces problems directly; faces
+               up to political reality
+
+     0618 Will not face (difficult) issues; will not face problems
+               directly; ignores political reality
+
+     0619 Supports the president/works well with the president/would
+               work well with the president
+
+     0620 Does not support the president/does not (would not) work
+               well with the president
+
+     0621 Response to/handling of domestic crisis or natural disaster--riot,
+               hurricane, tornado, earthquake, flood, etc.
+
+     0622 Located after 0609
+
+     0623 Located after 0616
+
+     0625 Located after 0614
+
+     0626 Favors term limits
+
+     0627 The economy is bad, but that is not (necessarily) his fault
+
+!!   0697 Other government management reasons
+
+
+
+PARTY OR CANDIDATE--MISCELLANEOUS
+
+
+     0701 Just like him/them (NA why); like everything about him/them;
+              "I was hoping he would win the (nomination/primaries)"
+
+     0702 Just dislike/Don't like him/them (NA why); don't like
+               anything about him/them
+
+     0732 Used to like him but don't now; have lost respect for him
+
+     0703 Will save America; America needs him/them
+
+     0704 Will ruin America; last thing America needs
+
+     0705 Will unite Americans/bring people together
+
+     0706 Will divide Americans/drive people apart
+
+     0707 Speaks of party/candidate as good protector(s); will know
+               what to do; more intelligent
+
+     0708 Speaks of party/candidate as bad protector(s); won't know
+               what to do
+
+     0709 Good for country (unspecified); trying to do good job;
+               trying; not just out for self/own best interest; has/have
+               country's interest at heart ; will do a good job
+
+     0710 Bad for country (unspecified); don't have country's
+               interests at heart; only looking out for their own interests ;
+               will not do a good job
+
+     0711 Lesser of two evils
+
+     0718 Treatment of Jesse Jackson; didn't offer him the vice-presidenal
+               nomination; didn't use him (effectively) to get out the Black
+               vote; weren't coutreous/respectful toward him; didn't keep 
+               promises made to him
+
+     0719 Sexual scandals; reference to Chappaquidic; Kennedy's personal
+               problems; damaging incidents in personal life--sexual escapades
+
+     0720 Reference to Watergate affair (exc. 0551-0554)
+
+*     0721 The way the incumbent came to office; the people should 
+                 select President; stole the election in Florida (reference to 
+                 Bush in 2000 election)
+
+     0722 The incumbent should have a chance (on his own)/another
+               chance/second chance
+
+     0723 (I believe in/Necessary for) a two-party system; choice
+               between candidates; opposition; balances power of other party
+
+     0724 Vote for the man rather than party; look for more qualified
+               man; don't pay attention to parties
+
+     0725 The opponent who the candidate ran against; the candidate
+               was the better of the two in general; the candidate ran
+               against someone I really dislike
+
+     0726 Splits votes; will elect wrong candidate; "spoiler"
+
+     0727 Expression of sympathy/admiration for the candidate's
+               underdog position; trying hard against terrible odds;
+               courageous uphill battle; "I like underdogs"; "they are
+               bucking the guy" (keeping him off ballot, not taking him
+               seriously, not giving him enough publicity)
+
+     0728 Negative comments about the candidate's switching parties,
+               being a turncoat, disloyal to his original party
+
+     0729 Party selection of a woman for vice-president
+
+     0730 Mention of debates; candidate's performance in the debates
+
+     0731 Position (vote) on increasing congressional salary; position
+               (vote) on accepting honoraria/outside pay/royalties while in
+               office
+
+     0732 Located after 0702
+
+     0734 Non-sexual scandals; Whitewater; Travel Office firings; FBI
+               file controversy; (Whitewatergate, Travelgate, FBI gate); 
+               Bush Jr's drug and alcohol use. All sexual scandals should
+               be coded in 0719 (incl. Paula Jones, "womanizing," "can't
+               keep pants on," etc.)
+
+     0735 Campaign finance scandals; Gore at the Buddhist temple; Gore
+               soliciting funds from his office
+
+*    0739 Justifiable criticism in the media
+
+     0796 References to unfair/undeserved/excessive criticism by media
+               or public
+
+!!   0797 Other miscellaneous reasons: Other miscellaneous reasons
+                relating to image and candidate/party effect on nation
+
+
+PARTY OR CANDIDATE--GOVERNMENT ACTIVITY/PHILOSOPHY
+
+
+     0801 General assessment of ideas/policies/stands (unspecified)
+
+     0802 Different from other party/candidate
+
+     0803 Same as other party/candidate; not different enough
+
+     0804 (Too) negative; always tearing down other side; no
+               solutions of his/their own
+
+     0805 For government activity; believe government should take care
+               of things; for big government/ wants government bigger; 
+               supports social programs/ spending (not 0905-0907)
+
+     0806 Against government activity; believe government involved in
+               too many things; favors reduction in social programs/
+               spending (not 0905-0907); against big government/ wants
+               government smaller
+
+     0807 Humanistic; favor human beings over property rights
+
+     0808 Not humanistic; favor property rights over human beings
+
+     0809 Favor social change/reform/progress/improvement of social conditions
+
+     0810 Against social change/reform/progress/improvement of social
+               conditions
+
+     0811 Socialistic
+
+     0812 Anti-socialistic
+
+     0813 Communistic/soft/hard-liner on Communism/apologist for
+               Communists/dupe
+
+     0814 (Too) anti-communistic/hard-liner on Communism
+
+     0815 (Too) liberal (except 0531 or 0533)
+
+     0816 (Too) conservative (except 0532 or 0534)
+
+     0817 Moderate/middle of the road/for slow change; not an
+               extremist/fanatic
+
+     0818 Extremist/fanatic/too far out; not too moderate/not a fence-sitter
+
+     0819 Pro-Far Right/Birchers/reactionaries; encouraging fascist/
+               police state
+
+     0820 Anti-Far Right/  "          "       ; discouraging    "
+
+     0821 Pro-Far Left/radicals/Yippies/SDS; encouraging anarchy/
+               guerilla state
+
+     0822 Anti-Far Left/   "       "     " ; discouraging   "
+
+     0823 Pro-Extremists (NA direction)/nuts/bomb-throwers
+
+     0824 Anti-Extremists   "            "        "
+
+     0827 Pro-States'/local/community rights; better local government;
+               more power in states' hands 
+
+     0828 Anti-  "      "       "        "  ; worse/weaker local government;
+               less power in states' hands
+
+     0829 For equality; believe everyone should have things equally/
+               be treated equally
+
+     0830 Anti-equality; believe some people should have more than
+               others/people should not be treated equally
+
+     0831 Generous, compassionate, believe in helping others
+
+     0832 Selfish, only help themselves 
+
+     0833 Acceptance of change/new ideas; less bound to status quo;
+               more open to new ideas/ways of doing things; flexible,
+               innovative
+
+     0834 Resistance to change/new ideas; stick to (protect) status
+               quo; resist new ways of doing things; rigid
+
+     0835 Has a well-defined set of beliefs/definite philosophy; does
+               not compromise on principles; has (clear) understanding of
+               goals they stand for
+
+     0836 Has poorly defined set of beliefs; lacks a definite
+               philosophy; compromise on principles; has no (clear)
+              understanding of goals they stand for
+
+     0837 Favor work ethic; believes in self-reliance/in people
+               working hard to get ahead
+
+     0838 Doesn't favor work ethic; believes in people being handed
+               things/in government handouts (if specific policy mentioned,
+               code in 0900's) ; doesn't believe in teaching people 
+               to be independent
+
+     0841 Keep track of/control over administration heads, cabinet
+               members, etc.; follow through on policies; determine if
+               programs are working
+
+     0842 Don't (as in 0841)
+
+     0843 Conditional evaluation:  R suggests candidate/party cannot
+               solve problems because not under his/their control (no
+               negative connotations); will he/they be able to do what they
+               say (determining factor outside his/their control); "I like
+               what he says but wonder if he can do it" (if clearly
+               negative, code in 0122 or 0402)
+
+     0845 Will involve/wants to involve people/Congress/Cabinet/
+               advisors/other government officials in government/
+               decision making
+
+     0846 Will not involve people/Congress/Cabinet/advisors/other
+               government officials in government/decision making
+
+     0847 Separation of church and state/religion and politics--pro
+
+     0848 Separation of church and state/religion and politics--anti
+
+     0849 Stand/views on religion (church/state relationship NA)
+
+*    0870 General - emphasizes domestic concerns/issues; doesn't emphasize
+                nondomestic/foreign policy concerns
+*    0871 General - doesn't emphasize domestic concerns/issues; emphasizes
+                nondomestic/foreign policy concerns
+
+!!   0897 Other Government Activity/Philosophy reasons
+
+
+PARTY OR CANDIDATE--DOMESTIC POLICIES
+
+
+     0900 General assessment of domestic ideas/policies/stands
+               (unspecified exc. 870,871)
+
+     0901 General assessment of economic policy (unspecified)
+
+     0902 Government economic controls--NA direction 
+
+     0903    "          "         "   --Pro; we need planned economy;  
+               control of private enterprise
+
+     0904    "          "         "   --Anti; we have too much
+                interference in private enterprise
+
+     0905 Welfare/Poverty problems--NA direction; give-away
+
+     0906    "       "       "    --Pro government aid/activity; pro
+                give-aways
+
+     0907    "       "       "    --Anti government aid/activity;
+               anti give-aways; pro self-help
+
+     0908 Social Security/Pensions--NA direction
+
+     0909    "       "       "    --Pro expansion in coverage and/or
+                increase in benefits
+
+     0910    "       "       "    --Anti expansion in coverage and/or
+                 increase in benefits; favoring contraction and/or 
+                 decrease
+
+     0911 Unemployment compensation--NA direction
+
+     0912      "            "      --Pro expansion in coverage and/or
+                 increase in benefits
+
+     0913      "            "      --Anti expansion in coverage and/or
+                increase in benefits; favoring contraction and/or 
+               decrease
+
+     0914 Aid to education--NA direction
+
+     0915  "         "    --Pro
+
+     0916  "         "    --Anti
+
+     0917 Aid to parochial schools--NA direction
+
+     0918  "         "        "   --Pro
+
+     0919  "         "        "   --Anti
+
+     1047 Establish/enforce standards for schools (test teachers,
+               require minimum curricula, regulate class size, etc) -- NA
+               direction
+
+     1048  "          "        "   -- Pro
+
+     1049  "          "        "   --Anti
+
+     0920 Housing--NA direction
+
+     0921   "    --Pro more public housing
+
+     0922   "    --Anti more public housing
+
+     0923 Aid/Programs for older people/the aged, Medicare, Medicaid,
+               prescription drug plan, direction -- NA
+
+     0924   "        "        "                             -- Pro
+
+     0925   "        "        "                             -- Anti
+
+     1059 School vouchers--NA direction
+
+     1060       "        "   --Pro
+
+     1061       "        "   --Anti
+
+*    1065 Stem cell research - NA direction
+
+*    1066 Stem cell research - Pro
+
+*    1067 Stem cell research - Anti (or limitations upon)
+
+     0926 Monetary policy--NA direction
+
+     0927    "       "   --Pro loose(r) money; more availability of
+               loans for housing, cars, etc.; lower interest rates
+
+     0928    "       "   --Anti loose(r) money; for tighter money;
+               less availability of loans; higher interest rates
+
+*     1046 Solvency/stability/regulation/control of the nation's
+                 FINANCIAL INSTITUTIONS.  [1990] Involvement in the Savings
+                 and Loan scandals; keeping an eye on corporate fraud.
+
+     0929 Tax policy--NA direction
+
+     0930  "    "   --Pro lower taxes
+
+     0931  "    "   --Anti lower taxes; for higher taxes
+
+     0932  "    "   --Pro reform/fairer system/end of loopholes/
+                write-offs/dodges
+
+     0933  "    "   --Anti reform/fairer system/end of loopholes/    
+                write-offs/dodges
+
+     0942 [1990] Candidate voted for the budget agreement which
+               resulted in increased taxes/fees
+
+     0934 "The Times"/General conditions/Prosperity/The Economy
+                --better under him/them 
+
+     0935      "          "     --worse under him/them
+
+     0936 Inflation/Cost of living--lower/better under him/them
+
+     0937   "         "        "  --higher/worse under him/them
+
+     0938 Wages/Salaries/Income/Employment--higher/better 
+                under him/them
+     0939  "       "        "       "     --lower/worse under him/them
+
+     0940 Prices for producers--higher/better under him/them
+
+     0941   "              "  --lower/worse (if farm, see 0943-0945)
+
+     0942 Located after 0933
+
+     0943 Programs to help farmers -- NA direction
+
+     0944   "      "            "   --Pro (greater) help/fairer
+                system, reform in system; higher
+                price supports
+
+     0945   "      "            "   --Anti (greater) help/fairer
+               system, reform in system; higher price supports
+
+     0946 Civil rights/Racial justice/Integration/Desegregation/
+               Voting Rights -- NA direction
+
+     0947   "      "                 -- Pro
+
+     0948   "      "                 -- Anti
+
+     1043 Affirmative Action programs -- NA direction
+
+     1044   "       "            "    -- Pro; favors quotas based on
+               race or gender
+
+     1045  "        "            "    -- Anti; opposes quotas based on
+               race or gender
+
+     0949 Civil liberties/Freedom of expression/First amendment/   
+               Privacy -- NA direction
+
+     0950   "     -- Pro; against snooping; political trials, etc;
+                 (88) like Dukakis' stand on Pledge of Allegiance issue 
+
+     0951   "     -- Anti; for snooping; political trials;
+                McCarthyite; (88) dislike Republican party stand on Pledge
+                of Allegiance issue
+
+     0952 General assessment of Labor policy (unspecified)
+
+     0953 Right to work laws--NA direction
+
+     0954  "      "      "  --Pro (i.e., opposes unions [anti-labor,
+                code 1208])
+
+     0955  "      "      "  --Anti (i.e., supports unions [pro-labor,
+                code 1207])
+
+     0956 Strikes--NA direction
+
+     0957   "    --will have fewer/will handle better
+
+     0958   "    --will have more/will handle worse
+
+     0959 Public power/Utilities/TVA/Atomic reactors/Nuclear power
+               plants/Etc. -- NA direction
+
+     0960   "        "     " -- Pro
+
+     0961   "        "     " -- Anti
+
+     0962 Ecology/Environment; Air and Water Pollution--NA direction
+
+     0963 Will crack down on polluters, will be activist; will protect
+                the environment
+
+     0964 Won't crack down on polluters, doesn't care; in league with
+               polluters; not willing to protect the environment
+
+     0965 Veterans' Benefits--NA direction
+
+     0966    "          "   --Pro expansion of coverage and/or
+                 increase in benefits
+
+     0967    "          "   --Anti expansion of coverage and/or
+                increase in benefits; favoring contraction and/or decrease
+
+     0968 Law and order--NA direction
+
+     0969  "        "  --soft line--unspecified
+
+     0970  "        "     "     " --blacks
+
+     0971  "        "     "     " --campus demonstrators
+
+     0972  "        "     "     " --criminals/organized crime/
+                hoodlums/street crime
+     0973  "        "     "     " --anti power of police; court
+                interference
+     1041  "        "     "     " --opposes death penalty
+
+     0974  "        "  --hard line--unspecified
+
+     0975  "        "     "     " --blacks
+
+     0976  "        "     "     " --campus demonstrators
+
+     0977  "        "     "     " --criminals/organized crime/
+                hoodlums/street crime
+     0978  "        "     "     " --pro power of police; reduced
+                court interference
+     1042  "        "     "     " --favors death penalty
+
+
+     0979 Public morality--NA direction
+
+     0980   "       "    --Strict/older/traditionalistic outlook;      
+                 improve/renew morality of country; pro-family;    
+                 defends family values
+
+     0981   "       "    --Permissive/newer/modernistic outlook; not   
+                   (strongly enough) pro-family; doesn't defend        
+                   (strongly enough) family values
+
+     0982 Drugs--NA direction
+
+     0983   "  --Pro legalization/decriminalization; soft-liner; (88)  
+                doesn't support (strongly enough) the war on drugs; not 
+                willing to do more to combat drug use/pushers;          
+                involvement with Noreiga 
+
+     0984   "  --Anti legalization/decriminalization; hard-liner; (88) 
+                supports the war on drugs; willing to do more to       
+                combat drug use/pushers
+
+     0985 Abortion and birth control--NA direction
+
+     0986    "          "        "  --Pro reform/legalization;
+                  new outlook
+     0987    "          "        "  --Anti reform/legalization;
+                  traditional outlook
+
+     0988 Gun control--NA direction
+
+     0989  "     "   --Pro; controls
+
+     0990  "     "   --Anti; "everyone has the right to own a gun"
+
+     0991 Busing--NA direction
+
+     0992   "   --Pro; against neighborhood school
+
+     0993   "   --Anti; for neighborhood school
+
+     0994 Urban problem/Cities--NA direction
+
+     0995    "     "      "   --Pro government aid/activity
+
+     0996    "     "      "   --Anti government aid/activity
+
+!!   0997 Other domestic policy reasons
+
+     1001 National Health Insurance--NA direction
+
+     1002    "       "        "    --Pro
+
+     1003    "       "        "    --Anti
+
+     1004 Energy/Gas shortage--Development of alternative energy
+               source, NA direction
+
+     1005   "     "      "   --Pro development of alternative source,
+                better/handled better; more fuel
+
+     1006  "     "      "   --Anti development of alternative energy
+                source, worse/handled worse; less fuel
+
+*    1062  "drilling in the Arctic National Wildlife Refuge" -- NA
+                 Direction
+
+*    1063  "drilling in the Arctic National Wildlife Refuge" -- Pro
+                 Direction
+
+*    1064  "drilling in the Arctic National Wildlife Refuge" -- Anti
+                 Direction
+
+References to nuclear energy should be coded in 0959.
+
+     1007 Government plans to make more jobs--NA direction; make-work
+               programs; CETA; WPAL; CCA
+
+     1008    "         "         "        " --Pro
+
+     1009    "         "         "        " --Anti
+
+     1010 Confidence/Trust in government--NA direction
+
+     1011     "         "         "     --would handle better; restore
+                 confidence
+
+     1012     "         "         "     --would handle worse; cause 
+                 loss of confidence
+
+     1013 ERA; Women's rights--NA direction
+
+     1014  "     "       "   --Pro
+
+     1015  "     "       "   --Anti
+
+     1016 Influx of political/economic refugees (Cubans, Haitians,
+               Mexicans, etc.); include "the little Cuban boy"-Elian        
+               Gonzalez --NA direction
+
+     1017   "        "        "       --Pro
+
+     1018   "        "        "       --Anti
+
+     1019 School prayer--NA direction
+
+     1020    "     "   --Pro
+
+     1021    "     "   --Anti
+
+*     1022 Gay rights; Gay marriages--NA direction
+
+*     1023  "    "   --Pro
+
+*     1024  "    "   --Anti
+
+     1025 Health--NA direction; medical reform (do not use 1001 unless
+               specific reference to National Health Insurance)
+
+     1026 Health--Pro government programs/aid for mentally ill,
+               disabled, handicapped, AIDS
+
+     1027   "   --Anti   "        "        "       "        "
+               (except 0923, 0924, 0925)
+
+     1028 Space program--NA direction
+
+     1029   "     "    --Pro
+
+     1030   "     "    --Anti
+
+*     1031 Help to/improvement in a specific industry or occupation; Tort
+                 reform --NA direction
+
+*     1032 Help to/improvement in a specific industry or occupation; Tort
+                 reform -- Pro help/improvement
+
+*     1033 Help to/improvement in a specific industry or occupation; Tort
+                 reform -- Anti help/improvement
+
+ (NOTE: Tobacco industry/smoking has been coded under 1031-1033)
+
+     1035 Polarization of classes/increasing gap between rich and
+               poor--NA direction
+
+     1036      "           "            "          "         " 
+                --will stop trend/handle better
+
+     1037      "           "            "          "         " 
+                --will accelerate trend/handle worse
+
+     1038 Day care--NA direction
+
+     1039  "   "  --favors/will expand or extend day care programs
+
+     1040  "   "  --opposes/will not expand or extend (will cut or 
+                eliminate) day care programs
+
+     1041 Located after 0973
+
+     1042 Located after 0978
+
+     1043 Located after 0948
+
+     1044 Located after 0948
+
+     1045 Located after 0948
+
+     1046 Located after 0928
+
+     1047 Located after 0919
+
+     1048 Located after 0919
+
+     1049 Located after 0919
+
+     1050 Local/state issue mentioned--NA direction
+
+     1051     "         "       "    --pro
+
+     1052     "         "       "    --anti
+
+     1053 How candidate feels about/votes on Clinton 
+               impeachment--NA direction
+
+     1054     "       "     "   --pro
+
+     1055     "       "     "   --anti
+
+     1056    Financing of elections; campaign finance reform-NA dir
+
+     1057         "       "              "           "      -Pro
+
+     1058         "       "              "           "      -Anti
+
+*    1068   Scientific research/Biologic research/Cloning research -- NA
+                  direction
+
+*    1069  Scientific research/Biologic research/Cloning research -- Pro
+
+*    1070  Scientific research/Biologic research/Cloning research -- Anti
+
+
+PARTY OR CANDIDATE--FOREIGN POLICIES
+
+
+     1101 General assessment of foreign ideas/policies/stands (unspecified)
+
+     1102 Foreign policies more clear-cut/decisive; less bungling 
+
+     1103 Foreign policies less clear-cut/decisive; more bungling
+
+*     1104 Internationalist/Interested in other countries'
+                 problems/Interested in world role/Pro-UN and allies;
+                 Meddling in other people's problems, care more
+                 about world opinion; would consult/act with allies.
+
+*     1105 Isolationist/America First/Fortress America/Would meddle
+                 less in other people's problems; care less about world
+                 opinion, unilateral action.
+
+     1184 Military/Defense position/spending--NA direction or
+               neutral (not 1106, 1107)
+
+     1106 Strong military position/Preparedness/Weapons systems/   
+               Pentagon spending/Overkill; SDI ("Star Wars")
+
+     1107 Weak military position/Pentagon spending cutbacks/No
+               overkill/Reduce armed forces; SDI ("Star Wars")
+
+     1108 Cold-war oriented; opposed detente; international
+               Communist-fighter
+
+     1109 Against cold war/Wants thaw/Detente/Understanding with
+               international communists (if NA whether international,
+               code in 0813-0814)
+
+     1110 Military aid to allies--NA direction
+
+     1111    "      "       "   --Pro
+
+     1112    "      "       "   --Anti
+
+     1113 Economic aid/Foreign aid/AID/Non-military aid--NA dir. 
+
+     1114    "     "     "     "     "     "     "     --Pro
+
+     1115    "     "     "     "     "     "     "     --Anti
+
+     1116 Located after 1163
+
+     1117   "      "     "
+
+     1118 Mideast--NA direction; any references to oil embargo;
+               boycott of companies dealing with Israel
+
+     1119    "   --handle better/more experience; positive
+                comments about Arab-Israeli peace treaty
+
+     1120    "   --handle worse/less experience; negative comments
+                   about Arab-Israeli peace treaty; [1992]Iraqgate
+
+     1121    "   --Pro-Israel/anti-Arabs
+
+     1122    "   --Anti-Israel/pro-Arabs; wishy-washy on Israel
+
+     1123 Red China--NA direction
+
+     1124  "    "  --handle better/more experience/doing well, better
+
+     1125  "    "  --handle worse/less experience/doing poorly
+
+     1126  "    "  --pro understanding/thaw/detente/new
+               relationships/recognition/admission to UN
+
+     1127  "    "  --anti understanding/thaw/detente/new
+               relationships/recognition/admission to UN;
+               defender of Formosa/Chaing/Nationalists
+
+     1128 Russia--NA direction
+
+     1129   "   --handle better/more experience
+
+     1130   "   --handle worse/less experience
+
+     1131   "   --pro understanding/thaw/detente/broadening of
+                  relations; SALT II
+
+     1132   "   --anti understanding/thaw/detente/broadening of
+                  relations; SALT II
+
+     1133 Eastern Europe--NA direction
+
+     1134    "      "   --handle better/more experience
+
+     1135    "      "   --handle worse/less experience
+
+     1136    "      "   --pro defense of Iron-Curtain countries
+
+     1137    "      "   --anti   "           "            "
+
+     1138 Latin America--NA direction
+
+     1139    "      "   --handle better/more experience
+
+     1140    "      "   --handle worse/less experience
+
+     1141    "      "   --pro-third world posture; reach
+                understanding with Castro/Chile/
+                neutrals; anti-colonialism/European
+                powers; against Contra aid/pro-
+                Sandinista
+
+     1142    "      "   --anti-third world posture; hard                       
+                 anti-communism/anti-revolutionary policy;
+                 pro-colonialism/European powers; pro Contra
+                 aid/anti-Sandinista
+
+     1198 (Involvement in) Diversion of money to the Contras (in
+               violation of the law)
+
+     1143 Africa--NA direction
+
+     1144      "   --handle better/more experience
+
+     1145      "   --handle worse/less experience
+
+     1146      "   --pro-third world posture; reach understanding
+                 with leftists/neutrals; anti-colonialism/European powers
+
+     1147      "   --anti-third world posture; hard
+                 anti-communism/anti-revolutionary policy;
+                 pro-colonialism/European powers
+
+     1148 Asia/India--NA direction
+
+     1149   "    "  --handle better/more experience
+
+     1150   "    "  --handle worse/less experience
+
+     1151   "    "  --pro India/Bangladesh
+
+     1152   "    "  --pro Pakistan
+
+     1153 Located after 1163
+
+     1154   "       "    "
+
+     1155   "       "    "
+
+     1156   "       "    "
+
+     1157 Vietnam/Indochina/Southeast Asia--NA direction
+
+     1158       "       "        "        "  --better chance for peace
+
+     1159       "       "        "        "  --poorer chance for peace; failed
+                   to end war
+
+     1160       "       "        "        "  --pro military victory/
+                   preservation of Saigon regime
+     1161       "       "        "        "  --anti military victory/
+                   willing to sacrifice Thieu/Ky;
+                   favoring withdrawal
+     1163       "       "                    --will bring policy change
+                   (unspec.)
+      
+*     1116    Trouble spots (not specifically coded)--would handle better
+                    (Panama, Afghanistan, Persian Gulf, Iraq, war in
+                    Afghanistan)
+*     1117       "     "       "       "       "    --would handle worse
+                   (Panama, Afghanistan, Persian Gulf, Iraq, war in
+                   Afghanistan)
+     1162    (88) The invasion of Grenada
+
+     1300    (91) The Persian Gulf war/ Desert Storm
+
+     1301    (99) War in the Balkans;US/NATO led air war against Serbia
+
+*     1305       War in/occupation of Iraq -- NA Direction
+
+*     1306    War in/occupation of Iraq -- handle better
+
+*     1307     War in/occupation of Iraq -- handle worse
+
+     1153    Would raise American prestige
+
+     1154    Would lower American prestige; not maintain American prestige
+
+     1155    Would have better chance for peace (unspecified); not get us into
+                  trouble abroad
+
+     1156    Would have poorer chance for peace (unspecified); get us into
+                  war/trouble abroad
+
+     1164    Tariffs--NA direction
+
+*     1165       "   --Pro free trade/reduce tariffs; would not
+                   protect US labor from foreign competition; "not stop
+                   outsourcing of jobs"
+
+*     1166       "   --Anti free trade; for high tariffs; would
+                   protect US labor from foreign competition; "would stop
+                   outsourcing of jobs"
+
+     1196    Foreign trade/balance of payments deficit--any mention
+
+     1167    Trade with communists--NA direction
+
+     1168       "           "     --Pro
+
+     1169       "           "     --Anti
+
+     1170    Draft--NA direction
+
+     1171      "  --Pro volunteer army/abolition of peacetime draft
+
+     1172      "  --Anti volunteer army; for peacetime draft
+
+     1173      "  --Pro amnesty/pardon
+
+     1174      "  --Anti amnesty/draft dodgers/pardon
+
+     1178    Amnesty--NA direction
+
+     1175    POW-MIA--Will get prisoners back, will not abandon them
+
+     1176    POW-MIA--Will not get prisoners back, will abandon them
+
+     1177    POW-MIA--NA direction
+
+     1178    Located after 1174
+
+     1179    Did a good job of getting the boys/country out of
+                  Vietnam war; got us out of Vietnam
+
+     1180    Should have won Vietnam war; gave too much away and then
+                  pulled out
+
+     1181    Secrecy/deception in U.S. foreign policy; shuttle
+                  diplomacy; Kissinger's foreign policy (1976)    --NA
+                  direction
+
+     1182        "         "       "        "     --Pro
+
+     1183        "         "       "        "     --Anti
+
+     1184    Located after 1105
+
+     1185    Priorities in military/defense spending (not reduction
+                  or increase but allocation of existing defense budget--Pro
+
+     1186    Priorities in military/defense spending (not reduction
+                  or increase but allocation of existing defense budget--Anti
+
+     1187    Iranian crisis; American hostages (1980)/Arms sale (1986)
+                  --NA direction
+     1188       "      "        "        "    --has handled well/would 
+                  handle better
+     1189       "      "        "        "    --has handled poorly/would
+                  handle worse
+
+     1190    Nuclear freeze/Disarmament--NA direction
+
+     1191       "      "        "      --Pro
+
+     1192       "      "        "      --Anti
+
+*     1193    Terrorism; dealings with terrorists; hostages (except
+                   1187-1189);(88) Bombing of Libya; "War on Terror";
+                   Homeland security -- NA direction
+
+*     1194     "            "       " ;(88) Bombing ofLibya/handling of 
+                  Khadafy; "War on Terror; hunt down Al Qaeda and 
+                  Osama bin Ladin"; strong Homeland security  
+                  -- has handled/would handle better
+
+*     1195     "            "       "  ;(88) Bombing of Libya/
+                  handling of Khadafy; "War on Terror; hunt down Al Qaeda 
+                  and Osama bin Laden"; weak Homeland Security -- has 
+                  handled/would handle worse
+
+     1302   Security at the Dept of Energy; supposed Chinese spying 
+                 for nuclear secrets; treatment of physicist Wen Ho Lee;
+                 mismanagement by Energy Secretary Bill Richardson-NA dir
+
+     1303           "       -- has handled well/would handle better
+
+     1304           "       -- has handled poorly/would handle worse
+
+     1196    Located after 1166
+
+!!   1197    Other foreign policy reasons
+
+     1198    Located after 1142
+
+     1199    Iran-Contra affair--NFS (NA whether 1187 or 1198)
+
+
+
+PARTY OR CANDIDATE--GROUP CONNECTIONS
+
+
+     1201    Special interests/Privileged people/Influential--Pro
+
+     1202       "        "          "        "              --Anti
+
+     1203    "People like me"--pro, NA whether 1205, 1206
+
+     1204        "     "  "  --anti, "     "     "    "
+
+     1205    Common man/People/Little people/Working people--Pro
+
+     1206      "         "          "           "          --Anti
+
+     1207    Labor/Unions/Labor bosses/Racketeers--Pro
+
+     1208      "      "     "              "     --Anti
+
+     1209    Big Business/Corporate rich/The rich individuals/People
+                  with power/Wall Street/Industry/Upper classes--Pro
+
+     1210    (Same as 1209)                          --Anti
+
+     1211    Small businessman--Pro
+
+     1212      "       "      --Anti
+
+     1213    White collar workers/Salaried people/Middle class--Pro
+
+     1214       "           "         "              "        --Anti
+
+     1215    Farmers/Country people--Pro
+
+     1216      "          "        --Anti
+
+*     1217    Blacks/Black people/African-Americans--Pro
+
+*     1218   Blacks/Black people/African-Americans--Anti
+
+     1219    People on welfare/ADC mothers/"Chiselers"--Pro
+
+     1220      "          "        "           "      --Anti
+
+     1221    Old people/Senior citizens--Pro
+
+     1222     "     "          "       --Anti
+
+     1223    Young people/Kids/"Freaks"/Hippies--Pro
+
+     1224      "     "     "     "        "    --Anti
+
+     1225    Women/Feminists/Womens Liberationists, "sexists"--Pro
+
+     1226     "        "          "       "          "       --Anti
+
+     1227    Veterans/Servicemen--Pro
+
+     1228       "       "       --Anti
+
+     1229    Ethnic or racial group (exc. 1217-1218); Minority groups
+                  (NA composition--Pro)
+
+     1230      "          "        "  --Anti
+
+     1231    Section of the country--Pro
+
+     1232       "            "     --Anti
+
+     1233    Poor people/needy people/handicapped/disabled--Pro
+
+     1234     "    "      "      "               "        --Anti
+
+     1235    Civil servants--Pro
+
+     1236      "     "     --Anti
+
+     1239    Gays/lesbians--Pro
+
+     1240      "     "    --Anti
+
+     1241    Christian Right/Religious Right--Pro
+
+     1242            "               "      --Anti
+
+     1243     White/White Race/White people--Pro
+
+     1244             "           "        --Anti
+
+     1245     White Men--Pro
+
+     1246     White Men--Anti
+
+*     1247     Hispanics/Latinos/Chicanos/other people of 
+                    Spanish descent --Pro
+
+*     1248     Hispanics/Latinos/Chicanos/other people of 
+                     Spanish descent -- Anti
+
+*     1249    Factory workers/blue collar workers -- Pro
+
+*     1250    Factory workers/blue collar workers -- Anti
+
+*     1251   Native American -- Pro
+
+*     1252  Native American -- Anti
+         
+!!   1297    Other group connection reasons
+
+     1300    Located after 1162
+
+
+EVENTS UNIQUE TO ONE CAMPAIGN
+
+     5001    Perot quit race, is quitter--NFS
+
+     5002    (Because Perot quit race) he is not trustworthy or
+                  dependable (let down supporters)
+
+     5003    (Because Perot quit race) re-entered, he is indecisive,
+                  inconsistent, not stable, other mention of quit and 
+                  re-enter--NFS
+
+     5004    Not a serious/legitimate candidate
+
+
+MISSING DATA CODES
+
+     8801    R has been influenced by spouse
+     8802    R has been influenced by someone else
+ 
+!!   8877    Other miscellaneous
+     8880     No text, "none", "no", other uncodeable
+
+
+     8888    DK
+     8889    Refused
+
+     0000    NA
+------------------------------------------------------------------------------
+>> 2004 RELIGION MASTER CODE
+
+
+NOTE:  1 case coded 882 is a respondent who attended
+       church as an aid to another person but who
+       was an atheist.
+
+
+GENERAL PROTESTANT
+
+    010.  Protestant, denomination NA
+    020.  Non-denominational Protestant
+    030.  Community church
+    040.  Inter-denominational Protestant
+    099.  Christian (NFS); "just Christian"
+
+
+ADVENTIST
+
+    100.  7th Day Adventist
+    109.  Adventist (NFS)
+
+
+ANGLICAN
+
+     110.  Episcopalian; Anglican
+     111.  Independent Anglican, Episcopalian
+
+
+BAPTIST
+
+     120.  American Baptist Association
+     121.  American Baptist Churches U.S.A. (inaccurately
+           known as "Northern Baptist")
+     122.  Baptist Bible Fellowship
+     123.  Baptist General Conference
+     124.  Baptist Missionary Association of America
+     125.  Conservative Baptist Association of America
+     126.  General Association of Regular Baptist Churches
+           (G.A.R.B.)
+     127.  National Association of Free Will Baptists (United
+           Free Will Baptist Church)
+     128.  Primitive Baptists
+     129.  National Baptist Convention in the U.S.A.
+     130.  National Baptist Convention of America
+     131.  National Primitive Baptist Convention of the U.S.A.
+     132.  Progressive National Baptist Convention
+     134.  Reformed Baptist (Calvinist)
+     135.  Southern Baptist Convention
+     147.  Fundamental Baptist (no denom. ties)
+     148.  Local (independent) Baptist churches with no
+           denominational ties or links to a national
+           fellowship
+     149.  Baptist (NFS)
+
+CONGREGATIONAL
+
+     150.  United Church of Christ (includes Congregational,
+           Evangelical and Reformed)
+     155.  Congregational Christian
+
+
+EUROPEAN FREE CHURCH (ANABAPTISTS)
+
+     160.  Church of the Brethren
+     161.  Brethren (NFS)
+     162.  Mennonite Church
+     163.  Moravian Church
+     164.  Old Order Amish
+     165.  Quakers (Friends)
+     166.  Evangelical Covenant Church (not Anabaptist in
+           tradition)
+     167.  Evangelical Free Church (not Anabaptist in
+           tradition)
+     168.  Brethren in Christ
+     170.  Mennonite Brethren
+
+
+HOLINESS
+
+     180.  Christian and Missionary Alliance (CMA)
+     181.  Church of God (Anderson, IN)
+     182.  Church of the Nazarene
+     183.  Free Methodist Church
+     184.  Salvation Army
+     185.  Wesleyan Church
+     186.  Church of God of Findlay, OH
+     199.  Holiness (NFS); Church of God (NFS); R not or NA
+           whether R Pentecostal or Charismatic
+
+
+INDEPENDENT-FUNDAMENTALIST
+
+     200.  Plymouth Brethren
+     201.  Independent Fundamentalist Churches of America
+     219.  Independent-Fundamentalist (NFS)
+
+
+LUTHERAN
+
+     220.  Evangelical Lutheran Church in America (formerly
+           Lutheran Church in America and The American
+           Lutheran Church); ELCA
+     221.  Lutheran Church--Missouri Synod; LC-MS
+     222.  Wisconsin Evangelical Lutheran Synod; WELS
+     223.  Other Conservative Lutheran
+     229.  Lutheran (NFS)
+
+
+METHODIST
+
+     230.  United Methodist Church; Evangelical United
+           Brethren
+     231.  African Methodist Episcopal Church
+     232.  African Methodist Episcopal Zion Church
+     233.  Christian Methodist Episcopal Church
+     234.  Primitive Methodist
+     240.  Congregational Methodist (fundamentalist)
+     249.  Methodist (NFS)
+
+PENTECOSTAL
+
+     250.  Assemblies of God
+     251.  Church of God (Cleveland, TN)
+     252.  Church of God (Huntsville, AL)
+     253.  International Church of the Four Square Gospel
+     254.  Pentecostal Church of God
+     255.  Pentecostal Holiness Church
+     256.  United Pentecostal Church International
+     257.  Church of God in Christ (incl. NA whether 258)
+     258.  Church of God in Christ (International)
+     260.  Church of God of the Apostolic Faith
+     261.  Church of God of Prophecy
+     262.  Vineyard Fellowship
+     263   Open Bible Standard Churches
+     264   Full Gospel
+     267.  Apostolic Pentecostal
+     268.  Spanish Pentecostal
+     269.  Pentecostal (NFS); Church of God (NFS); R not or
+           NA whether R Pentecostal or Chrismatic
+
+
+PRESBYTERIAN
+
+     270.  Presbyterian Church in the U.S.A.
+     271.  Cumberland Presbyterian Church
+     272.  Presbyterian Church in American (PCA)
+     275.  Evangelical Presbyterian
+     276.  Reformed Presbyterian
+     279.  Presbyterian (NFS)
+
+
+REFORMED
+
+     280.  Christian Reformed Church (inaccurately known as
+           "Dutch Reformed")
+     281.  Reformed Church in America
+     282.  Free Hungarian Reformed Church
+     289.  Reformed (NFS)
+
+
+RESTORATIONIST
+
+     290.  Christian Church (Disciples of Christ)
+     291.  Christian Churches and Churches of Christ
+     292.  Churches of Christ; "Church of Christ" (NFS)
+     293.  Christian Congregation
+
+NON-TRADITIONAL PROTESTANTS
+
+     300.  Christian Scientists
+     301.  Mormons; Latter Day Saints
+     302.  Spiritualists
+     303.  Unitarian; Universalist
+     304.  Jehovah's Witnesses
+     305.  Unity; Unity Church; Christ Church Unity
+     306.  Fundamentalist Adventist (Worldwide Church of God)
+     309.  Non-traditional Protestant (NFS)
+
+
+ROMAN CATHOLIC
+
+     400.  Roman Catholic
+
+
+JEWISH
+
+     500.  Jewish, no preference
+     501.  Orthodox
+     502.  Conservative
+     503.  Reformed
+     524.  Jewish, other
+ 
+MIXED CHRISTIAN 
+
+     600.  Roman Catholic AND Protestant
+
+EASTERN ORTHODOX (GREEK RITE CATHOLIC)
+
+     700.  Greek Rite Catholic
+     701.  Greek Orthodox
+     702.  Russian Orthodox
+     703.  Rumanian Orthodox
+     704.  Serbian Orthodox
+     705.  Syrian Orthodox
+     706.  Armenian Orthodox
+     707.  Georgian Orthodox
+     708.  Ukranian Orthodox
+     719.  Eastern Orthodox (NFS)
+
+
+NON-CHRISTIAN/NON-JEWISH
+
+     720.  Muslim; Mohammedan; Islam
+     721.  Buddhist
+     722.  Hindu
+     723.  Bahai
+     724.  American Indian Religions (Native American
+           Religions)
+     725   New Age
+     726   Wicca (Wiccan)
+     727   Pagan
+
+     729.  Other non-Christian/non-Jewish
+     750.  Scientology
+     790.  Religious/ethical cults
+
+MIX OF MAJOR RELIGIONS 
+
+     795.  More than 1 major religion (e.g., Christian, Jewish, Moslem, etc.)
+
+
+OTHER
+
+     870.  Other
+     879.  R indicates attendance/affiliation but specifies none
+     880.  None    
+     881.  Agnostics
+     882.  Atheists 
+
+     888.  DK
+     889.  RF
+------------------------------------------------------------------------------>> 2004 CENSUS 2000 OCCUPATION MASTER CODE
+
+Code      Description
+
+...   .................................................................
+MGR   Management Occupations - RECODED to 01
+...  .................................................................
+001   Chief Executives
+002   General and Operations Managers
+003   Legislators
+004   Advertising and Promotions Managers
+005   Marketing and Sales Managers
+006   Public Relations Managers
+010   Administrative Services Managers
+011   Computer and Information Systems Managers
+012   Financial Managers
+013   Human Resources Managers
+014   Industrial Production Managers
+015   Purchasing Managers
+016   Transportation, Storage, and Distribution Managers
+020   Farm, Ranch, and Other Agricultural Managers
+021   Farmers and Ranchers
+022   Constructions Managers
+023   Education Administrators
+030   Engineering Managers
+031   Food Service Managers
+032   Funeral Directors
+033   Gaming Managers
+034   Lodging Managers
+035   Medical and Health Services Managers
+036   Natural Science Managers
+040   Postmasters and Mail Superintendents
+041   Property, Real Estate, and Community Association Managers
+042   Social and Community Service Managers
+043   Managers, All Other 
+...   .................................................................
+BUS   Business Operations Specialists - RECODED TO 02
+...  .................................................................
+050   Agents and Business Managers of Artists, Performers, and Athletes
+051   Purchasing Agents and Buyers, Farm Products
+052   Wholesale and Retail Buyers, Except Farm Products
+053   Purchasing Agents, Except Wholesale, Retail, and Farm Products
+054   Claims Adjusters, Appraisers, Examiners, and Investigators
+056   Compliance Officers, Except Agriculture, Construction, Health and  
+      Safety, and Transportation
+060   Cost Estimators
+062   Human Resources, Training, and Labor Relations Specialists
+070   Logisticians
+071   Management Analysts
+072   Meeting and Convention Planners
+073   Other Business Operations Specialists 
+...   .................................................................
+FIN   Financial Specialists - RECODED TO 03
+...  .................................................................
+080   Accountants and Auditors
+081   Appraisers and Assessors of Real Estate
+082   Budget Analysts
+083   Credit Analysts
+084   Financial Analysts
+085   Personal Financial Advisors
+086   Insurance Underwriters
+090   Financial Examiners
+091   Loan Counselors and Officers
+093   Tax Examiners, Collectors, and Revenue Agents
+094   Tax Preparers
+095   Financial Specialists, All Other
+...  .................................................................
+CMM   Computer and Mathematical Occupations - RECODED TO 04
+...  .................................................................
+100   Computer Scientists and Systems Analysts 
+101   Computer Programmers
+102   Computer Software Engineers
+104   Computer Support Specialists
+106   Database Administrators
+110   Network and Computer Systems Administrators
+111   Network Systems and Data Communications Analysts
+120   Actuaries
+121   Mathematicians
+122   Operations Research Analysts
+123   Statisticians
+124   Miscellaneous Mathematical Scientists and Technicians
+...   .................................................................
+ENG   Architecture and Engineering Occupations - RECODED TO 05
+...  .................................................................
+130   Architects, Except Naval
+131   Surveyors, Cartographers, and Photogrammetrists
+132   Aerospace Engineers
+133   Agricultural Engineers
+134   Biomedical Engineers
+135   Chemical Engineers
+136   Civil Engineers
+140   Computer Hardware Engineers
+141   Electrical and Electronics Engineers
+142   Environmental Engineers
+143   Industrial Engineers, including Health and Safety
+144   Marine Engineers and Naval Architects
+145   Materials Engineers
+146   Mechanical Engineers
+150   Mining and Geological Engineers, Including Mining Safety Engineers
+151   Nuclear Engineers
+152   Petroleum Engineers
+153   Engineers, All Other
+154   Drafters
+155   Engineering Technicians, Except Drafters
+156   Surveying and Mapping Technicians
+...   ................................................................
+SCI   Life, Physical, and Social Science Occupations - RECODED TO 06
+...  .................................................................
+160   Agricultural and Food Scientists
+161   Biological Scientists
+164   Conservation Scientists and Foresters
+165   Medical Scientists
+170   Astronomers and Physicists
+171   Atmospheric and Space Scientists
+172   Chemists and Materials Scientists
+174   Environmental Scientists and Geoscientists
+176   Physical Scientists, All Other
+180   Economists
+181   Market and Survey Researchers
+182   Psychologists
+183   Sociologists
+184   Urban and Regional Planners
+186   Miscellaneous Social Scientists and Related Workers
+190   Agricultural and Food Science Technicians
+191   Biological Technicians
+192   Chemical Technicians
+193   Geological and Petroleum Technicians
+194   Nuclear Technicians
+196   Other Life, Physical, and Social Science Technicians
+...   .................................................................
+CMS   Community and Social Services Occupations - RECODED TO 07
+...  .................................................................
+200   Counselors
+201   Social Workers
+202   Miscellaneous Community and Social Service Specialists
+204   Clergy
+205   Directors, Religious Activities and Education
+206   Religious Workers, All Other
+...   .................................................................
+LGL   Legal Occupations - RECODED TO 08
+...  .................................................................
+210   Lawyers
+211   Judges, Magistrates, and Other Judicial Workers
+214   Paralegals and Legal Assistants
+215   Miscellaneous Legal Support Workers
+...   .................................................................
+EDU   Education, Training, and Library Occupations - RECODED TO 09
+...  .................................................................
+220   Postsecondary Teachers
+230   Preschool and Kindergarten Teachers
+231   Elementary and Middle School Teachers
+232   Secondary School Teachers
+233   Special Education Teachers
+234   Other Teachers and Instructors
+240   Archivists, Curators, and Museum Technicians
+243   Librarians
+244   Library Technicians
+254   Teacher Assistants
+255   Other Education, Training, and Library Workers
+...   .................................................................
+ENT   Arts, Design, Entertainment, Sports, and Media Occup.s - RECODED TO 10
+...  .................................................................
+260   Artists and Related Workers
+263   Designers
+270   Actors
+271   Producers and Directors
+272   Athletes, Coaches, Umpires, and Related Workers
+274   Dancers and Choreographers
+275   Musicians, Singers, and Related Workers
+276   Entertainers and Performers, Sports and Related Workers, All Other
+280   Announcers
+281   News Analysts, Reporters and Correspondents
+282   Public Relations Specialists
+283   Editors
+284   Technical Writers
+285   Writers and Authors
+286   Miscellaneous Media and Communication Workers
+290   Broadcast and Sound Engineering Technicians and Radio Operators
+291   Photographers
+292   Television, Video, and Motion Picture Camera Operators and Editors
+296   Media and Communication Equipment Workers, All Other
+...   .................................................................
+MED   Healthcare Practitioners and Technical Occupations - RECODED TO 11
+...  .................................................................
+300   Chiropractors
+301   Dentists
+303   Dieticians and Nutritionists
+304   Optometrists
+305   Pharmacists
+306   Physicians and Surgeons
+311   Physician Assistants
+312   Podiatrists
+313   Registered Nurses
+314   Audiologists
+315   Occupational Therapists
+316   Physical Therapists
+320   Radiation Therapists
+321   Recreational Therapists
+322   Respiratory Therapists
+323   Speech-Language Pathologists
+324   Therapists, All Other
+325   Veterinarians
+326   Health Diagnosing and Treating Practitioners, All Other
+330   Clinical Laboratory Technologists and Technicians
+331   Dental Hygienists
+332   Diagnostic Related Technologists and Technicians
+340   Emergency Medical Technicians and Paramedics
+341   Health Diagnosing and Treating Practitioner Support Technicians
+350   Licensed Practical and Licensed Vocational Nurses
+351   Medical Records and Health Information Technicians
+352   Opticians, Dispensing
+353   Miscellaneous Health Technologists and Technicians
+354   Other Healthcare Practitioners and Technical Occupations
+...   .................................................................
+HLS   Healthcare Support Occupations - RECODED TO 12
+...  .................................................................
+360   Nursing, Psychiatric, and Home Health Aides
+361   Occupational Therapist Assistants and Aides
+362   Physical Therapist Assistants and Aides
+363   Massage Therapists
+364   Dental Assistants
+365   Medical Assistants and Other Healthcare Support Occupations 
+...   .................................................................
+PRT   Protective Service Occupations - RECODED TO 13
+...  .................................................................
+370   First-Line Supervisors/Managers of Correctional Officers
+371   First-Line Supervisors/Managers of Police and Detectives
+372   First-Line Supervisors/Managers of Fire Fighting and Prevention Workers
+373   Supervisors, Protective Service Workers, All Other
+374   Fire Fighters
+375   Fire Inspectors
+380   Bailiffs, Correctional Officers, and Jailers
+382   Detectives and Criminal Investigators
+383   Fish and Game Wardens
+384   Parking Enforcement Workers
+385   Police and Sheriff's Patrol Officers
+386   Transit and Railroad Police
+390   Animal Control Workers
+391   Private Detectives and Investigators
+392   Security Guards and Gaming Surveillance Officers
+394   Crossing Guards
+395   Lifeguards and Other Protective Service Workers
+...   .................................................................
+EAT   Food Preparation and Serving Occupations - RECODED TO 14
+...  .................................................................
+400   Chefs and Head Cooks
+401   First-Line Supervisors/Managers of Food Preparation and Serving Workers
+402   Cooks
+403   Food Preparation Workers
+404   Bartenders
+405   Combined Food Preparation and Serving Workers, Including Fast Food
+406   Counter Attendant, Cafeteria, Food Concession, and Coffee Shop
+411   Waiters and Waitresses
+412   Food Servers, Nonrestaurant
+413   Dining Room and Cafeteria Attendants and Bartender Helpers
+414   Dishwashers
+415   Host and Hostesses, Restaurant, Lounge, and Coffee Shop
+416   Food Preparation and Serving Related Workers, All Other
+...   .................................................................
+CLN   Building and Grounds Cleaning and Maintenance Occups. - RECODED TO 15
+...  .................................................................
+420   First-Line Supervisors/Managers of Housekeeping and Janitorial Workers
+421   First-Line Supervisors/Managers of Landscaping, Lawn Service, and 
+      Groundskeeping Workers
+422   Janitors and Building Cleaners
+423   Maids and Housekeeping Cleaners
+424   Pest Control Workers
+425   Grounds Maintenance Workers
+...   .................................................................
+PRS   Personal Care and Service Occupations - RECODED TO 16
+...  .................................................................
+430   First-Line Supervisors/Managers of Gaming Workers
+432   First-Line Supervisors/Managers of Personal Service Workers
+434   Animal Trainers
+435   Non-farm Animal Caretakers
+440   Gaming Services Workers
+441   Motion Picture Projectionists
+442   Ushers, Lobby Attendants, and Ticket Takers
+443   Miscellaneous Entertainment Attendants and Related Workers
+446   Funeral Service Workers
+450   Barbers
+451   Hairdressers, Hairstylists, and Cosmetologists
+452   Miscellaneous Personal Appearance Workers
+453   Baggage Porters, Bellhops, and Concierges
+454   Tour and Travel Guides
+455   Transportation Attendants
+460   Child Care Workers
+461   Personal and Home Care Aides
+462   Recreation and Fitness Workers
+464   Residential Advisors
+465   Personal Care and Service Workers, All Other
+...   .................................................................
+SAL   Sales Occupations - RECODED TO 17
+...  .................................................................
+470   First-Line Supervisors/Managers of Retail Sales Workers
+471   First-Line Supervisors/Managers of Non-Retail Sales
+472   Cashiers
+474   Counter and Rental Clerks
+475   Parts Salespersons
+476   Retail Salespersons
+480   Advertising Sales Agents
+481   Insurance Sales Agents
+482   Securities, Commodities, and Financial Services Sales Agents
+483   Travel Agents
+484   Sales Representatives, Services, All Other
+485   Sales Representatives, Wholesale and Manufacturing
+490   Models, Demonstrators, and Product Promoters
+492   Real Estate Brokers and Sales Agents
+493   Sales Engineers
+494   Telemarketers
+495   Door-to-Door Sales Workers, News and Street Vendors, and Related Workers
+496   Sales and Related Workers, All Other
+...   .................................................................
+OFF   Office and Administrative Support Occupations - RECODED TO 18
+...  .................................................................
+500   First-Line Supervisors/Managers of Office and Administrative Support 
+      Workers
+501   Switchboard Operators, Including Answering Service
+502   Telephone Operators
+503   Communications Equipment Operators, All Other
+510   Bill and Account Collectors
+511   Billing and Posting Clerks and Machine Operators
+512   Bookkeeping, Accounting, and Auditing Clerks
+513   Gaming Cage Workers
+514   Payroll and Timekeeping Clerks
+515   Procurement Clerks
+516   Tellers
+520   Brokerage Clerks
+521   Correspondence Clerks
+522   Court, Municipal, and License Clerks
+523   Credit Authorizers, Checkers, and Clerks
+524   Customer Service Representatives
+525   Eligibility Interviewers, Government Programs
+526   File Clerks
+530   Hotel, Motel, and Resort Desk Clerks
+531   Interviewers, Except Eligibility and Loan
+532   Library Assistants, Clerical
+533   Loan Interviewers and Clerks
+534   New Account Clerks
+535   Order Clerks
+536   Human Resources Assistants, Except Payroll and Timekeeping
+540   Receptionists and Information Clerks
+541   Reservation and Transportation Ticket Agents and Travel Clerks
+542   Information and Record Clerks, All Other
+550   Cargo and Freight Agents
+551   Couriers and Messengers
+552   Dispatchers
+553   Meter Readers, Utilities
+554   Postal Service Clerks
+555   Postal Service Mail Carriers
+556   Postal Service Mail Sorters, Processors, and Processing Machine 
+      Operators
+560   Production, Planning, and Expediting Clerks
+561   Shipping, Receiving, and Traffic Clerks
+562   Stock Clerks and Order Fillers
+563   Weighers, Measurers, Checkers, and Samplers, Recordkeeping
+570   Secretaries and Administrative Assistants
+580   Computer Operators
+581   Data Entry Keyers
+582   Word Processors and Typists
+583   Desktop Publishers
+584   Insurance Claims and Policy Processing Clerks
+585   Mail Clerks and Mail Machine Operators, Except Postal Service
+586   Office Clerks, General
+590   Office Machine Operators, Except Computer
+591   Proofreaders and Copy Markers
+592   Statistical Assistants
+593   Office and Administrative Support Workers, All Other
+...   .................................................................
+FFF   Farming, Fishing, and Forestry Occupations - RECODED TO 19
+...  .................................................................
+600   First-Line Supervisors/Managers/Contractors of Farming, Fishing, and 
+      Forestry Workers
+601   Agricultural Inspectors
+602   Animal Breeders
+604   Graders and Sorters, Agricultural Products
+605   Other Agricultural Workers
+610   Fishers and Related Fishing Workers
+611   Hunters and Trappers
+612   Forest and Conservation Workers
+613   Logging Workers
+...   .................................................................
+CON   Construction Trades - RECODED TO 20
+...  .................................................................
+620   First-Line Supervisors/Managers of Construction Trades and Extraction 
+      Workers
+621   Boilermakers
+622   Brickmasons, Blockmasons, and Stonemasons
+623   Carpenters
+624   Carpet, Floor, and Tile Installers and Finishers
+625   Cement Masons, Concrete Finishers, and Terrazzo Workers
+626   Construction Laborers
+630   Paving, Surfacing, and Tamping Equipment Operators
+631   Pile-Driver Operators
+632   Operating Engineers and Other Construction Equipment Operators
+633   Drywall Installers, Ceiling Tile Installers, and Tapers
+635   Electricians
+636   Glaziers
+640   Insulation Workers
+642   Painters, Construction and Maintenance
+643   Paperhangers
+644   Pipelayers, Plumbers, Pipefitters, and Steamfitters
+646   Plasterers and Stucco Masons
+650   Reinforcing Iron and Rebar Workers
+651   Roofers
+652   Sheet Metal Workers
+653   Structural Iron and Steel Workers
+660   Helpers, Construction Trades
+666   Construction and Building Inspectors
+670   Elevator Installers and Repairers
+671   Fence Erectors
+672   Hazardous Materials Removal Workers
+673   Highway Maintenance Workers
+674   Rail-Track Laying and Maintenance Equipment Operators
+675   Septic Tank Servicers and Sewer Pipe Cleaners
+676   Miscellaneous Construction and Related Workers
+...   .................................................................
+EXT   Extraction Workers - RECODED TO 21
+...  .................................................................
+680   Derrick, Rotary Drill, and Service Unit Operators, Oil, Gas, and Mining
+682   Earth Drillers, Except Oil and Gar
+683   Explosives Workers, Ordnance Handling Experts, and Blasters
+684   Mining Machine Operators
+691   Roof Bolters, Mining
+692   Roustabouts, Oil and Gas
+693   Helpers--Extraction Workers
+694   Other Extraction Workers
+...   .................................................................
+RPR   Installation, Maintenance, and Repair Workers - RECODED TO 22
+...  .................................................................
+700   First-Line Supervisors/Managers of Mechanics, Installers, and Repairers
+701   Computer, Automated Teller, and Office Machine Repairers
+702   Radio and Telecommunications Equipment Installers and Repairers
+703   Avionics Technicians
+704   Electric Motor, Power Tool, and Related Repairers
+705   Electrical and Electronics Installers and Repairers, Transportation 
+      Equipment
+710   Electrical and Electronics Repairers, Industrial and Utility
+711   Electronic Equipment Installers and Repairers, Motor Vehicles
+712   Electronic Home Entertainment Equipment Installers and Repairers
+713   Security and Fire Alarm Systems Installers
+714   Aircraft Mechanics and Service Technicians
+715   Automotive Body and Related Repairers
+716   Automotive Glass Installers and Repairers
+720   Automotive Service Technicians and Mechanics
+721   Bus and Truck Mechanics and Diesel Engine Specialists
+722   Heavy Vehicle and Mobile Equipment Service Technicians and Mechanics
+724   Small Engine Mechanics
+726   Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and 
+      Repairers
+730   Control and Valve Installers and Repairers
+731   Heating, Air Conditioning, and Refrigeration Mechanics and Installers
+732   Home Appliance Repairers
+733   Industrial and Refractory Machinery Mechanics
+734   Maintenance and Repair Workers, General
+735   Maintenance Workers, Machinery
+736   Millwrights
+741   Electrical Power-Line Installers and Repairers
+742   Telecommunications Line Installers and Repairers
+743   Precision Instrument and Equipment Repairers
+751   Coin, Vending, and Amusement Machine Servicers and Repairers
+752   Commercial Divers
+754   Locksmiths and Safe Repairers
+755   Manufactured Building and Mobile Home Installers
+756   Riggers
+760   Signal and Track Switch Repairers
+761   Helpers--Installation, Maintenance, and Repair Workers
+762   Other Installation, Maintenance, and Repair Workers
+...   .................................................................
+PRD   Production Occupations - RECODED TO 23
+...  .................................................................
+770   First-Line Supervisors/Managers of Production and Operating Workers
+771   Aircraft Structure, Surfaces, Rigging, and Systems Assemblers
+772   Electrical, Electronics, and Electromechanical Assemblers
+773   Engine and Other Machine Assemblers
+774   Structural Metal Fabricators and Fitters
+775   Miscellaneous Assemblers and Fabricators
+780   Bakers
+781   Butchers and Other Meat, Poultry, and Fish Processing Workers
+783   Food and Tobacco Roasting, Baking, and Drying Machine Operators and 
+      Tenders
+784   Food Batchmakers
+785   Food Cooking Machine Operators and Tenders
+790   Computer Control Programmers and Operators
+792   Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and 
+      Plastic
+793   Forging Machine Setters, Operators, and Tenders, Metal and Plastic
+794   Rolling Machine Setters, Operators, and Tenders, metal and Plastic
+795   Cutting, Punching, and Press Machine Setters, Operators, and Tenders, 
+      Metal and Plastic
+796   Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal 
+      and Plastic
+800   Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, 
+      Operators, and Tenders, Metal and Plastic
+801   Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal
+      and Plastic
+802   Milling and Planing Machine Setters, Operators, and Tenders, Metal and 
+      Plastic
+803   Machinists
+804   Metal Furnace and Kiln Operators and Tenders
+806   Model Makers and Patternmakers, Metal and Plastic
+810   Molders and Molding Machine Setters, Operators, and Tenders, Metal and 
+      Plastic
+812   Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic
+813   Tool and Die Makers
+814   Welding, Soldering, and Brazing Workers
+815   Heat Treating Equipment Setters, Operators, and Tenders, Metal and 
+      Plastic
+816   Lay-Out Workers, Metal and Plastic
+820   Plating and Coating Machine Setters, Operators, and Tenders, Metal and 
+      Plastic
+821   Tool Grinders, Filers, and Sharpeners
+822   Metalworkers and Plastic Workers, All Other
+823   Bookbinders and Bindery Workers
+824   Job Printers
+825   Prepress Technicians and Workers
+826   Printing Machine Operators
+830   Laundry and Dry-Cleaning Workers
+831   Pressers, Textile, Garment, and Related Materials
+832   Sewing Machine Operators
+833   Shoe and Leather Workers and Repairers
+834   Shoe Machine Operators and Tenders
+835   Tailors, Dressmakers, and Sewers
+836   Textile Bleaching and Dyeing Machine Operators and Tenders
+840   Textile Cutting Machine Setters, Operators, and Tenders
+841   Textile Knitting and Weaving Machine Setters, Operators, and Tenders
+842   Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, 
+      and Tenders
+843   Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic 
+      and Glass Fibers
+844   Fabric and Apparel Patternmakers
+845   Upholsterers
+846   Textile, Apparel, and Furnishings Workers, All Other
+850   Cabinetmakers and Bench Carpenters
+851   Furniture Finishers
+852   Model Makers and Patternmakers, Wood
+853   Sawing Machine Setters, Operators, and Tenders, Wood
+854   Woodworking Machine Setters, Operators, and Tenders, Except Sawing
+855   Woodworkers, All Other
+860   Power Plant Operators, Distributors, and Dispatchers
+861   Stationary Engineers and Boiler Operators
+862   Water and Liquid Waste Treatment Plant and System Operators
+863   Miscellaneous Plant and System Operators
+864   Chemical Processing Machine Setters, Operators, and Tenders
+865   Crushing, Grinding, Polishing, Mixing, and Blending Workers
+871   Cutting Workers
+872   Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, 
+      and Tenders
+873   Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders
+874   Inspectors, Testers, Sorters, Samplers, and Weighers
+875   Jewelers and Precious Stone and Metal Workers
+876   Medical, Dental, and Ophthalmic Laboratory Technicians
+880   Packaging and Filling Machine Operators and Tenders
+881   Painting Workers
+883   Photographic Process Workers and Processing Machine Operators
+884   Semiconductor Processors
+885   Cementing and Gluing Machine Operators and Tenders
+886   Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders
+890   Cooling and Freezing Equipment Operators and Tenders
+891   Etchers and Engravers
+892   Molders, Shapers, and Casters, Except Metal and Plastic
+893   Paper Goods Machine Setters, Operators, and Tenders
+894   Tire Builders
+895   Helpers--Production Workers
+896   Production Workers, All Other
+...   .................................................................
+TRN   Transportation and Material Moving Occupations - RECODED TO 24
+...  .................................................................
+900   Supervisors, Transportation and Material Moving Workers
+903   Aircraft Pilots and Flight Engineers
+904   Air Traffic Controllers and Airfield Operations Specialists
+911   Ambulance Drivers and Attendants, Except Emergency Medical Technicians
+912   Bus Drivers
+913   Driver/Sales Workers and Truck Drivers
+914   Taxi Drivers and Chauffeurs
+915   Motor Vehicle Operators, All Other
+920   Locomotive Engineers and Operators
+923   Railroad Brake, Signal, and Switch Operators
+924   Railroad Conductors and Yardmasters
+926   Subway, Streetcar, and Other Rail Transportation Workers 
+930   Sailors and Marine Oilers
+931   Ship and Boat Captains and Operators
+933   Ship Engineers
+934   Bridge and Lock Tenders
+935   Parking Lot Attendants
+936   Service Station Attendants
+941   Transportation Inspectors
+942   Other Transportation Workers
+950   Conveyor Operators and Tenders
+951   Crane and Tower Operators
+952   Dredge, Excavating, and Loading Machine Operators
+956   Hoist and Winch Operators
+960   Industrial Truck and Tractor Operators
+961   Cleaners of Vehicles and Equipment
+962   Laborers and Freight, Stock, and Material Movers, Hand
+963   Machine Feeders and Off bearers
+964   Packers and Packagers, Hand
+965   Pumping Station Operators
+972   Refuse and Recyclable Material Collectors
+973   Shuttle Car Operators
+974   Tank Car, Truck, and Ship Loaders
+975   Material Moving Workers, All Other
+...   .................................................................
+MIL   Military Specific Occupations - RECODED TO 25
+...  .................................................................
+980   Military Officer Special and Tactical Operations Leaders/Managers
+981   First-Line Enlisted Military Supervisors/Managers
+982   Military Enlisted Tactical Operations and Air/Weapons Specialists and 
+      Crew Members
+983   Military, Rank Not Specified (Census only) 
+
+999          DK; NA; Don't know; Not ascertained Source: U.S. Census Bureau,  
+             Demographic Surveys Division, Created: August 7 2001
+
+-----------------------------------------------------------------------------
+
+>> 2004 CENSUS 2000 INDUSTRY MASTER CODE
+
+Census           2000 Category Title
+
+
+017-029 | Agriculture, Forestry, Fishing, and Hunting
+
+017   Crop production
+018   Animal production
+019   Forestry except logging
+027   Logging
+028   Fishing, hunting, and trapping
+029   Support activities for agriculture and forestry
+
+
+037-049 | Mining
+
+037   Oil and gas extraction
+038   Coal mining
+039   Metal ore mining
+047   Nonmetallic mineral mining and quarrying
+048   Not specified type of mining
+049   Support activities for mining
+
+
+057-069 | Utilities
+
+057   Electric power generation transmission and distribution
+058   Natural gas distribution
+059   Electric and gas and other combinations
+067   Water, steam, air-conditioning, and irrigation systems
+068   Sewage treatment facilities
+069   Not specified utilities
+
+
+077 | Construction
+
+077   Construction
+
+107-399 | Manufacturing
+
+107   Animal food, grain, and oilseed milling
+108   Sugar and confectionery products
+109   Fruit and vegetable preserving and specialty food Manufacturing
+117   Dairy product manufacturing
+118   Animal slaughtering and processing
+119   Retail bakeries
+127   Bakeries except retail
+128   Seafood and other miscellaneous foods n.e.c.
+129   Not specified food industries
+137   Beverage manufacturing
+139   Tobacco manufacturing
+147   Fiber, yarn, and thread mills
+148   Fabric mills, except knitting
+149   Textile and fabric finishing and coating mills
+157   Carpets and rugs manufacturing
+159   Textile product mills except carpets and rugs
+167   Knitting mills
+168   Cut and sew apparel manufacturing
+169   Apparel accessories and other apparel manufacturing
+177   Footwear manufacturing
+179   Leather tanning and products, except footwear manufacturing
+187   Pulp, paper, and paperboard mills
+188   Paperboard containers and boxes
+189   Miscellaneous paper and pulp products
+199   Printing and related support activities
+207   Petroleum refining
+209   Miscellaneous petroleum and coal products
+217   Resin, synthetic rubber and fibers, and filaments manufacturing
+218   Agricultural chemical manufacturing
+219   Pharmaceutical and medicine manufacturing
+227   Paint, coating, and adhesives manufacturing
+228   Soap, cleaning compound, and cosmetic manufacturing
+229   Industrial and miscellaneous chemicals
+237   Plastics product manufacturing
+238   Tire manufacturing
+239   Rubber products, except tires, manufacturing
+247   Pottery, ceramics, and related products manufacturing
+248   Structural clay product manufacturing
+249   Glass and glass product manufacturing
+257   Cement, concrete, lime, and gypsum product manufacturing
+259   Miscellaneous nonmetallic mineral product manufacturing
+267   Iron and steel mills and steel product manufacturing
+268   Aluminum production and processing
+269   Nonferrous metal, except aluminum, production and processing
+277   Foundries
+278   Metal forgings and stampings
+279   Cutlery and hand tool manufacturing
+287   Structural metals and tank and shipping container manufacturing
+288   Machine shops; turned product; screw nut and bolt manufacturing
+289   Coating, engraving, heat treating and allied activities
+297   Ordnance
+298   Miscellaneous fabricated metal products manufacturing
+299   Not specified metal industries
+307   Agricultural implement manufacturing
+308   Construction mining and oil field machinery manufacturing
+309   Commercial and service industry machinery manufacturing
+317   Metalworking machinery manufacturing
+318   Engines, turbines, and power transmission equipment manufacturing
+319   Machinery manufacturing, n.e.c.
+329   Not specified machinery manufacturing
+336   Computer and peripheral equipment manufacturing
+337   Communications, audio, and video equipment manufacturing
+338   Navigation, measuring, electrometrical, and control instruments 
+      manufacturing
+339   Electronic component and product manufacturing, n.e.c.
+347   Household appliance manufacturing
+349   Electrical machinery, equipment, and supplies manufacturing, n.e.c.
+357   Motor vehicles and motor vehicle equipment manufacturing
+358   Aircraft and parts manufacturing
+359   Aerospace product and parts manufacturing
+367   Railroad rolling stock manufacturing
+368   Ship and boat building
+369   Other transportation equipment manufacturing
+377   Sawmills and wood preservation
+378   Veneer, plywood, and engineered wood product manufacturing
+379   Prefabricated wood buildings and mobile homes manufacturing
+387   Miscellaneous wood product manufacturing
+389   Furniture and fixtures
+396   Medical equipment and supplies manufacturing
+397   Toys, amusement, and sporting goods manufacturing
+398   Miscellaneous manufacturing, n.e.c.
+399   Not specified manufacturing industries
+
+407-459 | Wholesale Trade
+
+407   Motor vehicles, parts and supplies wholesalers
+408   Furniture and home furnishing wholesalers
+409   Lumber and other construction materials wholesalers
+417   Professional and commercial equipment and supplies Wholesalers
+418   Metals and minerals, except petroleum, wholesalers
+419   Electrical goods wholesalers
+426   Hardware, plumbing and heating equipment, and supplies wholesalers
+427   Machinery, equipment, and supplies wholesalers
+428   Recyclable material wholesalers
+429   Miscellaneous durable goods wholesalers
+437   Paper and paper product wholesalers
+438   Drugs, sundries, and chemical and allied product Wholesalers
+439   Apparel, fabrics, and notions wholesalers
+447   Groceries and related product wholesalers
+448   Farm product raw material wholesalers
+449   Petroleum and petroleum product wholesalers
+456   Alcoholic beverage wholesalers
+457   Farm supplies wholesalers
+458   Miscellaneous nondurable goods wholesalers
+459   Not specified wholesale trade
+
+467-579 | Retail Trade
+
+467   Automobile dealers
+468   Other motor vehicle dealers
+469   Auto parts, accessories, and tire stores
+477   Furniture and home furnishings stores
+478   Household appliance stores
+479   Radio, TV, and computer stores
+487   Building material and supplies dealers
+488   Hardware stores
+489   Lawn and garden equipment and supplies stores
+497   Grocery stores
+498   Specialty food stores
+499   Beer, wine, and liquor stores
+507   Pharmacies and drug stores
+508   Health and personal care, except drug, stores
+509   Gasoline stations
+517   Clothing and accessories, except shoe, stores
+518   Shoe stores
+519   Jewelry, luggage, and leather goods stores
+527   Sporting goods, camera, and hobby and toy stores
+528   Sewing, needlework and piece goods stores
+529   Music stores
+537   Book stores and news dealers
+538   Department stores
+539   Miscellaneous general merchandise stores
+547   Retail florists
+548   Office supplies and stationary stores
+549   Used merchandise stores
+557   Gift, novelty, and souvenir shops
+558   Miscellaneous retail stores
+559   Electronic shopping and mail-order houses
+567   Vending machine operators
+568   Fuel dealers
+569   Other direct selling establishments
+579   Not specified retail trade
+
+
+607-639 | Transportation and Warehousing
+
+607   Air transportation
+608   Rail transportation
+609   Water transportation
+617   Truck transportation
+618   Bus service and urban transit
+619   Taxi and limousine service
+627   Pipeline transportation
+628   Scenic and sightseeing transportation
+629   Services incidental to transportation
+637   Postal Service
+638   Courier and messengers
+639   Warehousing and storage
+
+647-679 | Information
+
+647   Newspaper publishers
+648   Publishing except newspapers and software
+649   Software publishing
+657   Motion pictures and video industries
+659   Sound recording industries
+667   Radio and television broadcasting and cable
+668   Wired telecommunications carriers
+669   Other telecommunication services
+677   Libraries and archives
+678   Other information services
+679   Data processing services
+
+687-699 | Finance and Insurance
+
+687   Banking and related activities
+688   Savings institutions, including credit unions
+689   Non-depository credit and related activities
+697   Securities, commodities, funds, trusts, and other financial investments
+698   Insurance carriers and related activities
+
+707-719 | Real Estate and Rental and Leasing
+
+707   Real estate
+708   Automotive equipment rental and leasing
+717   Video tape and disk rental
+718   Other consumer goods rental
+719   Commercial, industrial, and other intangible assets rental and leasing
+
+727-749 | Professional, Scientific, and Technical Services
+
+727   Legal services
+728   Accounting, tax preparation, bookkeeping and payroll services
+729   Architectural, engineering, and related services
+737   Specialized design services
+738   Computer systems design and related services
+739   Management, scientific and technical consulting services
+746   Scientific research and development services
+747   Advertising and related services
+748   Veterinary services
+749   Other professional, scientific and technical services
+
+757-779 | Management, Administrative and Support, and Waste Management 
+                  Services
+
+757   Management of companies and enterprises
+758   Employment services
+759   Business support services
+767   Travel arrangement and reservation services
+768   Investigation and security services
+769   Services to buildings and dwellings
+777   Landscaping services
+778   Other administrative and other support services
+779   Waste management and remediation services
+
+786-789 | Educational Services
+
+786   Elementary and secondary schools
+787   Colleges and universities, including junior colleges
+788   Business, technical, and trade schools and training
+789   Other schools, instruction, and educational services
+
+797-847 | Health Care and Social Assistance
+
+797   Offices of physicians
+798   Offices of dentists
+799   Office of chiropractors
+807   Offices of optometrists
+808   Offices of other health practitioners
+809   Outpatient care centers
+817   Home health care services
+818   Other health care services
+819   Hospitals
+827   Nursing care facilities
+829   Residential care facilities, without nursing
+837   Individual and family services
+838   Community food and housing, and emergency services
+839   Vocational rehabilitation services
+847   Child day care services
+
+856-859 | Arts, Entertainment, and Recreation
+
+856   Independent artists, performing arts, spectator sports, and related 
+          industries
+857   Museums, art galleries, historical sites, and similar Institutions
+858   Bowling centers
+859   Other amusement, gambling, and recreation industries
+
+866-869 | Accomodations and Food Services
+
+866   Traveler accommodation
+867   Recreational vehicle parks and camps, and rooming and boarding houses
+868   Restaurants and other food services
+869   Drinking places, alcoholic beverages
+
+877-929 | Other Services (Except Public Administration)
+
+877   Automotive repair and maintenance
+878   Car washes
+879   Electronic and precision equipment repair and maintenance
+887   Commercial and industrial machinery and equipment repair and maintenance
+888   Personal and household goods repair and maintenance
+889   Footwear and leather goods repair
+897   Barber shops
+898   Beauty salons
+899   Nail salons and other personal care services
+907   Drycleaning and laundry services
+908   Funeral homes, cemeteries and crematories
+909   Other personal services
+916   Religious organizations
+917   Civic, social, advocacy organizations, and grantmaking and giving 
+      services
+918   Labor unions
+919   Business, professional, political, and similar Organizations
+929   Private households
+
+937-987 | Public Administration and Active Duty Military
+
+937   Executive offices and legislative bodies
+938   Public finance activities
+939   Other general government and support
+947   Justice, public order, and safety activities
+948   Administration of human resource programs
+949   Administration of environmental quality and housing programs
+957   Administration of economic programs and space research
+959   National security and international affairs
+967   U. S. Army
+968   U. S. Air Force
+969   U. S. Navy
+977   U. S. Marines
+978   U. S. Coast Guard
+979   U. S. Armed Forces, branch not specified
+987   Military Reserves or National Guard
+
+999   DK; NA; Don't know; Not ascertained
+------------------------------------------------------------------------------
+
+>> 2004 CENSUS 1990 OCCUPATION MASTER CODE
+
+Numbers in parentheses following the occupation categories are 
+the U.S. Department of Commerce's 1980 Standard Occupational 
+Classification code equivalents.  The abbreviation "pt" means 
+"part" and "N.E.C." means "not elsewhere classified".
+
+     MANAGERIAL AND PROFESSIONAL SPECIALTY OCCUPATIONS
+
+         Executive, Administrative, and Managerial
+
+           (003) THROUGH (022) ARE RECODED TO: 01
+
+  003    LEGISLATORS (111)
+  004    CHIEF EXECUTIVES AND GENERAL ADMINISTRATORS, PUBLIC
+         ADMINISTRATION (112)
+  005    ADMINISTRATORS AND OFFICIALS, PUBLIC ADMINISTRATION
+         (1132-1139)
+  006    ADMINISTRATORS, PROTECTIVE SERVICES (1131)
+  007    FINANCIAL MANAGERS (122)
+  008    PERSONNEL AND LABOR RELATIONS MANAGERS (123)
+  009    PURCHASING MANAGERS (124)
+  013    MANAGERS, MARKETING, ADVERTISING, AND PUBLIC
+         RELATIONS (125)
+  014    ADMINISTRATORS, EDUCATION AND RELATED FIELDS (128)
+  015    MANAGERS, MEDICINE AND HEALTH (131)
+  016    POSTMASTERS AND MAIL SUPERINTENDENTS (1344)
+  017    MANAGERS, FOOD SERVING AND LODGING ESTABLISHMENTS (1351)
+  018    MANAGERS, PROPERTIES AND REAL ESTATE (1353)
+  019    FUNERAL DIRECTORS (PT 1359)
+  021    MANAGERS, SERVICE ORGANIZATIONS, N.E.C. (127, 1352, 1354, 
+         PT 1359)
+  022    MANAGERS AND ADMINISTRATORS, N.E.C. (121, 126, 132-1343, 136-139)
+------------------------------------------------------------
+
+               Management-Related Occupations
+
+           (023) THROUGH (037) ARE RECODED TO: 02
+
+  023    ACCOUNTANTS AND AUDITORS (1412)
+  024    UNDERWRITERS (1414)
+  025    OTHER FINANCIAL OFFICERS (1415, 1419)
+  026    MANAGEMENT ANALYSTS (142)
+  027    PERSONNEL, TRAINING, AND LABOR RELATIONS
+         SPECIALISTS (143)
+  028    PURCHASING AGENTS AND BUYERS, FARM PRODUCTS (1443)
+  029    BUYERS, WHOLESALE AND RETAIL TRADE, EXCEPT FARM
+         PRODUCTS (1442)
+  033    PURCHASING AGENTS AND BUYERS, N.E.C. (1449)
+  034    BUSINESS AND PROMOTION AGENTS (145)
+  035    CONSTRUCTION INSPECTORS (1472)
+  036    INSPECTORS AND COMPLIANCE OFFICERS, EXC.
+         CONSTRUCTION (1473)
+  037    MANAGEMENT RELATED OCCUPATIONS, N.E.C. (149)
+------------------------------------------------------------
+
+             Professional Specialty Occupations
+                    ....................
+          - engineers, architects and surveyors -
+
+           (043) THROUGH (063) ARE RECODED TO: 03
+
+  043    ARCHITECTS (161)
+
+         ENGINEERS
+
+  044    AEROSPACE ENGINEERS (1622)
+  045    METALLURGICAL AND MATERIALS ENGINEERS (1623)
+  046    MINING ENGINEERS (1624)
+  047    PETROLEUM ENGINEERS (1625)
+  048    CHEMICAL ENGINEERS (1626)
+  049    NUCLEAR ENGINEERS (1627)
+  053    CIVIL ENGINEERS (1628)
+  054    AGRICULTURAL ENGINEERS (1632)
+  055    ELECTRICAL AND ELECTRONIC ENGINEERS (1633, 1636)
+  056    INDUSTRIAL ENGINEERS (1634)
+  057    MECHANICAL ENGINEERS (1635)
+  058    MARINE ENGINEERS AND NAVAL ARCHITECTS (1637)
+  059    ENGINEERS, N.E.C. (1639)
+  063    SURVEYORS AND MAPPING SCIENTISTS (164)
+------------------------------------------------------------
+
+          - mathematical and computer scientists -
+
+           (064) THROUGH (068) ARE RECODED TO: 04
+
+  064    COMPUTER SYSTEMS ANALYSTS AND SCIENTISTS (171)
+  065    OPERATIONS AND SYSTEMS RESEARCHERS AND ANALYSTS
+         (172)
+  066    ACTUARIES (1732)
+  067    STATISTICIANS (1733)
+  068    MATHEMATICAL SCIENTISTS, N.E.C. (1739)
+------------------------------------------------------------
+
+                   - natural scientists -
+
+           (069) THROUGH (083) ARE RECODED TO: 05
+
+  069    PHYSICISTS AND ASTRONOMERS (1842, 1843)
+  073    CHEMISTS, EXCEPT BIOCHEMISTS (1845)
+  074    ATMOSPHERIC AND SPACE SCIENTISTS (1846)
+  075    GEOLOGISTS AND GEODESISTS (1847)
+  076    PHYSICAL SCIENTISTS, N.E.C. (1849)
+  077    AGRICULTURAL AND FOOD SCIENTISTS (1853)
+  078    BIOLOGICAL AND LIFE SCIENTISTS (1854)
+  079    FORESTRY AND CONSERVATION SCIENTISTS (1852)
+  083    MEDICAL SCIENTISTS (1855)
+------------------------------------------------------------
+
+             - health diagnosing occupations -
+
+           (084) THROUGH (089) ARE RECODED TO: 06
+
+  084    PHYSICIANS (261)
+  085    DENTISTS (262)
+  086    VETERINARIANS (27)
+  087    OPTOMETRISTS (281)
+  088    PODIATRISTS (283)
+  089    HEALTH DIAGNOSING PRACTITIONERS, N.E.C. (289)
+------------------------------------------------------------
+
+       - health assessment and treating occupations -
+
+           (095) THROUGH (106) ARE RECODED TO: 07
+
+  095    REGISTERED NURSES (29)
+  096    PHARMACISTS (301)
+  097    DIETITIANS (302)
+
+         THERAPISTS
+
+  098    INHALATION THERAPISTS (3031)
+  099    OCCUPATIONAL THERAPISTS (3032)
+  103    PHYSICAL THERAPISTS (3033)
+  104    SPEECH THERAPISTS (3034)
+  105    THERAPISTS, N.E.C. (3039)
+  106    PHYSICIANS' ASSISTANTS (304)
+------------------------------------------------------------
+
+                - teachers, postsecondary -
+
+           (113) THROUGH (154) ARE RECODED TO: 08
+
+  113    EARTH, ENVIRONMENTAL AND MARINE SCIENCE TEACHERS
+         (2212)
+  114    BIOLOGICAL SCIENCE TEACHERS (2213)
+  115    CHEMISTRY TEACHERS (2214)
+  116    PHYSICS TEACHERS (2215)
+  117    NATURAL SCIENCE TEACHERS, N.E.C. (2216)
+  118    PSYCHOLOGY TEACHERS (2217)
+  119    ECONOMICS TEACHERS (2218)
+  123    HISTORY TEACHERS (2222)
+  124    POLITICAL SCIENCE TEACHERS (2223)
+  125    SOCIOLOGY TEACHERS (2224)
+  126    SOCIAL SCIENCE TEACHERS, N.E.C. (2225)
+  127    ENGINEERING TEACHERS (2226)
+  128    MATHEMATICAL SCIENCE TEACHERS (2227)
+  129    COMPUTER SCIENCE TEACHERS (2228)
+  133    MEDICAL SCIENCE TEACHERS (2231)
+  134    HEALTH SPECIALTIES TEACHERS (2232)
+  135    BUSINESS, COMMERCE, AND MARKETING TEACHERS (2233)
+  136    AGRICULTURAL AND FORESTRY TEACHERS (2234)
+  137    ART, DRAMA, AND MUSIC TEACHERS (2235)
+  138    PHYSICAL EDUCATION TEACHERS (2236)
+  139    EDUCATION TEACHERS (2237)
+  143    ENGLISH TEACHERS (2238)
+  144    FOREIGN LANGUAGE TEACHERS (2242)
+  145    LAW TEACHERS (2243)
+  146    SOCIAL WORK TEACHERS (2244)
+  147    THEOLOGY TEACHERS (2245)
+  148    TRADE AND INDUSTRIAL TEACHERS (2246)
+  149    HOME ECONOMICS TEACHERS (2247)
+  153    TEACHERS, POSTSECONDARY, N.E.C. (2249)
+  154    POSTSECONDARY TEACHERS, SUBJECT NOT SPECIFIED
+------------------------------------------------------------
+
+             - teachers, except postsecondary -
+
+           (155) THROUGH (165) ARE RECODED TO: 09
+
+  155    TEACHERS, PREKINDERGARTEN AND KINDERGARTEN (231)
+  156    TEACHERS, ELEMENTARY SCHOOL (232)
+  157    TEACHERS, SECONDARY SCHOOL (233)
+  158    TEACHERS, SPECIAL EDUCATION (235)
+  159    TEACHERS, N.E.C. (236,239)
+  163    COUNSELORS, EDUCATIONAL AND VOCATIONAL (24)
+
+         LIBRARIANS, ARCHIVISTS, AND CURATORS
+
+  164    LIBRARIANS (251)
+  165    ARCHIVISTS AND CURATORS (252)
+------------------------------------------------------------
+
+          - social scientist and urban planners -
+
+           (166) THROUGH (173) ARE RECODED TO: 10
+
+  166    ECONOMISTS (1912)
+  167    PSYCHOLOGISTS (1915)
+  168    SOCIOLOGISTS (1916)
+  169    SOCIAL SCIENTISTS, N.E.C. (1913, 1914, 1919)
+  173    URBAN PLANNERS (192)
+------------------------------------------------------------
+
+       - social, recreation, and religious workers -
+
+           (174) THROUGH (177) ARE RECODED TO: 11
+
+  174    SOCIAL WORKERS (2032)
+  175    RECREATION WORKERS (2033)
+  176    CLERGY (2042)
+  177    RELIGIOUS WORKERS, N.E.C. (2049)
+------------------------------------------------------------
+
+                   - lawyers and judges -
+
+           (178) THROUGH (179) ARE RECODED TO: 12
+
+  178    LAWYERS (211)
+  179    JUDGES (212)
+------------------------------------------------------------
+
+      - writers, artists, entertainers, and athletes -
+
+           (183) THROUGH (199) ARE RECODED TO: 13
+
+  183    AUTHORS (321)
+  184    TECHNICAL WRITERS (398)
+  185    DESIGNERS (322)
+  186    MUSICIANS AND COMPOSERS (323)
+  187    ACTORS AND DIRECTORS (324)
+  188    PAINTERS, SCULPTORS, CRAFT-ARTISTS, AND ARTIST
+         PRINTMAKERS (325)
+  189    PHOTOGRAPHERS (326)
+  193    DANCERS (327)
+  194    ARTISTS, PERFORMERS, AND RELATED WORKERS, N.E.C.
+         (328, 329)
+  195    EDITORS AND REPORTERS (331)
+  197    PUBLIC RELATIONS SPECIALISTS (332)
+  198    ANNOUNCERS (333)
+  199    ATHLETES (34)
+------------------------------------------------------------
+
+        TECHNICIANS AND RELATED SUPPORT OCCUPATIONS
+
+            Health Technologists and Technicians
+
+           (203) THROUGH (208) ARE RECODED TO: 14
+
+  203    CLINICAL LABORATORY TECHNOLOGISTS AND TECHNICIANS
+         (362)
+  204    DENTAL HYGIENISTS (363)
+  205    HEALTH RECORD TECHNOLOGISTS AND TECHNICIANS (364)
+  206    RADIOLOGIC TECHNICIANS (365)
+  207    LICENSED PRACTICAL NURSES (366)
+  208    HEALTH TECHNOLOGISTS AND TECHNICIANS, N.E.C. (369)
+------------------------------------------------------------
+
+        Technologists and Technicians, except Health
+                    ....................
+ - engineering and related technologists and technicians -
+
+           (213) THROUGH (218) ARE RECODED TO: 15
+
+  213    ELECTRICAL AND ELECTRONIC TECHNICIANS (3711)
+  214    INDUSTRIAL ENGINEERING TECHNICIANS (3712)
+  215    MECHANICAL ENGINEERING TECHNICIANS (3713)
+  216    ENGINEERING TECHNICIANS, N.E.C. (3719)
+  217    DRAFTING OCCUPATIONS (372)
+  218    SURVEYING AND MAPPING TECHNICIANS (373)
+------------------------------------------------------------
+
+                  - science technicians -
+
+           (223) THROUGH (225) ARE RECODED TO: 16
+
+  223    BIOLOGICAL TECHNICIANS (382)
+  224    CHEMICAL TECHNICIANS (3831)
+  225    SCIENCE TECHNICIANS, N.E.C. (3832, 3833, 384, 389)
+------------------------------------------------------------
+
+  - technicians, except health, engineering, and science -
+
+           (226) THROUGH (235) ARE RECODED TO: 17
+
+  226    AIRPLANE PILOTS AND NAVIGATORS (825)
+  227    AIR TRAFFIC CONTROLLERS (392)
+  228    BROADCAST EQUIPMENT OPERATORS (393)
+  229    COMPUTER PROGRAMMERS (3971, 3972)
+  233    TOOL PROGRAMMERS, NUMERICAL CONTROL (3974)
+  234    LEGAL ASSISTANTS (396)
+  235    TECHNICIANS, N.E.C. (399)
+------------------------------------------------------------
+
+                     SALES OCCUPATIONS
+
+                Supervisors and Proprietors
+
+                  (243) IS RECODED TO: 18
+
+  243    SUPERVISORS AND PROPRIETORS, SALES OCCUPATIONS (40)
+
+    Sales Representatives, Finance and Business Services
+
+           (253) THROUGH (257) ARE RECODED TO: 18
+
+  253    INSURANCE SALES OCCUPATIONS (4122)
+  254    REAL ESTATE SALES OCCUPATIONS (4123)
+  255    SECURITIES AND FINANCIAL SERVICES SALES OCCUPATIONS
+         (4124)
+  256    ADVERTISING AND RELATED SALES OCCUPATIONS (4153)
+  257    SALES OCCUPATIONS, OTHER BUSINESS SERVICES (4152)
+------------------------------------------------------------
+
+     Sales Representatives, Commoddities except Retail
+
+           (258) THROUGH (259) ARE RECODED TO: 19
+
+  258    SALES ENGINEERS (421)
+  259    SALES REPRESENTATIVES, MINING, MANUFACTURING, AND
+         WHOLESALE (423, 424)
+------------------------------------------------------------
+
+        Sales Workers, Retail and Personal Services
+
+           (263) THROUGH (278) ARE RECODED TO: 20
+
+  263    SALES WORKERS, MOTOR VEHICLES AND BOATS
+         (4342, 4344)
+  264    SALES WORKERS, APPAREL (4346)
+  265    SALES WORKERS, SHOES (4351)
+  266    SALES WORKERS, FURNITURE AND HOME FURNISHINGS
+         (4348)
+  267    SALES WORKERS; RADIO, TELEVISION, HI-FI, AND
+         APPLIANCES (4343, 4352)
+  268    SALES WORKERS, HARDWARE AND BUILDING SUPPLIES
+         (4353)
+  269    SALES WORKERS, PARTS (4367)
+  274    SALES WORKERS, OTHER COMMODITIES (4345, 4347, 4354,
+         4356, 4359, 4362, 4369)
+  275    SALES COUNTER CLERKS (4363)
+  276    CASHIERS (4364)
+  277    STREET AND DOOR-TO-DOOR SALES WORKERS (4366)
+  278    NEWS VENDORS (4365)
+------------------------------------------------------------
+
+                 Sales Related Occupations
+
+           (283) THROUGH (285) ARE RECODED TO: 21
+
+  283    DEMONSTRATORS, PROMOTERS AND MODELS, SALES (445)
+  284    AUCTIONEERS(447)
+  285    SALES SUPPORT OCCUPATIONS, N.E.C. (444, 446, 449)
+------------------------------------------------------------
+
+    ADMINISTRATIVE SUPPORT, (incl. Clerical supervisors)
+
+                    Clerical Supervisors
+
+           (303) THROUGH (307) ARE RECODED TO: 22
+
+  303    SUPERVISORS, GENERAL OFFICE (4511, 4513, 4514, 4516, 4519, 4529)
+  304    SUPERVISORS, COMPUTER EQUIPMENT OPERATORS (4512)
+  305    SUPERVISORS, FINANCIAL RECORDS PROCESSING (4521)
+  306    CHIEF COMMUNICATIONS OPERATORS (4523)
+  307    SUPERVISORS; DISTRIBUTION, SCHEDULING, AND
+         ADJUSTING CLERKS (4522, 4524-4528)
+------------------------------------------------------------
+
+                Computer Equipment Operators
+
+           (308) THROUGH (309) ARE RECODED TO: 23
+
+  308    COMPUTER OPERATORS (4612)
+  309    PERIPHERAL EQUIPMENT OPERATORS (4613)
+------------------------------------------------------------
+
+          Secretaries, Stenographers, and Typists
+
+           (313) THROUGH (315) ARE RECODED TO: 24
+
+  313    SECRETARIES (4622)
+  314    STENOGRAPHERS (4623)
+  315    TYPISTS (4624)
+------------------------------------------------------------
+
+                     Information Clerks
+
+           (316) THROUGH (323) ARE RECODED TO: 25
+
+  316    INTERVIEWERS (4642)
+  317    HOTEL CLERKS (4643)
+  318    TRANSPORTATION TICKET AND RESERVATION AGENTS (4644)
+  319    RECEPTIONISTS (4645)
+  323    INFORMATION CLERKS, N.E.C. (4649)
+------------------------------------------------------------
+
+      Records Processing Occupations, except Financial
+
+           (325) THROUGH (336) ARE RECODED TO: 26
+
+  325    CLASSIFIED-AD CLERKS (4662)
+  326    CORRESPONDENCE CLERKS (4663)
+  327    ORDER CLERKS (4664)
+  328    PERSONNEL CLERKS, EXCEPT PAYROLL AND TIMEKEEPING
+         (4692)
+  329    LIBRARY CLERKS (4694)
+  335    FILE CLERKS (4696)
+  336    RECORDS CLERKS (4699)
+------------------------------------------------------------
+
+          Financial Records Processing Occupations
+
+           (337) THROUGH (344) ARE RECODED TO: 27
+
+  337    BOOKKEEPERS, ACCOUNTING, AND AUDITING CLERKS (4712)
+  338    PAYROLL AND TIMEKEEPING CLERKS (4713)
+  339    BILLING CLERKS (4715)
+  343    COST AND RATE CLERKS (4716)
+  344    BILLING, POSTING, AND CALCULATING MACHINE OPERATORS
+         (4718)
+------------------------------------------------------------
+
+    Duplicating, Mail and Other Office Machine Operators
+
+           (345) THROUGH (347) ARE RECODED TO: 28
+
+  345    DUPLICATING MACHINE OPERATORS (4722)
+  346    MAIL PREPARING AND PAPER HANDLING MACHINE OPERATORS
+         (4723)
+  347    OFFICE MACHINE OPERATORS, N.E.C. (4729)
+------------------------------------------------------------
+
+             Communications Equipment Operators
+
+           (348) THROUGH (353) ARE RECODED TO: 29
+
+  348    TELEPHONE OPERATORS (4732)
+  353    COMMUNICATIONS EQUIPMENT OPERATORS, N.E.C. (4733, 4739)
+------------------------------------------------------------
+
+         Mail and Message Distributing Occupations
+
+           (354) THROUGH (357) ARE RECODED TO: 30
+
+  354    POSTAL CLERKS, EXC. MAIL CARRIERS (4742)
+  355    MAIL CARRIERS, POSTAL SERVICE (4743)
+  356    MAIL CLERKS, EXC. POSTAL SERVICE (4744)
+  357    MESSENGERS (4745)
+------------------------------------------------------------
+
+  Material Recording, Scheduling, and Distribuing Clerks
+
+           (359) THROUGH (374) ARE RECODED TO: 31
+
+  359    DISPATCHERS (4751)
+  363    PRODUCTION COORDINATORS (4752)
+  364    TRAFFIC, SHIPPING, AND RECEIVING CLERKS (4753)
+  365    STOCK AND INVENTORY CLERKS (4754)
+  366    METER READERS (4755)
+  368    WEIGHERS, MEASURERS, CHECKERS, AND SAMPLERS (4756, 4757)
+  373    EXPEDITERS (4758)
+  374    MATERIAL RECORDING, SCHEDULING, AND DISTRIBUTING
+         CLERKS, N.E.C. (4759)
+------------------------------------------------------------
+
+                Adjusters and Investigators
+
+           (375) THROUGH (378) ARE RECODED TO: 32
+
+  375    INSURANCE ADJUSTERS, EXAMINERS, AND INVESTIGATORS
+         (4782)
+  376    INVESTIGATORS AND ADJUSTERS, EXCEPT INSURANCE
+         (4783)
+  377    ELIGIBILITY CLERKS, SOCIAL WELFARE (4784)
+  378    BILL AND ACCOUNT COLLECTORS (4786)
+------------------------------------------------------------
+
+      Miscellaneous Administrative Support Occupations
+
+           (379) THROUGH (389) ARE RECODED TO: 33
+
+  379    GENERAL OFFICE CLERKS (463)
+  383    BANK TELLERS (4791)
+  384    PROOFREADERS (4792)
+  385    DATA-ENTRY KEYERS (4793)
+  386    STATISTICAL CLERKS (4794)
+  387    TEACHERS' AIDES (4795)
+  389    ADMINISTRATIVE SUPPORT OCCUPATIONS, N.E.C. (4787,
+         4799)
+------------------------------------------------------------
+
+                    SERVICE OCCUPATIONS
+
+               Private Household Occupations
+
+           (403) THROUGH (407) ARE RECODED TO: 34
+
+  403    LAUNDERERS AND IRONERS (503)
+  404    COOKS, PRIVATE HOUSEHOLD (504)
+  405    HOUSEKEEPERS AND BUTLERS (505)
+  406    CHILD CARE WORKERS, PRIVATE HOUSEHOLD (506)
+  407    PRIVATE HOUSEHOLD CLEANERS AND SERVANTS
+         (502, 507, 509)
+------------------------------------------------------------
+
+               Protective Service Occupations
+                    ....................
+       -supervisors, protective service occupations-
+
+           (413) THROUGH (415) ARE RECODED TO: 35
+
+  413    SUPERVISORS, FIREFIGHTING AND FIRE PREVENTION
+         OCCUPATIONS (5111)
+  414    SUPERVISORS, POLICE AND DETECTIVES (5112)
+  415    SUPERVISORS, GUARDS (5113)
+------------------------------------------------------------
+
+       -firefighting and fire prevention occupations-
+
+           (416) THROUGH (417) ARE RECODED TO: 35
+
+  416    FIRE INSPECTION AND FIRE PREVENTION OCCUPATIONS
+         (5122)
+  417    FIREFIGHTING OCCUPATIONS (5123)
+------------------------------------------------------------
+
+                  -police and detectives-
+
+           (418) THROUGH (424) ARE RECODED TO: 35
+
+  418    POLICE AND DETECTIVES, PUBLIC SERVICE (5132)
+  423    SHERIFFS, BAILIFFS, AND OTHER LAW ENFORCEMENT
+         OFFICERS (5134)
+  424    CORRECTIONAL INSTITUTION OFFICERS (5133)
+------------------------------------------------------------
+
+                          -guards-
+
+           (425) THROUGH (427) ARE RECODED TO: 35
+
+  425    CROSSING GUARDS (5142)
+  426    GUARDS AND POLICE, EXCEPT PUBLIC SERVICE (5144)
+  427    PROTECTIVE SERVICE OCCUPATIONS, N.E.C. (5149)
+------------------------------------------------------------
+
+    Service Occupations, except Protective and Household
+                    ....................
+         -food preparation and service occupations-
+
+           (433) THROUGH (444) ARE RECODED TO: 36
+
+  433    SUPERVISORS, FOOD PREPARATION AND SERVICE
+         OCCUPATIONS (5211)
+  434    BARTENDERS (5212)
+  435    WAITERS AND WAITRESSES (5213)
+  436    COOKS (5214, 5215)
+  438    FOOD COUNTER, FOUNTAIN AND RELATED OCCUPATIONS
+         (5216)
+  439    KITCHEN WORKERS, FOOD PREPARATION (5217)
+  443    WAITERS'/WAITRESSES' ASSISTANTS (5218)
+  444    MISCELLANEOUS FOOD PREPARATION OCCUPATIONS (5219)
+------------------------------------------------------------
+
+                -health service occupations-
+
+           (445) THROUGH (447) ARE RECODED TO: 37
+
+  445    DENTAL ASSISTANTS (5232)
+  446    HEALTH AIDES, EXCEPT NURSING (5233)
+  447    NURSING AIDES, ORDERLIES, AND ATTENDANTS (5236)
+------------------------------------------------------------
+
+ -cleaning and building service occupations, exc. household-
+
+           (448) THROUGH (455) ARE RECODED TO: 38
+
+  448    SUPERVISORS, CLEANING AND BUILDING SERVICE WORKKERS
+         (5241)
+  449    MAIDS AND HOUSEMEN (5242, 5249)
+  453    JANITORS AND CLEANERS (5244)
+  454    ELEVATOR OPERATORS (5245)
+  455    PEST CONTROL OCCUPATIONS (5246)
+------------------------------------------------------------
+
+               -personal service occupations-
+
+           (456) THROUGH (469) ARE RECODED TO: 39
+
+  456    SUPERVISORS, PERSONAL SERVICE OCCUPATIONS (5251)
+  457    BARBERS (5252)
+  458    HAIRDRESSERS AND COSMETOLOGISTS (5253)
+  459    ATTENDANTS, AMUSEMENT AND RECREATION FACILITIES
+         (5254)
+  461    GUIDES (5255)
+  462    USHERS (5256)
+  463    PUBLIC TRANSPORTATION ATTENDANTS (5257)
+  464    BAGGAGE PORTERS AND BELLHOPS (5262)
+  465    WELFARE SERVICE AIDES (5263)
+  466    FAMILY CHILD CARE PROVIDERS (PT 5264)
+  467    EARLY CHILDHOOD TEACHER'S ASSISTANTS (PT 5264)
+  468    CHILD CARE WORKERS (PT 5264)
+  469    PERSONAL SERVICE OCCUPATIONS, N.E.C. (5258, 5269)
+------------------------------------------------------------
+
+         FARMING, FORESTRY, AND FISHING OCCUPATIONS
+
+                Farm Operators and Managers
+
+           (473) THROUGH (476) ARE RECODED TO: 40
+
+  473    FARMERS, EXCEPT HORTICULTURAL (5512-5514)
+  474    HORTICULTURAL SPECIALTY FARMERS (5515)
+  475    MANAGERS, FARMS, EXCEPT HORTICULTURAL (5522-5524)
+  476    MANAGERS, HORTICULTURAL SPECIALTY FARMS (5525)
+------------------------------------------------------------
+
+        Other Agriculatural and Related Occupations
+                    ....................
+           -farm occupations, except managerial-
+
+           (477) THROUGH (484) ARE RECODED TO: 41
+
+  477    SUPERVISORS, FARM WORKERS (5611)
+  479    FARM WORKERS (5612-5617)
+  483    MARINE LIFE CULTIVATION WORKERS (5618)
+  484    NURSERY WORKERS (5619)
+------------------------------------------------------------
+
+            -related agriculatural occupations-
+
+           (485) THROUGH (489) ARE RECODED TO: 42
+
+  485    SUPERVISORS, RELATED AGRICULTURAL OCCUPATIONS
+         (5621)
+  486    GROUNDSKEEPERS AND GARDENERS, EXCEPT FARM (5622)
+  487    ANIMAL CARETAKERS, EXCEPT FARM (5624)
+  488    GRADERS AND SORTERS, AGRICULTURAL PRODUCTS (5625)
+  489    INSPECTORS, AGRICULTURAL PRODUCTS (5627)
+------------------------------------------------------------
+
+             -forestry and logging occupations-
+
+           (494) THROUGH (496) ARE RECODED TO: 43
+
+  494    SUPERVISORS, FORESTRY AND LOGGING WORKERS (571)
+  495    FORESTRY WORKERS, EXCEPT LOGGING (572)
+  496    TIMBER CUTTING AND LOGGING OCCUPATIONS (573, 579)
+------------------------------------------------------------
+
+              -fishers, hunters, and trappers-
+
+           (497) THROUGH (499) ARE RECODED TO: 43
+
+  497    CAPTAINS AND OTHER OFFICERS, FISHING VESSELS
+         (PT 8241)
+  498    FISHERS (583)
+  499    HUNTERS AND TRAPPERS (584)
+------------------------------------------------------------
+
+    PRECISION PRODUCTION, CRAFT, AND REPAIR OCCUPATIONS
+
+                  Mechanics and Repairers
+                    ....................
+           -mechanics and repairers supervisors-
+
+                  (503) IS RECODED TO: 44
+
+  503    SUPERVISORS, MECHANICS AND REPAIRERS (60)
+------------------------------------------------------------
+
+  -mechanics and repairers, vehicle and mobile equipment-
+
+           (505) THROUGH (517) ARE RECODED TO: 44
+
+  505    AUTOMOBILE MECHANICS (PT 6111)
+  506    AUTOMOBILE MECHANIC APPRENTICES (PT 6111)
+  507    BUS, TRUCK, AND STATIONARY ENGINE MECHANICS (6112)
+  508    AIRCRAFT ENGINE MECHANICS (6113)
+  509    SMALL ENGINE REPAIRERS (6114)
+  514    AUTOMOBILE BODY AND RELATED REPAIRERS (6115)
+  515    AIRCRAFT MECHANICS, EXCEPT ENGINE (6116)
+  516    HEAVY EQUIPMENT MECHANICS (6117)
+  517    FARM EQUIPMENT MECHANICS (6118)
+
+------------------------------------------------------------
+
+              -mechanics and repairers, except
+               vehicle and mobile equipment-
+
+           (518) THROUGH (534) ARE RECODED TO: 45
+
+  518    INDUSTRIAL MACHINERY REPAIRERS (613)
+  519    MACHINERY MAINTENANCE OCCUPATIONS (614)
+
+         ELECTRICAL AND ELECTRONIC EQUIPMENT REPAIRERS
+
+  523    ELECTRONIC REPAIRERS, COMMUNICATIONS AND INDUSTRIAL
+         EQUIPMENT (6151, 6153, 6155)
+  525    DATA PROCESSING EQUIPMENT REPAIRERS (6154)
+  526    HOUSEHOLD APPLIANCE AND POWER TOOL REPAIRERS (6156)
+  527    TELEPHONE LINE INSTALLERS AND REPAIRERS (6157)
+  529    TELEPHONE INSTALLERS AND REPAIRERS (6158)
+  533    MISCELLANEOUS ELECTRICAL AND ELECTRONIC EQUIPMENT
+         EQUIPMENT REPAIRERS (6152, 6159)
+  534    HEATING, AIR CONDITIONING, AND REFRIGERATION
+         MECHANICS (616)
+------------------------------------------------------------
+
+           -miscellaneous mechanics and repairers
+
+           (535) THROUGH (549) ARE RECODED TO: 46
+
+  535    CAMERA, WATCH, AND MUSICAL INSTRUMENT REPAIRERS
+         (6171, 6172)
+  536    LOCKSMITHS AND SAFE REPAIRERS (6173)
+  538    OFFICE MACHINE REPAIRERS (6174)
+  539    MECHANICAL CONTROLS AND VALVE REPAIRERS (6175)
+  543    ELEVATOR INSTALLERS AND REPAIRERS (6176)
+  544    MILLWRIGHTS (6178)
+  547    SPECIFIED MECHANICS AND REPAIRERS, N.E.C.
+         (6177, 6179)
+  549    NOT SPECIFIED MECHANICS AND REPAIRERS
+------------------------------------------------------------
+
+                    Construction Trades
+                    ....................
+          -supervisors, construction occupations-
+
+           (553) THROUGH (558) ARE RECODED TO: 47
+
+  553    SUPERVISORS; BRICKMASONS, STONEMASONS, AND TILE
+         SETTERS (6312)
+  554    SUPERVISORS, CARPENTERS AND RELATED WORKERS (6313)
+  555    SUPERVISORS, ELECTRICIANS AND POWER TRANSMISSION
+         INSTALLERS (6314)
+  556    SUPERVISORS; PAINTERS, PAPERHANGERS, AND PLASTERERS
+         (6315)
+  557    SUPERVISORS; PLUMBERS, PIPEFITTERS, AND
+         STEAMFITTERS (6316)
+  558    SUPERVISORS, N.E.C. (6311, 6318)
+
+------------------------------------------------------------
+
+         -construction trades, except supervisors-
+
+           (563) THROUGH (599) ARE RECODED TO: 48
+
+  563    BRICKMASONS AND STONEMASONS, (PT 6412, PT 6413)
+  564    BRICKMASON AND STONEMASON APPRENTICES
+         (PT 6412, PT 6413)
+  565    TILE SETTERS, HARD AND SOFT (6414, PT 6462)
+  566    CARPET INSTALLERS (PT 6462)
+  567    CARPENTERS (PT 6422)
+  569    CARPENTER APPRENTICES (PT 6422)
+  573    DRYWALL INSTALLERS (6424)
+  575    ELECTRICIANS (PT 6432)
+  576    ELECTRICIAN APPRENTICES (PT 6432)
+  577    ELECTRICAL POWER INSTALLERS AND REPAIRERS (6433)
+  579    PAINTERS, CONSTRUCTION AND MAINTENANCE (6442)
+  583    PAPERHANGERS (6443)
+  584    PLASTERERS (6444)
+  585    PLUMBERS, PIPEFITTERS, AND STEAMFITTERS (PT 645)
+  587    PLUMBER, PIPEFITTER, AND STEAMFITTER APPRENTICES
+         (PT 645)
+  588    CONCRETE AND TERRAZZO FINISHERS (6463)
+  589    GLAZIERS (6464)
+  593    INSULATION WORKERS (6465)
+  594    PAVING, SURFACING, AND TAMPING EQUIPMENT OPERATORS
+         (6466)
+  595    ROOFERS (6468)
+  596    SHEETMETAL DUCT INSTALLERS (6472)
+  597    STRUCTURAL METAL WORKERS (6473)
+  598    DRILLERS, EARTH (6474)
+  599    CONSTRUCTION TRADES, N.E.C. (6467, 6475, 6476,
+         6479)
+------------------------------------------------------------
+
+                   Extractive Occupations
+
+           (613) THROUGH (617) ARE RECODED TO: 49
+
+  613    SUPERVISORS, EXTRACTIVE OCCUPATIONS (632)
+  614    DRILLERS, OIL WELL (652)
+  615    EXPLOSIVES WORKERS (653)
+  616    MINING MACHINE OPERATORS (654)
+  617    MINING OCCUPATIONS, N.E.C. (656)
+------------------------------------------------------------
+
+              Precision Production Occupations
+                    ....................
+         -production occupation supervisors-
+
+                  (628) IS RECODED TO: 50
+
+  628    SUPERVISORS, PRODUCTION OCCUPATIONS (67, 71)
+
+------------------------------------------------------------
+
+            -precision metalworking occupations-
+
+           (634) THROUGH (655) ARE RECODED TO: 50
+
+  634    TOOL AND DIE MAKERS (PT 6811)
+  635    TOOL AND DIE MAKER APPRENTICES (PT 6811)
+  636    PRECISION ASSEMBLERS, METAL (6812)
+  637    MACHINISTS (PT 6813)
+  639    MACHINIST APPRENTICES (PT 6813)
+  643    BOILERMAKERS (6814)
+  644    PRECISION GRINDERS, FITTERS, AND TOOL SHARPENERS
+         (6816)
+  645    PATTERNMAKERS AND MODEL MAKERS, METAL (6817)
+  646    LAY-OUT WORKERS (6821)
+  647    PRECIOUS STONES AND METALS WORKERS (JEWELERS)
+         (6822, 6866)
+  649    ENGRAVERS, METAL (6823)
+  653    SHEET METAL WORKERS (PT 6824)
+  654    SHEET METAL WORKER APPRENTICES (PT 6824)
+  655    MISCELLANEOUS PRECISION METAL WORKERS (6829)
+------------------------------------------------------------
+
+            -precision woodworking occupations-
+
+           (656) THROUGH (659) ARE RECODED TO: 51
+
+  656    PATTERNMAKERS AND MODEL MAKERS, WOOD (6831)
+  657    CABINET MAKERS AND BENCH CARPENTERS (6832)
+  658    FURNITURE AND WOOD FINISHERS (6835)
+  659    MISCELLANEOUS PRECISION WOODWORKERS (6839)
+------------------------------------------------------------
+
+              -precision textile, apparel, and
+                furnishings machine workers-
+
+           (666) THROUGH (674) ARE RECODED TO: 52
+
+  666    DRESSMAKERS (PT 6852, PT 7752)
+  667    TAILORS (PT 6852)
+  668    UPHOLSTERERS (6853)
+  669    SHOE REPAIRERS (6854)
+  674    MISCELLANEOUS PRECISION APPAREL AND FABRIC WORKERS
+         (6856, 6859, PT 7752)
+------------------------------------------------------------
+
+          -precision workers, assorted materials-
+
+           (675) THROUGH (684) ARE RECODED TO: 53
+
+  675    HAND MOLDERS AND SHAPERS, EXCEPT JEWELERS (6861)
+  676    PATTERNMAKERS, LAY-OUT WORKERS, AND CUTTERS (6862)
+  677    OPTICAL GOODS WORKERS (6864, PT 7477, PT 7677)
+  678    DENTAL LABORATORY AND MEDICAL APPLIANCE TECHNICIANS
+         (6865)
+  679    BOOKBINDERS (6844)
+  683    ELECTRICAL AND ELECTRONIC EQUIPMENT ASSEMBLERS
+         (6867)
+  684    MISCELLANEOUS PRECISION WORKERS, N.E.C. (6869)
+------------------------------------------------------------
+
+          -precision food production occupations-
+
+           (686) THROUGH (688) ARE RECODED TO: 54
+
+  686    BUTCHERS AND MEAT CUTTERS (6871)
+  687    BAKERS (6872)
+  688    FOOD BATCHMAKERS (6873, 6879)
+------------------------------------------------------------
+
+    -precision inspectors, testers and related workers-
+
+           (689) THROUGH (693) ARE RECODED TO: 55
+
+  689    INSPECTORS, TESTERS, AND GRADERS (6881, 828)
+  693    ADJUSTERS AND CALIBRATORS (6882)
+------------------------------------------------------------
+
+                 Plant and System Operators
+
+           (694) THROUGH (699) ARE RECODED TO: 56
+
+  694    WATER AND SEWAGE TREATMENT PLANT OPERATORS (691)
+  695    POWER PLANT OPERATORS (PT 693)
+  696    STATIONARY ENGINEERS (PT 693, 7668)
+  699    MISCELLANEOUS PLANT AND SYSTEM OPERATORS (692, 694,
+         695, 696)
+------------------------------------------------------------
+
+            OPERATORS, FABRICATORS, AND LABORERS
+
+       Machine Operators, Assemblers, and Inspectors
+                    ....................
+     -machine operators and tenders, except precision:
+    metalworking and plastic working machine operators-
+
+           (703) THROUGH (717) ARE RECODED TO: 57
+
+  703    LATHE AND TURNING MACHINE SET-UP OPERATORS (7312)
+  704    LATHE AND TURNING MACHINE OPERATORS (7512)
+  705    MILLING AND PLANING MACHINE OPERATORS (7313, 7513)
+  706    PUNCHING AND STAMPING PRESS MACHINE OPERATORS
+         (7314, 7317, 7514, 7517)
+  707    ROLLING MACHINE OPERATORS (7316, 7516)
+  708    DRILLING AND BORING MACHINE OPERATORS (7318, 7518)
+  709    GRINDING, ABRADING, BUFFING, AND POLISHING MACHINE
+         OPERATORS (7322, 7324, 7522)
+  713    FORGING MACHINE OPERATORS (7319, 7519)
+  714    NUMERICAL CONTROL MACHINE OPERATORS (7326)
+  715    MISCELLANEOUS METAL, PLASTIC, STONE, AND GLASS
+         WORKING MACHINE OPERATORS (7329, 7529)
+  717    FABRICATING MACHINE OPERATORS, N.E.C. (7339, 7539)
+------------------------------------------------------------
+
+     -machine operators and tenders, except precision:
+      metal and plastic processing machine operators-
+
+           (719) THROUGH (725) ARE RECODED TO: 58
+
+  719    MOLDING AND CASTING MACHINE OPERATORS (7315, 7342,
+         7515, 7542)
+  723    METAL PLATING MACHINE OPERATORS (7343, 7543)
+  724    HEAT TREATING EQUIPMENT OPERATORS (7344, 7544)
+  725    MISCELLANEOUS METAL AND PLASTIC PROCESSING MACHINE
+         OPERATORS (7349, 7549)
+------------------------------------------------------------
+
+     -machine operators and tenders, except precision:
+               woodworking machine operators-
+
+           (726) THROUGH (733) ARE RECODED TO: 59
+
+  726    WOOD LATHE, ROUTING AND PLANING MACHINE OPERATORS
+         (7431, 7432, 7631, 7632)
+  727    SAWING MACHINE OPERATORS (7433, 7633)
+  728    SHAPING AND JOINING MACHINE OPERATORS (7435, 7635)
+  729    NAILING AND TACKING MACHINE OPERATORS (7636)
+  733    MISCELLANEOUS WOODWORKING MACHINE OPERATORS
+         (7434, 7439, 7634, 7639)
+------------------------------------------------------------
+
+     -machine operators and tenders, except precision:
+                printing machine operators-
+
+           (734) THROUGH (737) ARE RECODED TO: 60
+
+  734    PRINTING PRESS OPERATORS (7443, 7643)
+  735    PHOTOENGRAVERS AND LITHOGRAPHERS (6842, 7444, 7644)
+  736    TYPESETTERS AND COMPOSITORS (6841, 7642)
+  737    MISCELLANEOUS PRINTING MACHINE OPERATORS
+         (6849, 7449, 7649)
+------------------------------------------------------------
+
+     -machine operators and tenders, except precision:
+    textile, apparel, and furnishings machine operators-
+
+           (738) THROUGH (749) ARE RECODED TO: 61
+
+  738    WINDING AND TWISTING MACHINE OPERATORS (7451, 7651)
+  739    KNITTING, LOOPING, TAPING, AND WEAVING MACHINE
+         OPERATORS (7452, 7652)
+  743    TEXTILE CUTTING MACHINE OPERATORS (7654)
+  744    TEXTILE SEWING MACHINE OPERATORS (7655)
+  745    SHOE MACHINE OPERATORS (7656)
+  747    PRESSING MACHINE OPERATORS (7657)
+  748    LAUNDERING AND DRY CLEANING MACHINE OPERATORS
+         (6855, 7658)
+  749    MISCELLANEOUS TEXTILE MACHINE OPERATORS
+         (7459, 7659)
+------------------------------------------------------------
+
+     -machine operators and tenders, except precision:
+           machine operators, assorted materials-
+
+           (753) THROUGH (779) ARE RECODED TO: 62
+
+  753    CEMENTING AND GLUING MACHINE OPERATORS (7661)
+  754    PACKAGING AND FILLING MACHINE OPERATORS
+         (7462, 7662)
+  755    EXTRUDING AND FORMING MACHINE OPERATORS
+         (7463, 7663)
+  756    MIXING AND BLENDING MACHINE OPERATORS (7664)
+  757    SEPARATING, FILTERING, AND CLARIFYING MACHINE
+         OPERATORS (7476, 7666, 7676))
+  758    COMPRESSING AND COMPACTING MACHINE OPERATORS
+         (7467, 7667)
+  759    PAINTING AND PAINT SPRAYING MACHINE OPERATORS
+         (7669)
+  763    ROASTING AND BAKING MACHINE OPERATORS, FOOD
+         (7472, 7672)
+  764    WASHING, CLEANING, AND PICKLING MACHINE OPERATORS
+         (7673)
+  765    FOLDING MACHINE OPERATORS (7474, 7674)
+  766    FURNACE, KILN, AND OVEN OPERATORS, EXC. FOOD (7675)
+  768    CRUSHING AND GRINDING MACHINE OPERATORS
+         (PT 7477, PT 7677)
+  769    SLICING AND CUTTING MACHINE OPERATORS (7478, 7678)
+  773    MOTION PICTURE PROJECTIONISTS (PT 7479)
+  774    PHOTOGRAPHIC PROCESS MACHINE OPERATORS
+         (6863, 6868, 7671)
+  777    MISCELLANEOUS MACHINE OPERATORS, N.E.C.
+         (PT 7479,7665, 7679)
+  779    MACHINE OPERATORS, NOT SPECIFIED
+------------------------------------------------------------
+
+  -fabricators, assemblers, and hand working occupations-
+
+           (783) THROUGH (795) ARE RECODED TO: 63
+
+  783    WELDERS AND CUTTERS (7332, 7532, 7714)
+  784    SOLDERERS AND BRAZERS (7333, 7533, 7717)
+  785    ASSEMBLERS (772,774)
+  786    HAND CUTTING AND TRIMMING OCCUPATIONS (7753)
+  787    HAND MOLDING, CASTING, AND FORMING OCCUPATIONS
+         (7754, 7755)
+  789    HAND PAINTING, COATING, AND DECORATING OCCUPATIONS
+         (7756)
+  793    HAND ENGRAVING AND PRINTING OCCUPATIONS (7757)
+  795    MISCELLANEOUS HAND WORKING OCCUPATIONS (7759)
+------------------------------------------------------------
+
+  -production inspectors, testors, samplers, and weighers-
+
+           (796) THROUGH (799) ARE RECODED TO: 64
+
+  796    PRODUCTION INSPECTORS, CHECKERS, AND EXAMINERS
+         (782, 787)
+  797    PRODUCTION TESTERS (783)
+  798    PRODUCTION SAMPLERS AND WEIGHERS (784)
+  799    GRADERS AND SORTERS, EXCEPT AGRICULTURAL (785)
+------------------------------------------------------------
+
+       Transportation and Material Moving Occupations
+                    ....................
+                 -motor vehicle operators-
+
+           (803) THROUGH (814) ARE RECODED TO: 65
+
+  803    SUPERVISORS, MOTOR VEHICLE OPERATORS (8111)
+  804    TRUCK DRIVERS (8212-8214)
+  806    DRIVER-SALES WORKERS (8218)
+  808    BUS DRIVERS (8215)
+  809    TAXICAB DRIVERS AND CHAUFFEURS (8216)
+  813    PARKING LOT ATTENDANTS (874)
+  814    MOTOR TRANSPORTATION OCCUPATIONS, N.E.C. (8219)
+------------------------------------------------------------
+
+     Transportation Occupations, except Motor Vehicles
+                    ....................
+             -rail transportation occupations-
+
+           (823) THROUGH (826) ARE RECODED TO: 66
+
+  823    RAILROAD CONDUCTORS AND YARDMASTERS (8113)
+  824    LOCOMOTIVE OPERATING OCCUPATIONS (8232)
+  825    RAILROAD BRAKE, SIGNAL, AND SWITCH OPERATORS (8233)
+  826    RAIL VEHICLE OPERATORS, N.E.C. (8239)
+------------------------------------------------------------
+
+             -water transportation occupations-
+
+           (828) THROUGH (834) ARE RECODED TO: 66
+
+  828    SHIP CAPTAINS AND MATES, EXCEPT FISHING BOATS
+         (PT 8241, 8242)
+  829    SAILORS AND DECKHANDS (8243)
+  833    MARINE ENGINEERS (8244)
+  834    BRIDGE, LOCK, AND LIGHTHOUSE TENDERS (8245)
+------------------------------------------------------------
+
+            Material Moving Equipment Operators
+
+           (843) THROUGH (859) ARE RECODED TO: 67
+
+  843    SUPERVISORS, MATERIAL MOVING EQUIPMENT OPERATORS
+         (812)
+  844    OPERATING ENGINEERS (8312)
+  845    LONGSHORE EQUIPMENT OPERATORS (8313)
+  848    HOIST AND WINCH OPERATORS (8314)
+  849    CRANE AND TOWER OPERATORS (8315)
+  853    EXCAVATING AND LOADING MACHINE OPERATORS (8316)
+  855    GRADER, DOZER, AND SCRAPER OPERATORS (8317)
+  856    INDUSTRIAL TRUCK AND TRACTOR EQUIPMENT OPERATORS
+         (8318)
+  859    MISCELLANEOUS MATERIAL MOVING EQUIPMENT OPERATORS
+         (8319)
+------------------------------------------------------------
+
+    Handlers, Equipment Cleaners, Helpers, and Laborers
+
+           (864) THROUGH (873) ARE RECODED TO: 68
+
+  864    SUPERVISORS; HANDLERS, EQUIPMENT CLEANERS, AND
+         LABORERS, N.E.C. (85)
+  865    HELPERS, MECHANICS AND REPAIRERS (863)
+
+         HELPERS, CONSTRUCTION AND EXTRACTIVE OCCUPATIONS
+
+  866    HELPERS, CONSTRUCTION TRADES (8641-8645, 8648)
+  867    HELPERS, SURVEYOR (8646)
+  868    HELPERS, EXTRACTIVE OCCUPATIONS (865)
+  869    CONSTRUCTION LABORERS (871)
+  873    PRODUCTION HELPERS (861, 862)
+------------------------------------------------------------
+
+           Freight, Stock, and Material Handlers
+
+           (875) THROUGH (883) ARE RECODED TO: 69
+
+  875    GARBAGE COLLECTORS (8722)
+  876    STEVEDORES (8723)
+  877    STOCK HANDLERS AND BAGGERS (8724)
+  878    MACHINE FEEDERS AND OFFBEARERS (8725)
+  883    FREIGHT, STOCK, AND MATERIAL HANDLERS, N.E.C.
+         (8726)
+------------------------------------------------------------
+
+           (885) THROUGH (889) ARE RECODED TO: 70
+
+  885    GARAGE AND SERVICE STATION RELATED OCCUPATIONS
+         (873)
+  887    VEHICLE WASHERS AND EQUIPMENT CLEANERS (875)
+  888    HAND PACKERS AND PACKAGERS (8761)
+  889    LABORERS, EXCEPT CONSTRUCTION (8769)
+------------------------------------------------------------
+
+           (903) THROUGH (905) ARE RECODED TO: 71
+
+  903    COMMISSIONED OFFICERS AND WARRANT OFFICERS
+  904    NON-COMMISSIONED OFFICERS AND OTHER ENLISTED PERSONNEL
+  905    MILITARY OCCUPATION, RANK NOT SPECIFIED
+>> 2004 ETHNICITY MASTER CODE
+
+WESTERN HEMISPHERE
+     -------------
+     North America
+     -------------
+       010. American Indian or Native American; tribal mentions
+       020. Canadian; not specified as French-Canadian (03)
+       030. Canadian, of French origin
+       040. Mexican (excluding explicit mention of "Chicano",
+               "Mexican-American")
+       050. Central American
+     -----------
+     West Indies
+     -----------
+       070. Barbados
+       080. Cuban
+       090. Dominican Republic
+       100. Haitian
+       110. Jamaican
+       120. Puerto Rican
+       130. West Indian--not from one of the above countries
+       140. West Indian--NA which country
+     -------------
+     South America
+     -------------
+       160. South American--any country
+
+EUROPE
+     -------------
+     British Isles
+     -------------
+       180. English, British
+       190. Irish (not specified as from Northern Ireland, Ulster--22)
+       200. Scottish
+       210. Welsh
+       220. From Northern Ireland (Ulster)
+       230. Scot-Irish
+       240. From British Isles; from two or more countries of the
+               British Isles
+    --------------
+    Western Europe
+    --------------
+       260. Austrian
+       270. Belgian
+       280. French
+       290. German; also Pennsylvania Dutch
+       300. Luxembourg
+       310. Netherlands, Holland; Dutch
+       320. Swiss
+       330. From Western Europe; two or more countries of Western Europe
+     -----------
+     Scandinavia
+     -----------
+       350. Danish
+       360. Finn, Finnish
+       370. Norwegian
+       380. Swedish
+       390. Icelander
+       400. Scandinavian; reference to two or more Scandinavian
+               countries 
+     ---------------------------------------------------
+     Multiple - Western Europe/Scandinavia/British Isles
+     ---------------------------------------------------
+       410. Reference to two or more countries from combination of the
+               following areas:  British Isles, Western Europe,
+              Scandinavia, Mediterranean countries, Greece 
+    --------------
+    Eastern Europe
+    --------------
+       430. Czechoslovakian, Slavic
+       431. Slovakian (specific)
+       432. Czech (specific); Bohemian (part of Czech Republic)
+       433. Slovenian
+       440. Estonian
+       450. Hungarian
+       460. Latvian
+       470. Lithuanian
+       480. Polish
+       490. Russian; from U.S.S.R.     
+       500. Ukrainian
+       510. Eastern Europe; reference to two or more countries of
+               Eastern Europe
+     ----------------
+     Balkan Countries
+     ----------------
+       530. Albanian
+       540. Bulgarian
+       550. Greek
+       560. Rumanian
+       570. Yugoslavian 
+       580. Croatian
+       581. Serbian
+       582. Bosnian
+       590. Mention of two or more Balkan Countries
+     -----------------------
+     Mediterranean Countries
+     -----------------------
+       600. Italian
+       610. Portugese
+       620. Spanish
+       630. Maltese
+     -----------------
+     Multiple - Europe
+     -----------------
+       640. European; general mention of Europe; reference to two or
+                more European countries of Europe not codeable above
+
+ASIA (exc. NEAR EAST)
+       650. Pakistani
+       660. Afghan
+       670. Indian (not American Indian, code 01)
+       680. Southeast Asia--from Indochina, Thailand, Malaya, Burma,
+               Philippines, Indonesia
+       690. Chinese
+       700. Japanese; Japanese American
+       710. Korean
+       720. Asian
+
+NEAR EAST
+       730. Egyptian
+       740. Iranian, Persian
+       750. Iraqi
+       760. Israeli
+       770. Jordanian
+       780. Lebanese
+       790. Arab, Arabian, Saudi Arabian
+       800. Syrian
+       810. Turk, Turkish
+       820. Armenian
+
+AFRICA
+       830. African; from any African country excluding only Egypt
+               (U.A.R.); South African (formerly 90)
+
+OCEANIA
+       840. South Pacific Islander other than 85 (incl native Hawaiian)
+       850. Australian, New Zealander, Tasmanian
+
+ETHNIC GROUPS
+       860. White, Caucasian
+       861. 'Anglo'
+       862. Black; Negro; American Black; African American
+       863. Chicano; Mexican-American; Hispanic; Latin American
+       864. Asian-American (exc. specifically Japanese American, 70)
+
+OTHER MISCELLANEOUS
+       870. Catholic
+       871. Protestant
+       872. Jewish
+       873. Other religious groups
+       874. Other group; combinations not codeable above
+       875. 'American'; 'Just American'
+       876. Both/all of them (response to 'choice' question only)
+       877. None; neither (response to 'choice' question)
+
+
+MISSING DATA 
+       888. DK
+       889. RF
+       000. NA; no mention
+-----------------------------------------------------------------------------
+
+>> 2004 ICPSR STATE AND COUNTRY MASTER CODE
+
+UNITED STATES:
+ New England
+  -----------
+  101    Connecticut
+  102    Maine
+  103    Massachusetts
+  104    New Hampshire
+  105    Rhode Island
+  106    Vermont
+  109    General mention of area; two or more states in area
+
+ Middle Atlantic
+ ---------------
+  111    Delaware
+  112    New Jersey
+  113    New York
+  114    Pennsylvania
+  118    General mention of area; two or more states in area
+
+ Multiple - Eastern States
+ -----------------------
+  119    EAST; MENTION OF STATES IN BOTH NEW ENGLAND AND
+            MIDDLE ATLANTIC
+
+ East North Central
+ ------------------
+  121    Illinois
+  122    Indiana
+  123    Michigan
+  124    Ohio
+  125    Wisconsin
+  129    General mention of area; two or more states in area
+
+ West North Central
+ -----------------
+  131    Iowa
+  132    Kansas
+  133    Minnesota
+  134    Missouri
+  135    Nebraska
+  136    North Dakota
+  137    South Dakota
+  138    General mention of area; two or more states in area
+
+ Multiple - East and Central States
+ --------------------------------
+  139    MIDWEST; MENTION OF STATES IN BOTH EAST NORTH
+            CENTRAL AND WEST North Central
+
+ Solid South
+ -----------
+  141    Alabama
+  142    Arkansas
+  143    Florida
+  144    Georgia
+  145    Louisiana
+  146    Mississippi
+  147    North Carolina
+  148    South Carolina
+  149    Texas
+  140    Virginia
+  157    General mention of area; the South; two or more
+             states in area
+
+ Border States
+ -------------
+  151    Kentucky
+  152    Maryland
+  153    Oklahoma
+  154    Tennessee
+  155    Washington, D.C.
+  156    West Virginia
+  158    General mention of area; two or more states in area
+
+ Multiple - South and Border States
+ -----------------------------
+  159    SOUTH; MENTION OF STATES IN BOTH SOLID SOUTH AND
+            BORDER STATES
+
+ Mountain States
+ ---------------
+  161    Arizona
+  162    Colorado
+  163    Idaho
+  164    Montana
+  165    Nevada
+  166    New Mexico
+  167    Utah
+  168    Wyoming
+  169    General mention of area; two or more states in area
+
+ Pacific States
+ --------------
+  171    California
+  172    Oregon
+  173    Washington
+  178    General mention of area; two or more states in area
+
+ Multiple - Mountain and Pacific States
+ ------------------------------------
+  179    WEST; MENTION OF STATES IN BOTH MOUNTAIN STATES AND
+            PACIFIC STATES
+
+ External States and Territories
+ -------------------------------
+  180    Alaska
+  181    Hawaii
+  182    Puerto Rico
+  183    American Samoa, Guam
+  184    Panama Canal Zone
+  185    Trust Territory of the Pacific Islands
+  186    Virgin Islands
+  187    Other U.S. Dependencies
+
+ Multiple - U.S. States/Regions or NA State/Region
+ -----------------------------------------------
+ Reference to Two or More States from Different Regions of
+ the United States; or NA Which State
+  191    Northeast and South (New England or Middle Atlantic
+            and Solid South or Border States)
+  192   Northeast and Midwest (New England or Middle
+           Atlantic and East North Central or West North
+          Central)
+  194   West (Mountain States or Pacific States) and
+           Midwest; West and Northeast
+  195   West and South (Solid South or Border States)
+  196   Midwest and South
+  198   Lived in 3 or more regions (NA whether lived in one
+            more than the rest)
+  199   United States, NA which state
+
+WESTERN HEMISPHERE Except U.S.
+
+ North America
+ -------------
+  201    North America (except U.S.) comb. Canada, Mexico,
+            and/or Central America
+  207   Canada -- ancestry of Anglo-Saxon origin
+  208   Canada -- ancestry of French origin
+  209   Canada -- NA origin or other origin
+  219   Mexico
+  229   Central America
+
+ West Indies (except Puerto Rico and Virgin Islands)
+ --------------------------------------------------
+  231    Barbados
+  232    Cuba
+  233    Dominican Republic
+  234    Haiti
+  235    Jamaica
+  236    Netherlands Antilles
+  237    Trinidad and Tobago
+  238    Islands of Lesser Antilles--except Virgin Islands
+            and Netherlands Antilles
+  239    West Indies (except Puerto Rico and Virgin Islands)
+            or "Caribbean"--reference to two or more West
+           Indian countries
+
+ South America
+ -------------
+  259    South America; South American country or countries
+
+EUROPE
+
+ British Isles
+ -------------
+  301    England
+  302    Ireland (NA North or South); southern Ireland
+  303    Scotland
+  304    Wales
+  305    Northern Ireland (Ulster)
+  306    Scot-Irish
+  308    United Kingdom; Great Britain
+  309    "BRITISH ISLES"; GENERAL MENTION OF AREA; REFERENCE
+            TO TWO OR MORE COUNTRIES OF THE BRITISH ISLES
+
+ Western Europe
+ --------------
+  310    Austria
+  311    Belgium
+  312    France
+  313    Federal Republic of Germany (W. Germany)
+  314    German Democratic Republic (E. Germany)
+  315    Germany--NA East or West
+  316    Luxembourg
+  317    Netherlands; Holland
+  318    Switzerland
+  319    "WESTERN EUROPE"; GENERAL MENTION OF AREA;
+            REFERENCE TO TWO OR MORE COUNTRIES OF WESTERN
+            EUROPE
+
+ Scandinavia
+ -----------
+  321    Denmark
+  322    Finland
+  323    Norway
+  324    Sweden
+  325    Iceland
+
+ Multiple - Western Europe and Scandinavia
+ ---------------------------------------
+  328    GENERAL MENTION OF AREA OF WESTERN EUROPE AND/OR
+            SCANDINAVIA AND/OR BRITISH ISLES AND/OR
+            MEDITERRANEAN COUNTRIES AND/OR GREECE; REFERENCE
+            TO TWO OR MORE COUNTRIES IN DIFFERENT AREAS LISTED
+            ABOVE
+
+ Scandinavia General
+ -------------------
+  329    "SCANDINAVIA"; GENERAL MENTION OF AREA; REFERENCE
+            TO TWO OR MORE SCANDINAVIAN COUNTRIES
+
+ Eastern Europe
+ --------------
+  331    Czechoslovakia (Slavic)
+  332    Estonia
+  333    Hungary
+  334    Latvia
+  335    Lithuania
+  336    Poland
+  337    Russia (or U.S.S.R.)
+  338    Ukraine
+  339    "EASTERN EUROPE"; GENERAL MENTION OF AREA;
+            REFERENCE TO TWO OR MORE COUNTRIES OF EASTERN
+            EUROPE
+
+ Balkan Countries
+ ----------------
+  341    Albania
+  342    Bulgaria
+  343    Greece
+  344    Rumania
+  345    Yugoslavia
+  348    General mention of area; reference to two or more
+            Balkan Countries
+  349    "BALKANS"; GENERAL REFERENCE OF AREA; REFERENCE TO
+            COUNTRIES IN EASTERN EUROPE AND BALKAN COUNTRIES
+
+ Mediterranean Countries
+ -----------------------
+  351    Italy
+  352    Portugal
+  353    Spain
+  354    Malta or Gozo
+
+ Multiple and General - Europe
+ -----------------------------
+  399    "EUROPE"; GENERAL MENTION OF AREA; REFERENCE TO TWO
+            OR MORE COUNTRIES OF EUROPE IN DIFFERENT AREAS
+
+ASIA  except Near East
+  401    Afghanistan
+  403    Bangladesh
+  404    India
+  405    1990: Pakistan
+  406    Pakistan
+  428    Southeast Asia:  Indochina, Thailand, Malaya,
+            Burma, Philippines, Indonesia; Hong Kong, Laos
+  431    China (mainland)
+  432    1990: Taiwan, Formosa
+  434    Taiwan, Formosa
+  451    Japan
+  452    Korea (North or South)
+  499    "ASIA"; GENERAL MENTION OF AREA; REFERENCE TO TWO
+            OR MORE COUNTRIES OF ASIA
+
+NEAR EAST
+  501    U.A.R. (Egypt)
+  502    Iran
+  503    Iraq
+  504    Israel (or Palestine)
+  505    Jordan
+  506    Lebanon
+  507    Saudi Arabia
+  508    Syria
+  509    Turkey
+  599    "NEAR EAST"; "MIDDLE EAST"; GENERAL MENTION OF
+             AREA; REFERENCE TO TWO OR MORE COUNTRIES OF NEAR
+            EAST
+
+AFRICA
+  655    South Africa
+  699    Africa; any African country or countries, excluding
+            only South Africa and U.A.R. (Egypt)
+
+OCEANIA
+  704    Australia, New Zealand, Tasmania
+  705    South Pacific islands (exc. 704)
+
+OTHER:
+  800    Other (combinations) not codeable elsewhere
+  888    DK
+  889    RF
+  000    NA
+------------------------------------------------------------------------------
+
+>> 2004 MOST IMPORTANT PROBLEM MASTER CODE
+
+
+*   indicates new or amended code in 2004
+!! indicates "other" codes
+
+***Code only one mention. If multiple mentions are given then code the first.
+Code second, third, or fourth mention as most important ONLY if the term 
+"most" or similar adjective is used to describe the issue.  This is for 
+NESPost04 only.
+
+SOCIAL WELFARE PROBLEMS
+
+
+     001. General reference to domestic issues; repairing/
+              maintaining the nation's infrastructure (roads, bridges, dams,
+              etc)
+
+     005. POPULATION; any mention of population increase; reference to
+              over-population/birth control
+
+     006. DAY CARE; child care
+
+     010. UNEMPLOYMENT; the number of people with jobs; unemployment
+              rate/compensation; job retraining
+
+     013. CREATE JOBS/RECRUIT INDUSTRY in specific area/region/ state
+
+*     020. EDUCATION; financial assistance for schools/colleges/
+                students; quality of education/the learning
+                environment/teaching; the high cost of college
+
+*     030. AGED/ELDERLY; social security benefits; administration
+               of social security; medical care for the aged; medicare
+               benefits; insuring against catastrophic illness;
+               prescription drug program for elderly (Must say Medicare or 
+               Elderly/Aged healthcare, otherwise code under 040.)
+
+     035. Social Security won't be around in the future; paying into a system
+             which won't benefit me/them
+
+     040. HEALTH PROBLEMS/COST OF MEDICAL CARE; quality of medical care;
+             medical research/training of doctors and other health personnel;
+             hospitals; National Health insurance program
+
+     045. Located after 330
+     046. Located after 383
+
+*     048. Other specific references to health problems; AIDS; Stem cell 
+                research, biologic research
+
+     050. HOUSING; providing housing for the poor/homeless; ability of young
+             people to afford to buy homes/find homes to buy
+
+     060. POVERTY; aid to the poor/underprivileged people; help for the
+             (truly) needy; welfare programs (such as ADC); general reference
+             to anti-poverty programs; hunger/help for hungry people in 
+             the U.S.
+
+     090. SOCIAL WELFARE PROBLEMS; "welfare"--NFS
+
+     091. For general or other social welfare programs; "we need to help
+             people more"
+
+     092. Against general or other social welfare programs; "too many give
+             away programs for the people who don't deserve it"; for welfare
+             reform
+
+!!   099.  Other specific mentions of social welfare problems
+
+
+AGRICULTURE
+
+     100. FARM ECONOMICS; payment for crops/price of feed/cost of farming
+
+     103. SUBSIDIES/crop payments/government aid to farmers
+
+     120. WORLD FOOD PROBLEMS; food shortages/starvation/famine 
+              (not 406 or 407)
+
+
+NATURAL RESOURCES
+
+
+     150. CONSERVATION OF NATURAL RESOURCES; conservation,
+              ecology; protecting the environment/endangered species
+
+     151. Controlling/REGULATING GROWTH or land development; banning further
+              growth/development in crowded or ecologically sensitive areas;
+              preserving natural areas
+
+     153. POLLUTION; clean air/water
+
+     154. Disposal of RADIOACTIVE/TOXIC waste (dumps, landfills)
+
+     160. DEVELOPMENT OF NATURAL RESOURCES /ENERGY SOURCES; 
+              harbors, dams, canals, irrigation, flood control, navigation,
+              reclamation; location, mining, stock-piling of minerals; water
+              power, atomic power; development of alternative sources of
+              energy(includes mentions of solar or nuclear power)
+
+!!   199. Other specific mentions of agriculture or natural resources problems
+
+
+
+LABOR PROBLEMS:  UNION-MANAGEMENT RELATIONS
+
+
+     200. LABOR/UNION PROBLEMS; union practices; job security provided
+              workers; job safety issues; working conditions
+
+     220. Anti-union; unions too powerful
+
+!!   299. Other specific mention of labor or union-management problems
+
+RACIAL PROBLEMS
+
+     300. CIVIL RIGHTS/RACIAL PROBLEMS; programs to enable Blacks
+              to gain social/economic/educational/political equality;
+              relations between Blacks and whites
+
+     302. PROTECTION (expansion) OF WHITE MAJORITY; maintenance of
+              segregation; right to choose own neighborhood; right to
+              discriminate in employment
+
+     304. Discrimination against whites; preferred treatment given 
+              to minorities
+
+TECHNOLOGY
+
+     310. Technology; mentions that are specific to technology;
+              e.g., the Year 2000 computer (Y2K) problem
+
+PUBLIC ORDER PROBLEMS
+
+     320. NARCOTICS; availability of drugs; extent of drug/alcohol addiction
+              in the U.S.; interdiction of drugs coming to the U.S. from
+              foreign countries; alcohol or drug related crime; drug laws
+
+     330. WOMEN'S RIGHTS; references to women's issues; economic equality for
+              women; ERA
+
+     045. PRO-ABORTION; pro-choice; the right of a woman to control her body
+
+     340. CRIME/VIOLENCE; too much crime; streets aren't safe; mugging,
+              murder, shoplifting; drug related crime
+
+     360. LAW AND ORDER; respect for the law/police; support for the police;
+              death penalty; tougher sentences for criminals; need for more
+              prisons
+
+*     361. Legal reform; Tort reform--general (for mentions regarding specific 
+                issues, see specific issue); see also Adhering to the
+                Constitution(code 850)
+         
+     363. Police brutality; police not doing their job properly  
+
+     367. Against unregistered ownership of guns; legislative control of guns;
+             "CONTROL OF GUNS"-NFS
+
+     368. For gun ownership; right to have guns; against gun control
+
+*     370. EXTREMIST GROUPS/TERRORISTS; terrorist bombings/hostage-taking;
+                political subversives; revolutionary ideas/approaches;
+                Homeland Security mentions; the war against Al Quaeda; Islamic
+                terrorists or extremists
+
+     375. Euthenasia; right to die
+
+     380. General mention of MORAL/RELIGIOUS DECAY (of nation); sex, bad
+              language, adult themes on TV
+
+     381. Family problems--divorce; proper treatment of children; decay of
+              family (except 006); child/elder abuse (incl. sexual); family
+              values
+
+     046. ANTI-ABORTION; pro-life; "abortion"--NFS
+
+     383. Problems of/with YOUNG PEOPLE; drug/alcohol abuse amoung young
+              people; sexual attitudes; lack of values/ discipline; mixed-up
+              thinking; lack of goals/ambition/sense of responsibility
+
+     384. Religion (too) mixed up in politics; prayer in school
+
+*     385. HOMOSEXUALITY; protecting civil rights of gays and lesbians;
+                accepting the lifestyle of homosexuals; granting homosexual
+                couples the same rights and benefits as heterosexual couples, 
+                gay marriage (gays in the military go under code 765)
+
+!!   399. Other specific mention of racial or public order problems; other
+               mention of domestic issues
+
+ECONOMIC AND BUSINESS PROBLEMS
+
+     If R mentions both "inflation" (400) and rise in prices of specific items
+     (407-409), code "Inflation" (400).  (See also 496.)
+
+     400. INFLATION; rate of inflation; level of prices; cost of living
+
+     401. WAGE AND PRICE CONTROLS/GUIDELINES; freezing prices; control of
+              business profits
+
+     403. High price of food, all mentions (exc. 100)
+
+     404. High price of other specific items and services
+
+     405. MINIMUM WAGE, any mention; any mention of wage levels
+
+     407. Food shortages; economic aspects of food shortages, e.g., price of
+              sugar (other references, code 120)
+
+*     408. Fuel shortages; "energy crisis"; oil companies making excessive
+                profits; depressed condition of the oil industry; high price
+                of gasoline(do not use code 404 for gas) 
+
+*     410. RECESSION, DEPRESSION; prosperity of the nation; economic 
+                growth; GNP (see code 496 for "the economy")
+
+     411. MONETARY RESTRAINTS/CONTROLS; level of interest rates; availability
+              of money/the money supply
+
+
+     413. Future vision of what America will be like; a need to look to the
+              future
+
+
+     415. Against (increased) government spending; balancing of the (national)
+              budget; against government stimulation of the economy; the size
+              of the budget deficit
+
+     416. TAXES; general reference to tax structure; tax surcharge (NA R's
+              direction); tax reform; other specific tax reference
+
+     417. For tax cuts; against tax surcharge; for tax reform
+
+     418. Against tax cuts; for tax surcharge; against tax reform
+
+     424. PRODUCTIVITY of American industry; "giving a day's work for a day's
+              pay"; revitalizing American industry
+
+     425. STOCK MARKET/GOLD PRICES; all references to gold prices, stock
+              brokers, stock fluctuations, etc.
+
+     427. VALUE OF THE DOLLAR; strength/weakness of the dollar against other
+              currencies
+
+     433. Large businesses taking over small businesses
+
+*     434. Corruption in corporate settings. Fraud, greed, mismanagement of 
+                corporate assets.
+
+     440. Class oriented economic concerns--middle class, working class (pro);
+              MIDDLE CLASS GETTING SQUEEZED
+
+     441. Class oriented economic concerns--big business, monied interests
+              (anti) too powerful
+
+     442. Concern for inequitable distribution of wealth; gap between the rich
+              and the poor; concentration of wealth in the hands of a few
+
+     451. For the regulation of interstate commerce, transportation, air
+              travel, railways, government auto safety regulations; in favor
+              of increased government regulation of business; mention of 
+              problems caused by deregulation 
+
+     452. Against (increased) regulation of interstate commerce,
+              transportation; AIR TRAVEL, RAILWAYS, etc.
+
+     453. Solvency/stability/regulation/control of the nation's
+              FINANCIAL INSTITUTIONS.  [1990] Savings and Loan scandal
+
+     460. IMMIGRATION POLICY; establishing limits on how many people from any
+             one nation can enter the U.S.; prohibiting specified types of
+             persons from entering the U.S. (All mentions of Elian Gonzales or
+             "the Cuban child" go here.  If power of Federal government
+             mentioned, see codes 801 and 887.)
+
+     463. Problems relating to the influx of political/economic
+              refugees (Cubans, Haitians, Mexicans, etc.)
+
+     491. Economics--general; "Economics"--NFS
+
+     492. International economics--general; economic problems in
+             specific countries or regions
+
+     493. U.S. foreign trade, balance of payments position;
+              foreign oil dependency
+
+     494. Control of FOREIGN INVESTMENT IN U.S.; mention of foreigners buying
+              U.S. assets (businesses, real estate, stocks, etc)
+
+     495. PROTECTION OF U.S. INDUSTRIES; imposition of tariffs/reciprocal
+              restrictions on foreign imports; limitation of foreign imports;
+              mention of problems in specific industries competin with foreign
+              manufacturers
+
+     496. The economy--not further specified (code specific mention if R
+              clarifies by saying "inflation", etc.; also see 400)
+
+     497. International competitiveness; outsourcing; loss of jobs
+             to foreign competition; moving jobs abroad; modernizing
+             plants/equipment/management techniques to meet foreign
+             competition; matching the quality of foreign goods 
+
+     498. Mention of "twin problems" of a large national debt/
+              budget deficit and unfavorable balance of trade/import-export
+              ratio
+
+!!   499. Other specific mention economic or business problems
+
+FOREIGN AFFAIRS
+
+     500. FOREIGN RELATIONS/FOREIGN AFFAIRS; foreign
+              policy/relations, prestige abroad
+
+     504. Relations with the Third World (no specific country or region
+              mentioned)
+    
+     505. Relations with WESTERN EUROPE; Great Britain, France, Germany; 
+             our allies
+
+*    507. U.S. Foreign policy actions without UN or allied approval.  
+               Unilateral action by the U.S.; less concern about world opinion
+
+     510. VIETNAM; general reference to "the war," Indochina, Cambodia; aid
+
+     514. Latin America, South America--any references; reference
+              to war/situation in Nicaragua; U.S. support of the Contras
+
+     515. Iran; mention of American hostages in Teheran; arms deal 
+
+     516. African countries; developing areas in Africa (not 518)
+              --any mention; U.S. response to apartheid in South Africa
+
+     519. Other specific countries/areas/trouble spots (exc. 520's, 530's)
+
+*     524. MIDDLE EAST-- support or aid to Israel/Arab states; Arab/Israeli
+                conflict; Iran-Iraq war; hostages in Lebanon/Middle East.
+                [1990]Iraqi aggression in the Persian Gulf ; Saddam Hussein; 
+                war in/occupation of Iraq
+
+*     525. The U.S. occupation of Iraq; the war to topple Saddam Hussein
+
+*     527. Clash of religions; Christianity and Islam in conflict (code 
+                Islamic terrorists under 370).
+
+     530. RUSSIA/Eastern Europe; relations with Russia/the Communist bloc;
+              detente/trade/negotiations with Russia-- NA whether 531 or 532
+
+     531. For PEACEFUL RELATIONS with Russia/Detente/Eastern
+             Europe; for increased TRADE with Russia; talking/
+             resuming negotiations with Russia on arms control/
+             reduction (reaching/concluding a treaty is 711)
+
+     532. Against policy of Detente with Russia; COLD WAR; threat
+             of external Communism; need to oppose/be wary of Russia 
+
+     533. Prevention of Russian (Communist) expansion; mention of
+             Soviet invasion and occupation of Afghanistan-- any
+             reference; references to Soviet activity in Central
+             America/Nicaragua)
+
+     535. US/NATO involvement in the Balkans; US/NATO led air war to 
+              contain Serbia
+
+     539. Other specific references to Russia/Detente/Eastern Europe, etc.
+             (including changing site/boycotting 1980 Moscow Olympics); threat
+             of/preventing war with Russia (exc. 714)
+
+     540. FIRMNESS IN FOREIGN POLICY; maintenance of position of
+             MILITARY/DIPLOMATIC STRENGTH (not 710-712)
+
+*     550. U.S. FOREIGN (MILITARY) INVOLVEMENT/COMMITMENT, extent of U.S. 
+               Foreign involvement; military assistance/aid (exc. 524 and 525)
+
+     560. U.S. FOREIGN (ECONOMIC) INVOLVEMENT/COMMITMENTS; extent
+              of U.S.(foreign) economic aid; "foreign aid"
+
+*     570. Prevention of war; ESTABLISHMENT OF PEACE; any reference (war
+                in Iraq coded as 525)
+
+     585. Obligation to TAKE CARE OF PROBLEMS AT HOME before
+              helping foreign countries
+
+!!   599. Other specific mention of foreign affairs problems
+
+
+NATIONAL DEFENSE
+
+     700. NATIONAL DEFENSE; defense budget; level of spending on defense
+
+
+*     710. DISARMAMENT; general reference to ENDING OF THE ARMS RACE; 
+                test ban treaty (not 540); SALT; INF treaty
+
+     711. For DISARMAMENT; for extension of test ban treaty; support toward
+              ending of arms race; against (additional) expenditures on
+              military/arms development; SALT; SDI ("Star Wars"); INF treaty
+
+     712. Against (increased) policy of DISARMAMENT; against test ban treaty;
+             for additional WEAPONS DEVELOPMENT; missile program; 
+             scientific/technological development in weapons/strategy; atomic
+             bomb testing; increased DEFENSE BUDGET, increased arms
+             expenditure(not 540); SALT; increased pay for military personnel; 
+             SDI ("Star Wars"); INF treaty
+
+     713. General or specific references to functioning and performance of
+             defense; waste, inefficiency (not codable in 710-712)
+
+*     714. Nuclear war; the threat of nuclear war; nuclear proliferation; the
+                growing number of minor nuclear powers
+
+     715. Security of nuclear secrets; Dept of Energy/Los Alamos
+              nuclear security; Wen Ho Lee or Energy Secretary Richard
+              compromising security; supposed Chinese spying
+
+     740. The space program; space race (not 711,712)
+
+     750. MORALE OF NATION; Patriotism; National spirit; national
+              unity; greed, selfishness of people
+
+     760. BENEFITS FOR VETERANS; general reference
+
+*     765. Allowing/accepting GAYS IN THE MILITARY (see code 385 for
+               gay rights)
+
+!!   799. Other specific mention of national defense problems
+
+ISSUES RELATING TO THE FUNCTIONING OF GOVERNMENT
+
+     800. POWER OF THE (FEDERAL) GOVERNMENT; power of/control
+              exercised by the federal government 
+
+
+     810. (LACK OF) HONESTY IN GOVERNMENT; (LACK OF) ETHICS IN
+              GOVERNMENT--general reference (exc. 811)
+
+     811. LACK OF PERSONAL ETHICS/morality of persons related to
+              or part of government
+
+     812. The President lied/didn't tell the truth; covered up
+               personal involvement with a young woman (also see more
+              general code 874)
+
+     813. The President has low morals; had affair with a young
+              woman (also see more general code 874)
+
+
+     820. CAMPAIGN DONATIONS/PUBLIC FINANCING OF ELECTIONS; any
+              mentions; campaign finance reform
+
+
+     830. CONFIDENCE/TRUST in political leaders/system; wisdom,
+              ability, responsiveness of political leaders; quality of
+              leadership provided by political leaders
+
+
+     833. QUALITY/EFFICIENCY of public employees, diplomats, civil
+              service; SIZE OF THE GOVERNMENT BUREAUCRACY; COST OF
+              GOVERNMENT
+
+
+     836. COMPENSATION; all references to the compensation of
+              government employees, officials, congressmen, judges,
+              local politicians/bureaucrats
+
+*     837. Waste in government spending; keeping tabs on where money goes; 
+                pork barrel legislation
+
+     838. Government BUDGET PRIORITIES are wrong; Congress/President is
+              spending money in the wrong areas/not spending money on 
+              the right things
+
+
+     840. SIZE OF FEDERAL GOVERNMENT; the (large) size of government/civil
+              service/bureaucracy; the number of government
+              departments/employees/programs
+
+*     850. Adhering to the Consitution (see also legal reform, code 361, and 
+                also 887)
+
+     853. POWER OF CONGRESS--general reference
+
+     856. POWER OF THE SUPREME COURT, all other references to the
+              Supreme Court except 857, 858
+
+     859. Other specific references to the (federal) balance of
+              power; legislative gridlock in Washington
+
+     862. FAIR ELECTION PROCEDURES; prevention of vote
+              manipulation; curbing of political "bosses", smear campaigns
+
+     869. Other specific references to problems of representation;
+              term limitations for members of Congress
+
+     874. Lack of support for the President; any anti-President
+              comments, negative reference to the PRESIDENT's quality,
+              style, etc. (also see codes 812, 813)
+
+     875. Impeachment proceeding; mention of the Special
+             Prosecutor; Republicans attempting to get the President
+             out of office/Democrats attempting to keep the President
+             in office (also see codes 812, 813)
+
+     878. Mention of a specific CANDIDATE or relative of a candidate -- NFS 
+
+     881. New president/administration getting started; other
+              references specific to the President; support for the
+              President; "let him get on with his job"
+
+     885. PUBLIC APATHY/disinterest--all references
+
+     886. References to unfair/undeserved/excessive criticism by the media. 
+              All media mentions should go here: "The news can't be trusted"
+
+*    887. Extending/protecting EQUAL RIGHTS, basic freedoms, human
+               rights of all citizens; protecting the Bill of Rights
+
+!!   899. Other specific mention of problems relating to the functioning of
+               government
+
+NON-POLITICAL PROBLEMS
+
+!!   990. Other specific mentions of important problems
+
+     995. "There were no issues"; "there were no issues, just party politics"
+                         
+     996. "There was no campaign in my district"
+
+
+     998/888. DK
+     999/999. NA
+
+     000. Inap, no further mention; no problems
+
+------------------------------------------------------------------------------
+
+         
+                     
+   

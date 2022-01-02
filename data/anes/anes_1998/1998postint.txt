@@ -1,0 +1,2691 @@
+Version 03 Codebook
+-------------------
+CODEBOOK INTRODUCTION FILE
+1998 POST-ELECTION STUDY (1998.T)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 AMERICAN NATIONAL ELECTION STUDY, 1998
+
+
+
+
+
+
+             
+
+
+                               CODEBOOK
+
+
+
+
+
+
+
+
+
+
+
+
+                     Center for Political Studies
+                     Institute for Social Research
+                      The University of Michigan
+
+
+
+
+
+BIBLIOGRAPHIC CITATION
+
+
+Sapiro, Virginia, Steven J. Rosenstone, and the National Election Studies.
+NATIONAL ELECTION STUDIES, 1998: POST-ELECTION STUDY [dataset]. Ann Arbor, MI:
+University of Michigan, Center for Political Studies [producer and
+distributor], 1999.
+
+These materials are based on work supported by the National Science Foundation
+under Grant Nos. : SBR-9707741, SBR-9317631, SES-9209410, SES-9009379, 
+SES-8808361, SES-8341310, SES-8207580, and SOC77-08885.
+
+Any opinions, findings and conclusions or recommendations expressed in these
+materials are those of the author(s) and do not necessarily reflect those of
+the National Science Foundation.
+               TABLE OF CONTENTS
+
+
+      Note: >> sections in the codebook introduction and 
+            codebook appendix can be navigated in the
+            machine-readable files by searching ">>" .
+
+
+
+
+INTRODUCTORY MATERIALS  (File INT1998.CBK)
+----------------------
+>> INTRODUCTION:  1998 STUDY DESCRIPTION
+>> 1998 SURVEY CONTENT AND ADMINISTRATION
+>> 1998 SAMPLING INFORMATION
+>> 1998 WEIGHT DOCUMENATION
+>> 1998 SAMPLING ERROR
+>> NOTES ON CONFIDENTIAL VARIABLES
+>> 1998 FILE STRUCTURE AND INFORMATION
+>> 1998 CODEBOOK INFORMATION
+>> 1998 PROCESSING INFORMATION
+>> NES STAFF AND TECHNICAL PAPERS, 1998
+>> NES 1997 PILOT STUDY REPORTS
+>> 1998 VARIABLE DESCRIPTION LIST
+
+
+VARIABLE DOCUMENTATION   (File NES1998.CBK)
+----------------------
+  1998 variables
+
+
+APPENDIX MATERIALS    (File APP1998.CBK)
+------------------
+1998 MASTER CODES:
+    >> 1998 TYPE OF RACE
+    >> 1998 CANDIDATE NUMBERS
+    >> 1998 PARTY-CANDIDATE
+    >> 1998 MOST IMPORTANT PROBLEMS
+    >> 1998 PARTY DIFFERENCES
+    >> 1998 RELIGIOUS IDENTIFICATION
+    >> 1998 OCCUPATION CODE (1990 CENSUS)
+    >> 1998 INDUSTRIAL CLASSIFICATION SYSTEM (1990 CENSUS)
+    >> 1998 ETHNICITY/NATIONALITY
+>> 1998 CENSUS DEFINITIONS - 1990 CENSUS
+>> 1998 FREQUENCY ADDENDUM
+
+
+
+
+
+
+>>  INTRODUCTION: 1998 STUDY DESCRIPTION
+
+The NES/CPS American National Election Study 1998 was
+conducted by the Center for Political Studies of the
+Institute for Social Research, under the general direction
+of Principal Investigators Virginia Sapiro and Steven Rosenstone.
+Kathy Cirksena was the Project Manager and Michael Horvath was
+the Study Manager for the National Election Studies. 
+
+This is the twenty-fifth in a series of studies of American
+national elections produced by the Center for Political Studies and
+the Survey Research Center. It is the eleventh such study to be
+conducted under the auspices of National Science Foundation
+Grants providing long-term support for the National Election
+Studies.  The 1998 National Election Study was funded under 
+grant number SBR-9707741.  
+
+Since 1978 the NES election studies have been designed under the 
+supervision of a National Board of Overseers.  Board members during 
+the planning of the 1998 National Election Study included: Larry 
+Bartels, Princeton University; Gary Cox, University of California,
+San Diego; Charles Franklin, University of Wisconsin - Madison; 
+Robert Huckfeldt, Indiana University; Jon Krosnick, Ohio
+State University; David Leege, University of Notre Dame; Warren 
+E. Miller, Arizona State University, ex officio; Wendy Rahn,
+University of Minnesota; W. Phillips Shively, University of
+Minnesota; Laura Stoker, University of California, Berkeley; 
+and John Zaller, the University of California at Los Angeles.
+
+As part of the planning process, a special planning
+committee was appointed, a pilot study conducted, and
+stimulus letters sent to the members of the scholarly
+community soliciting input on study plans.  The 1998 Study
+Planning Committee, chaired by Wendy Rahn, University of
+Minnesota, included Larry Bartels, Princeton University;
+Gary Jacobson, University of California, San Diego;  William Jacoby,
+University of South Carolina; Kimberly Kahn, Arizona State
+University; David Leege, University of Notre Dame; Sam Popkin, 
+University of California, San Diego; Virginia Sapiro, 
+University of Wisconsin - Madison; Laura Stoker, University 
+of California, Berkeley.
+
+A pilot study was carried out in September of 1997 for the
+purpose of developing new instrumentation for the 1998
+Election Study.  New or improved items were tested in the
+areas of mobilization and non-electoral participation,
+group-based politics, response latency, and religion and
+politics.  Data from the 1997 Pilot Study are available through 
+the Inter-university Consortium for Political and Social 
+Research (ICPSR 2282), or from the NES web site
+(www.umich.edu/~nes).  Results from the pilot study (as 
+summarized in Pilot Study Reports which are listed in this 
+codebook) were used by the Planning Committee in formulating
+recommendations to the Board about study content for the 1998
+Election Study.
+
+The Principal Investigators, Board of Overseers, and project staff
+note with sadness that this is the last National Election Study 
+with which Warren E. Miller was associated before his death in
+February, 1999. 
+He was a leader in every study from 1952 on, and he shepherded the 
+transformation of these studies into a national social science
+resource.  His important work lives on.
+
+
+>>  1998 SURVEY CONTENT AND ADMINISTRATION
+
+SURVEY CONTENT
+
+The Board of Overseers balanced a number of considerations in 
+selecting content for the Post-Election Survey. There was, as always, 
+the necessity of maintaining continuity with past surveys.  All 
+congressional time-series items were evaluated by the Board, and 
+input was solicited from the research community about whether each 
+should be used for the 1998 Study.
+
+The items that fall into the time-series, or "core" category, are:  
+campaign attention; media exposure; House candidate recall; feeling
+thermometer ratings of congressional candidates and groups; likes and 
+dislikes of congressional candidates; registration and turnout; vote 
+for Representative, Senator and Governor; Presidential traits and 
+affects; Presidential performance items; most important problem; 
+campaign activities; system support and efficacy items; approval of
+performance of Congress; House Representative performance rating; 
+incumbency status of House Candidates; retrospective and prospective 
+economic evaluations (national and individual); strength of the US 
+position in the world and isolationism; liberal-conservative scale 
+ratings of self, President and parties; party identification; 
+interest in politics and public affairs; how often Respondent 
+discusses politics; political knowledge/recognition items; seven- 
+point issue scales with placements; views on abortion, school prayer 
+and the death penalty; items of moral traditionalism and egalitarianism;
+measures of religiosity; and the standard and extensive battery of 
+demographic questions.
+
+A number of questions are new or relatively new to the Study.  Some 
+came from the piloting work described above-- e.g., the Congressional 
+Traits section (allowing comparative evaluation of the president and
+congress), Role of Religion and Religious Institutions in Society and
+Politics, and the question on late-term abortions. This survey also 
+included a range of items relating to the the Clinton-Lewinsky scandal, 
+and some new questions on key issues, such as school vouchers, foreign
+imports, and immigration.
+
+It should be noted that the impeachment of President Clinton occurred 
+during the field period.
+
+SURVEY ADMINISTRATION: MIXED-MODE STRATEGY
+
+NES election studies are traditionally based on personal rather
+than telephone interviewing in order to preserve the quality of
+sampling and survey response. Given questions that have been 
+raised within the research community about the relatively high
+expense of face-to-face interviewing compared with the more
+widely-used telephone mode, the NES Board of Overseers authorized
+a series of efforts to investigate possibilities for maximizing 
+the use of telephone interviewing. The 1996 Post-Election Study
+included a mode experiment, in which cases were assigned to 
+either telephone or face-to-face mode at the sample segment level.
+Every effort to retain randomly assigned cases in their assigned
+mode in that study. In 1998 a panel of experts was assembled by the
+Board to investigate the results of that mode experiment as well
+as other empirical evidence available to determine their
+implications for future administration of NES studies. That panel
+will report to the Board during 1999. In the interim, the Board
+of Overseers authorized the 1998 Election Study to be conducted in
+a "mixed mode" to maximize telephone interviewing without accepting
+the sacrifices in quality of sampling coverage that result from
+random digit dialing strategies.  
+
+
+SURVEY ADMINISTRATION: CONTACT AND CANDIDATE INFORMATION
+
+NES and DST collaborated to develop a set of contact protocols 
+to most efficiently utilize this mixed mode strategy.  Initial 
+face-to-face contact was made with as many respondents and informants
+as possible.  During this initial contact, interviewers attempted 
+to complete the screening and household listing at the doorstep 
+and to make an appointment to conduct a telephone interview with
+the selected respondent.  Interviewing materials, such as the 
+Respondent Book and Ballot Card were left for the respondent at 
+this time.  If a respondent was unable or unwilling to do an interview 
+by telephone, arrangements were made to conduct the interview 
+face-to-face.
+
+Candidate information (names, gender and candidate codes) were 
+"pre-loaded" into the application to be used during the interview.  
+The pre-loaded information is included in the released data.  However,
+since paper candidate lists are no longer utilized as field materials, 
+there is no "Candidate List" appended to this codebook, although the 
+term 'Candidate List' continues to be used in the codebook as a reference 
+to the candidate information available to the interviewer (CAPI preload).
+
+
+RESPONSE RATE
+
+Final result codes for the total sample were used to calculate two kinds
+of response rates as presented in the table below.  The summary response 
+rate (the ratio of completed interviews to the total number of potential
+respondents) for the study was 63.9%.  The completion rate (the ratio of 
+cases in which some responsible member of the housing unit was reached 
+to the total number of potential respondents) for the study was 92.1%.
+(Note: Result codes for the full sample are included in the Study
+nonresponse or 'bias' file.)
+
+The administration of this survey posed special difficulties that 
+will require further investigation, and will be the subject of
+future technical reports. Budgetary restrictions required that the
+target number of interviews (1,500) be lower than was the case in
+previous studies. In the end, the response rate was somewhat lower
+than NES has experienced in the past for a number of reasons. The
+mixed-mode strategy creates some inefficiencies in data collection.
+Increases in the number of locked buildings, gated communities, 
+and seasonally-occupied dwelling units affected response rate.
+Finally, it is likely that interviewing during the time period 
+that encompassed the presidential impeachment and related scandal
+news reduced people's willingness to respond to political surveys.
+The response rate difficulties became apparent early in the field
+period. The field and study staff implemented a number of 
+strategies to bolster response rates, including using the most
+experienced interviewers possible, and raising the respondent
+incentives. At the outset of the field period, the respondent
+incentive was $10. On November 25 it was raised to $30, and on
+December 4 it was raised to $50. Two options for increasing the
+number of interviews were rejected. First, no additional sample
+lines were added because, while this would have increased the number
+of respondents, it would have also lowered the response rate. Second,
+although in some past studies the field period has been extended into 
+the new year to allow the interviewers to pursue the remaining resistant
+cases, in 1998, given the likely effects of the impeachment of the 
+President on the quality of election-related survey responses, especially 
+in light of the likely per case expense, this option was not taken.
+
+              FIELD ADMINISTRATION INFORMATION
+
+                Response Rate:            63.9%
+
+               Completion rate:           92.1%
+               
+      Avg. Length of Interview:           65.9 min
+
+            No. of Respondents:           1281
+
+
+        The response rate is calculated as:
+               IWS/(Sample N)-(NER+NS)
+        The completion rate is calculated as:
+               (Sample N-(NC+NS+NER))/Sample N -(NS+NER)
+
+        where  NS = Nonsample
+              NER = No Eligible respondent
+              IWS = Total interviews
+               NC = No Contact.
+
+
+WEIGHTING
+
+The 1998 Post-Election Study data include analysis weight V980002.
+This weight was created for the primary purpose of correcting for under-
+representation in study data of younger and less-educated respondents,
+and is post-stratified to match the Current Population Study (CPS) estimate
+of the distribution of age group by education level. It is the product
+of a within-household selection weight, a household-level nonresponse
+adjustment factor, and the person-level post-stratification factor already
+described.  The nonresponse adjustment factor compensates for differential
+response rates by Census Region and metropolitan status.  Full information
+about construction of the weight is found in the section "1998 WEIGHT
+DOCUMENTATION".
+
+>> 1998 SAMPLING INFORMATION
+
+
+                         Sampling Section
+                      Survey Research Center
+                  Institute for Social Research
+                      University of Michigan
+                            March 1999
+
+         1998 NATIONAL POST-ELECTION STUDY SAMPLE DESIGN
+
+STUDY POPULATION
+----------------
+
+     The study population for the 1998 National Post-election Study (NES) is
+defined to include all United States citizens of voting age on or before the
+1998 Election Day.  Eligible citizens must have resided in housing  units in
+the forty-eight coterminous states.  This definition excludes persons living
+in Alaska or Hawaii and requires eligible persons to have been both a United
+States citizen and eighteen years of age on or before the 3rd of November
+1998.
+
+
+MULTI-STAGE AREA PROBABILITY SAMPLE DESIGN
+------------------------------------------
+
+     The 1998 NES is based on a multi-stage area probability sample selected
+from the Survey Research Center's (SRC) 1990 National Sample design.
+Identification of the 1998 NES sample respondents was conducted using a four
+stage sampling process--a primary stage sampling of U.S. Metropolitan
+Statistical Areas (MSAs) or New England County Metropolitan Areas (NECMAs) and
+non-MSA counties, followed by a second stage sampling of area segments, a
+third stage sampling of housing units within sampled area segments and
+concluding with the random selection of a single respondent from selected
+housing units.  A detailed documentation of the 1990 SRC National Sample, from
+which the 1998 NES sample was drawn, is provided in the SRC publication titled
+1990 SRC National Sample: Design and Development.
+
+     The 1998 NES sample design called for an entirely new cross-section
+sample to be drawn from the 1990 SRC National Sample; no panel component was
+included in 1998.    The 1990 SRC National Sample is a multi-stage area
+probability sample.  Since the 1998 NES sample was drawn from the 1990 SRC
+National Sample, the first stages of selection for the 1998 NES Sample
+correspond to the first stages of selection for the 1990 SRC National Sample.
+
+
+SELECTION STAGES FOR THE 1998 NES SAMPLE: 19990 SRC NATIONAL SAMPLE
+
+Primary Stage Selection
+
+     The selection of primary stage sampling units (PSUs) for the 1990 SRC
+National Sample, which depending on the sample stratum are either MSAs, New
+England County Metropolitan Areas (NECMAs), single counties,  independent
+cities, county equivalents or groupings of small counties, is based on the
+county-level 1990 Census Reports of Population and Housing (1).  Primary stage
+units were assigned to 108 explicit strata based on MSA/NECMA or non-MSA/NECMA
+status, PSU size, Census Region and geographic location within region. 
+Twenty-eight of the 108 strata contain only a single self-representing PSU,
+each of which is included with certainty in the primary stage of sample
+selection.  The remaining 80 nonself-representing strata contain more than one
+PSU.  From each of these nonself-representing strata, one PSU was sampled with
+probability proportionate to its size (PPS) measured in 1990 occupied housing
+units. 
+
+     The full 1990 SRC National Sample of 108 primary stage selections was
+designed to be optimal for surveys roughly three to five  times the size of
+the 1998 NES.  To permit the flexibility needed for optimal design of smaller
+survey samples, the primary stage of the SRC National Sample can be readily
+partitioned into smaller subsamples of PSUs such as a one-half sample or a
+three-quarter sample partition.  Each of the partitions represents a
+stratified subselection from the full 108 PSU design.  The 1998 NES sample of
+44 PSUs is a stratified random subsample of PSUs from the  "A" half-sample
+partition of the 1990 SRC National Sample.  Because of the small size of this
+NES sample, both the number of PSUs (selected primary areas) and the secondary
+stage units (area segments) in the National half-sample were reduced by
+subselection for the 1998 NES sample design.  The 18 self-representing areas
+in the 1990 SRC National half-sample were all retained for the 1998 NES sample
+(8 of these remained self-representing in the 1998 NES and 10 represent not
+only their own MSA but their "pair" among the twenty additional
+self-representing primary areas of the full 1990 SRC National Sample design).
+Nineteen of the 26 nonself-representing half-sample MSAs and 7 of the 14
+half-sample non-MSAs were retained by the subselection for the 1998 NES sample
+(or 26 of 40 NSR PSUs).
+
+     Table 1 identifies the 44 PSUs in the 1998 NES sample by MSA status and
+Region and also indicates the number of area segments used for the 1998 NES
+sample (see next section on second stage selection).
+
+
+Table 1: PSU Name and Number of Area Segments in the 1998 NES Sample
+         Showing 1990 SRC National-Sample Stratum and MSA Status
+
+------------------------------------------------------------------------------
+National Sample PSU |       National Sample PSU Name         |  # of 1998 NES
+                    |                                        |     Segments
+------------------------------------------------------------------------------
+                    |                                        |
+                    |  Eight Largest Self-representing PSUs  |
+                    |                                        |
+         120        |     New York, NY MSA                   |       12
+         190        |     Los Angeles-Long Beach, CA MSA     |       12
+         130        |     Chicago, IL MSA                    |        9
+         121        |     Philadelphia, PA-NJ MSA            |        7
+         131        |     Detroit, MI MSA                    |        6
+         150        |     Washington DC-MD-VA MSA            |        6
+         110        |     Boston, MA NECMA                   |        6
+         171        |     Dallas and Ft Worth, TX CMSA       |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |  Ten Remaining Largest MSA PSUs        |
+                    |                                        |
+         170        |      Houston, TX MSA                   |        6
+         191        |      Seattle-Tacoma, WA CMSA           |        6
+         141        |      St Louis, MO-IL MSA               |        6
+         152        |      Baltimore, MD MSA                 |        6
+         122        |      Nassau-Suffolk, NY MSA            |        6
+         194        |      Anaheim-Santa Ana, CA MSA         |        6
+         132        |      Cleveland, OH MSA                 |        6
+         154        |      Miami-Hialeah, FL MSA             |        5 (2)
+         181        |      Denver, CO MSA                    |        6
+         196        |      San Francisco, CA MSA             |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    | Nonself-representing MSAs:  Northeast  |
+                    |                                        |
+         211        |      New Haven-Waterbury-Meriden,      |        6
+                    |      CT NECMA                          |        6
+         213        |      Manchester-Nashua NH NECMA        |        6
+         220        |      Buffalo, NY MSA                   |        6
+         226        |      Atlantic City, NJ MSA             |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |  Nonself-representing MSAs:  Midwest   |
+                    |                                        |
+         230        |      Milwaukee, WI MSA                 |        6
+         236        |      Madison, WI MSA                   |        6
+         239        |      Steubenville-Wheeling, OH (3)     |        6
+         240        |      Des Moines, IA MSA                |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |   Nonself-representing MSAs:  South    |
+                    |                                        |
+         250        |      Richmond-Petersburg, VA MSA       |        6
+         255        |      Columbus, GA-AL MSA               |        6
+         257        |      Jacksonville, FL MSA              |        6
+         258        |      Lakeland, FL MSA                  |        6
+         260        |      Knoxville TN MSA                  |        6
+         262        |      Birmingham, AL MSA                |        6
+         273        |      Waco, TX MSA                      |        6
+         274        |      McAllen-Edinburg-Mission, TX MSA  |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |   Nonself-representing MSAs:  West     |
+                    |                                        |
+         280        |      Salt Lake City-Ogden etc, UT MSA  |        6
+         292        |      Fresno, CA MSA                    |        6
+         293        |      Eugene-Springfield, OR MSA        |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |      Nonself-representing Non-MSAs:    |
+                    |                Northeast               |
+                    |                                        |
+         320        |      Elk County, PA                    |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    | Nonself-representing Non-MSAs: Midwest |
+                    |                                        |
+         332        |      Switzerland County, IN            |        6
+         340        |      Steele County, MN                 |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |  Nonself-representing Non-MSAs:  South |
+                    |                                        |
+         351        |      Harrisonburg IC, VA               |        6
+         354        |      Whitfield County, GA              |        6
+         370        |      Jim Wells County, TX              |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                    |                                        |
+                    |  Nonself-representing Non-MSAs:  West  |
+                    |                                        |
+          381       |      Sandoval County, NM               |        6
+                    |                                        |
+------------------------------------------------------------------------------
+                           Total Number of Segments                 279
+
+
+Second Stage Selection of Area Segments
+
+     The second stage of the 1990 SRC National Sample, used for the 1998 NES
+sample, was selected directly from computerized files that were extracted for
+the selected PSUs from the 1990 U.S. Census summary file series STF1-B. 
+These files (on CD Rom) contain the 1990 Census total population and housing
+unit (HU) data at the census block level. The designated second-stage sampling
+units (SSUs), termed "area segments", are comprised of census blocks in both
+the metropolitan (MSA) primary areas and in the rural areas of non-MSA primary
+areas.  Each SSU block or block combination was assigned a measure of size
+equal to the total 1990 occupied housing unit count for the area.  SSU
+block(s) were assigned a minimum measure of 72 1990 total HUs per MSA SSU and
+a minimum measure of 48 total Hus per non-MSA SSU.   Second stage sampling of
+area segments was performed with probabilities proportionate to the assigned
+measures of size (PPS).
+
+     For the 1998 NES sample the number of area segments used in each PSU
+varies.  In the self-representing (SR) PSUs the number of area segments varies
+in proportion to the size of the primary stage unit, from a high of 12 area
+segments in the self-representing New York and Los Angeles MSA PSUs, to a low
+of 6 area segments in the smaller self-representing PSUs such as Cleveland,
+Miami-Hialeah or Nassau-Suffolk MSAs.  All nonself-representing (NSR) PSUs
+were represented by 6 area segments each.  A total of 279 NES area segments
+were selected as shown in Table 1.
+
+
+Third Stage Selection of Housing Units: 1998 NES Sample
+
+     For each area segment selected in the second sampling stage, a listing
+had been made of all housing units located within the physical boundaries of
+the segment.  For segments with a very large number of expected housing units,
+all housing units in a subselected part of the segment were listed.  The final
+equal probability sample of housing units for the 1998 NES sample was
+systematically selected from the housing unit listings for the sampled area
+segments.
+
+     The 1998 NES sample design was selected from the 1990 SRC National Sample
+to yield an equal probability sample of 2557 listed housing units.  The 1998
+NES sample drawn was slightly smaller than the expected required sample size
+of 2577 lines based on the assumptions detailed in Table 2 below.  Additional
+"reserve" sample was not drawn from the entire sample design; a decision was
+made that if additional reserve sample was required to meet interview goals,
+it would be drawn instead from a selected subsample of segments rather than
+across all segments.  The overall probability of selection for 1998 NES
+cross-section sample of households was f=0.000023100 or 0.23100 in 10,000. 
+The equal probability sample of households was achieved for the 1998 NES
+sample by using the standard multi-stage sampling technique of setting the
+sampling rate for selecting housing units within area segments to be
+inversely proportional to the PPS probabilities used to select the PSU and
+area segment (Kish, 1965).
+
+
+Fourth Stage Respondent Selection: 1998 NES Sample
+
+     Within each sampled 1998 NES occupied housing unit, the SRC interviewer
+prepared a complete listing of all eligible household members.  Using an
+objective procedure described by Kish (1949) a single respondent was then
+selected at random to be interviewed.  Regardless of circumstances, no
+substitutions were permitted for the designated respondent.
+
+
+1998 NES SAMPLE DESIGN ASSUMPTIONS, SPECIFICATIONS AND OUTCOME
+--------------------------------------------------------------
+
+     The 1998 Post-election Study sought a total of 1500 interviews.  It was
+estimated that this would require a NES sample draw of 2577 housing units. 
+This assumed an occupancy/growth rate of 0.86, an eligibility rate of 0.94 and
+a response rate of 0.72.  These assumptions were based  on the 1994 NES
+Cross-section Sample field experience.  The overall 1998 NES Post-election
+sample design specifications, assumptions and outcomes are set out in Table 2,
+below.
+
+     2557 listed sample lines were actually selected for the 1998 NES study
+(resulting in 2568 sample households). There was no Panel component in 1998
+and no reserve sample was selected.  Selected sample lines having mailable
+addresses were sent to the Telematch  for name and telephone number matching 
+prior to release for field contact.
+
+     The 1998 NES Study design called for maximum use of telephone
+interviewing after initial face-to-face screening in the field to locate
+eligible households/respondents.  It was hoped that this would maximize
+interviewing field efficiency and minimize the necessity to send traveler
+field personnel into the primary areas not staffed by permanent field
+personnel.
+
+     A comparison of the 1998 NES design specifications and assumptions to the
+outcome figures in Table 2 indicates that, although the assumed eligibility
+rate was met in the sample outcome, the occupancy rate estimation in the
+design was higher than that encountered and response rate specification in the
+design was much higher than that actually achieved.  This, of course, resulted
+in fewer interviews taken than specified in the sample design.
+
+
+     Table 2:  1998 Post-election Survey Sample Design Specifications and
+                   Assumptions Compared to Sample Outcome
+
+                               | 1998 NES Design | 1998 NES Sample
+                               |  Specification  |    Outcome
+-----------------------------------------------------------------------
+    Completed Interviews       |       1500      |      1281
+      Response Rate            |       0.72      |     0.638
+    Eligible Sample Households |       2083      |      2008
+    Eligibility Rate           |       0.94      |     0.944
+    Occupied Households        |       2216      |      2127
+      Occupancy/growth Rate    |       0.86      |     0.828
+    Total Sample Lines         |       2577      |      2568
+
+
+     The study design for the 1998 NES Post-election Study called for initial
+contact to be made by field staff in a face-to-face screening effort to
+determine eligibility.  This was to be followed by either an in-person or
+telephone interview--with the intention of obtaining as many interviews as
+possible by phone in an effort to reduce field costs.  Screening and
+interviewing began on November 4, 1998--the day after election day.  The data
+collection period continued through December 22, 1998.  1281 interviews were
+obtained.  Table 3 shows the outcome for the 1998 Post Election Survey by
+interview mode.
+
+   Table 3.  1998 Post-election Survey:  Interviews by Data Collection Mode
+
+                  |  Total  |  Telephone  |  Face-to-Face
+----------------------------------------------------------------------
+    Interviews    |  1281   |     991     |     290
+
+
+NOTES
+-----
+
+(1)   Office of Management and Budget (OMB) June 1990 definitions of MSAs,
+NECMAs, counties, parishes, independent cities.  These, of course, differ in
+some respects from the primary stage unit (PSU) definitions used in the 1980
+SRC National Sample so will not be strictly comparable to the 1996 NES Panel
+PSUs--particularly in New England where MSAs were used as PSUs in the 1980
+National Sample and NECMAs were used as PSUs in the 1990 National Sample
+
+(2)   One selected segment (023) was in a former trailer park that had no
+housing units to be listed in January 1996; all had been destroyed in 1992  by
+hurricane "Andrew" and there were no plans to rebuild.
+
+(3)  In the 1990 SRC National Sample, U.S. Census Region boundaries were
+maintained for purposes of stratification at the Primary Stage of selection. 
+Since some MSA definitions cross Region boundaries, such MSAs were split and
+the MSA counties recombined in ways that maintained the Region boundary.  This
+PSU actually contains the Ohio counties from both the Steubenville-Wierton,
+OH-WV MSA (Jefferson County, OH) and the Wheeling, WV-OH MSA (Belmont County,
+OH) and although it is made up of MSA counties--it is not a cohesive MSA by
+OMB 1990 definition.
+>> 1998 WEIGHT DOCUMENTATION
+
+
+WEIGHTED ANALYSIS OF 1998 NES DATA
+----------------------------------
+
+     The 1998 NES data set includes a person-level analysis weight which
+incorporates sampling, nonresponse and post-stratification factors. Analysts
+interested in developing their own nonresponse or post-stratification
+adjustment factors must request access to the necessary sample control data
+from the NES Board.
+
+
+CONSTRUCTION OF ANALYSIS WEIGHTS
+--------------------------------
+
+Sample Selection Weight
+
+     The area probability sample design for the 1998 NES results in an equal
+probability sample of U.S. households. However, within sample households a
+single adult respondent is chosen at random to be interviewed.  Since the
+number of eligible adults may vary from one household to another, the random
+selection of a single adult introduces inequality into respondents' selection
+probabilities.  In analysis, a respondent selection weight should be used to
+compensate for these unequal selection probabilities.  The value of the
+respondent selection weight  is exactly equal to the number of eligible adults
+in the household from which the random respondent was selected (variable
+980035).  The use of the respondent selection weight is strongly encouraged,
+despite past evaluations which have shown these weights to have little
+significant impact on the values of NES estimates of descriptive statistics.
+
+
+Household Nonresponse Adjustment Factor
+
+     Nonresponse adjustment factors were constructed at the household level.
+Nonresponse adjustment cells for the 1998 NES  sample were formed by crossing
+PSU type (largest MSAs, other MSAs, or non-MSA) by the four Census regions
+(Northeast, Midwest, South, and West).  A nonresponse adjustment factor equal
+to the inverse of the response rate in each cell was applied to the interview
+cases.
+
+  Table 4.  Computation of Nonresponse Adjustment Weights--1998 NES Sample
+
+PSU Type     |   Census Region   |  Response Rate (%) |   Nonresponse
+             |                   |                    |  Adjustment Factor
+------------------------------------------------------------------------------
+Large MSAs   |     Northeast     |       47.53        |     2.104
+             |     Midwest       |       60.63        |     1.649
+             |     South         |       55.37        |     1.806
+             |     West          |       57.00        |     1.754
+             |                   |                    |
+Smaller MSAs |     Northeast     |       61.01        |     1.639
+             |     Midwest       |       73.94        |     1.353
+             |     South         |       65.88        |     1.518
+             |     West          |       74.22        |     1.347
+             |                   |                    |
+Non MSAs     |     Northeast     |       66.67        |     1.500
+             |     Midwest       |       72.99        |     1.370
+             |     South         |       67.12        |     1.490
+             |     West          |       69.62        |     1.436
+
+
+Post-stratification Factor
+
+     The 1998 NES weights are post-stratified to 1998 CPS proportions for
+seven (7) age by four (4)  education categories.  There are actually 27
+post-stratification cells because for the youngest age group (18-21) the
+highest two education categories (some college/college graduate) are combined. 
+Table 5 shows the weighted estimates and proportions for the 27 cells for the
+1998 CPS and the weighted 1998 CPS and NES percents.  The Post-stratification
+adjustment is computed by dividing the CPS percent by the 1998 NES percent
+based on the nonresponse adjusted selection weight.  The final two columns
+show the NES weighted totals using the final post-stratified analysis weight
+and the resulting percents which match the CPS percents.
+
+
+FINAL ANALYSIS WEIGHTS
+----------------------
+
+     The final analysis weight is the product of the household level
+non-response adjustment factor, the number of eligible persons, and a
+person-level post-stratification factor.  The final analysis weight for the
+1998 NES sample (V980002) is scaled to sum to 1281, the total number of
+respondents.  These weights were constructed using the 1998 NES Post-Election
+data set.
+
+    Table 5: 1998 NES Sample Weight: Post-stratification Factor
+
+Age    Education    n    1998     1998    Prelim.  Post    NES   Final
+         Level           CPS      CPS      1998   Strat.   wtd   NES wtd
+                        Est.in     %       NES    adjust    n     %
+                       000s (4)           wtd %                 
+------------------------------------------------------------------------------
+
+18-21 < High Sch.  18   3,787.9   2.069   1.595   1.297   26.5   2.1
+        Graduation
+      High School  29   4,409.7   2.408   2.747   0.877   30.8   2.4
+        Graduate
+      Some         50   5,477.1   2.991   5.240   0.571   38.3   3.0
+        College/
+        College Grad.
+
+22-29 < High Sch.  17   2,331.6   1.273   1.097   1.161   16.3   1.3
+        Graduation
+      High School  43   8,120.4   4.435   3.318   1.336   56.8   4.4
+        Graduate
+      Some College 51   9,119.7   4.981   4.292   1.160   63.8   5.0
+      College      37   6,397.4   3.494   2.951   1.184   44.8   3.5
+        Graduate
+
+30-39 < High Sch.  22   3,653.8   1.996   1.804   1.106   25.6   2.0
+        Graduation
+      High School  89  13,743.3   7.506   6.563   1.144   96.2   7.5
+        Graduate
+      Some College 83  10,969.6   5.991   6.302   0.951   76.7   6.0
+      College      81  10,422.0   5.692   6.846   0.831   72.9   5.7
+        Graduate
+
+40-49 < High Sch.  18   3,469.3   1.895   1.596   1.187   24.3   1.9
+        Graduation
+      High School  93  12,547.9   6.853   7.352   0.932   87.8   6.9
+        Graduate
+      Some College 73  11,050.4   6.035   5.546   1.088   77.3   6.0
+      College      99  10,766.3   5.880   7.574   0.776   75.3   5.9
+        Graduate
+
+50-59 < High Sch.  18   3,695.1   2.018   1.409   1.432   25.8   2.0
+        Graduation
+      High School  49   9,175.9   5.012   3.681   1.361   64.2   5.0
+        Graduate
+      Some College 50   6,247.0   3.412   4.064   0.840   43.7   3.4
+      College      71   6,972.5   3.808   5.591   0.681   48.8   3.8
+        Graduate
+
+60-69 < High Sch.  31   4,486.2   2.450   2.504   0.978   31.4   2.5
+        Graduation
+      High School  45   7,105.3   3.881   3.287   1.180   49.7   3.9
+        Graduate
+      Some College 26   3,516.0   1.920   1.919   1.000   24.6   1.9
+      College      37   3,543.6   1.935   2.892   0.669   24.8   1.9
+        Graduate
+
+70 + < High Sch.   45   7,686.8   4.198   2.631   1.595   53.8   4.2
+        Graduation
+      High School  43   7,636.0   4.170   2.896   1.440   53.4   4.2
+        Graduate
+      Some College 33   3,770.2   2.059   2.128   0.968   26.4   2.1
+      College      30   2,994.5   1.635   2.173   0.753   21.0   1.6
+        Graduate
+
+      Totals     1281 183,080.0   100.0   100.0         1281.0 100.0
+
+
+NOTES
+-----
+
+(4)  Because U.S. citizenship is required for NES eligibility, the CPS counts
+used for post-stratification include only U.S. citizens.  
+>> 1998 SAMPLING ERROR
+
+
+PROCEDURES FOR SAMPLING ERROR ESTIMATION
+----------------------------------------
+
+     The 1998 NES sample design is based on a stratified multi-stage area
+probability sample of United States households.  Although smaller in scale,
+the NES sample design is very similar in it basic structure to the multi-stage
+designs used for major federal survey programs such as the Health Interview
+Survey (HIS) or the Current Population Survey (CPS).  The survey literature
+refers to the NES, HIS and CPS samples as complex designs, a loosely-used term
+meant to denote the fact that the sample incorporates special design features
+such as stratification, clustering and differential selection probabilities
+(i.e., weighting) that analysts must consider in computing sampling errors for
+sample estimates of descriptive statistics and model parameters.  This section
+of the 1998 NES sample design description focuses on sampling error estimation
+and construction of confidence intervals for survey estimates of descriptive
+statistics such as means, proportions, ratios, and coefficients for linear and
+logistic linear regression models.
+
+     Standard analysis software systems such SAS and SPSS assume simple random
+sampling (SRS) or equivalently independence of observations in computing
+standard errors for sample estimates.  In general, the SRS assumption results
+in underestimation of variances of survey estimates of descriptive statistics
+and model parameters.  Confidence intervals based on computed variances that
+assume independence of observations will be biased (generally too narrow) and
+design-based inferences will be affected accordingly.
+
+
+SAMPLING ERROR COMPUTATION METHODS AND PROGRAMS
+
+     Over the past 50 years, advances in survey sampling theory have guided
+the development of a number of methods for correctly estimating variances from
+complex sample data sets. A number of sampling error programs which implement
+these complex sample variance estimation methods are available to NES data
+analysts.   The two most common approaches to the estimation of sampling error
+for complex sample data are through the use of a Taylor Series Linearization
+of the estimator (and corresponding approximation to its variance) or through
+the use of resampling variance estimation procedures such as Balanced Repeated
+Replication (BRR) or Jackknife Repeated Replication(JRR).  New Bootstrap
+methods for variance estimation can also be included among the resampling
+approaches.  See Rao and Wu (1988).
+
+
+1.  Taylor series linearization method:
+
+     When survey data are collected using a complex sample design with unequal
+size clusters, most statistics of interest will not be simple linear functions
+of the observed data.  The linearization approach applies Taylor's method to
+derive an approximate form of the estimator that is linear in statistics for
+which variances and covariances can be directly and easily estimated
+(Woodruff, 1971).  SUDAAN and Stata are two commercially available statistical
+software packages that include procedures that apply the Taylor series method
+to estimation and inference for complex sample data.
+
+     SUDAAN (Shah et al., 1996) is a commercially available software system
+developed and marketed by the Research Triangle Institute of Research Triangle
+Park, North Carolina (USA).  SUDAAN was developed as a stand-alone software
+system with capabilities for the more important methods for descriptive and
+multivariate analysis of survey data, including: estimation and inference for
+means, proportions and rates (PROC DESCRIPT and PROC RATIO); contingency table
+analysis (PROC CROSSTAB); linear regression (PROC REGRESS); logistic
+regression (PROC  LOGISTIC); log-linear models (PROC CATAN); and survival
+analysis (PROC SURVIVAL).  SUDAAN V7.0 and earlier versions were designed to
+read directly from ASCII and SAS system data sets.  The latest versions of
+SUDAAN permit procedures to be called directly from the SAS system. 
+Information on SUDAAN is available at the following web site address:
+http://www.rti.org.
+
+     Stata  (StataCorp, 1997) is a more recent commercial entry to the
+available software for analysis of complex sample survey data and has a
+growing body of research users.  Stata includes special versions of its
+standard analysis routines that are designed for the analysis of complex
+sample survey data.  Special survey analysis programs are available for
+descriptive estimation of means (SVYMEAN), ratios (SVYRATIO), proportions
+(SVYTOT) and population totals (SVYTOTAL).  Stata programs for multivariate
+analysis of survey data currently include linear regression (SVYREG), logistic
+regression (SVYLOGIT) and probit regression (SVYPROBT).  Information on the
+Stata analysis software system can be found on the Web at:
+http://www.stata.com. 
+
+
+2.  Resampling methods:
+
+     BRR, JRR and the bootstrap comprise a second class of nonparametric
+methods for conducting estimation and inference from complex sample data.  As
+suggested by the generic label for this class of methods, BRR, JRR and the
+bootstrap utilize replicated subsampling of the sample data base to develop
+sampling variance estimates for linear and nonlinear statistics.  WesVar PC
+(Brick et al., 1996) is a publicly available software system for personal
+computers that employs replicated variance estimation methods to conduct the
+more common types of statistical analysis of complex sample survey data. 
+WesVar PC was developed by Westat, Inc. and is distributed along with
+documentation free of charge to researchers from Westat's Web site:
+http://www.westat.com/wesvarpc/.  WesVar PC includes a Windows-based
+application generator that enables the analyst to select the form of data
+input (SAS data file, SPSS for Windows data base, dBASE file, ASCII data set)
+and the computation method (BRR or JRR methods).  Analysis programs contained
+in WesVar PC provide the capability for basic descriptive (means, proportions,
+totals, cross tabulations) and regression (linear, logistic) analysis of
+complex sample survey data.  WestVar Complex Samples 3.0 is the latest version
+of WestVar PC that is licensed and distributed by SPSS.  Information on the
+latest developments can be obtained at http://www.spss.com.
+
+     These new and updated software packages include an expanded set of user
+friendly, well-documented analysis procedures.  Difficulties with sample
+design specification, data preparation, and data input in the earlier
+generations of survey analysis software created a barrier to use by analysts
+who were not survey design specialists.  The new software enables the user to
+input data and output results in a variety of common formats, and the latest
+versions accommodate direct input of data files from the major analysis
+software systems.   Readers who are interested in a more detailed comparison
+of these and other survey analysis software alternatives are referred to Cohen
+(1997).
+
+Sampling Error Computation Models
+
+     Regardless of whether  linearization or a resampling approach is used, 
+estimation of variances for complex sample survey estimates requires the
+specification of a sampling error computation model.  NES data analysts who
+are interested in performing sampling error computations should be aware that
+the estimation programs identified in the preceding section assume a specific
+sampling error computation model and will require special sampling error
+codes.  Individual records in the analysis data set must be assigned sampling
+error codes which identify to the programs the complex structure of the sample
+(stratification, clustering) and are compatible with the computation
+algorithms of the various programs.  To facilitate the computation of sampling
+error for statistics based on 1998 NES data, design-specific sampling error
+codes will be routinely included in all public-use versions of the data set. 
+Although minor recoding may be required to conform to the input requirements
+of the individual programs, the sampling error codes that are provided should
+enable analysts to conduct either Taylor Series or Replicated estimation of
+sampling errors for survey statistics.
+
+     Table 6 defines the sampling error coding system for 1998 NES sample
+cases.  Two sampling error code variables are defined for each case based on
+the sample design primary stage unit (PSU) and area segment in which the
+sample household is located.
+
+Sampling Error Stratum Code (V980103, first two digits).  The Sampling
+Error Computation Stratum Code is the variable which defines the sampling
+error computation strata for all sampling error analysis of the NES data. 
+Each self-representing (SR) design stratum is represented by one sampling
+error computation stratum.  Pairs of similar nonself-representing (NSR)
+primary stage design strata are "collapsed" (Kalton, 1977) to create NSR
+sampling error computation strata.  Since there was an uneven number of
+nonself-representing MSA and non-MSA strata used in the 1998 NES, and since
+it was felt that a nonself-representing MSA PSU should be paired with a
+non-MSA PSU, one of each of these PSUs stands alone within its Sampling Error
+Stratum Code.
+
+     For the 1990 SRC National Sample design controlled selection and a
+"one-per-stratum" PSU allocation are used to select the primary stage of the
+1998 NES  national sample.  The purpose in using controlled selection and the
+"one-per-stratum" sample allocation is to reduce the between-PSU component of
+sampling variation relative to a"two-per-stratum" primary stage design.
+Despite the expected improvement in sample precision, a drawback of the
+"one-per-stratum" design is that two or more sample selection strata must be
+collapsed or combined to form a sampling error computation stratum. Variances
+are then estimated under the assumption that a multiple PSU per stratum design
+was actually used for primary stage selection.  The expected consequence of
+collapsing design strata into sampling error computation strata is the
+overestimation of the true sampling error; that is, the sampling error
+computation model defined by the codes contained in Table 6 will yield
+estimates of sampling errors which in expectation will be slightly greater
+than the true sampling error of the statistic of interest. 
+
+     SECU - Stratum-specific Sampling Error Computation Unit code (V980103,
+last digit) is a half sample code for analysis of sampling error
+using the BRR method or approximate "two-per-stratum" Taylor Series method
+(Kish and Hess, 1959).  Within the SR sampling error strata, the SECU half
+sample units are created by dividing sample cases into random halves, SECU=1
+and SECU=2. The assignment of cases to half-samples is designed to preserve
+the stratification and second stage clustering properties of the sample within
+an SR stratum. Sample cases are assigned to SECU half samples based on the
+area segment in which they were selected.  For this assignment, sample cases
+were placed in original stratification order (area segment number order) and
+beginning with a random start entire area segment clusters were systematically
+assigned to either SECU=1 or SECU=2.
+
+     In the general case of nonself-representing (NSR) strata, the half sample
+units are defined according to the PSU to which the respondent was assigned at
+sample selection (with the exception of the two unpaired NSR strata mentioned
+above). That is, the half samples for each NSR sampling error computation
+stratum bear a one-to-one correspondence to the sample design NSR PSUs.  The
+particular sample coding provided on the NES public use data set is consistent
+with the "ultimate cluster" approach to complex sample variance estimation
+(Kish, 1965; Kalton, 1977).  Individual stratum, PSU and segment code
+variables may be needed by NES analysts interested in components of variance
+analysis or estimation of hierarchical models in which  PSU-level and
+neighborhood-level effects are explicitly estimated.
+
+     Table 6 shows the sampling error stratum and SECU codes to be used for
+the paired selection model for sampling error computations for any 1998 NES
+analyses.  Strata 01 through 27 reflect the half sample 1990 National Sample
+design used for the 1998 NES cross-section sample.  It can be seen from this
+table that the three-digit 1998 SE code is comprised of, first, the two-digit
+SE Stratum code followed by the one-digit SECU code.
+
+
+      Table 6:  1998 NES Post-Election Study Sampling Error Codes
+
+  SE       SECU    SE    PSU        Segment #s              Total
+  Stratum         Code                                        Rs
+  ------------------------------------------------------------------------
+
+  01        1     011    120     015, 031, 047, 063,         15
+                                 079, 099
+
+            2     012    120     007, 023, 039, 055,         12
+                                 071, 087
+
+  02        1     021    190     007, 023, 039, 055,         12
+                                 071, 087
+
+            2     022    190     015, 031, 047, 063,         13
+                                 079, 095
+
+  03        1     031    130     012, 028, 044, 060          11
+
+            2     032    130     004, 020, 036, 052,         14
+                                 068
+
+  04        1     041    121     002, 018, 034, 050           8
+
+            2     042    121     010, 026, 042                8
+
+  05        1     051    131     016, 032, 048               18
+
+            2     052    131     008, 024, 040               12
+
+  06        1     061    150     007, 023, 039                7
+
+            2     062    150     015, 031, 047               12
+
+  07        1     071    171     010, 026, 042                8
+
+            2     072    171     002, 018, 034                9
+
+  08        1     081    110     004, 020, 036                8
+
+            2     082    110     012, 028, 044                8
+
+  09        1     091    170     007, 011, 019, 027,         32
+                                 031, 039
+
+            2     092    154     003, 007, 011, 015,          6
+                                 019
+
+  10        1     101    122     008, 012, 016, 024,         18
+                                 028, 032
+
+            2     102    152     004, 012, 016, 020,         24
+                                 028, 032
+
+  11        1     111    141     004, 008, 016, 020,         20
+                                 024, 032
+
+            2     112    132     001, 005, 009, 013,         22
+                                 017, 021
+
+  12        1     121    191     001, 005, 009, 017,         36
+                                 021, 025
+
+            2     122    181     001, 005, 009, 013,         24
+                                 017, 021
+
+  13        1     131    194     004, 008, 016, 020,         16
+                                 024, 032
+
+            2     132    196     002, 006, 010, 014,         13
+                                 018, 022
+
+  14        1     141    220     001, 005, 009, 013,         44
+                                 017, 021
+
+            2     142    226     002, 006, 010, 014,         26
+                                 018, 022
+
+  15        1     151    211     003, 007, 011, 015,         15
+                                 019, 023
+
+            2     152    213     004, 008, 012, 016,         12
+                                 020, 024
+
+  16        1     161    230     002, 006, 010, 014,         55
+                                 018, 022
+
+            2     162    236     002, 006, 010, 014,         36
+                                 018, 022
+
+  17        1     171    239     001, 005, 009, 013,         21
+                                 017, 021
+
+            2     172    240     002, 006, 010, 014,         27
+                                 018, 022
+
+  18        1     181    262     002, 006, 010, 014,         61
+                                 018, 022
+
+            2     182    255     004, 008, 012, 016,         17
+                                 020, 024
+
+  19        1     191    257     004, 008, 012, 016,         25
+                                 020, 024
+
+            2     192    258     002, 006, 010, 014,         25
+                                 018, 022
+
+  20        1     201    273     003, 007, 011, 015,         17
+                                 019, 023
+
+            2     202    274     002, 006, 010, 014,         20
+                                 018, 022
+
+  21        1     211    260     003, 007, 011, 015,         23
+                                 019, 023
+
+            2     212    250     003, 007, 011, 015,         34
+                                 019, 023
+
+  22        1     221    292     001, 005, 009, 013,         21
+                                 017, 022
+
+            2     222    293     003, 007, 011, 015,         33
+                                 019, 023
+
+  23        1     231    280     002, 010, 018               15
+
+            2     232    280     006, 014, 022               26
+
+  24        1     241    320     006, 014, 022               20
+
+            2     242    320     002, 010, 018               18
+
+  25        1     251    332     004, 008, 012, 016,         55
+                                 020, 024
+
+            2     252    340     001, 005, 009, 013,         45
+                                 017, 021
+
+  26        1     261    351     001, 005, 009, 013,         68
+                                 018, 021
+
+            2     262    354     004, 008, 012, 016,         22
+                                 020, 024
+
+  27        1     271    370     001, 005, 009, 013,         59
+                                 017, 021
+
+            2     272    381     001, 005, 009, 013,         55
+                                 017, 021
+
+  Total:                                                   1281
+
+
+Generalized Sampling Error Results for the 1998 NES
+
+     To assist NES analysts, the PC SUDAAN program was used to compute
+sampling errors for a wide-ranging example set of  proportions estimated from
+the 1998 NES Post-election Survey data set.  For each estimate, sampling
+errors were computed for the total sample and for twenty demographic and
+political affiliation subclasses of the 1998 NES Post-election Survey sample. 
+The results of these sampling error computations were then summarized and
+translated into the general usage sampling error table provided in Table 7.  
+The mean value of deft, the square root of the design effect, was found to be
+1.103.  The design effect was primarily due to weighting effects (Kish, 1965)
+and did not vary significantly by subclass size.  Therefore the generalized
+variance table is produced by multiplying the simple random sampling standard
+error for each proportion and sample size by the average deft for the set of
+sampling error computations.
+
+     Incorporating the pattern of "design effects" observed in the extensive
+set of example computations, Table 7 provides approximate standard errors for
+percentage estimates based on the 1998 NES.  To use the table, examine the
+column heading to find the percentage value which best approximates the value
+of the estimated percentage that is of interest.(5)  Next, locate the
+approximate sample size base (denominator for the proportion) in the left-hand
+row margin of the table.  To find the approximate standard error of a
+percentage estimate, simply cross-reference the appropriate column
+(percentage) and row (sample size base).  Note: the tabulated values represent
+approximately one standard error for the percentage estimate.  To construct an
+approximate confidence interval, the analyst should apply the appropriate
+critical point from the "z" distribution (e.g., z=1.96 for a two-sided 95%
+confidence interval half-width).  Furthermore, the approximate standard errors
+in the table apply only to single point estimates of percentages not to the
+difference between two percentage estimates.
+
+     The generalized variance results presented in Table 7 are a useful tool
+for initial, cursory examination of the NES survey results.  For more in depth
+analysis and reporting of critical estimates, analysts are encouraged to
+compute exact estimates of standard errors using the appropriate choice of a
+sampling error program and computation model.
+
+
+                Table 7:  Generalized Variance Table
+                   1998 NES Post-election Survey
+
+             APPROXIMATE STANDARD ERRORS FOR PERCENTAGES
+
+
+                    For percentage estimates near:
+                 
+       Sample        50%       40%       30%       20%       10%  
+         n                    or 60%    or 70%   or 80%    or 90%    
+
+               The approximate standard error of the percentage is:
+
+        100         5.52      5.40      5.06      4.41      3.31
+        200         3.90      3.82      3.57      3.12      2.34
+        300         3.18      3.12      2.92      2.55      1.91
+        400         2.76      2.70      2.53      2.21      1.66
+        500         2.47      2.42      2.26      1.97      1.48
+        600         2.25      2.21      2.06      1.80      1.35
+        700         2.08      2.04      1.91      1.67      1.25
+        800         1.95      1.91      1.79      1.56      1.17
+        900         1.84      1.80      1.68      1.47      1.10
+       1000         1.74      1.71      1.60      1.40      1.05
+       1100         1.66      1.63      1.52      1.33      1.00
+       1200         1.59      1.56      1.46      1.27      0.96
+       1300         1.53      1.50      1.40      1.22      0.92
+
+
+NOTES
+-----
+
+(5)  The standard error of a percentage is a symmetric function with its
+maximum centered at p=50%; i.e., the standard error of p=40% and p=60%
+estimates are equal.
+
+
+REFERENCES
+----------
+
+Alegria, M., Kessler, R., Bijl, R., Lin, E., Heeringa, S.G., Takeuchi, D.T.,
+      Kolody, B. (1998).  To appear in The Unmet Need for Treatment. 
+      Proceedings of a Symposium of the World Psychiatric Association, Sydney,
+      Australia, October, 1997.
+
+Binder, D.A. (1983), "On the variances of asymptotically normal estimators
+      from complex surveys,"  International Statistical Review, Vol. 51,
+      pp. 279-292. 
+
+Brick, J.M., Broene, P., James, P., & Severynse, J. (1996).  "A User's Guide
+      to WesVar PC."  Rockville, MD: Westat, Inc. 
+
+Cochran, W.G. (1977).  Sampling Techniques.  New York: John Wiley & Sons.
+
+Cohen, S.B. (1997).  "An evaluation of alternative PC-based software packages
+      developed for the analysis of complex survey data," The American
+      Statistician, Vol. 51, No. 3, pp. 285-292.
+
+Goldstein, H. (1987).  Multi-level Models in Educational and Social Research. 
+      London: Oxford University Press.
+
+Kalton, G. (1977), "Practical methods for estimating survey sampling errors,"
+      Bulletin of the International Statistical Institute, Vol 47, 3,
+      pp. 495-514.
+
+Kish, L. (1949).  "A procedure for objective respondent selection within the
+      household," Journal of the American Statistical Association, Vol. 44,
+      pp. 380-387.
+
+Kish, L. (1965),  Survey Sampling.  New York: John Wiley & Sons, Inc. 
+
+Kish, L., & Frankel, M.R. (1974), "Inference from complex samples," Journal of
+      the Royal Statistical Society, B, Vol. 36, pp. 1-37.
+
+Kish, L., Groves, R.M., & Krotki, K.P. (1975).  "Sampling errors for fertility
+      surveys."  Occasional Paper No. 17.  Voorburg, Netherlands: World
+      Fertility Survey, International Statistical Institute.
+
+Kish, L., & Hess, I. (1959), "On variances of ratios and their differences in
+      multi-stage samples," Journal of the American Statistical Association,
+      54, pp. 416-446.
+
+LePage, R., & Billard, L. (1992), Exploring the Limits of Bootstrap. New York:
+      John Wiley & Sons, Inc.
+
+Mahalanobis, P.C. (1946), "Recent experiments in statistical sampling at the
+Indian Statistical Institute," Journal of the Royal
+     Statistical Society, Vol 109, pp. 325-378.
+
+McCullagh, P.M. & Nelder, J.A. (1989). Generalized Linear Models, 2nd Edition.
+     Chapman and Hall.  London.
+
+Rao, J.N.K & Wu, C.F.J. (1988.), "Resampling inference with complex sample
+      data," Journal of the American Statistical Association, 83, pp. 231-239.
+
+Rosenstone, Steven J., Kinder, Donald R., Miller, Warren E., & the National
+      Election Studies "Sample Design: Technical Memoranda, 1994 Election
+      Study" pp. 882-905 in Rosenstone, Steven J., Kinder, Donald R., Miller,
+      Warren E., & the National Election Studies, AMERICAN NATIONAL ELECTION
+      STUDY, 1994: POST-ELECTION SURVEY (ENHANCED WITH 1992 AND 1993 DATA)
+      (Computer file).  Conducted by University of Michigan Center for
+      Political Studies.  2nd ICPSR ed.  Ann Arbor MI: University of Michigan,
+      Center for Political Studies, and Inter-university Consortium for
+      Political and Social Research (producer), 1995.  Ann Arbor MI:
+      Inter-university Consortium for Political and Social Research
+      (distributor), 1995.
+
+Rust, K. (1985).  "Variance estimation for complex estimators in sample
+      surveys," Journal of Official Statistics, Vol. 1, No. 4.
+
+SAS Institute, Inc. (1990).  SAS/STAT  User's Guide, Version 6, Fourth Ed.,
+      Vol. 2.  Cary, NC: SAS Institute, Inc.
+
+Shah, B.V., Barnwell, B.G., Biegler, G.S. (1996).  SUDAAN User's Manual:
+      Software for Statistical Analysis of Correlated Data.  Research Triangle
+      Park, NC: Research Triangle Institute.
+
+Skinner, C.J., Holt, D., & Smith, T.M.F. (1989).  Analysis of Complex Surveys. 
+      New York: John Wiley & Sons.
+
+SPSS, Inc. (1993).  SPSS  for Windows : BASE System User's Guide, Release 6.0. 
+      Chicago, Il: SPSS Inc.
+
+Stata Corp. (1997).  Stata Statistical Software: Release 5.0.  College
+      Station, TX: Stata Corporation.
+
+Wolter, K.M.  (1985 ).  Introduction to Variance Estimation. New York:
+      Springer-Verlag.
+
+Woodruff, R.S. (1971), "A simple method for approximating the variance of a
+      complicated estimate," Journal of the American Statistical Association,
+      Vol. 66, pp. 411-414.
+
+Yamageuchi, K. (1991).  Event History Analysis. Applied Social Research
+      Methods Series, Vol. 28.  Newbury Park, CA/London: Sage Publications.
+
+
+
+
+
+
+
+>>  NOTES ON CONFIDENTIAL VARIABLES
+
+Starting with the 1986 Election Study, occupation code variables 
+have been released in somewhat less detail than in preceding studies.
+Datasets now include a two-digit code with 71 categories corresponding
+to Census Bureau occupational groupings.  In addition, beginning in 
+1992 Prestige scoring  of Census occupational codes have not been 
+released.  Those who have need of the full occupation codes or prestige 
+scores for their research should contact the NES project staff for 
+information about the conditions under which access to these data may 
+be provided.
+
+Similarly, the National Election Studies have not included information 
+for census tracts or minor civil divisions since 1978. Permission to 
+use more detailed geographic information for scholarly research may be
+obtained from the Board of Overseers. Further nformation is available 
+from NES project staff.
+
+In addition, coding of the new religious denomination variable is in 
+some cases  based on variables containing textual responses.  These 
+variables are restricted for reasons of confidentiality, but access 
+may be provided to legitimate scholars under established NES procedures.
+
+OPEN-ENDED MATERIALS
+
+Traditionally, the Election Studies have contained several minutes of
+open-ended responses (for example, the congressional candidates likes 
+and dislikes).  These questions are put into Master Codes by the SRC 
+coding section.  Other scholars have developed alternative or 
+supplemental coding schemes for the questions (for example, the levels 
+of conceptualization, released as ICPSR #8151). The Board of Overseers 
+wishes to encourage these efforts but in ways that respect the NES and 
+SRC obligation to protect the privacy and anonymity of respondents. 
+Circumstances under which individuals may have access to transcribed
+versions of these questions have been worked out and those interested 
+should contact the NES project staff for further details.
+
+
+>>  1998 FILE STRUCTURE
+
+
+The data file for the AMERICAN NATIONAL ELECTION STUDY, 
+1998: POST-ELECTION SURVEY is constructed with a single 
+logical record for each respondent.  The LRECL for the 
+raw (ASCII) data file is 1410 and there are 739 variables
+for 1281 respondents.
+
+Codebook marginals are unweighted.
+
+
+
+NOTE ON "DATASET NUMBER" AND "VERSION NUMBER" OF THE 1998 POST
+
+The 1998 Post is the first NES dataset to include a machine-readable NES 
+"Dataset number" and "Version number".
+
+NES "Dataset number"
+-------------------
+
+In early 1999, each unique dataset in the NES archive was assigned a 
+"Dataset number".  The NES 1998 Post-Election Study dataset is the first
+dataset to have its dataset number (1998.T) included in the machine-readable
+ASCII data (variable VDSETNO) and documented in the codebook and SAS/SPSS 
+data definition files.   In addition to the 1998 Post, dataset numbers for
+datasets from all archived NES studies are included in the NES "VERSION TABLE"
+described below.
+
+
+"Versions" of NES datasets
+--------------------------
+
+The term "dataset" used by NES refers to the following associated components:
+
+     1-  ASCII data file (.dat file)
+     2-  SAS and SPSS data definition files (.sas, .sps files) 
+     3-  Codebook files (.cbk file(s)) ^^
+
+Components of the initial release of a dataset will be identified as version
+01.  According to this system, a corrected component of a specific dataset
+is called a new "VERSION" of that component and is assigned a new "Version
+Number."   
+
+Because the initial release of a dataset is sometimes followed by corrections
+to one or more components, a labeling method has been implemented to identify
+the release version of the datset component(s). In practice, the version label
+will allow the analyst to easily verify if he or she has the most up to date
+components for that dataset.
+
+The version number of a particular component file is written as the first
+information in the machine-readable component file:
+
+     1) In the ASCII data file (.dat file), the version number of 
+        that data file is written in each record in columns 1-2.
+     2) In the SAS and SPSS data definition files, the version number 
+        of the file** is written in the very first line as a comment 
+        similar to the following:
+                * Version 01 SAS DATA DEFINITION FILE ;
+                              or:
+                * Version 01 SPSS DATA DEFINITION FILE
+     3) In the codebook file**, the version number is written as the 
+        first line similar to the following example:         
+                Version 01 Codebook
+
+
+NES Dataset "Version Table"
+--------------------------
+
+The NES Web site (www.umich.edu/~nes) includes an NES Dataset "Version Table"
+
+which can be used to identify the latest version of component files for
+released NES datasets.
+
+_______________
+
+^^NOTE:  A codebook usually comprises 3 files, an 'intro' file, variable file,
+and appendix file
+**NOTE:  Since SAS and SPSS data definition files (.sas and .sps files)
+are identified together as a single component, a new "version" of either
+signifies a new "version" of both, even if only one data definition file
+required correction. The "Note" field in the NES VERSION TABLE will indicate
+if only one file has actually been corrected.
+Similarly, since most codebooks are released as 3 files, a correction to any
+one of the codebook files results in a new "version" of all 3 codebook files
+at once. Again, the "Note" field in the NES VERSION TABLE will indicate if
+only one codebook file has actually been corrected.  (All 3 codebook files
+will include the version number in the first line of the machine-readable
+file, as indicated above.)
+
+
+
+
+
+>>  1998 CODEBOOK INFORMATION
+
+
+The following example from the 1948 NES study provides the standard 
+format for codebook variable documentation. 
+
+Note that NES studies which are not part of the Time-Series usually
+omit marginals and the descriptive content in lines 2-5 (except for
+variable name).
+
+
+Line
+
+1  ==============================                                              
+2  VAR 480026    NAME-R NOT VT-WAS R REG TO VT                                 
+3                COLUMNS 61   - 61                                             
+4                NUMERIC                                                       
+5                MD=0 OR GE 8                                                  
+6                                                                              
+7                  Q. 17.  (IF R DID NOT VOTE)  WERE YOU REGISTERED (ELIGIBLE)
+8                  TO VOTE.                                                   
+9                  ...........................................................
+10                                                                            
+11            82       1.  YES                                                
+12           149       2.  NO                                                 
+13                                                                             
+14             0       8.  DK                                                 
+15             9       9.  NA                                                 
+16           422       0.  INAP., R VOTED                                     
+                                                                  
+
+
+Line 2 - VARIABLE NAME.  Note that in the codebook the variable name
+         (usually a 'number') does not include the "V" prefix which is 
+         used in the release SAS and SPSS data definition files
+         (.sas and .sps files) for all variables including those
+         which do not have 'number' names.  For example the variable
+         "VERSION" in the codebook is "VVERSION" in the data definition
+         files.
+
+Line 2 - "NAME".  This is the variable label used in the SAS and SPSS
+         data definition files (.sas and .sps files).  Some codebooks 
+         exclude this.
+
+Line 3 - COLUMNS.  Columns in the ASCII data file (.dat file).
+
+Line 4 - CHARACTER OR NUMERIC.  If numeric and the variable is a decimal
+         rather than integer variable, the numer of decimal places is 
+         also indicated (e.g. "NUMERIC  DEC 4")
+
+Line 5 - Values which are assigned to missing by default in the Study's
+         SAS and and SPSS data definition files (.sas and .sps files).
+
+Line 7 - Actual question text for survey variables or a description of 
+         non-survey variables (for example, congressional district).
+         Survey items usually include the question number (for example
+         "B1a.") from the Study questionnaire; beginning in 1996 
+         non-survey items also have unique item numbers (for example
+         "CSheet.1").
+
+Line 9 - A dashed or dotted line usually separates question text from
+         any other documentation which follows.
+
+Line 10- When present, annotation provided by Study staff is presented
+         below the question text/description and preceding code values.
+
+Lines 11-16
+         Code values are listed with descriptive labels.  Valid codes
+         (those not having 'missing' status in line 5) are presented
+         first, followed by the values described in line 5.  For
+         continuous variables, one line may appear providing the range
+         of possible values.  A blank line usually separates the 'valid'
+         and 'missing' values.
+
+Lines 11-16
+         Marginals are usually provided for discrete variables.  The
+         counts may be unweighted or weighted; check the Study codebook
+         introductory text to determine weight usage.
+
+
+
+
+
+
+>> 1998 PROCESSING INFORMATION
+
+The data collection was processed according to standard processing 
+procedures.  The data were checked for illegal or inconsistent code 
+values which, when found, were corrected or recoded to missing data 
+values. Consistency checks were performed.  Annotation was added by 
+the processors for explanatory purposes.
+
+
+
+
+
+
+>>  NES STAFF AND TECHNICAL PAPERS, 1998
+
+1.    Sanchez, Maria. (July 1982) "7-Point Scales." 
+
+2.    Shanks, J. Merrill, Maria Sanchez, and Betsy Morton. (March 1983).
+"Alternative Approaches to Survey Data Collection for the National Election
+Studies." 
+
+3.    Lake, Celinda. (September 1983) "Similarity and Representativeness of
+1983 Pilot Samples." 
+
+4.    Lake, Celinda. (November 1983) "Comparison of 3-point, 5-point, and
+7-point Scales from the CATI Experiment 1982 Election Study." 
+
+5.    NES Staff. (December 1983) "1980 Precinct Data Returns Project." 
+
+6.    Lake, Celinda. (February 1984) "Coding of Independent/Independents and
+Apoliticals in the Party Identification Summary Code and Apoliticals in the
+Rolling Cross-Section." 
+
+7.    Morchio, Giovanna and Maria Sanchez. (February 1984) "Creation of a
+Filter Variable to be Used When Analyzing Questions about Congressional
+Candidates in the 1982 Integrated Personal/ISR CATI/Berkeley CATI Dataset: A
+Report to the Board of Overseers, National Election Studies." 
+
+8.    Morchio, Giovanna and Maria Sanchez. (March 1984) "Comparison of the
+Michigan Method of District Assignment on the Telephone with the Personal
+Interview Simulated Data: A Report to the Board of Overseers, National
+Election Studies." 
+
+9.    Traugott, Santa. (June 1984) "Two Versions of the Abortion Question." 
+
+10.    Sanchez, Maria.(July 1984) "Branching versus 7-point scale
+measurements." 
+
+11.    NES Staff. (August 1984) "Weekly Field Report for the National Election
+Studies Continuous Monitoring, Jan. 11 - Aug. 3, 1984: A Report to the Board
+of Overseers, National Election Studies." 
+
+12.    NES Staff. (August 1984) "Questions and Versions in NES Continuous
+Monitoring, 1984: A Report to the Board of Overseers, National Election
+Studies." 
+
+13.    NES Staff. (n.d) "Years of Schooling." 
+
+14.    NES Staff. (n.d) "Newspaper Code." 
+
+15.    Traugott, Santa. (n.d.) "The Political Interest Variable on the 1984
+Election Study." Unpublished Staff Memo to NES Planning Committee. 
+
+16.    Sanchez, Maria and Giovanna Morchio. (n.d.) "Probing Don't Know Answers
+-- Do We Always Want to Do This?" 
+
+17.    NES Staff. (February 1985) "Progress of the Rolling Cross Section." 
+
+18.    Bowers, Jake. (February 1995) NES Pilot Study Efforts to Measure Values
+and Predispositions.
+
+19.    Traugott, Santa. (February 1985) "Some Analysis of Hard-to-Reach
+Rolling Thunder Respondents." 
+
+20.    Traugott, Santa. (April 1985) "Sample Weighting in NES Continuous
+Monitoring, 1984: A Report to the Board of Overseers, National Election
+Studies." 
+
+21.    Traugott, Santa. (April 1985). "Sample Weighting in NES Pre-Post
+Election Survey,1984: A Report to the Board of Overseers, National Election
+Studies." 
+
+22.    Brehm, John. (June 1985) "Report on Coding of Economic Conditions
+Series in the 1984 Pre-Post Election Study" 
+
+23.    Brehm, John. (July 1985). "Question Ordering Effects on Reported Vote
+Choice." 
+
+24.    Traugott, Santa. (July 1985) "Assessment of Media Measures in RXS." 
+
+25.    Traugott, Santa. (July 1985) "Assessment of Media Measures in Pre-Post" 
+
+26.    Brehm, John. (August 1985). "Analysis of Result Code Disposition for
+Continuous Monitoring by Time in Field: Report to the Board of Overseers,
+National Election Studies." 
+
+27.    Morchio, Giovanna, Maria Sanchez and Santa Traugott. (November 1985).
+"Mode Differences: DK Responses in the 1984 Post-Election Survey: A Report to
+the Board of Overseers, National Election Studies." 
+
+28.    Morchio, Giovanna and Santa Traugott. (February 1986) "Congressional
+District Assignment in an RDD Sample: Results of 1982 CATI Experiment." 
+
+29.    Brehm, John and Santa Traugott. (March 1986) "Similarity and
+Representativeness of the 1985 Pilot Half-samples." 
+
+30.    Gronke, Paul. (September 1986) "NES Question C2: R's Party
+Registration." 
+
+31.    Brehm, John. (March 1987) "How Representative is the 1986 Post-Election
+Survey?" 
+
+32.    Morchio, Giovanna. (May 1987) "Trends in NES Response Rates." 
+
+33.    Brehm, John. (December 1987) "Who's Missing? an Analysis of NonResponse
+in the 1986 Election Study: A Report to the Board of Overseers, National
+Election Studies." 
+
+34.    Traugott, Santa. (August 1989) "Validating Self-Reported Vote:
+1964-1988." 
+
+35.    Belli, Robert, Traugott, Santa, and Steven J. Rosenstone. (November,
+1994) "Reducing Over-Reporting of Voter Turnout: An Experiment using a Source
+Monitoring Framework." 
+
+36.    Traugott, Santa and Giovanna Morchio. (March 1990) "Assessment of Bias
+Due to Attrition and Sample Selection in the NES 1989 Pilot Study." 
+
+37.    "Post-Stratified Cross-Sectional Analysis Weights for the 1992, 1994
+and 1996 NES data." (April 1998) Prepared by the Sampling Section Division of
+Surveys and Technologies. 
+
+38.    Gronke, Paul. (May 1990) "Assessing the Sample Quality of the 1988
+Senate Election Study: A response to Wright." 
+
+
+39.    Presser, Stanley, Michael W. Traugott and Santa Traugott. (November
+1990). "Vote 'Over' Reporting in Surveys: The Records or the Respondents?" 
+
+40.    Bloom, Joel. (March 1991) "Sources of Pro-incumbent Bias in NES Survey
+Estimates for U.S. House Races since 1978: A Second Look." 
+
+41.    Mayer, Russell. (November 1991) "Identifying Bias in Voting Models." 
+
+42.    Traugott, Michael W., Santa Traugott and Stanley Presser. (May 1992)
+"Revalidation of Self-Reported Vote." 
+
+43.    Rosenstone, Steven J., Margaret Petrella and Donald R. Kinder. (April
+1993) "The Consequences of Substituting Telephone for Face-to-Face
+Interviewing in the 1992 National Election Study." 
+
+44.    Luevano, Patricia. (March 1994) "Response Rates in the National
+Election Studies, 1948-1992." 
+
+45.    Traugott, Santa and Steven J. Rosenstone. (Nov. 1994) "Panel Attrition
+Among the 1990-1992 Panel Respondents." 
+
+46.    Traugott, Santa and Steven J. Rosenstone. (Nov. 1994) "Demographic
+Characteristics of Respondents to the 1980, 1984 and 1988 NES Pre-Election
+Studies by Week of Interview." 
+
+47.    Traugott, Santa. (Nov. 1994) "Candidate Traits Used in NES Studies,
+1979-1994." 
+
+48.    Traugott, Santa. (Nov. 1994) "Affects Towards Candidates Used in NES
+Studies, 1979-1994." 
+
+49.    Traugott, Santa. (Nov. 1994) "Candidate Placements Used in NES Studies,
+1968-1994." 
+
+50.    Sheng, Shing-Yuan. (Jan. 1995) "NES Measurements of Values and
+Pre-Dispositions, 1984-1992." 
+
+51.    Traugott, Santa. (Feb. 1995) "NES Question Batteries: Measuring Values
+and Dispositions, 1983-1994." 
+
+52.    Tolleson-Rinehart, Sue, et.al. (May 1994) "The Reliability, Validity,
+and Scalability of Indicators of Gender Role Beliefs and Feminismin the 1992
+National Election Study: A Report to the ANES Board of Overseers." 
+
+53.    Heeringa, Steve. (April 1998) "The Surveycraft CATI system's 'Random
+Number Generation' features and their Effects on Analysis of the 1997 NES
+Pilot "Group threat" Experiment." 
+
+54.    Traugott, Santa and Giovanna Morchio. (March 1990) "Assessment of bias
+due to attrition and sample selection in the NES 1989 Pilot Study." 
+
+
+
+>>  NES 1997 PILOT STUDY REPORTS
+
+     Bowers, Jake. Black Threat and Christian Fundamentalist Threat: A
+National Election Study 1997 Pilot Study Report.
+
+     Burden, Barry C. and Janet M. Box-Steffensmeier. Vote Likelihood and
+Institutional Trait Questions in the 1997 NES Pilot Study.
+
+     Carman, Christopher and Christopher Wlezien. Ideological Evaluations of
+Government Institutions and Policy.
+
+     Freedman, Paul and Ken Goldstein.  Partial Birth Abortion Item, 1997
+Pilot Study.
+
+     Rahn, Wendy and Christina Wessel. Perceptions of the Partisan Homogeneity
+of Social Groups: A Report to the NES Board of Overseers.
+
+     Sapiro, Virginia. Pro-Life People or Opponents of Abortion? Pro-Choice
+People or Supporters of Abortion? A Report on the NES 1997 Pilot Study.
+
+     Sapiro, Virginia.  The Impact of "Groups Talk" A Report on the NES 1997
+Pilot Study.
+
+     Wald, Kenneth D., et al. Evaluation of the New Religious Items on the NES
+1997 Pilot Study: A Report to the NES Board.
+
+     Wlezien, Christopher. Liberal-Conservative Evaluations of Groups.
+
+     Wong, Cara. Group Closeness: 1997 National Election Study Pilot Report.
+
+
+
+>>  1998 VARIABLE DESCRIPTION LIST
+
+Note:  as in this Variable Description List, the variable names in the SAS 
+and SPSS data definition files have a "V" prefix, e.g. "V980003", "VICPSR98"
+etc.; however in the codebook's variable documentation (file nes1998.cbk) the
+"V" prefix is omitted (980003,ICPSR98).
+
+
+IDENTIFICATION AND WEIGHTS
+Variable
+Name       Item         Description
+--------   ---------   ---------------------------------------------------
+VVERSION   Process.1   VERSION NUMBER
+VDSETNO    Process.2   NES DATASET NUMBER
+VICPSR98   Process.3   ICPSR ARCHIVE NUMBER
+V980001    Process.4   1998 CASE ID
+V980002    Process.5   POST-STRATIFIED SAMPLE WEIGHT
+
+ADMINISTRATIVE AND FIELD VARS
+Variable
+Name       Item         Description
+--------   ---------   ---------------------------------------------------
+V980003    Admin.1     MONTH OF INTERVIEW
+V980004    Admin.2     DAY OF INTERVIEW
+V980005    Admin.3     # OF DAYS AFTER ELECTION DAY
+V980006    Admin.4     BEGINNING TIME (LOCAL)
+V980007    Admin.5     ENDING TIME (LOCAL)
+V980008    Admin.6     LENGTH OF INTERVIEW IN MINUTES
+V980009    Admin.7     INTERVIEWER'S INTERVIEW NUMBER
+V980010    Admin.8     DATE OF BEINNING VQ FILE
+V980011    Admin.9     DATE OF ENDING VQ FILE
+V980012    Admin.10    FLAG - CHANGE IN VQ VERSION
+V980013    Admin.11    PAYMENT AMOUNT
+V980013a   Admin.11a   PAYMENT MODE
+V980013b   Admin.11b   PAYMENT DATE
+V980014    Admin.12    WAS INTERVIEW TAPE RECORDED
+V980015    Admin.13    VERIFICATION INDICATOR
+V980016    Admin.14    EVALUATION INDICATOR
+V980017    Admin.15    REFUSAL CONVERSION INDICATOR
+V980018    Admin.16    WAS PERSUASION LETTER SENT
+V980018a   Admin.16a   PERSUASION LETTER REQUESTED
+V980018b   Admin.16b   PERSUASION LETTER SENT
+V980019    Admin.17    TYPE OF PERSUASION LETTER SENT
+V980020    Admin.18    NUMBER OF TELEPHONE CALLS
+V980021    Admin.19    NUMBER OF FACE TO FACE CALLS
+V980022    Admin.20    TOTAL NUMBER OF CALLS (PHONE+FTF) MADE BY IWR
+V980023    Admin.21    CODE FOR FINAL RESULT OF INTERVIEW
+V980024    Admin.22    BEGINNING MODE--PERSONAL OR PHONE
+V980025    Admin.23    ENDING MODE -- PERSONAL OR PHONE
+V980026    Admin.24    FLAG - CHANGE IN IW MODE
+V980027    Admin.25    SAMPLE RELEASE
+V980028    Admin.26    LANGUAGE OF INTERVIEW
+
+COVERSHEET
+Variable
+Name       Item         Description
+--------   ---------   ---------------------------------------------------
+V980029    CSheet.1    FLAG - MISSING COVERSHEET
+V980030    CSheet.2    COLOR OF COVERSHEET
+V980031    CSheet.3    CS -SOURCE OF HOUSEHOLD LISTING
+V980032    CSheet.4    CS - SELECTION TABLE
+V980033    CSheet.5    CS - PERSON # SELECTED AS R
+V980034    CSheet.6    CS - TOTAL # OF PERSONS IN HH
+V980035    CSheet.7    CS - TOTAL # OF ELIGIBLE ADULTS
+V980036    CSheet.8    CS - HOUSEHOLD COMPOSITION CODE
+V980037    CSheet.9    CS - NUMBER OF CHILDREN UNDER 6 YRS OLD
+V980038    CSheet.10   CS - NUMBER OF CHILDREN 6-9 YRS OLD
+V980039    CSheet.11   CS - NUMBER OF CHILDREN 10-13 YRS OLD
+V980040    CSheet.12   CS - NUMBER OF CHILDREN 14-17 YRS OLD
+V980041    CSheet.13   CS - SUMMARY - Number of Children in HH
+V980042    CSheet.14   CS - TYPE OF HOUSING UNIT
+V980043    CSheet.15   CS - GATEKEEPER REQUIRED TO ACCESS HU
+V980044    CSheet.16   CS - GATEKEEPER DESCRIPTION
+V980045    CSheet.17   CS - CONTACT DESC: INITIAL REFUSAL?
+V980046    CSheet.18   CS - CONTACT DESC: BROKEN APPOINTMENT?
+V980047    CSheet.19   CS - RESISTANCE TO INTERVIEW?
+V980048    CSheet.20   CS - REASON FOR RESISTANCE: WASTE TIME
+V980049    CSheet.21   CS - REASON FOR RESISTANCE: VERY ILL
+V980050    CSheet.22   CS - REASON FOR RESISTANCE: TOO BUSY
+V980051    CSheet.23   CS - REASON:STRESSFUL FAMILY SITUATION
+V980052    CSheet.24   CS - REASON RESISTANCE: CONFIDENTIALTY
+V980053    CSheet.25   CS - REASON FOR RESISTANCE: INV OF PRIVACY
+V980054    CSheet.26   CS - REASON FOR RESISTANCE: NONE GIVEN
+V980055    CSheet.27   CS - REASON FOR RESISTANCE: OTHER
+NOTE: IWR observation is at end of survey vars (not coversheet)
+
+INTERVIEWER DESCRIPTION
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980056    IWR.1       INTERVIEWER OF RECORD ID
+V980057    IWR.2       SUPERVISOR ID
+V980058    IWR.3       INTERVIEWER GENDER
+V980059    IWR.4       INTERVIEWER EDUCATION
+V980060    IWR.5       INTERVIEWER RACE
+V980061    IWR.6       INTERVIEWER ETHNICITY
+V980062    IWR.7       INTERVIEWER LANGUAGES
+V980063    IWR.8       INTERVIEWER YEARS EXPERIENCE
+V980064    IWR.9       INTERVIEWER AGE (BRACKETTED)
+
+CANDIDATE AND TYPE RACE INFORMATION
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980065    Cand.1      RACE TYPE: HOUSE
+V980065a   Cand.1a     RACE TYPE: HOUSE OUTSIDE CD)
+V980066    Cand.2      RACE TYPE: SENATE
+V980066a   Cand.2a     RACE TYPE: SENATE (OUTSIDE CD)
+V980067    Cand.3      RACE TYPE: GUBERNATORIAL
+V980067a   Cand.3a     RACE TYPE: GUBERNATORIAL (OUTSIDE CD)
+V980068    Cand.4      DEMOCRATIC HOUSE CANDIDATE CODE
+V980068a   Cand.4a     DEMOCRATIC HOUSE CANDIDATE CODE (OUTSIDE CD)
+V980069    Cand.5      DEMOCRATIC HOUSE CANDIDATE GENDER
+V980069a   Cand.5a     DEMOCRATIC HOUSE CANDIDATE GENDER (OUTSIDE CD)
+V980070    Cand.6      DEMOCRATIC HOUSE CANDIDATE NAME
+V980070a   Cand.6a     DEMOCRATIC HOUSE CANDIDATE NAME (OUTSIDE CD)
+V980071    Cand.7      REPUBLICAN HOUSE CANDIDATE CODE
+V980071a   Cand7a      REPUBLICAN HOUSE CANDIDATE CODE (OUTSIDE CD)
+V980072    Cand.8      REPUBLICAN HOUSE CANDIDATE GENDER
+V980072a   Cand.8a     REPUBLICAN HOUSE CANDIDATE GENDER (OUTSIDE CD)
+V980073    Cand.9      REPUBLICAN HOUSE CANDIDATE NAME
+V980073a   Cand.9a     REPUBLICAN HOUSE CANDIDATE NAME (OUTSIDE CD)
+V980074    Cand.10     DEMOCRATIC SENATE CANDIDATE CODE
+V980074a   Cand.10a    DEMOCRATIC SENATE CANDIDATE CODE (OUTSIDE CD)
+V980075    Cand.11     DEMOCRATIC SENATE CANDIDATE GENDER
+V980075a   Cand.11a    DEMOCRATIC SENATE CANDIDATE GENDER (OUTSIDE CD)
+V980076    Cand.12     DEMOCRATIC SENATE CANDIDATE NAME
+V980076a   Cand.12a    DEMOCRATIC SENATE CANDIDATE NAME (OUTSIDE CD)
+V980077    Cand.13     REPUBLICAN SENATE CANDIDATE CODE
+V980077a   Cand.13a    REPUBLICAN SENATE CANDIDATE CODE (OUTSIDE CD)
+V980078    Cand.14     REPUBLICAN SENATE CANDIDATE GENDER
+V980078a   Cand.14a    REPUBLICAN SENATE CANDIDATE GENDER (OUTSIDE CD)
+V980079    Cand.15     REPUBLICAN SENATE CANDIDATE NAME
+V980079a   Cand.15a    REPUBLICAN SENATE CANDIDATE NAME (OUTSIDE CD)
+V980080    Cand.16     DEMOCRATIC GUBERNATORIAL CANDIDATE CODE
+V980080a   Cand.16a    DEMOCRATIC GUBERNATORIAL CANDIDATE CODE (OUTSIDE CD)
+V980081    Cand.17     DEMOCRATIC GUBERNATORIAL CANDIDATE GENDER
+V980081a   Cand.17a    DEMOCRATIC GUBERNATORIAL CANDIDATE GENDER (OUTSIDE CD)
+V980082    Cand.18     DEMOCRATIC GUBERNATORIAL CANDIDATE NAME
+V980082a   Cand.18a    DEMOCRATIC GUBERNATORIAL CANDIDATE NAME (OUTSIDE CD)
+V980083    Cand.19     REPUBLICAN GUBERNATORIAL CANDIDATE CODE
+V980083a   Cand.19a    REPUBLICAN GUBERNATORIAL CANDIDATE CODE (OUTSIDE CD)
+V980084    Cand.20     REPUBLICAN GUBERNATORIAL CANDIDATE GENDER
+V980084a   Cand.20a    REPUBLICAN GUBERNATORIAL CANDIDATE GENDER (OUTSIDE CD)
+V980085    Cand.21     REPUBLICAN GUBERNATORIAL CANDIDATE NAME
+V980085a   Cand.21a    REPUBLICAN GUBERNATORIAL CANDIDATE NAME (OUTSIDE CD)
+
+SAMPLING INFORMATION
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980086    Sample.1    ICPSR ST CODE - INTERVIEW LOCATION
+V980087    Sample.2    FIPS ST CODE - INTERVIEW LOCATION
+V980088    Sample.3    1996 STATE ABBREV AND CONG DISTR
+V980089    Sample.4    1996 STATE AND CD
+V980090    Sample.5    CONGRESSIONAL DISTRICT NUMBER
+V980091    Sample.6    DID R VOTE OUTSIDE OF IW CONGR DISTRICT
+V980092    Sample.7    STATE AND CD FOR VOTERS OUT OF CD
+V980093    Sample.8    FIPS STATE AND COUNTY
+V980094    Sample.9    PRIMARY AREA NAME
+V980095    Sample.10   PRIMARY AREA CODE
+V980096    Sample.11   SEGMENT NUMBER
+V980097    Sample.12   NUMBER OF HOUSEHOLD UNITS
+V980098    Sample.13   CENSUS R
+V980099    Sample.14   BELT CODE
+V980100    Sample.15   POPULATION IN 1000S
+V980101    Sample.16   CENSUS SIZE OF PLACE
+V980102    Sample.17   CENSUS TRACT/ED INDICATOR
+V980103    Sample.18   1996 SAMPLING ERROR CODE
+V980104    Sample.19   1990 CENSUS NECMA/SMSA
+V980105    Sample.20   1990 CENSUS CMSA
+V980106    Sample.21   1990 CENSUS TRACT 1
+V980107    Sample.22   1990 CENSUS TRACT 2
+
+SUMMARY DESCRIPTIONS/CALCULATIONS
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980108    Summary.1   WRONG CD ADMINISTERED IN PRE-FLAG
+V980108a   Summary.1a  INCORRECT TYPE RACE/CANDIDATE PRELOAD
+V980109    Summary.2   Section timing - Section A
+V980110    Summary.3   Section timing - Section B
+V980111    Summary.4   Section timing - Section C
+V980112    Summary.5   Section timing - Section D
+V980113    Summary.6   Section timing - Section E
+V980114    Summary.7   Section timing - Section F
+V980115    Summary.8   Section timing - Section G
+V980116    Summary.9   Section timing - Section H
+V980117    Summary.10  Section timing - Section J
+V980118    Summary.11  Section timing - Section K
+V980119    Summary.12  Section timing - Section M
+V980120    Summary.13  Section timing - Section N
+V980121    Summary.14  Section timing - Section P
+V980122    Summary.15  Section timing - Section X
+V980123    Summary.16  Section timing - Section Y
+Note: Length of IW is item Admin.6
+
+SURVEY SECTION A
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980201    A1          HOW INTERESTED WAS R IN THE CAMPAIGNS THIS YEAR
+V980202    A2          HOW MANY DAYS IN PAST WEEK DID R READ THE NEWSPAPER
+V980203    A3          DOES R HAVE CABLE OR SATELLITE TV
+V980204    A4          HOW MANY DAYS IN PAST WEEK R WATCHED THE NAT NEWS ON TV
+V980205    A5          DAYS R WATCH LOCAL NEWS LAST WEEK
+V980206    A6          DID R LISTEN TO SPEECHES/DISCUSSIONS ON THE RADIO?
+V980207    A7          R LISTEN TO POLITICAL TALK RADIO
+V980208    A7a         FREQ R LISTEN TO POLITICAL TALK RADIO
+V980209    A8          DOES R HAVE ACCESS TO THE INTERNET OR WORLD WIDE WEB?
+V980210    A8a         DID R SEE ANY INFORMATION ABOUT CAMPAIGN ON INTERNET?
+V980211    A9          DOES R DISCUSS POLITICS WITH FAMILY/FRIENDS?
+V980212    A9a         FREQUENCY OF POLITICAL DISCUSSIONS
+V980213    A9b         FREQ PAST WEEK POLITICAL DISCUSSIONS W/ FRIENDS/FAMILY
+V980214    A10         DID R VOTE FOR PRESIDENT IN THE 1996 ELECTION
+V980215    A10a        WHO DID R VOTE FOR IN THE 1996 PRESIDENTIAL RACE
+V980216    A11         DOES R APPROVE OR DISAPPROVE OF CLINTON HANDLING JOB
+V980217    A11a/b      DOES R STRGLY APPROVE OR DISAPPROVE OF CLINTON
+V980218    A12         DOES R APP/DISAPP OF CLINTON'S HANDLING OF THE ECON
+V980219    A12a/b      DOES R STRGLY APP/DISAPP OF CLINTON'S HANDLING OF ECON
+V980220    A13         DOES R APP/DISAPP OF CLINTON'S HANDLING OF FOR RELAT
+V980221    A13a/b      DOES R STRGLY APP OR DISAPP CLINTON'S FORGN RELAT
+
+SURVEY SECTION B
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980222    B1          DID R CARE ABOUT RESULT OF HOUSE ELECTION
+V980223    B2          DOES R REMEMBER NAMES OF HOUSE CANDS IN R'S DISTRICT
+V980224    B2a1        R'S RECALL OF NAME OF HOUSE CANDIDATE (FIRST MENTION)
+V980225    B2a2        R'S RECALL OF PARTY OF HOUSE CANDIDATE (FIRST MENTION)
+V980226    B2a3        #1 HOUSE CAND RECALL- ACTUAL PARTY
+V980227    B2a4        #1 HOUSE CAND RECALL- ACCURACY
+V980228    B2b1        R'S RECALL OF NAME OF HOUSE CANDIDATE (SECOND MENTION)
+V980229    B2b2        R'S RECALL OF PARTY OF HOUSE CANDIDATE (SECOND MENTION)
+V980230    B2b3        #2 HOUSE CAND RECALL- ACTUAL PARTY
+V980231    B2b4        #2 HOUSE CAND RECALL- ACCURACY
+V980232    B2c1        R'S RECALL OF NAME OF HOUSE CANDIDATE (THIRD MENTION)
+V980233    B2c2        R'S RECALL OF PARTY OF HOUSE CANDIDATE (FIRST MENTION)
+V980234    B2c3        #3 HOUSE CAND RECALL- ACTUAL PARTY
+V980235    B2c4        #3 HOUSE CAND RECALL- ACCURACY
+V980236    B3          DOES R APPROVE OR DISAPPROVE OF CONGRESS
+V980237    B3a/b       DOES R STRONGLY APPROVE OR DISAPPROVE OF CONGRESS
+V980238    B4a         CLINTON FEELING THERMOMETER
+V980239    B4b1        DEMOCRATIC HOUSE CANDIDATE FEELING THERMOMETER
+V980240    B4b2        REPUBLICAN HOUSE CANDIDATE FEELING THERMOMETER
+V980241    B4c1        THERMOMETER DEM SEN CAND
+V980242    B4c2        THERMOMETER REP SEN CAND
+V980243    B4d         AL GORE FEELING THERMOMETER
+V980244    B4e         NEWT GINGRICH FEELING THERMOMETER
+V980245    B4f         GEORGE BUSH JR FEELING THERMOMETER
+V980246    B4g         DAN QUAYLE THERMOMETER
+V980247    B4h         STEVE FORBES FEELING THERMOMETER
+V980248    B4i         KEN STAR FEELING THERMOMETER
+V980249    B4j         PAT BUCHANAN FEELING THERMOMETER
+V980250    B4k         ELIZABETH DOLE FEELING THERMOMETER
+V980251    B4m         RICHARD GEPHARDT FEELING THERMOMETER
+V980252    B4n         PAUL WELLSTONE FEELING THERMOMETER
+V980253    B4o         JOHN MCCAIN FEELING THERMOMETER
+V980254    B4p         BILL BRADLEY FEELING THERMOMETER
+V980255    B4q         BOB KERREY FEELING THERMOMETER
+V980256    B4r         JOHN KERRY FEELING THERMOMETER
+V980257    B4s         GARY BAUER FEELING THERMOMETER
+V980258    B4t         JOHN ASHCROFT FEELING THERMOMETER
+V980259    B4u         HILLARY CLINTON FEELING THERMOMETER
+V980260    B5a         DEMOCRATIC PARTY FEELING THERMOMETER
+V980261    B5b         REPUBLICAN PARTY FEELING THERMOMETER
+V980262    B5c         BLACKS FEELING THERMOMETER
+V980263    B5d         THE RELIGIOUS RIGHT FEELING THERMOMETER
+V980264    B5e         CONSERVATIVES FEELING THERMOMETER
+V980265    B5f         GAY MEN AND LESBIANS FEELING THERMOMETER
+V980266    B5g         LABOR UNIONS FEELING THERMOMETER
+V980267    B5h         LIBERALS FEELING THERMOMETER
+V980268    B5j         POOR PEOPLE FEELING THERMOMETER
+V980269    B5k         RICH PEOPLE FEELING THERMOMETER
+V980270    B5m         WHITES FEELING THERMOMETER
+V980271    B5n         COLLEGE-EDUCATED PEOPLE FEELING THERMOMETER
+V980272    B5p         BUSINESS FEELING THERMOMETER
+V980273    B5q         CONGRESS FEELING THERMOMETER
+V980274    B5r         NEWS MEDIA FEELING THERMOMETER
+
+SURVEY SECTION C
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980275    C1          WAS THERE ANYTHING R LIKED ABOUT DEM HOUSE CANDIDATE?
+V980276    C1a1        #1 MENTION - R LIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980277    C1a2        #2 MENTION - R LIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980278    C1a3        #3 MENTION - R LIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980279    C1a4        #4 MENTION - R LIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980280    C1a5        #5 MENTION - R LIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980281    C2          WAS THERE ANYTHING R DISLIKED ABOUT DEM HOUSE CAND?
+V980282    C2a1        #1 MENTION - R DISLIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980283    C2a2        #2 MENTION - R DISLIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980284    C2a3        #3 MENTION - R DISLIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980285    C2a4        #4 MENTION - R DISLIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980286    C2a5        #5 MENTION - R DISLIKE OF DEMOCRATIC HOUSE CANDIDATE
+V980287    C3          WAS THERE ANYTHING R LIKED ABOUT REPUB HOUSE CANDIDATE?
+V980288    C3a1        LIKE #1 REPUB HOUSE CANDIDATE
+V980289    C3a2        LIKE #2 REPUB HOUSE CANDIDATE
+V980290    C3a3        LIKE #3 REPUB HOUSE CANDIDATE
+V980291    C3a4        LIKE #4 REPUB HOUSE CANDIDATE
+V980292    C3a5        LIKE #5 REPUB HOUSE CANDIDATE
+V980293    C4          WAS THERE ANYTHING R DISLIKED ABOUT REPUB HOUSE CAND?
+V980294    C4a1        #1 MENTION - R DISLIKE OF REPUBLICAN HOUSE CANDIDATE
+V980295    C4a2        #1 MENTION - R DISLIKE OF REPUBLICAN HOUSE CANDIDATE
+V980296    C4a3        #3 MENTION - R DISLIKE OF REPUBLICAN HOUSE CANDIDATE
+V980297    C4a4        #4 MENTION - R DISLIKE OF REPUBLICAN HOUSE CANDIDATE
+V980298    C4a5        #1 MENTION - R DISLIKE OF REPUBLICAN HOUSE CANDIDATE
+V980299    C5          DOES R KNOW IF EITHER HOUSE CAND IS THE INCUMBENT?
+V980300    C5a         CODE-CAND IDENTIFIED AS INCUM-2 CAND RACE
+V980301    C6          IF ONLY 1 CANDIDATE RAN - WAS THAT CANDIDATE INCUMBENT?
+V980302    C6a         CODE-CAND IDENTIFIED AS INCUM-1 CAND RACE
+
+SURVEY SECTION D
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980303    D1          DID R VOTE IN 1998?
+V980304    D1a         WAS R REGISTERED?
+V980305    D2          IS R REGISTERED TO VOTE IN COUNTY?
+V980306    D2a         (IF NOT REGISTERED IN COUNTY) WHAT COUNTY REGISTERED?
+V980307    D2b         (OUT OF COUNTY) STATE OF REG- CODE
+V980307a   D2c         DATA CHECKPOINT:  DID R VOTE IN CD OF IW?
+V980307b   D2d         DATA CHECKPOINT: R VOTE OUTSIDE OF STATE AND CD
+V980308    D3          DID R VOTE ON NOV 3RD OR BEFORE THAT?
+V980309    D3a         (IF BEFORE NOV 3) HOW LONG BEFORE NOV 3RD?
+V980310    D4          DID R VOTE IS PERSON OR BY ABSENTEE BALLOT?
+V980311    D5          DID R VOTE FOR U.S. HOUSE CANDIDATE?
+V980312    D5a/D5aa    R'S VOTE- U.S. HOUSE CANDIDATE- CODE
+V980313    D5b         PARTY OF HOUSE VOTE
+V980314    D5x         CKPOINT: SENATE RACE IN STATE OF IW?
+V980314a   D5x1        CKPOINT: SENATE RACE IN STATE OF VOTE?
+V980315    D6          DID R VOTE FOR A SENATE CANDIDATE
+V980316    D6a/D6aa    R'S SENATE VOTE- CODE
+V980317    D6b         PARTY OF SENATE VOTE
+V980318    D6x         CKPOINT: GUBERNATORIAL RACE IN STATE OF IW?
+V980318a   D6x1        CKPOINT: SENATE RACE IN STATE OF VOTE?
+V980319    D7          DID R VOTE FOR GOVERNOR
+V980320    D7a/D7aa    R GUBERNATORIAL VOTE- CODE
+V980321    D7b         PARTY OF GUBERNATORIAL VOTE
+V980322    D8          (IF R DID NOT VOTE) DID R PREFER CAND FOR U.S. HOUSE?
+V980323    D8a         (IF R DID NOT VOTE) WHICH HSE CAND DID R PREFER -CODE
+V980324    D8b         PARTY OF NONVOTER HOUSE PREFERENCE
+
+SURVEY SECTION E
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980325    E0          DATA CKPT: RUNNING INCUMBENT IN RACE?
+V980326    E1          DOES R APPROVE/DISAPPROVE OF RUNNING HOUSE INCUMBENT?
+V980327    E1a/b       STRENGTH OF R'S APPROVAL/DISAPPROVAL OF HOUSE INCUMBENT
+V980328    E2          HOW WELL HAS INCUMBENT KEPT IN TOUCH WITH DISTRICT?
+V980329    E3          DOES R KNOW THE NO. YRS THAT INCUM HAS BEEN IN HOUSE?
+V980330    E3a         (IF YES) HOW MANY YEARS HAS INCUMBENT BEEN IN HOUSE?
+V980331    E3b         (IF DK) HAS INCUM BEEN IN HOUSE LESS/ABOUT/MORE 12 YRS?
+V980332    E4          HOW OFTEN DOES R THINKHOUSE INCUMBENT SUPPORTS CLINTON?
+V980333    E4a         (IF MORE THAN HALF) ALMOST ALWAYS?
+V980334    E4b         (IF LESS THAN HALF) ALMOST NEVER?
+V980335    E5          DOES R FAVOR 12-YEAR TERM LIMIT ON MEMBERS OF CONGRESS
+V980336    E6          R'S PARTY IDENTIFICATION
+V980337    E6a/b       STRENGTH OF R'S PARTY IDENTIFICATION
+V980338    E6c         (IF R IS INDEP/NO PREFERENCE) R CLOSER TO ONE PARTY
+V980339    E6x         SUMMARY - PARTY ID
+
+SURVEY SECTION F
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980340    F1          HOW MUCH DOES R FOLLOW GOVERNMENT AND PUBLIC AFFAIRS?
+V980341    F2(1)       MOST IMPORTANT PROBLEM - #1
+V980342    F2(2)       MOST IMPORTANT PROBLEM - #2
+V980343    F2(3)       MOST IMPORTANT PROBLEM - #3
+V980344    F2(4)       MOST IMPORTANT PROBLEM - #4
+V980345    F3          CKPT: # MENTIONS MOST IMPORTANT PROB
+V980346    F4          CHOICE - MOST IMPORTANT PROBLEM
+V980347    F5          GOVT PERFORMANCE ON MOST IMP PROBLEM
+V980348    F6          PARTY PERFORMANCE ON MOST IMP PROBLEM
+
+SURVEY SECTION G
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980349    G1          WAS R CONTACTED BY ANY POLITICAL PARTY?
+V980350    G1a         WHICH PARTY CONTACTED R?
+V980351    G2          DID ANYONE ELSE CONTACT R ABOUT CAND IN THE ELECTION?
+V980352    G2a(1)      WHICH CAND WAS R ASKED TO SUPPORT (1)
+V980353    G2a(2)      WHICH CAND WAS R ASKED TO SUPPORT (2)
+V980354    G3          DID ANYONE TALK TO R ABOUT REGISTERING TO VOTE?
+V980355    G4          DID RELIG/MORAL GROUP CONTACT R ABOUT R'S VOTE?
+V980356    G5          CAMPAIGN INFORMATION AVAILABLE AT R'S PLACE OF WORSHIP?
+V980357    G5a         DID R' CLERGY GIVE ADVICE TO R ON HOW TO VOTE?
+V980358    G5b(1)      WHICH CANDIDATE DID R' CLERGY RECOMMEND - #1 MENTION
+V980359    G5b(2)      WHICH CANDIDATE DID R' CLERGY RECOMMEND - #2 MENTION
+V980360    G5b(3)      WHICH CANDIDATE DID R' CLERGY RECOMMEND - #3 MENTION
+V980361    G6          R TALK TO OTHERS ABOUT VOTING FOR/AGAINST PARTY/ CAND?
+V980362    G7          DID R WEAR BUTTON, PLACE A SIGN, PUT A STICKER ON CAR?
+V980363    G8          DID R ATTEND ANY MEETINGS, SPEECHES, RALLIES FOR CAND?
+V980364    G9          DID R WORK FOR ANY ONE OF THE PARTIES OR CANDIDATES?
+V980365    G10         DID R CONTRIBUTE MONEY TO A CAND RUNNING FOR OFFICE?
+V980366    G10a        WHICH PARTY THE CANDIDATE THAT R CONTRIBUTED TO BELONG?
+V980367    G11         DID R GIVE MONEY TO A POLIT CAND DURING ELECTION YEAR?
+V980368    G11a        WHICH PARTY DID R CONTRIBUTE MONEY TO?
+V980369    G12         DID R GIVE $ TO OTHER GROUP THAT SUPPORTED/OPP CAND?
+
+SURVEY SECTION H
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980370    H1          DOES R THINK THERE ARE IMP DIFF BETWEEN REPS AND DEMS?
+V980371    H1a1        IMPORTANT DIFFERENCE: #1 MENTION
+V980372    H1a2        PARTY REFERENCE #1 - IMP PARTY DIFF
+V980373    H1b1        IMPORTANT DIFFERENCE: #2 MENTION
+V980374    H1b2        PARTY REFERENCE #2 - IMP PARTY DIFF
+V980375    H1c1        IMPORTANT DIFFERENCE: #3 MENTION
+V980376    H1c2        PARTY REFERENCE #3 - IMP PARTY DIFF
+V980377    H1d1        IMPORTANT DIFFERENCE: #4 MENTION
+V980378    H1d2        PARTY REFERENCE #4 - IMP PARTY DIFF
+V980379    H1e1        IMPORTANT DIFFERENCE: #5 MENTION
+V980380    H1e2        PARTY REFERENCE #5 - IMP PARTY DIFF
+V980381    H1f1        IMPORTANT DIFFERENCE: #6 MENTION
+V980382    H1f2        PARTY REFERENCE #6 - IMP PARTY DIFF
+V980383    H2          WHICH PARTY WOULD DO A BET JOB OF DEALING WITH CRIME
+V980384    H2a         WHICH PARTY WOULD DO A BET JOB OF HANDLING THE ECONOMY
+V980385    H2b         WHICH PARTY HANDLE ENVIRONMENT BEST
+V980386    H2c         WHICH PARTY WOULD BETTER HANDLE FOREIGN AFFAIRS
+V980387    H2d         WHICH PARTY PROTECT SOC SECURITY BEST
+V980388    H3          WHICH PARTY BEST FOR AM FAMILIES
+V980389    H4a         HAS CLINTON EVER MADE R FEEL ANGRY
+V980390    H4a1        HOW OFTEN HAS CLINTON MADE R FEEL ANGRY
+V980391    H4b         HAS CLINTON EVER MADE R FEEL HOPEFUL
+V980392    H4b1        HOW OFTEN HAS CLINTON MADE R FEEL HOPEFUL
+V980393    H4c         HAS CLINTON EVER MADE R FEEL AFRAID
+V980394    H4c1        HOW OFTEN HAS CLINTON MADE R FEEL AFRAID
+V980395    H4d         HAS CLINTON EVER MADE R FEEL PROUD
+V980396    H4d1        HOW OFTEN HAS CLINTON MADE R FEEL PROUD
+V980397    H4e         DISGUSTED - CLINTON AFFECT
+V980398    H4e1        HOW OFTEN DISGUSTED CLINTON AFFECT
+V980399    H5a         R'S SELF-PLACEMENT ON LIBERAL/CONSERVATIVE SCALE
+V980400    H5a1        HOW CERTAIN IS R OF SELF-PLACEMENT ON LIB/CON SCALE
+V980401    H5aa        IF R HAD TO CHOOSE, WOULD R BE LIB OR CON
+V980402    H5x         SUMMARY- SELF-PLACEMENT LIB-CON
+V980403    H5b         R'S PLACEMENT OF CLINTON ON LIBERAL-CON SCALE
+V980404    H5b1        HOW CERTAIN PLACEMENT OF CLINTON ON LIB/CON SCALE
+V980405    H5c         GORE PLACEMENT LIB-CON SCALE
+V980406    H5c1        CERTAIN- GORE LIB-CON PLACEMENT
+V980407    H5d         R'S PLACEMENT OF DEM HSE CAND ON LIB/CON SCALE
+V980408    H5d1        HOW CERT IS R OF PLACE OF DEM HSE CAND ON LIB/CON SCALE
+V980409    H5e         R'S PLACEMENT OF REP HSE CAND ON LIB/CON SCALE
+V980410    H5e1        HOW CERTAIN PLACEMT OF REP HSE CAND ON LIB/CON SCALE
+V980411    H5f         R'S PLACEMENT OF DEMOCRATIC PARTY ON LIB/CON SCALE
+V980412    H5g         R'S PLACEMENT OF REPUBLICAN PARTY ON LIB/CON SCALE
+
+SURVEY SECTION J
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980413    J1          COUNTRY IN RIGHT DIRECTION/WRONG TRACK
+V980414    J2          IS R BETTER OR WORSE OFF FINANCIALLY THAN A YEAR AGO
+V980415    J2a/b       IS R MUCH BETTER/WORSE OFF FINANCIALLY THAN A YEAR AGO
+V980416    J3          DOES R THINK R WILL BE BETTER/WORSE OFF FINANC NEXT YR
+V980417    J3a/b       DOES R THINK MUCH BETTER/WORSE OFF FINANC NEXT YR
+V980418    J4          R THINK ECON HAS GOTTEN BETTER/WORSE OVER PAST YEAR
+V980419    J4a/b       R THINK ECON HAS GOTTEN MUCH BETTER/WORSE OVER PAST YR
+V980420    J5          R EXPECT ECON TO GET BETTER/WORSE OVER THE NEXT YEAR
+V980421    J5a/b       R EXPECT ECON TO GET MUCH BETTER/WORSE OVER THE NEXT YR
+V980422    J6          ECON BETTER/WORSE SINCE CLINTON TOOK OFC
+V980423    J6a/b       ECON HOW MUCH BETTER/WORSE SINCE CLINTON
+V980424    J7          WHO MOST RESPONSIBLE FOR ECON CONDITION
+V980425    J8          IS R INVESTED IN STOCK MARKET
+V980426    J9          BETTER ONE PARTY OR SPLIT CONTROL
+V980427    J10         DOES R THINK THE POLIT SYSTEM SHOULD REMAIN TWO PARTY?
+V980428    J11         SOCIETY SHOULD SEE TO EQUAL OPPORTUNITY
+V980429    J12         TOO FAR PUSHING EQUAL RIGHTS
+V980430    J13a        DOES R CONSIDER CLINTON MORAL
+V980431    J13b        DOES R THINK THAT CLINTON CARES ABOUT PEOPLE LIKE R
+V980432    J13c        DOES R CONSIDER CLINTON KNOWLEDGEABLE
+V980433    J13d        DOES R CONSIDER CLINTON HONEST
+V980434    J13e        DOES R CONSIDER CLINTON STRONG LEADER
+V980435    J14a        GORE TRAIT- MORAL
+V980436    J14b        GORE TRAIT- REALLY CARES
+V980437    J14c        GORE TRAIT- KNOWLEDGEABLE
+V980438    J14d        GORE TRAIT- HONEST
+V980439    J14e        GORE TRAIT- STRONG LEADER
+V980440    J15a        CONGRESS TOO LIBERAL/CONSERVATIVE 1
+V980441    J15a1       CONGRESS TOO LIBERAL/CONSERVATIVE 2
+V980442    J15b        CONGRESS DOESN'T ACCOMPLISH MUCH
+V980443    J15c        CONGRESS TOO INVOLVED IN PARTISAN POL
+V980444    J15d        CONGESS DOESN'T CARE WHAT ORDIN THINK
+
+SURVEY SECTION K
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980445    K1          CREDIT FOR BUDGET SURPLUS
+V980446    K2          ETHNIC GROUPS- DISTINCT CULTURE/MELT POT
+V980447    K3          FAVOR/OPPOSE ENGLISH OFFICIAL LANGUAGE
+V980448    K4a         R'S SELF-PLACEMENT ON WOMEN'S RIGHTS SCALE
+V980449    K4b         R'S PLACEMENT OF CLINTON ON WOMEN'S RIGHTS SCALE
+V980450    K4c         R'S PLACEMENT OF GORE ON WOMEN'S RIGHTS SCALE
+V980451    K4d         DEM HSE CAND PLACEMENT EQUAL ROLE SCALE
+V980452    K4e         REP HSE CAND PLACEMENT EQUAL ROLE SCALE
+V980453    K4f         DEM PARTY PLACEMENT EQUAL ROLE SCALE
+V980454    K4g         REP PARTY PLACEMENT EQUAL ROLE SCALE
+V980455    K5          R'S OPINION ON THE ISSUE OF SCHOOL PRAYER
+V980456    K5a         STRENGTH OF R'S POSITION ON SCHOOL PRAYER
+V980457    K6a         R'S SELF-PLACEMENT ON GUAR JOB/STANDARD OF LIVING SCALE
+V980458    K6b         R'S PLACE OF CLINTON ON GUAR JOB/STD OF LIVING SCALE
+V980459    K6c         GORE- GUAR JOB/STD LIV SCALE
+V980460    K6d         DEM HSE CAND- GUAR JOB/STD LIV SCALE
+V980461    K6e         REP HSE CAND- GUAR JOB/STD LIV SCALE
+V980462    K7a         R'S SELF-PLACE ON AID TO BLACKS SCALE
+V980463    K8a         R'S SELF-PLACEMENT ON SERVICES/SPENDING SCALE
+V980464    K8b         R'S PLACEMENT OF CLINTON ON SERVICES/SPENDING SCALE
+V980465    K8c         GORE- SERVICES/SPEND SCALE
+V980466    K8d         R'S PLACEMENT OF DEM HSE CAND ON SERVICE/SPENDING SCALE
+V980467    K8e         R'S PLACEMENT OF REP HSE CAND ON SERV/SPENDING SCALE
+V980468    K8f         R'S PLACEMENT OF DEM PARTY ON SERVICES/SPENDING SCALE
+V980469    K8g         R'S PLACEMENT OF REP PARTY ON SERVICES/SPENDING SCALE
+V980470    K9          DOES R FAVOR AFFIRM ACTION IN HIRING AND PROMOTION?
+V980471    K9a/b       DOES R FAVOR/OPPOSE AFFIR ACTION STRONGLY / NOT
+V980472    K10         RELIGIOUS GROUPS STAY IN/OUT OF POLITICS
+V980473    K11         RELIGION DIVIDES/ RELIGIOUS TAKE ACTION
+V980474    K12         HOW MUCH OF THE TIME R TRUSTS NEWS MEDIA
+V980475    K13a        GORE OFFICE - KNOWLEDGE
+V980476    K13b        REHNQUIST OFFICE - KNOWLEDGE
+V980477    K13c        YELTSIN OFFICE - KNOWLEDGE
+V980478    K13d        GINGRICH OFFICE - KNOWLEDGE
+V980479    K14         DOES R RECALL WHICH PARTY WAS IN MAJORITY IN THE HOUSE?
+V980480    K15         DOES R RECALL WHICH PARTY WAS IN MAJORITY IN SENATE?
+V980481    K16         OFFICIALS SHD HAVE HIGHER MORAL STDS
+V980482    K17         R FAVOR/OPPOSE SCHOOL VOUCHER SYSTEM
+V980483    K17a/b      HOW MUCH FAVOR/OPP SCHOOL VOUCHER SYSTEM
+
+SURVEY SECTION M
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980484    M1          HAS US POS IN THE WRLD GROWN STR/WEAKER IN THE PAST YR
+V980485    M2          HOW WILLING SHOULD THE US BE TO USE MILITARY FORCE
+V980486    M3          HOW WILLING- HUMANITARIAN AID
+V980487    M4          HOW WILLING- AID TO WORLD ECON CRISES
+V980488    M5          SHOULD THE US NOT CONCERN ITSELF WITH PROBLEMS ABROAD
+V980489    M6          SHOULD NO. IMMIGRANTS SHOULD BE INCREASE/DECREASED?
+V980490    M7          DOES R FAVOR/OPPOSE LIMITING IMPORTS?
+V980491    M8          VIETNAM OBJECTORS SHOULD HAVE SERVED
+V980492    M9          IS RELIGION AN IMPORTANT PART OF R'S LIFE
+V980493    M10         HOW MUCH GUIDANCE DOES RELIGION PROVIDE IN R'S LIFE
+V980494    M11         HOW FREQUENTLY DOES R PRAY
+V980495    M12         HOW FREQUENTLY DOES R READ THE BIBLE
+V980496    M13         R'S VIEW ON WHETHER THE BIBLE IS THE WORD OF GOD
+V980497    M14a        R'S SELF-PLACEMENT ON ENVIRONMENTAL REGULATION SCALE
+V980498    M14b        GORE -SCALE ENVIR REGULATION
+V980499    M14c        DEM HSE CAND- SCALE ENVIR REGULATION
+V980500    M14d        REP HSE CAND- SCALE ENVIR REGULATION
+V980501    M14e        R'S PLACEMENT OF DEM PARTY ON ENVIRO REGULATION SCALE
+V980502    M14f        R'S PLACEMENT OF REP PARTY ON ENVIRO REGULATION SCALE
+V980503    M15         DOES R FAVOR OR OPPOSE THE DEATH PENALTY?
+V980504    M15a/b      HOW STRONGLY FAVOR /OPPOSE DEATH PENALTY?
+V980505    M16a        R'S SELF-PLACEMENT ON ABORTION ISSUE
+V980506    M16b        GORE- ABORTION SCALE
+V980507    M16c        R'S PLACEMENT OF DEM HOUSE CANDIDATE ON ABORTION ISSUE
+V980508    M16d        R'S PLACEMENT OF REP HOUSE CANDIDATE ON ABORTION ISSUE
+V980509    M16e        R'S PLACEMENT OF DEM PARTY ON ABORTION ISSUE
+V980510    M16f        R'S PLACEMENT OF REP PARTY ON ABORTION ISSUE
+V980511    M17         FAV/OPP LATE-TERM ABORTION BAN
+V980512    M17a/b      STRENGTH FAV/OPP LATE-TERM ABORTION BAN
+
+SURVEY SECTION N
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980513    N1          IRISH ETC. NO SPECIAL FAVORS- BLACK NTHR
+V980514    N2          BLACKS HAVE GOTTEN LESS THAN DESERVE
+V980515    N3          SHOULD ADJUST MORAL BEHAVIOR TO CHANGE
+V980516    N4          R OPINION: WE SHOULD BE MORE TOLERANT- OTHER MORAL STDS
+V980517    N5          MORE EMPHASIS ON TRADITIONAL FAM TIES
+V980518    N6          SHOULD BE MORE TOLERANT OF OTHER MORALS
+V980519    N7          MARITAL INFIDELITY ALWAYS WRONG
+V980520    N8          R PLACMENT- VOTING MAKES DIFF SCALE
+V980521    N9          HOW MUCH ATTENTION DOES GOVT PAY TO PEOPLE IN DECISIONS
+V980522    N10         DOW MUCH DOES R THINK ELECTIONS MAKE GOVT PAY ATTENTION
+V980523    N11         OPINION: POLITICS AND GOVT ARE TOO COMPLICATED
+V980524    N12         OPINION: PUBL OFFICIALS DON'T CARE WHAT PEOPLE THINK
+V980525    N13         R OPINION: PEOPLE LIKE R DON'T HAVE MUCH SAY IN GOVT
+V980526    N14         HOW MANY OF THE PEOPLE IN GOVT ARE CROOKED?
+V980527    N15         HOW MUCH OF TAX MONEY DOES R THINK THE GOVT WASTES?
+V980528    N16         HOW MUCH OF THE TIME R TRUSTS GOVT TO DO WHAT IS RIGHT
+V980529    N17         IS GOVT RUN BY A FEW BIG INTERESTS OR BENEFIT OF ALL?
+V980530    N18         US DOESN'T NEED POLITICAL PARTIES
+V980531    N19         DOES R THINK THAT MOST PPLE WOULD TRY TO TAKE ADVANT
+V980532    N20         DOES R THINK THAT MOST PEOPLE CAN BE TRUSTED
+
+SURVEY SECTION P
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980533    P1          SHOULD CLINTON RESIGN
+V980534    P2          SHOULD CLINTON BE IMPEACHED
+V980535    P3          APP/DIS CONGRESS HANDLE CLINTON SCANDAL
+V980536    P3a/b       STRNGTH APP/DIS CONGRSS ON CLINTON SCAND
+V980537    P4          APPROVE/DISAPP MEDIA ON CLINTON SCANDAL
+V980538    P4a/b       STRENGTH APP/DIS MEDIA ON CLINTON SCAND
+V980539    P5          CLINTON MATTER PUBLIC OR PRIVATE ISSUE
+V980540    P6          IS KENNETH STARR IMPARTIAL OR PARTISAN
+
+SURVEY SECTION X (RELIGIOUS IDENTIFICATION)
+Variable
+Name       Item         Description
+--------   ---------   ---------------------------------------------------
+V980541    X1          DOES R ATTEND RELIGIOUS SERVICES
+V980542    X1a         DOES R CONSIDER HIMSELF/HERSELF PART OF A CHURCH
+V980543    X2          HOW FREQUENTLY DOES R ATTEND RELIGIOUS SERVICES
+V980544    X2a         DOES R ATTEND RELIGIOUS SERVICES MORE THAN ONCE/WEEK
+V980545    X3          (INTERVIEWER CHECKPOINT) DOES R ATTEND WORSHIP
+V980546    X3a         RELIGIOUS AFFILIATION OF R'S PLACE OF WORSHIP
+V980547    X3b         R'S RELIGIOUS AFFILIATION
+V980548    X4          (PROTESTANT) R'S CHURCH/DENOMINATION
+V980549    X4(1)       DENOMINATION OTHER SPECIFY
+V980550    X4a         WITH WHAT BAPTIST GROUP IS R'S CHURCH AFFILIATED
+V980551    X4b         (BAPTIST) IS R'S CHURCH LOCAL OR AFFIL
+V980552    X4c         WITH WHAT LUTHERN GROUP IS R'S CHURCH AFFILIATED
+V980553    X4d         WITH WHAT METHODIST GROUP IS R'S CHURCH AFFILIATED
+V980554    X4e         WITH WHAT PRESBYTERIAN GROUP IS R'S CHURCH AFFILIATED
+V980555    X4f         WITH WHAT REFORMED GROUP IS R'S CHURCH AFFILIATED
+V980556    X4g         WITH WHAT BRETHREN GROUP IS R'S CHURCH AFFILIATED
+V980557    X4h         BY "CHRISTIAN" DOES R MEAN DISCIPLES OF CHRIST
+V980558    X4i         WHAT CHURCH OF CHRIST GROUP IS R'S CHURCH AFFIL
+V980559    X4j         WITH WHAT CHURCH OF GOD GROUP IS R'S CHURCH AFFILIATED
+V980560    X4k         (HOLINESS OR PENTECOSTAL) WHAT IS THE NAME/AFFIL 
+V980561    X4kx        'OTHER' TEXTS - BLANKED
+V980562    X4m         (NOT PROT/CATH/JEWISH) WHAT IS THE NAME/AFFIL 
+V980563    X4m(1)      (R NOT ALRY IDENT AS CHRST) IS THAT CHRISTIAN?
+V980564    X6a/b       (JEWISH) ORTHODOX, CONSERV, OR REFORMED
+V980565    X7          IS R OFFICIALLY A MEMBER OF A PLACE OF WORSHIP
+V980566    X8          TYPE OF R'S CHRISTIANITY
+V980567    X8a         CHRISTIANITY TYPE - OPEN
+V980568    X9          IS R A BORN-AGAIN CHRISTIAN
+V980569    X10         RELIGION SUMMARY
+
+SURVEY SECTION Y (DEMOGRAPHICS/PERSONAL INFORMATION)
+Variable
+Name       Item         Description
+--------   ---------   ---------------------------------------------------
+V980570    Y1a         R'S MONTH OF BIRTH
+V980571    Y1b         R'S YEAR OF BIRTH
+V980572    Y1c         AGE OF RESPONDENT
+V980573    Y2          R'S MARITAL STATUS
+V980574    Y3          HIGHEST GRADE R HAS COMPLETED
+V980575    Y3a         HAS R EARNED A HIGH SCHOOL DIPLOMA/PASSED THE GED
+V980576    Y3b         HIGHEST DEGREE R HAS EARNED
+V980577    Y3x         SUMMARY - RESPONDENT EDUCATION
+V980578    Y5          ASSIGNED EMPLOYMENT SERIES
+V980579    Y6          R'S EMPLOYMENT STATUS- FULL
+V980579a   Y7          R'S EMPLOYMENT STATUS 1 CATEGORY
+V980580    Y9          (UNEMPLOYED) HAS R EVER WORKED FOR PAY
+V980581    Y10/Y10a    (UNEMPLOYED) PAST OCCUPATION CODE (2 DIGIT)
+V980581a   Y10x(1)     (UNEMPLOYED) PAST OCCUPATION (BLANKED)
+V980582    Y10x(2)     (UNEMPLOYED) PAST OCCUPATION COLLAPSED (1 DIGIT)
+V980583    Y10x(3)     (UNEMPLOYED) PAST OCCUPATION PRESTIGE
+V980584    Y10b        (UNEMPLOYED) PAST BUSINESS/INDUSTRY CODE
+V980585    Y10c        (UNEMPLOYED) WAS R SELF-EMPLOYED
+V980586    Y10d        (UNEMPLOYED) DID R WORK FOR THE GOVERNMENT
+V980587    Y10e        (UNEMPLOYED) HAS R WORKED FOR PAY IN THE LAST 6 MOS
+V980588    Y10f        (UNEMPLOYED) HOURS PER WEEK R WORKED
+V980589    Y10g        (UNEMPLOYED) IS R LOOKING FOR WORK
+V980590    Y10h        (UNEMPLOYED) HOW WORRIED IS R ABOUT FINDING WORK
+V980591    Y11         (RETIRED) MONTH OF RETIREMENT
+V980592    Y11a        (RETIRED) YEAR OF RETIREMENT
+V980593    Y12/Y12a    (RETIRED) PAST OCCUPATION CODE (2 DIGIT)
+V980593a   Y12x(1)     (RETIRED) PAST OCCUPATION (BLANKED)
+V980594    Y12x(2)     (RETIRED) PAST OCCUPATION (BLANKED) COLLAPSED (1 DIGIT)
+V980595    Y12x(3)     (RETIRED) PAST OCCUPATION PRESTIGE
+V980596    Y12b        (RETIRED) PAST BUSINESS/INDUSTRY CODE
+V980597    Y12c        (RETIRED) WAS R SELF-EMPLOYED
+V980598    Y12d        (RETIRED) DID R WORK FOR THE GOVERNMENT
+V980599    Y12e        (RETIRED) HAS R WORKED FOR PAY IN THE LAST SIX MONTHS
+V980600    Y12f        (RETIRED) HOURS PER WEEK R WORKED
+V980601    Y12g        (RETIRED) IS R CURRENTLY WORKING FOR PAY
+V980602    Y12h        (RETIRED) IS R LOOKING FOR WORK
+V980603    Y12j        (RETIRED) HOW WORRIED IS R ABOUT FINDING WORK
+V980604    Y13         (DISABLED) HAS R EVER WORKED FOR PAY
+V980605    Y14/Y14a    (DISABLED) PAST OCCUPATION CODE
+V980605a   Y14x(1)     (DISABLED) PAST OCCUPATION CODE (BLANKED)
+V980606    Y14x(2)     (DISABLED) PAST OCCUPATION CODE COLLAPSED (1 DIGIT)
+V980607    Y14x(3)     (DISABLED) PAST OCCUPATION PRESTIGE
+V980608    Y14b        (DISABLED) PAST BUSINESS/INDUSTRY CODE
+V980609    Y14c        (DISABLED) WAS R SELF-EMPLOYED
+V980610    Y14d        (DISABLED) DID R WORK FOR THE GOVERNMENT
+V980611    Y14e        (DISABLED) HAS R WORKED FOR PAY IN THE LAST SIX MONTHS
+V980612    Y14f        (DISABLED) HOURS PER WEEK R WORKED
+V980613    Y14g        (DISABLED) IS R CURRENTLY WORKING FOR PAY
+V980614    Y14h        (DISABLED) IS R LOOKING FOR WORK
+V980615    Y14j        (DISABLED) HOW WORRIED IS R ABOUT FINDING WORK
+V980616    Y15         (HOMEMAKER/STUDENT) IS R CURRENTLY WORKING FOR PAY
+V980617    Y15a        (HOMEMAKER/STUDENT) HAS R WORKED FOR PAY IN LAST 6 MOS
+V980618    Y16/Y16a    (HOMEMAKER/STUDENT) PAST OCCUPATION CODE
+V980618a   Y16x(1)     (HOMEMAKER/STUDENT) PAST OCCUPATION CODE (BLANKED)
+V980619    Y16x(2)     (HOMEMAKER/STUDENT) PAST OCCUPATION COLLAPSED (1 DIGIT)
+V980620    Y16x(3)     (HOMEMAKER/STUDENT) PAST OCCUPATION PRESTIGE
+V980621    Y16b        (HOMEMAKER/STUDENT) PAST BUSINESS/INDUSTRY CODE
+V980622    Y16c        (HOMEMAKER/STUDENT) WAS R SELF-EMPLOYED
+V980623    Y16d        (HOMEMAKER/STUDENT) DID R WORK FOR THE GOVERNMENT
+V980624    Y16f        (HOMEMAKER/STUDENT) HOURS PER WEEK R WORKED
+V980625    Y16h        (HOMEMAKER/STUDENT) IS R LOOKING FOR WORK
+V980626    Y16j        (HOMEMAKER/STUDENT) HOW WORRIED IS R ABOUT FINDING WORK
+V980627    Y7/Y7a      (WORKING NOW) OCCUPATION CODE
+V980627a   Y7x(1)      (WORKING NOW) OCCUPATION CODE (BLANKED)
+V980628    Y7x(2)      (WORKING NOW) OCCUPATION CODE COLLAPSED (1 DIGIT)
+V980629    Y7x(3)      (WORKING NOW) OCCUPATION PRESTIGE
+V980630    Y7b         (WORKING NOW) BUSINESS/INDUSTRY CODE
+V980631    Y7c         (WORKING NOW) IS R SELF-EMPLOYED
+V980632    Y7d         (WORKING NOW) DOES R WORK FOR THE GOVERNMENT
+V980633    Y7e         (WORKING NOW) HOURS PER WEEK R WORKS
+V980634    Y7f         (WORKING NOW) IS R SATISFIED WITH NUM HRS R WORKS/WEEK
+V980635    Y7g         (WORKING NOW) HOW WORRIED IS R ABOUT LOSING JOB
+V980636    Y7h         (WORKING NOW) WAS R OUT OF WORK IN THE LAST SIX MONTHS
+V980637    Y7j         (WORKING NOW) DID R HAVE REDUCT IN WRK HRS LAST 6 MOS
+V980638    RC1         STACKED OCCUPATION CODE
+V980638a   RC1a        STACKED OCCUPATION (BLANKED)
+V980639    RC2         STACKED OCCUPATION COLLAPSED
+V980640    RC3         STACKED OCCUPATION PRESTIGE
+V980641    RC4         STACKED INDUSTRY CODE
+V980642    RC5         STACKED- R WORK FOR SELF/OTHERS
+V980643    RC6         STACKED- R EMPLOYED BY GOVERNMENT
+V980644    RC7         STACKED- NUMBER OF HOURS WORKED
+V980645    RC8         STACKED- WORRIED ABOUT LOSING/FINDING JOB
+V980646    RC9         STACKED- (UNEMP/DISAB) HAD JOB IN LAST 6 MOS.
+V980647    RC10        STACKED- (R/UN/DIS) LOOKING FOR WORK
+V980648    RC11        UN/DIS) EVER WORKED FOR PAY
+V980649    Y18         DO ANY OF R'S HOUSEHOLD MEMBERS BELONG TO A LABOR UNION
+V980650    Y18a        R'S HOUSEHOLD MEMBERS WHO BELONG TO A LABOR UNION
+V980651    Y19         (INTERVIEWER CHECKPOINT) IS R THE ONLY HH MEMBER 14+
+V980652    Y20         R'S FAMILY INCOME IN 1995
+V980653    Y20a/Y21    R'S OWN INCOME IN 1995
+V980654    Y22(1)      R'S ETHNIC/NATIONALITY GROUP -- MENTION 1
+V980655    Y22(2)      R'S ETHNIC/NATIONALITY GROUP -- MENTION 2
+V980656    Y22(3)      (INTERVIEWER CHECKPOINT) # OF ETHNIC/NAT GRPS R MENT
+V980657    Y22a        ETHNIC/NAT GROUP WITH WHICH R MOST CLOSELY IDENTIFIES
+V980658    Y22b        WERE BOTH OF R'S PARENTS BORN IN THE UNITED STATES
+V980659    Y23         IS R OF SPANISH/HISPANIC ORIGIN OR DESCENT
+V980660    Y23a        CATEGORY OF HISPANIC ORIGIN THAT BEST DESCRIBES R
+V980661    Y26         HOW LONG HAS R LIVED IN R'S PRESENT CITY
+V980662    Y27         HOW LONG HAS R  LIVED IN R'S PRESENT HOUSE
+V980663    Y28         DOES R OWN A HOME OR PAY RENT
+V980664    Y29         DOES R HAVE CHILDREN
+V980665    Y29a        HOW MANY CHILDREN R HAS <6 YRS OLD
+V980666    Y29a1       NO. CHILDREN <6 WITH R AT LEAST HALF TIM
+V980667    Y29b        HOW MANY CHILDREN R HAS 6-18 YRS OLD
+V980668    Y29b1       NO. CHILDREN 6-18 W/ R AT LEAST HALF TIM
+V980669    Y30         CKPOINT: IS R ENDING IW FTF OR PHONE?
+
+INTERVIEWER OBSERVATION
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980670    Z0          IWR: NUMBER OF TIMES R CONTACTED HU
+V980671    Z0a         IWR: WHY DI DR CONDUCT FTF
+V980672    Z1          IWR OBSERVATION: R GENDER
+V980673    Z2          IWR OSERVATION: R RACE
+V980674    Z3          IWR OSERVATION:OTHERS PRESENT DURING IW
+V980675    Z4          IWR OBSERVATION: R COOPERATION
+V980676    Z5          IWR OBSERVATION: R LEVEL INFORMATION ABT POLITICS
+V980677    Z6          IWR OBSERVATION: R APPARENT INTELLIGENCE
+V980678    Z7          IWR OBSERVATION: R SUSPICIOUSNESS
+V980679    Z8          IWR OBSERVATION: R INTEREST IN IW
+V980680    Z9          IWR OBSERVATION: R SINCERITY
+V980681    Z10         IWR OBSERVATION: R REPORT INCOME ACCURATELY
+V980682    Z10a        IWR OBSERVATION: ESTIMATED INCOME
+V980683    Z11(1)      IWR OBSERVATION: #1 R REACTIONS TO IW
+V980684    Z11(2)      IWR OBSERVATION: #2 R REACTIONS TO IW
+V980685    Z11(3)      IWR OBSERVATION: #3 R REACTIONS TO IW
+V980686    Z11(4)      IWR OBSERVATION: #4 R REACTIONS TO IW
+V980687    Z11(5)      IWR OBSERVATION: #5 R REACTIONS TO IW
+Note: there are no variables V980688-980690
+V980691    Z12         IWR OBSERVATION: R DIFFICULTY W/BOOKLET
+V980692    Z13         IWR OBSERVATION: REASONS FOR DIFFICULTY W/BOOKLET
+V980693    Z14         IWR OBSERVATION: DID R STATE PROBLEM W/BKLET
+V980694    Z15         IWR OBSERVATION: HOW MUCH OF THE BOOKLET WAS A PROBLEM
+V980695    Z16         IWR TELEPHONE OBSERV: DID R HAVE BOOKLET
+V980696    Z17         IWR TEL OBSERV: HOW SURE THAT R HAD BOOKLET
+V980697    Z18         IWR TEL OBSERV: R DIFFICULTY W/BOOKLET
+V980698    Z19         IWR TEL OBSERV: HOW MUCH DIFFICULTY W/BKLET
+V980699    Z20         IWR TEL OBSERV: WHY DID IT SEEM DIFFICULTY W/BKLET
+V980700    Z21         IWR TEL OBSERV: WHY NO BOOKLET
+V980701    Z22         IWR TEL OBSERV: DID R USE BKLET MID-IW
+V980702    Z23         IWR TEL OBSERV: DID NO BOOKLET INTERFERE W/ IW
+
+RANDOMIZATION 
+Variable
+Name       Item        Description
+--------   ---------   ---------------------------------------------------
+V980703    Rand.A12/13 Order of A12-A12a/b and A13-A13a/b
+V980704    Rand.B4b1   Position of Democratic House candidate in thermometers
+V980705    Rand.B4b2   Position of Democratic House candidate in thermometers
+V980706    Rand.B4c1   Position of Democratic Senate candidate in thermometers
+V980707    Rand.B4c2   Position of Democratic Senate candidate in thermometers
+V980708    Rand.B4d    Position of Al Gore in thermometers
+V980709    Rand.B4e    Position of Newt Gingrich in thermometers
+V980710    Rand.B4f    Position of George Bush Jr. in thermometers
+V980711    Rand.B4g    Position of Dan Quayle in thermometers
+V980712    Rand.B4h    Position of Steve Forbes in thermometers
+V980713    Rand.B4i    Position of Ken Starr in thermometers
+V980714    Rand.B4j    Position of Pat Buchanan in thermometers
+V980715    Rand.B4k    Position of Elizabeth Dole in thermometers
+V980716    Rand.B4m    Position of Richard Gephardt in thermometers
+V980717    Rand.B4n    Position of Paul Wellstone in thermometers
+V980718    Rand.B4o    Position of John McCain in thermometers
+V980719    Rand.B4p    Position of Bill Bradley in thermometers
+V980720    Rand.B4q    Position of Bob Kerrey in thermometers
+V980721    Rand.B4r    Position of John Kerrey in thermometers
+V980722    Rand.B4s    Position of Gary Bauer in thermometers
+V980723    Rand.B4t    Position of John Ashcroft in thermometers
+V980724    Rand.B4u    Position of Hillary Clinton in thermometers
+V980725    Rand.B5a/b  Position of Democratic Party in thermometers
+V980726    Rand.B5c    Position of Blacks in thermometers
+V980727    Rand.B5d    Position of the Religious Right in thermometers
+V980728    Rand.B5e    Position of Conservatives in thermometers
+V980729    Rand.B5f    Position of Gay Men and Lesbians in thermometers
+V980730    Rand.B5g    Position of Labor Unions in thermometers
+V980731    Rand.B5h    Position of Liberals in thermometers
+V980732    Rand.B5j    Position of Poor People in thermometers
+V980733    Rand.B5k    Position of Rich People in thermometers
+V980734    Rand.B5m    Position of Whites in thermometers
+V980735    Rand.B5n    Position of College Educated People  in thermometers
+V980736    Rand.B5p    Position of Business in thermometers
+V980737    Rand.B5q    Position of the U.S. Congress in thermometers
+V980738    Rand.B5r    Position of the News Media in thermometers
+V980739    Rand.C1-C4  Position of Dem Party and Rep Party Likes/Dislikes
+V980740    Rand.C5     Order of Dem candidate name and Rep candidate name
+V980741    Rand.F6     Order of F6 "Republican Party" and "Democratic Party" 
+V980742    Rand.H2     Position of "crime" in party performance series
+V980743    Rand.H2a    Position of "handling the nation's economy" 
+V980744    Rand.H2b    Position of "handling the problems of pollution" 
+V980745    Rand.H2c    Position of "handling foreign affairs" 
+V980746    Rand.H2d    Position of "Social Security" in party performance 
+V980747    Rand.H2-H2d Order of "Republican Party" and "Democratic Party" 
+V980748    Rand.H4a    Position of of "angry" in Clinton affects series
+V980749    Rand.H4b    Position of of "hopeful" in Clinton affects series
+V980750    Rand.H4c    Position of of "afraid" in Clinton affects series
+V980751    Rand.H4d    Position of of "proud" in Clinton affects series
+V980752    Rand.H4e    Position of of "disgusted" in Clinton affects series
+V980753    Rand.H5d/e  Position of Demo and Repub cands in Liberal/Cons
+V980754    Rand.H5f/g  Position of Dem party, Repub party in Liberal/Conserv
+V980755    Rand.J13-15 Order of exec level (Clinton, Gore) traits series
+V980756    Rand.J13a   Position of "is moral" in J13 Clinton traits series
+V980757    Rand.J13b   Position of "really cares about people" in J13
+V980758    Rand.J13c   Position of "is knowledgeable" in J13 
+V980759    Rand.J13d   Position of "is honest" in J13 Clinton traits series
+V980760    Rand.J13e   Position of "provides strong leadership" in J13 
+V980761    Rand.J14a   Position of "is moral" in J14 Gore traits series
+V980762    Rand.J14b   Position of "really cares about people" in J14 
+V980763    Rand.J14c   Position of "is knowledgeable" in J14 
+V980764    Rand.J14d   Position of "is honest" in J14 Gore traits series
+V980765    Rand.J14e   Position of "provides strong leadership" in J14 
+V980766    Rand.J15a   Selection of "too liberal"/"too cons" Congr trait
+V980767    Rand.J15b   Position of "doesn't get much accomplished" in J15 
+V980768    Rand.J15c   Position of "too involved in partisan politics" in J15 
+V980769    Rand.J15d   Position of "doesn't care what ordinary Am think" 
+V980770    Rand.K4d/e  Position of Dem and Repub candidates in Women's Role
+V980771    Rand.K4f/g  Position of Dem and Repubparties in Women's Role
+V980772    Rand.K6d/e  Position of Dem and Repub cands in Guar Jobs
+V980773    Rand.K8d/e  Position of Dem and Repub candidates in Serv/Spend
+V980774    Rand.K8f/g  Position of Dem and Repub parties in Serv/Spend
+V980775    Rand.M14c/d Position of Dem and Repub candidates in Serv/Spend
+V980776    Rand.M14e/f Position of Dem and Repub parties in Serv/Spend

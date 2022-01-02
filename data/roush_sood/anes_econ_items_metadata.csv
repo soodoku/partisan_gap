@@ -1,0 +1,24 @@
+item_name,description,study,year,econ_item,unsure_coding,sign
+ec_1980_corr,Economy over past year,anes,1980,1,0,1
+ec_1982_corr,Economy over past year,anes,1982,1,0,-1
+ec_1984_corr,Economy over past year,anes,1984,1,0,1
+ec_1986_corr,Economy over past year,anes,1986,1,0,1
+ec_1988_corr,Economy over past year,anes,1988,1,0,1
+ec_1990_corr,Economy over past year ,anes,1990,1,0,1
+ec_1992_corr,Economy over past year ,anes,1992,1,0,1
+ec_1994_corr,Economy over past year ,anes,1994,1,0,-1
+ec_1996_corr,Economy over the past year,anes,1996,1,0,-1
+ec_1998_corr,Economy over past year ,anes,1998,1,0,-1
+ec_2000_corr,Economy over past year,anes,2000,1,0,-1
+ec_2002_corr,Economy over past year,anes,2002,1,0,1
+ec_2004_corr,Economy over past year,anes,2004,1,0,1
+ec_2008_corr,Economy over past year,anes,2008,1,0,-1
+ec_2012_corr,Economy over past year,anes,2012,1,0,-1
+ec_2016_corr,Economy over past year,anes,2016,1,0,1
+blacks_cond_corr,Economic condition of blacks over past year,anes,1984,1,0,1
+women_cond_corr,Economic condition of women over past year,anes,1984,1,0,1
+econ_4yrs_corr,Economy compared to four years ago,anes,1992,1,0,-1
+econ_4th_corr,Economy since July 4th,anes,1992,1,0,1
+econ_clint_corr,Economy since Clinton took office,anes,1998,1,0,-1
+ec2008_corr,Economy compared to 2008,anes,2016,1,0,-1
+econ_1992_corr,Economy compared to 1992,anes,2000,1,0,-1

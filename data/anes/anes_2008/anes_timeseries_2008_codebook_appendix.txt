@@ -1,0 +1,1327 @@
+THIS FILE IS:  anes_timeseries_2008_codebook_appendix.txt  (codebook appendices file)
+RELEASE VERSION:  20150519
+
+
+
+
+ANES 2008 Time Series Study
+=====================
+CODEBOOK APPENDICES
+=====================
+
+
+Appendix A1. ANES 2008 Time Series Study Pre-election questions
+               with forward/reverse response options
+Appendix A2. ANES 2008 Time Series Study Post-election questions with
+               forward/reverse response options
+Appendix B1. ANES 2008 Time Series Study Pre-election questions with
+               split administration
+Appendix B2. ANES 2008 Time Series Study Post-election questions with
+               split administration
+Appendix C.  ANES 2008 Full Religion Master Code
+Appendix D.  ANES 2008 Ethnicity Master code
+Appendix E.  ANES 2008 State and Country Master Code
+
+
+
+>>Appendix A1.
+
+             ANES 2008 Time Series Study Pre-election questions
+                   with forward/reverse response options
+
+PRE-ELECTION:
+
+VARIABLE   VARIABLE LABEL
+--------   --------------
+V083001a   A1a. [VERSION A] Interested in following campaigns
+V083001b   A1b. [VERSION B] Interested in following campaigns
+V083005    A5. How often does R vote
+V083016a   A10a1. How happy/sad will R be if Democratic Pres cand won
+V083017a   A10b1a.  How happy/sad will R be if Republican Pres cand won
+V083019a   A11b1. [OLD] Attention to national (network) news
+V083020c   A11c2. [OLD] Attention to local news
+V083021d   A11d2a. [OLD] Attention to newspaper articles
+V083022a   A11e1. [OLD] Attention to radio news
+V083023b   A12a1a1. [NEW] Attention to internet news
+V083024b   A12b1a. [NEW] Attention to TV news
+V083025b   A12c1a. [NEW] Attention to printed newspaper news
+V083026b   A12d1a. [NEW] Attention to radio news
+V083034    A15. Care who wins House election
+V083054    C4a. How similar are Republicans to one another
+V083055    C4b. How similar are Democrats to one another
+V083061a   D1a1. How often affect angry about Democratic Pres cand
+V083062a   D1b1. How often affect hopeful about Democratic Pres cand
+V083063a   D1c1. How often affect afraid about Democratic Pres cand
+V083064a   D1d1. How often affect proud about Democratic Pres cand
+V083065a   D2a1. How often affect angry about Republican Pres cand
+V083066a   D2b1. How often affect hopeful about Republican Pres cand
+V083067a   D2c1. How often affect afraid about Republican Pres cand
+V083068a   D2d1. How often affect proud about Republican Pres cand
+V083080a   E10a. [VERSION D] Politics/govt too complicatd to understand
+V083080b   E10b. [VERSION D] Good understanding of political issues
+V083080c   E10c. [VERSION D] Publ officials don't care what peopl think
+V083080d   E10d. [VERSION D] Have no say about what govt does
+V083081    E11. Extent successfully defend opinion
+V083082    E12. How often see both disagreeing parties as right
+V083092b   F8b. [VERSION H] Can people be trusted
+V083099a   K1a1. [VERSION J] Pres Dem cand trait moral
+V083099b   K1a2. [VERSION J] Pres Dem cand trait strong leadership
+V083099c   K1a3. [VERSION J] Pres Dem cand trait really cares
+V083099d   K1a4. [VERSION J] Pres Dem cand trait knowledgeable
+V083099e   K1a5. [VERSION J] Pres Dem cand trait intelligent
+V083099f   K1a6. [VERSION J] Pres Dem cand trait honest
+V083099g   K1a7. [VERSION J] Pres Dem cand trait optimistic
+V083100a   K1b1. [VERSION K] Pres Dem cand trait moral
+V083100b   K1b2. [VERSION K] Pres Dem cand trait strong leadership
+V083100c   K1b3. [VERSION K] Pres Dem cand trait really cares
+V083100d   K1b4. [VERSION K] Pres Dem cand trait knowledgeable
+V083100e   K1b5. [VERSION K] Pres Dem cand trait intelligent
+V083100f   K1b6. [VERSION K] Pres Dem cand trait honest
+V083100g   K1b7. [VERSION K] Pres Dem cand trait optimistic
+V083101a   K2a1. [VERSION J] Pres Rep cand trait moral
+V083101b   K2a2. [VERSION J] Pres Rep cand trait strong leadership
+V083101c   K2a3. [VERSION J] Pres Rep cand trait really cares
+V083101d   K2a4. [VERSION J] Pres Rep cand trait knowledgeable
+V083101e   K2a5. [VERSION J] Pres Rep cand trait intelligent
+V083101f   K2a6. [VERSION J] Pres Rep cand trait honest
+V083101g   K2a7. [VERSION J] Pres Rep cand trait optimistic
+V083102a   K2b1. [VERSION K] Pres Rep cand trait moral
+V083102b   K2b2. [VERSION K] Pres Rep cand trait strong leadership
+V083102c   K2b3. [VERSION K] Pres Rep cand trait really cares
+V083102d   K2b4. [VERSION K] Pres Rep cand trait knowledgeable
+V083102e   K2b5. [VERSION K] Pres Rep cand trait intelligent
+V083102f   K2b6. [VERSION K] Pres Rep cand trait honest
+V083102g   K2b7. [VERSION K] Pres Rep cand trait optimistic
+V083108a   N1d1. [NEW] Amount more/less spending and Services - self
+V083110a   N1f1a. [NEW] Amt more/less spending-services: Dem Pres cand
+V083111a   N1f2a. [NEW] Amt more/less spending-services: Rep Pres cand
+V083115a   N2d1. [NEW] Amount more/less defense spending - self
+V083117a   N2f1a. [NEW] Amt more/less defense spend: Dem Pres cand
+V083118a   N2f2a. [NEW] Amt more/less defense spend: Rep Pres cand
+V083122a   N3d1. [NEW] How much favor/opp prescr drug cover for seniors
+V083124a   N3f1. [NEW] How much favor/oppose universal health coverage
+V083126a   N3h1a. [NEW] How mch Dem Pres cand fav/opp univ health cover
+V083127a   N3h2a. [NEW] How mch Rep Pres cand fav/opp univ health cover
+V083131a   N4d1. [NEW] How much favor/opp illegal immigrant work period
+V083133a   N4f1. [NEW] How much favor/oppose citizenship illegals
+V083135a   N4h1a. [NEW] How mch Dem Pres cand fav/opp citznshp illegals
+V083136a   N4h2a. [NEW] How mch Rep Pres cand fav/opp citznshp illegals
+V083140a   P1a1. How much increase or decrease spending on highways
+V083141a   P1b1. How much increase or decrease spend on Soc Security
+V083142a   P1c1. How much increase or decrease spend on public schools
+V083143a   P1d1. How much increase/decrease spend on science and techn
+V083144a   P1e1. How much increase or decrease spending on crime
+V083145a   P1f1. How much increase or decrease spending on welfare
+V083146a   P1g1. How much increase or decrease spending on child care
+V083147a   P1h1. How much increase or decrease spending on foreign aid
+V083148a   P1j1. How much increase or decrease spending on aid to poor
+V083149a   P1k1. How much increase or decrease spending on border
+V083150a   P1m1. How much increase/decrease spendg on war on terrorism
+V083151a   P1n1. How much increase or decrease spending on environment
+V083157a   P4d1. [NEW] How much favor/oppose lower emission stds
+V083159a   P4f1a. [NEW] How much Dem Pres cand fav/opp lower emissions
+V083160a   P4f2a. [NEW] How much Rep Pres cand fav/opp lower emissions
+V083161a   P4g1. [NEW] How much favor/oppose higher fuel std
+V083162a   P4h1. [NEW] How much favor/oppose higher gas taxes
+V083170a   Q2a1a. [VERSION R] Black President make R uncomfortable
+V083170b   Q2a1b. [VERSION S] Black President make R uncomfortable
+V083171a   Q2a2a. [VERSION R] Black President make R pleased
+V083171b   Q2a2b. [VERSION S] Black President make R pleased
+V083174a   R1a1. How often GW Bush affect angry
+V083175a   R1b1. How often GW Bush affect hopeful
+V083176a   R1c1. How often GW Bush affect afraid
+V083177a   R1d1. How often GW Bush affect proud
+V083178a   R2a1. [VERSION J] President trait: moral
+V083178b   R2a2. [VERSION J] President trait: strong leadership
+V083178c   R2a3. [VERSION J] President trait: really cares
+V083178d   R2a4. [VERSION J] President trait: knowledgeable
+V083178e   R2a5. [VERSION J] President trait: intelligent
+V083178f   R2a6. [VERSION J] President trait: honest
+V083178g   R2a7. [VERSION J] President trait: optimistic
+V083179a   R2b1. [VERSION K] President trait: moral
+V083179b   R2b2. [VERSION K] President trait: strong leadership
+V083179c   R2b3. [VERSION K] President trait: really cares
+V083179d   R2b4. [VERSION K] President trait: knowledgeable
+V083179e   R2b5. [VERSION K] President trait: intelligent
+V083179f   R2b6. [VERSION K] President trait: honest
+V083179g   R2b7. [VERSION K] President trait: optimistic
+
+
+>>Appendix A2.
+
+             ANES 2008 Time Series Study Post-election questions
+                   with forward/reverse response options
+
+POST-ELECTION:
+
+VARIABLE   VARIABLE LABEL
+--------   --------------
+
+V085001a   A1a. [OLD] Interested in following campaigns
+V085001b   A1b. [NEW] Interested in following campaigns
+V085003    A2a3. [OLD] Attention to TV news about Presidential campaign
+V085005    A2b3. [OLD] Attention to magazine about Pres campaign
+V085007    A2c3. [OLD] Attention to radio about Presidential campaign
+V085009    A2d3. [OLD] Attention to newspaper about Pres campaign
+V085011    A2e3. [OLD] Attention to internet info about Pres campaign
+V085012    A2f. [OLD] General attention to Presidential campaign news
+V085014    A3a3. [NEW] Attention to TV news about Presidential campaign
+V085016    A3b3. [NEW] Attention to magazine about Pres campaign
+V085018    A3c3. [NEW] Attention to radio about Presidential campaign
+V085020    A3d3. [NEW] Attention to newspaper about Pres campaign
+V085022    A3e3. [NEW] Attention to internet info about Pres campaign
+V085023    A3f. [NEW] General attention to Presidential campaign news
+V085024    A4. How often trust the media to report news fairly
+V085072    E5a. [OLD] Interest in politics and elections
+V085073a   E5b1. [NEW] How close attn to politics and elections
+V085073b   E5b2. [NEW] How often attn to politics and elections
+V085078a   F1a. U.S. policy goal: preventing nuclea weapons
+V085078b   F1b. U.S. policy goal: defending human rights
+V085078c   F1c. U.S. policy goal: strengthen United Nations
+V085078d   F1d. U.S. policy goal: combat world hunger
+V085078e   F1e. U.S. policy goal: protect American jobs
+V085078f   F1f. U.S. policy goal: bring democracy to world
+V085078g   F1g. U.S. policy goal: control illegal immigration
+V085078h   F1h. U.S. policy goal: promote market economies abroad
+V085078j   F1j. U.S. policy goal: combat intl terrorism
+V085083    F6. How likely immigration take away jobs
+V085092a   G4a1. [NEW] How much favor abortion for nonfatal health risk
+V085092b   G4a2. [NEW] How much oppose abortn for nonfatal health risk
+V085093a   G4b1. [NEW] How much favor abortion for fatal health risk
+V085093b   G4b2. [NEW] How much oppose abortion for fatal health risk
+V085094a   G4c1. [NEW] How much favor abortion in incest cases
+V085094b   G4c2. [NEW] How much oppose abortion in incest cases
+V085095a   G4d1. [NEW] How much favor abortion in rape cases
+V085095b   G4d2. [NEW] How much oppose abortion in rape cases
+V085096a   G4e1. [NEW] How much favor abortion in birth defect cases
+V085096b   G4e2. [NEW] How much oppose abortion in birth defect cases
+V085097a   G4f1. [NEW] How much favor abortion in finan hardship cases
+V085097b   G4f2. [NEW] How much oppose abortion in finan hardship cases
+V085098a   G4g1. [NEW] How much favor abortn when child gender 'wrong'
+V085098b   G4g2. [NEW] How much oppose abortn when child gender 'wrong'
+V085099a   G5a1. [NEW] Dem PC favor abortion if nonfatal health risk
+V085099b   G5a2. [NEW] Dem PC opp abortion if nonfatal health risk
+V085100a   G5b1. [NEW] Dem PC favor abortion when child gender 'wrong'
+V085100b   G5b2. [NEW] Dem PC oppose abortion when child gender 'wrong'
+V085101a   G6a1. [NEW] Rep PC favor abortion if nonfatal health risk
+V085101b   G6a2. [NEW] Rep PC opp abortion if nonfatal health risk
+V085102a   G6b1. [NEW] Rep PC favor abortion when child gender 'wrong'
+V085102b   G6b2. [NEW] Rep PC oppose abortion when child gender 'wrong'
+V085110a   H5a. How much white/black cands better suited to be elected
+V085111a   H6a. How much white/black intell better for elected offic
+V085133a   K1a1. BLACK Rs: amt life affected by what happens to blacks
+V085135a   K1b1. HISPANIC Rs: amt life affect by what happens to Hisps
+V085147a   M1a1. [OLD] How often trust govt in Wash to do what is right
+V085147b   M1a2. [NEW] How oft trust govt in Wash to make fair decision
+V085149    M1c. Does government waste much tax money
+V085150    M1d. How many in government are crooked
+V085154    M3b. Elections make govt pay attention
+V085168    P1a. Does R have opinions about many, some or few things
+V085172    P4. How much can people change the kind of person they are
+V085173    P5. How likely is an earthly catastrophe in next 100 years
+V085192    Q11. CSES: Were there major differences between Pres cands
+V085193    Q12. CSES: How closely did R follow the election campaign
+V085194    Q13. CSES: Satisfied with way democracy works in the U.S.
+V085199a   R2a. DHS: How likely R to: join in a protest march or rally
+V085199b   R2b. DHS: How likely R to: attend city or school board meetg
+V085199c   R2c. DHS: How likely R to: sign internet petition abt issue
+V085199d   R2d. DHS: How likely R to: sign paper petition abt issue
+V085199e   R2e. DHS: How likely R to: give money to religious organzn
+V085199f   R2f. DHS: How likely R to: give money social/polit organzn
+V085199g   R2g. DHS: How likely R to: attend mtg abt social/polit issue
+V085199h   R2h. DHS: How likely R to: invite other social/polit meetg
+V085199j   R2j. DHS: How likely R to: distribute social/polit grp info
+V085200a   R3a. DHS: US adults ever: joined a protest march or rally
+V085200b   R3b. DHS: US adults ever: attended city/school brd meeting
+V085200c   R3c. DHS: US adults ever: signed internet petition on issue
+V085200d   R3d. DHS: US adults ever: signed paper petition on issue
+V085200e   R3e. DHS: US adults ever: gave money to religious organizn
+V085200f   R3f. DHS: US adults ever: gave money to social/polit org
+V085200g   R3g. DHS: US adults ever: attended meetg on soc/polit issue
+V085200h   R3h. DHS: US adults ever: invited other to soc/polit meetg
+V085205    R6a. DHS: Angry abt what fed govt has done during last 4 yrs
+V085206    R6b. DHS: Hopeful abt what fed govt has done last 4 yrs
+V085207    R6c. DHS: Afraid abt what fed govt has done last 4 yrs
+V085208    R6d. DHS: Proud abt what fed govt has done last 4 yrs
+V085209a   R7a1. DHS: How much approve handling war in Afghanistan
+V085209b   R7a2. DHS: How much disappr handling of war in Afghanistan
+V085210a   R7b1. DHS: How much approve handling of war in Iraq
+V085210b   R7b2. DHS: How much disapprove handling of war in Iraq
+V085211a   R7c1. DHS: How much approve efforts to reduce terrorism
+V085211b   R7c2. DHS: How much disapprove efforts to reduce terrorism
+V085214a   S2a1. DHS: How much more crime in city compared to 1 yr ago
+V085214b   S2a2. DHS: How much less crime in city compared to 1 yr ago
+V085215a   S2b1. DHS: How much more crime in U.S. compared to 1 yr ago
+V085215b   S2b2. DHS: How much less crime in U.S. compared to 1 yr ago
+V085216a   S3a1. DHS: How mch more chance terrorst attack than 1 yr ago
+V085216b   S3a2. DHS: How mch less chance terrorst attack than 1 yr ago
+V085217    S3b. DHS: Likely terrorist attack killing 100/more in nxt yr
+V085218    S3c. DHS: How well govt reducd chanc terror attck in last yr
+V085219a   S4a1. DHS: How much increase terror chance: cut oil imports
+V085219b   S4a2. DHS: How much decrease terror chance: cut oil imports
+V085220a   S4b1. DHS: How much incrse terror chance: MidEast democracy
+V085220b   S4b2. DHS: How much decrse terror chance: MidEast democracy
+V085221a   S4c1. DHS: How much incrse terror chance: stop nuclr weapons
+V085221b   S4c2. DHS: How much decrse terror chance: stop nuclr weapons
+V085222a   S4d1. DHS: How much incrse terror chance: more milit money
+V085222b   S4d2. DHS: How much decrse terror chance: more milit money
+V085223a   S4e1. DHS: How mch incrse terror chance: aid MidEast poverty
+V085223b   S4e2. DHS: How mch decrse terror chance: aid MidEast poverty
+V085224a   S4f1. DHS: How mch incr terror chance: stay out others probs
+V085224b   S4f2. DHS: How mch decr terror chance: stay out others probs
+V085225a   S4g1. DHS: How mch incrse terror chance: stop entrance to US
+V085225b   S4g2. DHS: How mch decrse terror chance: stop entrance to US
+V085226a   S4h1. DHS: How mch incrse terror chance: stop plane boarding
+V085226b   S4h2. DHS: How mch decrse terror chance: stop plane boarding
+V085227a   S4j1. DHS: How much incrse terror chance: stop weapons to US
+V085227b   S4j2. DHS: How much decrse terror chance: stop weapons to US
+V085228a   S4k1. DHS: How much incrse terror chance: strengthen allies
+V085228b   S4k2. DHS: How much decrse terror chance: strengthen allies
+V085229a   S4m1. DHS: How mch incrse terror chance: helping US exports
+V085229b   S4m2. DHS: How mch decrse terror chance: helping US exports
+V085230a   S4n1. DHS: How much incrse terror chance: easier move to US
+V085230b   S4n2. DHS: How much decrse terror chance: easier move to US
+V085231a   S5a. DHS: Likelihood terrorist attack: suicide bombing
+V085231b   S5b. DHS: Likelihood terrorist attack: non-suicide bombing
+V085231c   S5c. DHS: Likelihood terrorist attack: radioactive material
+V085231d   S5d. DHS: Likelihood terrorist attack: nuclear bomb
+V085231e   S5e. DHS: Likelihood terrorist attack: sniper attack
+V085231f   S5f. DHS: Likelihood terrorist attack: biologic weapons
+V085231g   S5g. DHS: Likelihood terrorist attack: chemical weapons
+V085231h   S5h. DHS: Likelihood terrorist attack: other type of attack
+V085232a   S6a. DHS: How much favor torture for suspected terrorists
+V085232b   S6b. DHS: How much oppose torture for suspected terrorists
+V085299a   Y3a. How much more troops in Iraq in 3 months
+V085299b   Y3b. How much fewer troops in Iraq in 3 months
+V085301a   Y4a. How much favor/oppose withdrawal deadline for troops
+V085303a   Y5a1a. How favorable about Democratic Party
+V085304a   Y5a2a. How unfavorable about Republican Party
+V085305a   Y5b1a. How favorable about Republican Party
+V085306a   Y5b2a. How unfavorable about Republican Party
+V085307    Y6. How often does R put on a show
+V085308    Y7. Would R be a good actor
+V085309    Y8. Is R often the center of attention in a group
+V085310    Y9. How satisfied is R with life
+
+>>Appendix B1.
+                       ANES 2008 Time Series Study Pre-election
+                         questions with split administration
+
+Var        Var Label                                                   VERSION
+
+V083001a   A1a. [VERSION A] Interested in following campaigns             A
+V083001b   A1b. [VERSION B] Interested in following campaigns             B
+V083019    A11b. [OLD] Days past week watched natl news on TV             OLD
+V083019a   A11b1. [OLD] Attention to national (network) news              OLD
+V083020a   A11c1a. [OLD] Days past wk watched loc TV news aft/early eve   OLD
+V083020b   A11c1b. [OLD] Days past wk watched local TV news late eve      OLD
+V083020c   A11c2. [OLD] Attention to local news                           OLD
+V083021a   A11d1a. [OLD] Days in past week read a daily newspaper         OLD
+V083021b   A11d1b. [OLD] Days past week read a daily online newspaper     OLD
+V083021c   A11d2. [OLD] Did R read about campaign in newspaper            OLD
+V083021d   A11d2a. [OLD] Attention to newspaper articles                  OLD
+V083022    A11e. [OLD] Days in past week listen to radio news             OLD
+V083022a   A11e1. [OLD] Attention to radio news                           OLD
+V083023    A12a1. [NEW] Days in typical week review news on internet      NEW
+V083023a   A12a1a. [NEW] Time in typical day review news on internet      NEW
+V083023b   A12a1a1. [NEW] Attention to internet news                      NEW
+V083024    A12b. [NEW] Days in typical week watch news on TV              NEW
+V083024a   A12b1. [NEW] Time in typical day watch news on TV              NEW
+V083024b   A12b1a. [NEW] Attention to TV news                             NEW
+V083025    A12c. [NEW] Days in typical wk read news in print newspaper    NEW
+V083025a   A12c1. [NEW] Time in typical day read news in print newpaper   NEW
+V083025b   A12c1a. [NEW] Attention to printed newspaper news              NEW
+V083026    A12d. [NEW] Days in typical week listen news on radio          NEW
+V083026a   A12d1. [NEW] Time in typical day listen news on radio          NEW
+V083026b   A12d1a. [NEW] Attention to radio news                          NEW
+V083079a   E9a. [VERSION C] Politics/govt too complicated to understand   C
+V083079b   E9b. [VERSION C] Good understanding of political issues        C
+V083079c   E9c. [VERSION C] Publ officials don't care what people think   C
+V083079d   E9d. [VERSION C] Have no say about what govt does              C
+V083080a   E10a. [VERSION D] Politics/govt too complicatd to understand   D
+V083080b   E10b. [VERSION D] Good understanding of political issues       D
+V083080c   E10c. [VERSION D] Publ officials don't care what peopl think   D
+V083080d   E10d. [VERSION D] Have no say about what govt does             D
+V083084    F2a. [VERSION E] Economy better or worse in next 12 months     E
+V083084a   F2a1. [VERSION E] How much econ better/worse next 12 months    E
+V083084x   F2a1x. [VERSION E] SUMMARY: economy better/worse next 12 mos   E
+V083085    F2b1. [VERSION F] Economy better/worse if Dem Pres cand wins   F
+V083085a   F2b1a. [VERSION F] How much econ bett/worse if Dem Pres wins   F
+V083085x   F2b1ax. [VERSION F] SUMMARY: bett/wrse if Dem Pres cand win    F
+V083086    F2b2. [VERSION F] Economy better/worse if Rep Pres cand wins   F
+V083086a   F2b2a.[VERSION F]  How much econ bett/worse if Rep Pres wins   F
+V083086x   F2b2ax. [VERSION F] SUMMARY: bett/wrse if Rep Pres cand win    F
+V083092a   F8a. [VERSION G] Can people be trusted                         G
+V083092b   F8b. [VERSION H] Can people be trusted                         H
+V083093    G1. Which party better: handling nations economy             text
+V083094a   G2a. [VERSION P] Which party better: keeping out of war      text;P
+V083094b   G2b. [VERSION Q] Which party better: keeping out of war      text;Q
+V083097    J1. Party ID: Does R think of self as Dem, Rep, Ind or what  text
+V083099a   K1a1. [VERSION J] Pres Dem cand trait moral                    J
+V083099b   K1a2. [VERSION J] Pres Dem cand trait strong leadership        J
+V083099c   K1a3. [VERSION J] Pres Dem cand trait really cares             J
+V083099d   K1a4. [VERSION J] Pres Dem cand trait knowledgeable            J
+V083099e   K1a5. [VERSION J] Pres Dem cand trait intelligent              J
+V083099f   K1a6. [VERSION J] Pres Dem cand trait honest                   J
+V083099g   K1a7. [VERSION J] Pres Dem cand trait optimistic               J
+V083100a   K1b1. [VERSION K] Pres Dem cand trait moral                    K
+V083100b   K1b2. [VERSION K] Pres Dem cand trait strong leadership        K
+V083100c   K1b3. [VERSION K] Pres Dem cand trait really cares             K
+V083100d   K1b4. [VERSION K] Pres Dem cand trait knowledgeable            K
+V083100e   K1b5. [VERSION K] Pres Dem cand trait intelligent              K
+V083100f   K1b6. [VERSION K] Pres Dem cand trait honest                   K
+V083100g   K1b7. [VERSION K] Pres Dem cand trait optimistic               K
+V083101a   K2a1. [VERSION J] Pres Rep cand trait moral                    J
+V083101b   K2a2. [VERSION J] Pres Rep cand trait strong leadership        J
+V083101c   K2a3. [VERSION J] Pres Rep cand trait really cares             J
+V083101d   K2a4. [VERSION J] Pres Rep cand trait knowledgeable            J
+V083101e   K2a5. [VERSION J] Pres Rep cand trait intelligent              J
+V083101f   K2a6. [VERSION J] Pres Rep cand trait honest                   J
+V083101g   K2a7. [VERSION J] Pres Rep cand trait optimistic               J
+V083102a   K2b1. [VERSION K] Pres Rep cand trait moral                    K
+V083102b   K2b2. [VERSION K] Pres Rep cand trait strong leadership        K
+V083102c   K2b3. [VERSION K] Pres Rep cand trait really cares             K
+V083102d   K2b4. [VERSION K] Pres Rep cand trait knowledgeable            K
+V083102e   K2b5. [VERSION K] Pres Rep cand trait intelligent              K
+V083102f   K2b6. [VERSION K] Pres Rep cand trait honest                   K
+V083102g   K2b7. [VERSION K] Pres Rep cand trait optimistic               K
+           (INTRO N1)                                                     OLD
+V083105    N1a. [OLD] Spending and Services - 7-point scale self          OLD
+V083106    N1b. [OLD] Importance of spending-services issue to R          OLD
+V083107a   N1c1. [OLD] Spending and Services: Dem Pres cand               OLD
+V083107b   N1c2. [OLD] Spending and Services: Rep Pres cand               OLD
+V083108    N1d. [NEW] Spending and Services - self                        NEW
+V083108a   N1d1. [NEW] Amount more/less spending and Services - self      NEW
+V083108x   N1d1x. [NEW] SUMMARY: R position on services-spending          NEW
+V083109    N1e. [NEW] Importance of spending-services issue to R          NEW
+V083110    N1f1. [NEW] Spending and Services: Dem Pres cand               NEW
+V083110a   N1f1a. [NEW] Amt more/less spending-services: Dem Pres cand    NEW
+V083110x   N1f1ax. [NEW] SUMMARY: Dem Pres cand position on serv-spend    NEW
+V083111    N1f2. [NEW] Spending and Services: Rep Pres cand               NEW
+V083111a   N1f2a. [NEW] Amt more/less spending-services: Rep Pres cand    NEW
+V083111x   N1f2ax. [NEW] SUMMARY: Rep Pres cand position on serv-spend    NEW
+           (INTRO N2)                                                     OLD
+V083112    N2a. [OLD] Defense spending - 7-point scale self               OLD
+V083113    N2b. [OLD] Importance of defense spending issue to R           OLD
+V083114a   N2c1. [OLD] Defense spending scale: Dem Pres cand              OLD
+V083114b   N2c2.[OLD]  Defense spending scale: Rep Pres cand              OLD
+V083115    N2d. [NEW] Defense spending - self                             NEW
+V083115a   N2d1. [NEW] Amount more/less defense spending - self           NEW
+V083115x   N2d1x. [NEW] SUMMARY: R position on def spend                  NEW
+V083116    N2e. [NEW] Importance of defense spend issue to R              NEW
+V083117    N2f1. [NEW] Defense spending: Dem Pres cand                    NEW
+V083117a   N2f1a. [NEW] Amt more/less defense spend: Dem Pres cand        NEW
+V083117x   N2f1ax. [NEW] SUMMARY: Dem Pres cand position on def spend     NEW
+V083118    N2f2. [NEW] Defense spending: Rep Pres cand                    NEW
+V083118a   N2f2a. [NEW] Amt more/less defense spend: Rep Pres cand        NEW
+V083118x   N2f2ax. [NEW] SUMMARY: Rep Pres cand position on def spend     NEW
+           (INTRO N3)                                                     OLD
+V083119    N3a. [OLD] Govt/private medical insur scale: self-placement    OLD
+V083120    N3b. [OLD] Importance of govt insurance issue to R             OLD
+V083121a   N3c1. [OLD] Insurance scale: Dem Pres cand                     OLD
+V083121b   N3c2. [OLD] Insurance scale: Rep Pres cand                     OLD
+V083122    N3d. [NEW] Favor/opp prescription drug coverage for seniors    NEW
+V083122a   N3d1. [NEW] How much favor/opp prescr drug cover for seniors   NEW
+V083122x   N3d1x. [NEW] SUMMARY: R position on senior prescr drug cover   NEW
+V083123    N3e. [NEW] Importance of prescript drug coverage for seniors   NEW
+V083124    N3f. [NEW] Favor/oppose universal health coverage              NEW
+V083124a   N3f1. [NEW] How much favor/oppose universal health coverage    NEW
+V083124x   N3f1x. [NEW] SUMMARY: R position on universal health care      NEW
+V083125    N3g. [NEW] Importance of universal health coverage             NEW
+V083126    N3h1. [NEW] Dem pres cand favor/opp universal health cover     NEW
+V083126a   N3h1a. NEW] How mch Dem Pres cand fav/opp univ health cover    NEW
+V083126x   N3h1ax. [NEW] SUMMARY: Dem Pres cand posn on univ healthcare   NEW
+V083127    N3h2. NEW] Rep pres cand favor/opp universal health cover      NEW
+V083127a   N3h2a. [NEW] How mch Rep Pres cand fav/opp univ health cover   NEW
+V083127x   N3h2ax. [NEW] SUMMARY: Rep Pres cand posn on univ healthcare   NEW
+           (INTRO N4)                                                     OLD
+V083128    N4a. [OLD] Guaranteed job-income scale: self-placement         OLD
+V083129    N4b. [OLD] Importance of guaranteed job-income issue to        OLD
+V083130a   N4c1. [OLD] Guar job scale: Dem Pres cand                      OLD
+V083130b   N4c2. [OLD] Guar job scale: Rep Pres cand                      OLD
+V083131    N4d. [NEW] Favor/oppose illegal immigrant work period          NEW
+V083131a   N4d1. [NEW] How much favor/opp illegal immigrant work period   NEW
+V083131x   N4d1x. [NEW] SUMMARY: R on illegal immigr work period          NEW
+V083132    N4e. [NEW] Importance of illegal immigrant work period         NEW
+V083133    N4f. [NEW] Favor/opp citizenshp process for illeg immigrants   NEW
+V083133a   N4f1. [NEW] How much favor/oppose citizenship illegals         NEW
+V083133x   N4f1x. [NEW] SUMMARY: R on illegal immigr citizenshp process   NEW
+V083134    N4g. [NEW] Importance of citizenship illegals issue            NEW
+V083135    N4h1. [NEW] Dem Pres cand favor/oppose citizenship illegals    NEW
+V083135a   N4h1a. [NEW] How mch Dem Pres cand fav/opp citznshp illegals   NEW
+V083135x   N4h1ax. [NEW] SUMMARY: Dem Pres cand on illeg immgr citznshp   NEW
+V083136    N4h2. [NEW]Dem pres cand favor/oppose citizenship illegals     NEW
+V083136a   N4h2a. [NEW] How mch Rep Pres cand fav/opp citznshp illegals   NEW
+V083136x   N4h2ax. [NEW] SUMMARY: Rep Pres cand on illeg immgr citznshp   NEW
+V083138a   N5b1. [OLD] Importance of aid to blacks issue to R             OLD
+V083138b   N5b2. [NEW] Importance of aid to blacks issue to R             NEW
+           (INTRO P4)                                                     OLD
+V083154    P4a. [OLD]Environment vs. jobs tradeoff scale - self-place     OLD
+V083155    P4b. [OLD] Importance of environment/jobs issue to R           OLD
+V083156a   P4c1. [OLD] Protect Environment/Jobs: Dem Pres cand            OLD
+V083156b   P4c2. [OLD] Protect Environment/Jobs: Rep Pres cand            OLD
+V083157    P4d. [NEW] Favor/oppose lower emission stds                    NEW
+V083157a   P4d1. [NEW] How much favor/oppose lower emission stds          NEW
+V083157x   P4d1x. [NEW] SUMMARY: favor/oppose lower emission stds         NEW
+V083158    P4e. [NEW] Importance of emission std issue                    NEW
+V083159    P4f1. [NEW] Favor/oppose lower emission stds: Dem Pres cand    NEW
+V083159a   P4f1a. [NEW] How much Dem Pres cand fav/opp lower emissions    NEW
+V083159x   P4f1ax. [NEW] SUMMARY: Dem Pres cand fav/opp lower emissions   NEW
+V083160    P4f2. [NEW] Favor/oppose lower emission stds: Rep Pres cand    NEW
+V083160a   P4f2a. [NEW] How much Rep Pres cand fav/opp lower emissions    NEW
+V083160x   P4f2ax. [NEW] SUMMARY: Rep Pres cand fav/opp lower emissions   NEW
+V083161    P4g. [NEW] Favor/oppose higher fuel standards                  NEW
+V083161a   P4g1. [NEW] How much favor/oppose higher fuel std              NEW
+V083161x   P4g1x. [NEW] SUMMARY: favor/oppose higher fuel std             NEW
+V083162    P4h. [NEW] Favor/oppose higher gas taxes                       NEW
+V083162a   P4h1. [NEW] How much favor/oppose higher gas taxes             NEW
+V083162x   P4h1x. [NEW] SUMMARY: favor/oppose higher gas taxes            NEW
+V083164a   P6a1. [OLD] Importance of gun access issue to R                OLD
+V083164b   P6a2. [NEW] Importance of gun access issue to R [NEW]          NEW
+           (INTRO P7)                                                     OLD
+V083166    P7a. [OLD] Womens role self-placement                          OLD
+V083167    P7b. [OLD] Importance of women's role  to R                    OLD
+V083168a   P7c1. [OLD] Women's role scale: Dem Pres cand                  OLD
+V083168b   P7c2. [OLD] Women's role scale: Rep Pres cand                  OLD
+V083170a   Q2a1a. [VERSION R] Black President make R uncomfortable        R
+V083170b   Q2a1b. [VERSION S] Black President make R uncomfortable        S
+V083171a   Q2a2a. [VERSION R] Black President make R pleased              R
+V083171b   Q2a2b. [VERSION S] Black President make R pleased              S
+V083178a   R2a1. [VERSION J] President trait: moral                       J
+V083178b   R2a2. [VERSION J] President trait: strong leadership           J
+V083178c   R2a3. [VERSION J] President trait: really cares                J
+V083178d   R2a4. [VERSION J] President trait: knowledgeable               J
+V083178e   R2a5. [VERSION J] President trait: intelligent                 J
+V083178f   R2a6. [VERSION J] President trait: honest                      J
+V083178g   R2a7. [VERSION J] President trait: optimistic                  J
+V083179a   R2b1. [VERSION K] President trait: moral                       K
+V083179b   R2b2. [VERSION K] President trait: strong leadership           K
+V083179c   R2b3. [VERSION K] President trait: really cares                K
+V083179d   R2b4. [VERSION K] President trait: knowledgeable               K
+V083179e   R2b5. [VERSION K] President trait: intelligent                 K
+V083179f   R2b6. [VERSION K] President trait: honest                      K
+V083179g   R2b7. [VERSION K] President trait: optimistic                  K
+V083216a   Y2a. [VERSION M] Marital status                                M
+V083216b   Y2b. [VERSION N] Marital status                                N
+
+
+>>Appendix B2.
+                       ANES 2008 Time Series Study Post-election
+                         questions with split administration
+
+Var        Var Label                                                SPLIT TYPE
+
+V085001a   A1a. [OLD] Interested in following campaigns                   OLD
+V085001b   A1b. [NEW] Interested in following campaigns                   NEW
+V085002    A2a1. [OLD] Watch campaign programs on TV                      OLD
+V085002a   A2a2. [OLD] How many campaign programs on TV                   OLD
+V085003    A2a3. [OLD] Attention to TV news about Presidential campaign   OLD
+V085004    A2b1. [OLD] Read about Presidential campaign in magazines      OLD
+V085004a   A2b2. [OLD] How many Pres campaign articles in magazines       OLD
+V085005    A2b3. [OLD] Attention to magazine about Pres campaign          OLD
+V085006    A2c1. [OLD] Hear radio speeches/discussn about Pres campaign   OLD
+V085006a   A2c2. [OLD] How many radio speech/discussn abt Pres campaign   OLD
+V085007    A2c3. [OLD] Attention to radio about Presidential campaign     OLD
+V085008    A2d1. [OLD] Read about campaign in newspaper                   OLD
+V085008a   A2d2. [OLD] How many stories about campaign in newspaper       OLD
+V085009    A2d3. [OLD] Attention to newspaper about Pres campaign         OLD
+V085010    A2e1. [OLD] View/hear internet information abt Pres campaign   OLD
+V085010a   A2e2. [OLD] How often internet info about Pres campaign        OLD
+V085011    A2e3. [OLD] Attention to internet info about Pres campaign     OLD
+V085012    A2f. [OLD] General attention to Presidential campaign news     OLD
+V085013    A3a1. [NEW] Watch campaign programs on TV                      NEW
+V085013a   A3a2. [NEW] How many campaign programs on TV                   NEW
+V085014    A3a3. [NEW] Attention to TV news about Presidential campaign   NEW
+V085015    A3b1. [NEW] Read about Presidential campaign in magazines      NEW
+V085015a   A3b2. [NEW] How many Pres campaign articles in magazines       NEW
+V085016    A3b3. [NEW] Attention to magazine about Pres campaign          NEW
+V085017    A3c1. [NEW] Hear radio speeches/discussn about Pres campaign   NEW
+V085017a   A3c2. [NEW] How many radio speech/discussn abt Pres campaign   NEW
+V085018    A3c3. [NEW] Attention to radio about Presidential campaign     NEW
+V085019    A3d1. [NEW] Read about Presidential campaign in newspaper      NEW
+V085019a   A3d2. [NEW] How many stories abt Presc ampaign in newspaper    NEW
+V085020    A3d3. [NEW] Attention to newspaper about Pres campaign         NEW
+V085021    A3e1. [NEW] View/hear internet information abt Pres campaign   NEW
+V085021a   A3e2. [NEW] How often internet info about Pres campaign        NEW
+V085022    A3e3. [NEW] Attention to internet info about Pres campaign     NEW
+V085023    A3f. [NEW] General attention to Presidential campaign news     NEW
+V085036a   C1a. [OLD] R vote turnout                                      OLD
+           (INTRO C1b)                                                    NEW
+V085036b   C1b1. [NEW] R usually vote during the past 6 years             NEW
+V085036c   C1b2. [NEW] R plan to vote during 6 months before election     NEW
+V085036d   C1b3. [NEW] R vote turnout                                     NEW
+V085036e   C1b3a. [OLD] If not sure whether voted, did R probably vote    NEW
+V085072    E5a. [OLD] Interest in politics and elections                  OLD
+V085073a   E5b1. [NEW] How close attn to politics and elections           NEW
+V085073b   E5b2. [NEW] How often attn to politics and elections           NEW
+V085086    G3a. [OLD] Abortion: self-placement                            OLD
+V085087    G3b. [OLD] How important is abortion issue                     OLD
+V085088    G3c. [OLD] Abortion: President placement                       OLD
+V085089a   G3d1. [OLD] Abortion: Democratic Pres cand placement           OLD
+V085089b   G3d2. [OLD] Abortion: Republican Pres cand placement           OLD
+V085090a   G3e1. [OLD] Abortion: Democratic House cand placement          OLD
+V085090b   G3e2. [OLD] Abortion: Republican House cand placement          OLD
+V085091a   G3f1. [OLD] Abortion: Democratic party placement               OLD
+V085091b   G3f2. [OLD] Abortion: Republican party placement               OLD
+           (INTRO G4)                                                     NEW
+V085092    G4a. [NEW] Abortion: favor/oppose when nonfatal health risk    NEW
+V085092a   G4a1. [NEW] How much favor abortion for nonfatal health risk   NEW
+V085092b   G4a2. [NEW] How much oppose abortn for nonfatal health risk    NEW
+V085092c   G4a3. [NEW] Lean favor/opp abortion for nonfatal health risk   NEW
+V085092x   G4ax. [NEW] SUMMARY: ABORTION WHEN NONFATAL HEALTH RISK        NEW
+V085093    G4b. [NEW] Abortion: favor/oppose when fatal health risk       NEW
+V085093a   G4b1. [NEW] How much favor abortion for fatal health risk      NEW
+V085093b   G4b2. [NEW] How much oppose abortion for fatal health risk     NEW
+V085093c   G4b3. [NEW] Lean favor/oppose abortion for fatal health risk   NEW
+V085093x   G4bx. [NEW] SUMMARY: ABORTION WHEN FATAL HEALTH RISK           NEW
+V085094    G4c. Abortion: favor/oppose in incest cases [NW]               NEW
+V085094a   G4c1. [NEW] How much favor abortion in incest cases            NEW
+V085094b   G4c2. [NEW] How much oppose abortion in incest cases           NEW
+V085094c   G4c3. [NEW] Lean favor/oppose abortion in incest cases         NEW
+V085094x   G4cx. [NEW] SUMMARY: ABORTION IN CASES OF INCEST               NEW
+V085095    G4d. [NEW] Abortion: favor/oppose in rape cases                NEW
+V085095a   G4d1. [NEW] How much favor abortion in rape cases              NEW
+V085095b   G4d2. [NEW] How much oppose abortion in rape cases             NEW
+V085095c   G4d3. [NEW] Lean favor/oppose abortion in rape cases           NEW
+V085095x   G4dx. [NEW] SUMMARY: ABORTION IN CASES OF RAPE                 NEW
+V085096    G4e. [NEW] Abortion: favor/oppose in birth defect cases        NEW
+V085096a   G4e1. [NEW] How much favor abortion in birth defect cases      NEW
+V085096b   G4e2. [NEW] How much oppose abortion in birth defect cases     NEW
+V085096c   G4e3. [NEW] Lean favor/oppose abortion in birth defect cases   NEW
+V085096x   G4ex. [NEW] SUMMARY: ABORTION IN CASES OF BIRTH DEFECT         NEW
+V085097    G4f. [NEW] Abortion: favor/oppose in financial hardshp cases   NEW
+V085097a   G4f1. [NEW] How much favor abortion in finan hardship cases    NEW
+V085097b   G4f2. [NEW] How much oppose abortion in finan hardship cases   NEW
+V085097c   G4f3. [NEW] Lean fav/oppose abortion in finan hardship cases   NEW
+V085097x   G4fx. [NEW] SUMMARY: ABORTION IN CASES OF FINANCIAL HARDSHIP   NEW
+V085098    G4g. [NEW] Abortion: favor/oppose when child gender 'wrong'    NEW
+V085098a   G4g1. [NEW] How much favor abortn when child gender 'wrong'    NEW
+V085098b   G4g2. [NEW] How much oppose abortn when child gender 'wrong'   NEW
+V085098c   G4g3. [NEW] Lean favor/opp abortn when child gender 'wrong'    NEW
+V085098x   G4gx. [NEW] SUMMARY: ABORTION WHEN CHILD GENDER 'WRONG'        NEW
+V085099    G5a. [NEW] Dem PC abortion: fav/opp if nonfatal health risk    NEW
+V085099a   G5a1. [NEW] Dem PC favor abortion if nonfatal health risk      NEW
+V085099b   G5a2. [NEW] Dem PC opp abortion if nonfatal health risk        NEW
+V085099c   G5a3. [NEW] Dem PC lean abortion if nonfatal health risk       NEW
+V085099x   G5ax. [NEW] SUMMARY: DEM PC ABORTION NONFATAL HEALTH RISK      NEW
+V085100    G5b. [NEW] Dem PC abortn: fav/opp when child gender 'wrong'    NEW
+V085100a   G5b1. [NEW] Dem PC favor abortion when child gender 'wrong'    NEW
+V085100b   G5b2. [NEW] Dem PC oppose abortion when child gender 'wrong'   NEW
+V085100c   G5b3. [NEW] Dem PC lean abortion when child gender 'wrong'     NEW
+V085100x   G5bx. [NEW] SUMMARY: DEM PC ABORTION IF CHILD GENDER 'WRONG'   NEW
+V085101    G6a. [NEW] Rep PC abortion: fav/opp if nonfatal health risk    NEW
+V085101a   G6a1. [NEW] Rep PC favor abortion if nonfatal health risk      NEW
+V085101b   G6a2. [NEW] Rep PC opp abortion if nonfatal health risk        NEW
+V085101c   G6a3. [NEW] Rep PC lean abortion if nonfatal health risk       NEW
+V085101x   G6ax. [NEW] SUMMARY: REP PC ABORTION NONFATAL HEALTH RISK      NEW
+V085102    G6b. [NEW] Rep PC abortn: fav/opp when child gender 'wrong'    NEW
+V085102a   G6b1. [NEW] Rep PC favor abortion when child gender 'wrong'    NEW
+V085102b   G6b2. [NEW] Rep PC oppose abortion when child gender 'wrong'   NEW
+V085102c   G6b3. [NEW] Rep PC lean abortion when child gender 'wrong'     NEW
+V085102x   G6bx. [NEW] SUMMARY: REP PC ABORTION IF CHILD GENDER 'WRONG'   NEW
+V085108    H4a. [OLD] Ever discuss politics with family or friends        OLD
+V085108a   H4a1. [OLD] Days in past week discussed politics               OLD
+V085109    H4b. [NEW] Days in typical week discusses politics             NEW
+V085147a   M1a1. [OLD] How often trust govt in Wash to do what is right   OLD
+V085147b   M1a2. [NEW] How oft trust govt in Wash to make fair decision   NEW
+V085151a   M2a1. [VERSION C] Politics/govt too complicated                C
+V085151b   M2a2. [VERSION C] Understanding of political issues            C
+V085151c   M2a3. [VERSION C] Public officials                             C
+V085151d   M2a4. [VERSION C] Say about what govt does                     C
+V085152a   M2b1. [VERSION D] Politics/govt too complicated                D
+V085152b   M2b2. [VERSION D] Understanding of political issues            D
+V085152c   M2b3. [VERSION D] Public officials                             D
+V085152d   M2b4. [VERSION D] Say about what govt does                     D
+V085153a   M3a1. [OLD] Public officials don't care                        OLD
+V085153b   M3a2. [NEW] Public officials don't care                        NEW
+V085297a   Y1a. [VERSION Y1a] Is govt economic bailout the right step     Y1a
+V085297b   Y1b. [VERSION Y1b] Is govt economic bailout the right step     Y1b
+
+
+>> Appendix C
+
+ANES 2008 Full Religion Master Code
+
+-----------------------------------
+NOTES:
+    NFS = 'Not Further Specified'
+    * inaccurately known as 'Northern Baptist'
+    ** no denominational ties or links to a national fellowship
+    *** formerly Lutheran Church in America and The American Lutheran Church
+    **** inaccurately known as 'Dutch Reformed'
+    ***** formerly RLDS (Reorganized Church of Jesus Christ of Latter Day
+          Saints)
+
+   In 2008, Pentecostal categories have been expanded to include range 240-249
+   as well as range 250-269; the 2 existing (Methodist) categories in the 240s
+   range have been moved to values in the 230s range as follows:
+    NEW  (OLD)
+    235. (240) Congregational Methodist (fundamentalist)
+    239. (249) Methodist NFS
+   In addition, 223 Other Conservative Lutheran has been recoded to 228.
+
+-----------------------------------
+
+
+GENERAL PROTESTANT
+  010.  Protestant, denomination NA
+  020.  Non-denominational/independent or local Protestant church
+  040.  Inter-denominational Protestant; Protestant, denomination 'none'
+  099.  Christian NFS; "just Christian"
+ADVENTIST
+  100.  7th Day Adventist
+  109.  Adventist NFS
+ANGLICAN
+  110.  Episcopalian; Anglican
+  111.  Independent Anglican, Episcopalian
+BAPTIST
+  120.  American Baptist Association
+  121.  American Baptist Churches U.S.A.*
+  122.  Baptist Bible Fellowship
+  123.  Baptist General Conference
+  124.  Baptist Missionary Association of America
+  125.  Conservative Baptist Association of America
+  126.  General Association of Regular Baptist Churches (GARB)
+  127.  National Association of Free Will Baptists (United Free Will Baptist)
+  128.  Primitive Baptists
+  129.  National Baptist Convention in the U.S.A.
+  130.  National Baptist Convention of America
+  131.  National Primitive Baptist Convention of the U.S.A.
+  132.  Progressive National Baptist Convention
+  133.  National Baptist Convention NFS
+  134.  Reformed Baptist (Calvinist)
+  135.  Southern Baptist Convention
+  147.  Fundamentalist Baptist (no denom. ties)
+  148.  Local (independent) Baptist churches **
+  149.  Baptist NFS
+CONGREGATIONAL
+  150.  United Church of Christ (Congregational, Evangelical and Reformed)
+  155.  Congregational Christian
+EUROPEAN FREE CHURCH (ANABAPTISTS)
+  160.  Church of the Brethren
+  161.  Brethren NFS
+  162.  Mennonite Church
+  163.  Moravian Church
+  164.  Old Order Amish
+  165.  Quakers (Friends)
+  166.  Evangelical Covenant Church (not Anabaptist in tradition)
+  167.  Evangelical Free Church (not Anabaptist in tradition)
+  168.  Brethren in Christ
+  169.  Apostolic Christian Church of America (incl. NA whether 171)
+  170.  Mennonite Brethren
+  171.  Apostolic Christian Church Nazarene
+HOLINESS
+  180.  Christian and Missionary Alliance (CMA)
+  181.  Church of God (Anderson, IN)
+  182.  Church of the Nazarene
+  183.  Free Methodist Church
+  184.  Salvation Army
+  185.  Wesleyan Church
+  186.  Church of God of Findlay, OH
+  189.  Holiness NFS
+  199.  Church of God NFS; NA whether Pentecostal or Charismatic
+INDEPENDENT FUNDAMENTALIST
+  200.  Plymouth Brethren
+  201.  Independent Fundamentalist Churches of America
+  219.  Independent Fundamentalist NFS
+LUTHERAN
+  220.  Evangelical Lutheran Church in America ***; ELCA
+  221.  Lutheran Church--Missouri Synod; LC-MS
+  222.  Wisconsin Evangelical Lutheran Synod; WELS
+  224.  Lutheran Free Church AFLC (Association of Free Lutheran Churches)
+  225.  Church of the Lutheran Brethren
+  228.  Other Conservative Lutheran
+  229.  Lutheran NFS
+METHODIST
+  230.  United Methodist Church; Evangelical United Brethren
+  231.  African Methodist Episcopal Church
+  232.  African Methodist Episcopal Zion Church
+  233.  Christian Methodist Episcopal Church
+  234.  Primitive Methodist
+  235.  Congregational Methodist (fundamentalist) [formerly 240]
+  239.  Methodist NFS [formerly 249]
+PENTECOSTAL
+  240. Fire-Baptized Holiness Church (incl. NA whether 241)
+  241. Fire-Baptized Holiness Church of the Americas
+  242. Assemblies of the Lord Jesus Christ (ALJC)
+  243. Church of Our Lord Jesus Christ of the Apostolic Faith (COOLJC)
+  244. Church of the Lord Jesus Christ of the Apostolic Faith (CLJC)
+  245. Bible Way Church of Our Lord Jesus Christ
+  246. International Bible Way Church of Our Lord Jesus Christ
+  250. Assemblies of God
+  251. Church of God (Cleveland, TN)
+  252. Church of God (Huntsville, AL)
+  253. International Church of the Four Square Gospel
+  254. Pentecostal Church of God
+  255. Pentecostal Holiness Church
+  256. United Pentecostal Church International
+  257. Church of God in Christ (incl. NA whether 258)
+  258. Church of God in Christ International
+  260. Church of God of the Apostolic Faith
+  261. Church of God of Prophecy
+  262. Vineyard Fellowship
+  263. Open Bible Standard Churches
+  264. Full Gospel
+  266. Apostolic Faith Church (also called Trinity Apostolic Faith Church)
+  267. Apostolic Church (Pentecostal)
+  268. Spanish Pentecostal
+  269. Pentecostal NFS; local or other Pentecostal church; SEE ALSO 199
+PRESBYTERIAN
+  270.  Presbyterian Church in the U.S.A.
+  271.  Cumberland Presbyterian Church
+  272.  Presbyterian Church in American (PCA)
+  275.  Evangelical Presbyterian
+  276.  Reformed Presbyterian
+  279.  Presbyterian NFS
+REFORMED
+  280.  Christian Reformed Church****
+  281.  Reformed Church in America
+  282.  Free Hungarian Reformed Church
+  289.  Reformed NFS
+RESTORATIONIST
+  290.  Christian Church (Disciples of Christ)
+  291.  Christian Churches and Churches of Christ
+  292.  Churches of Christ; Church of Christ NFS
+  293.  Christian Congregation
+NON-TRADITIONAL PROTESTANTS
+  300.  Christian Scientists
+  301.  Mormons; Latter Day Saints (incl Community of Christ*****)
+  302.  Spiritualists
+  303.  Unitarian; Universalist
+  304.  Jehovah's Witnesses
+  305.  Unity; Unity Church; Christ Church Unity
+  306.  Fundamentalist Adventist (Worldwide Church of God)
+  308.  Religious science
+  309.  Non-traditional Protestant NFS
+ROMAN CATHOLIC
+  400.  Roman Catholic
+JEWISH
+  500.  Jewish, no preference
+  501.  Orthodox
+  502.  Conservative
+  503.  Reformed
+  524.  Jewish, other
+MIXED CHRISTIAN
+  600.  Protestant AND Roman Catholic
+MESSIANIC JUDAISM
+  650.  Messianic Judaism (incl. Jews for Jesus)
+EASTERN ORTHODOX (GREEK RITE CATHOLIC)
+  700.  Greek Rite Catholic
+  701.  Greek Orthodox
+  702.  Russian Orthodox
+  703.  Rumanian Orthodox
+  704.  Serbian Orthodox
+  705.  Syrian Orthodox
+  706.  Armenian Orthodox
+  707.  Georgian Orthodox
+  708.  Ukranian Orthodox
+  719.  Eastern Orthodox NFS
+NON-CHRISTIAN/NON-JEWISH
+  720.  Muslim; Mohammedan; Islam
+  721.  Buddhist
+  722.  Hindu
+  723.  Bahai
+  724.  American Indian Religions (Native American Religions)
+  725   New Age
+  726   Wicca (Wiccan)
+  727   Pagan
+  730.  Sikh
+  732.  Konko Church
+  740.  Other non-Christian/non-Jewish religion
+  750.  Scientology
+  790.  Religious/ethical cults
+MIX OF MAJOR RELIGIONS
+  795.  More than 1 major religion (e.g., Christian, Jewish, Moslem, etc.)
+OTHER
+  870.  Other
+NO RELIGIOUS IDENTIFICATION
+  881.  Agnostics
+  882.  Atheists
+  890.  No religious identification; none
+
+>> Appendix D.
+
+ANES 2008 Ethnicity Master code
+
+
+The ANES Ethnicity Master Code applies to:
+
+1. Mentions given in response to the standard open-ended ethnicity question
+   ("In addition to being American, what do you consider your main ethnic
+   group or nationality group?");
+
+2. The single mention response to the ethnicity 'choice' followup question
+   ("With which of these groups do you most closely identify?") that is
+   asked of respondents who had given more than 1 ethnic group in response
+   to 1.
+
+Note that code 890 applies to respondents who specifically indicate
+ethnicity as 'American' only, even though question wording indicates "In
+addition to being American...".
+
+
+------------------
+WESTERN HEMISPHERE
+------------------
+  NORTH AMERICA:
+       010. American Indian or Native American; tribal mentions
+       020. Canadian; not specified as French-Canadian [03]
+       030. Canadian, of French origin
+       040. Mexican [excl. 863 explicit mention "Chicano"/"Mexican-American"]
+       050. Central American
+  WEST INDIES:
+       070. Barbados
+       080. Cuban
+       090. Dominican Republic
+       100. Haitian
+       110. Jamaican
+       120. Puerto Rican
+       130. West Indian--not from one of the above countries
+       140. West Indian--NA which country
+  SOUTH AMERICA:
+       160. South American--any country
+------
+EUROPE
+------
+  BRITISH ISLES:
+       180. English, British
+       190. Irish [not specified Northern Ireland, 220]
+       200. Scottish
+       210. Welsh
+       220. Northern Ireland
+       230. Scot-Irish
+       240. British Isles; from 2 or more countries of the British Isles
+  WESTERN EUROPE:
+       260. Austrian
+       270. Belgian
+       280. French
+       290. German; also Pennsylvania Dutch
+       300. Luxembourg
+       310. Netherlands, Holland; Dutch
+       320. Swiss
+       330. From Western Europe; 2 or more countries of Western Europe
+  SCANDINAVIA:
+       350. Danish
+       360. Finn, Finnish
+       370. Norwegian
+       380. Swedish
+       390. Icelander
+       400. Scandinavian; reference to 2 or more Scandinavian countries
+  MULTIPLE WESTERN EUROPE INCL. SCANDINAVIA AND BRITISH ISLES:
+       410. Reference to 2 or more countries from combination of the
+            following areas:  British Isles, Western Europe,  Scandinavia,
+            Mediterranean countries, Greece [see also 640 if includes other]
+  EASTERN EUROPE:
+       430. Czechoslovakian, Slavic
+       431. Slovakian (specific)
+       432. Czech (specific); Bohemian (part of Czech Republic)
+       433. Slovenian
+       440. Estonian
+       450. Hungarian
+       460. Latvian
+       470. Lithuanian
+       480. Polish
+       490. Russian; from U.S.S.R.
+       500. Ukrainian
+       510. Eastern Europe; reference to 2 or more countries of Eastern
+            Europe
+  BALKAN COUNTRIES:
+       530. Albanian
+       540. Bulgarian
+       550. Greek
+       560. Rumanian
+       570. Yugoslavian
+       580. Croatian
+       581. Serbian
+       582. Bosnian
+       590. Mention of 2 or more Balkan Countries
+  MEDITERRANEAN COUNTRIES:
+       600. Italian
+       610. Portuguese
+       620. Spanish
+       630. Maltese
+  MULTIPLE EUROPE:
+       640. European; general mention of Europe; reference to 2 or more
+            countries of Europe not codeable above [see 410 if Western
+            Europe only]
+-------------------------------
+ASIA EXC. NEAR EAST/MIDDLE EAST
+-------------------------------
+       650. Pakistani
+       660. Afghan
+       670. Indian [East Indian; not American Indian 010]
+       680. Southeast Asia--from Indochina, Thailand, Malaya, Burma,
+            Philippines, Indonesia:
+       690. Chinese
+       700. Japanese; Japanese American
+       710. Korean
+       720. Asian
+---------------------
+NEAR EAST/MIDDLE-EAST
+---------------------
+       730. Egyptian
+       740. Iranian, Persian
+       750. Iraqi
+       760. Israeli
+       770. Jordanian
+       780. Lebanese
+       790. Arab, Arabian, Saudi Arabian
+       800. Syrian
+       810. Turk, Turkish
+       820. Armenian
+       825. Middle-Eastern; general mention of Middle East; reference to 2 or
+            more Near-East/Middle-Eastern countries not codeable above
+------
+AFRICA
+------
+       830. African; from any African country excluding only Egypt [see 730]
+-------
+OCEANIA
+-------
+       840. South Pacific Islander exc. 850; native Hawaiian
+       850. Australian, New Zealander, Tasmanian
+------------------
+U.S. ETHNIC GROUPS
+------------------
+       860. White, Caucasian
+       861. 'Anglo'
+       862. Black; Negro; American Black; African American
+       863. Chicano; Mexican-American; Hispanic; Latin American
+       864. Asian-American exc. specifically Japanese American 700]
+       865. "Bi-racial"
+       869. Other U.S. ethnic group mentioned ('hillbilly','creole','cajun'
+            etc.) exc. 891
+------------------------
+RELIGIOUS GROUP MENTIONS
+------------------------
+       870. Catholic
+       871. Protestant
+       872. Jewish
+       873. Other religious groups
+----------------------------
+'AMERICAN' SPECIFIC MENTIONS
+----------------------------
+       890. "American" specifically mentioned as only mention;
+            "Just American" as only mention; "U.S. citizen" as only mention
+       891. U.S. region (e.g. 'Southerner') or state mentioned
+-------------------
+OTHER MISCELLANEOUS
+-------------------
+       895. Other group; combinations not codeable above
+-------------------------------
+'CHOICE' FOLLOWUP QUESTION ONLY
+-------------------------------
+       896. 'Choice' question only: Both/all of them
+       897. 'Choice' question only: more than 1 but not all mentions
+             already given
+----------------------
+NONE - NO ETHNIC GROUP
+----------------------
+       899. None/no; 'choice' question: neither/none of them
+------------
+MISSING DATA
+------------
+        -8. DK
+        -9. RF
+        -4. NA (blank)
+
+
+>> Appendix E
+
+ANES 2008 State and Country Master Code
+
+UNITED STATES:
+ New England
+  -----------
+  101    Connecticut
+  102    Maine
+  103    Massachusetts
+  104    New Hampshire
+  105    Rhode Island
+  106    Vermont
+  109    General mention of area; two or more states in area
+
+ Middle Atlantic
+ ---------------
+  111    Delaware
+  112    New Jersey
+  113    New York
+  114    Pennsylvania
+  118    General mention of area; two or more states in area
+
+ Multiple - Eastern States
+ -----------------------
+  119    EAST; MENTION OF STATES IN BOTH NEW ENGLAND AND
+            MIDDLE ATLANTIC
+
+ East North Central
+ ------------------
+  121    Illinois
+  122    Indiana
+  123    Michigan
+  124    Ohio
+  125    Wisconsin
+  129    General mention of area; two or more states in area
+
+ West North Central
+ -----------------
+  131    Iowa
+  132    Kansas
+  133    Minnesota
+  134    Missouri
+  135    Nebraska
+  136    North Dakota
+  137    South Dakota
+  138    General mention of area; two or more states in area
+
+ Multiple - East and Central States
+ --------------------------------
+  139    MIDWEST; MENTION OF STATES IN BOTH EAST NORTH
+            CENTRAL AND WEST North Central
+
+ Solid South
+ -----------
+  141    Alabama
+  142    Arkansas
+  143    Florida
+  144    Georgia
+  145    Louisiana
+  146    Mississippi
+  147    North Carolina
+  148    South Carolina
+  149    Texas
+  140    Virginia
+  157    General mention of area; the South; two or more
+             states in area
+
+ Border States
+ -------------
+  151    Kentucky
+  152    Maryland
+  153    Oklahoma
+  154    Tennessee
+  155    Washington, D.C.
+  156    West Virginia
+  158    General mention of area; two or more states in area
+
+ Multiple - South and Border States
+ -----------------------------
+  159    SOUTH; MENTION OF STATES IN BOTH SOLID SOUTH AND
+            BORDER STATES
+
+ Mountain States
+ ---------------
+  161    Arizona
+  162    Colorado
+  163    Idaho
+  164    Montana
+  165    Nevada
+  166    New Mexico
+  167    Utah
+  168    Wyoming
+  169    General mention of area; two or more states in area
+
+ Pacific States
+ --------------
+  171    California
+  172    Oregon
+  173    Washington
+  178    General mention of area; two or more states in area
+
+ Multiple - Mountain and Pacific States
+ ------------------------------------
+  179    WEST; MENTION OF STATES IN BOTH MOUNTAIN STATES AND
+            PACIFIC STATES
+
+ External States and Territories
+ -------------------------------
+  180    Alaska
+  181    Hawaii
+  182    Puerto Rico
+  183    American Samoa, Guam
+  184    Panama Canal Zone
+  185    Trust Territory of the Pacific Islands
+  186    Virgin Islands
+  187    Other U.S. Dependencies
+
+ Multiple - U.S. States/Regions or NA State/Region
+ -----------------------------------------------
+ Reference to Two or More States from Different Regions of
+ the United States; or NA Which State
+  191    Northeast and South (New England or Middle Atlantic
+            and Solid South or Border States)
+  192   Northeast and Midwest (New England or Middle
+           Atlantic and East North Central or West North
+          Central)
+  194   West (Mountain States or Pacific States) and
+           Midwest; West and Northeast
+  195   West and South (Solid South or Border States)
+  196   Midwest and South or Midwest and Border states
+  198   Lived in 3 or more regions (NA whether lived in one
+            more than the rest)
+  199   United States, NA which state
+
+WESTERN HEMISPHERE Except U.S.
+
+ North America
+ -------------
+  201    North America (except U.S.) comb. Canada, Mexico,
+            and/or Central America
+  207   Canada -- ancestry of Anglo-Saxon origin
+  208   Canada -- ancestry of French origin
+  209   Canada -- NA origin or other origin
+  219   Mexico
+  229   Central America
+
+ West Indies (except Puerto Rico and Virgin Islands)
+ --------------------------------------------------
+  231    Barbados
+  232    Cuba
+  233    Dominican Republic
+  234    Haiti
+  235    Jamaica
+  236    Netherlands Antilles
+  237    Trinidad and Tobago
+  238    Islands of Lesser Antilles--except Virgin Islands
+            and Netherlands Antilles
+  239    West Indies (except Puerto Rico and Virgin Islands)
+            or "Caribbean"--reference to two or more West
+           Indian countries
+
+ South America
+ -------------
+  259    South America; South American country or countries
+
+EUROPE
+
+ British Isles
+ -------------
+  301    England
+  302    Ireland (NA North or South); southern Ireland
+  303    Scotland
+  304    Wales
+  305    Northern Ireland (Ulster)
+  306    Scot-Irish
+  308    United Kingdom; Great Britain
+  309    "BRITISH ISLES"; GENERAL MENTION OF AREA; REFERENCE
+            TO TWO OR MORE COUNTRIES OF THE BRITISH ISLES
+
+ Western Europe
+ --------------
+  310    Austria
+  311    Belgium
+  312    France
+  313    Federal Republic of Germany (W. Germany)
+  314    German Democratic Republic (E. Germany)
+  315    Germany--NA East or West
+  316    Luxembourg
+  317    Netherlands; Holland
+  318    Switzerland
+  319    "WESTERN EUROPE"; GENERAL MENTION OF AREA;
+            REFERENCE TO TWO OR MORE COUNTRIES OF WESTERN
+            EUROPE
+
+ Scandinavia
+ -----------
+  321    Denmark
+  322    Finland
+  323    Norway
+  324    Sweden
+  325    Iceland
+
+ Multiple - Western Europe and Scandinavia
+ ---------------------------------------
+  328    GENERAL MENTION OF AREA OF WESTERN EUROPE AND/OR
+            SCANDINAVIA AND/OR BRITISH ISLES AND/OR
+            MEDITERRANEAN COUNTRIES AND/OR GREECE; REFERENCE
+            TO TWO OR MORE COUNTRIES IN DIFFERENT AREAS LISTED
+            ABOVE
+
+ Scandinavia General
+ -------------------
+  329    "SCANDINAVIA"; GENERAL MENTION OF AREA; REFERENCE
+            TO TWO OR MORE SCANDINAVIAN COUNTRIES
+
+ Eastern Europe
+ --------------
+  331    Czechoslovakia (Slavic)
+  332    Estonia
+  333    Hungary
+  334    Latvia
+  335    Lithuania
+  336    Poland
+  337    Russia (or U.S.S.R.)
+  338    Ukraine
+  339    "EASTERN EUROPE"; GENERAL MENTION OF AREA;
+            REFERENCE TO TWO OR MORE COUNTRIES OF EASTERN
+            EUROPE
+
+ Balkan Countries
+ ----------------
+  341    Albania
+  342    Bulgaria
+  343    Greece
+  344    Rumania
+  345    Yugoslavia
+  348    General mention of area; reference to two or more
+            Balkan Countries
+  349    "BALKANS"; GENERAL REFERENCE OF AREA; REFERENCE TO
+            COUNTRIES IN EASTERN EUROPE AND BALKAN COUNTRIES
+
+ Mediterranean Countries
+ -----------------------
+  351    Italy
+  352    Portugal
+  353    Spain
+  354    Malta or Gozo
+
+ Multiple and General - Europe
+ -----------------------------
+  399    "EUROPE"; GENERAL MENTION OF AREA; REFERENCE TO TWO
+            OR MORE COUNTRIES OF EUROPE IN DIFFERENT AREAS
+
+ASIA  except Near East
+  401    Afghanistan
+  403    Bangladesh
+  404    India
+  405    1990: Pakistan
+  406    Pakistan
+  428    Southeast Asia:  Indochina, Thailand, Malaya,
+            Burma, Philippines, Indonesia; Hong Kong, Laos
+  431    China (mainland)
+  432    1990: Taiwan, Formosa
+  434    Taiwan, Formosa
+  451    Japan
+  452    Korea (North or South)
+  499    "ASIA"; GENERAL MENTION OF AREA; REFERENCE TO TWO
+            OR MORE COUNTRIES OF ASIA
+
+NEAR EAST
+  501    U.A.R. (Egypt)
+  502    Iran
+  503    Iraq
+  504    Israel (or Palestine)
+  505    Jordan
+  506    Lebanon
+  507    Saudi Arabia
+  508    Syria
+  509    Turkey
+  599    "NEAR EAST"; "MIDDLE EAST"; GENERAL MENTION OF
+             AREA; REFERENCE TO TWO OR MORE COUNTRIES OF NEAR
+            EAST
+
+AFRICA
+  655    South Africa
+  699    Africa; any African country or countries, excluding
+            only South Africa and U.A.R. (Egypt)
+
+OCEANIA
+  704    Australia, New Zealand, Tasmania
+  705    South Pacific islands (exc. 704)
+
+OTHER:
+  800    Other (combinations) not codeable elsewhere
+  -8    DK
+  -9    RF
+  -4    NA
+        

@@ -1,0 +1,52 @@
+	(1)	(2)	(3)
+	Post-treatment cases, all questions with partisan gap among pre-treatment cases, p<.10	Post-treatment cases, all questions with partisan gap among pre-treatment cases, p<.10	Post-treatment cases, all questions with partisan gap among pre-treatment cases, p<.10
+Democrat (1=Yes, 0=Republican)	0.145	0.152	0.145
+	[0.028]***	[0.029]***	[0.028]***
+Payment Correct * Democrat	-0.087	-0.091	
+	[0.030]***	[0.032]***	
+Payment DK and Correct * Democrat	-0.117	-0.123	
+	[0.029]***	[0.030]***	
+Payment for Correct Response	0.018	0.018	
+	[0.025]	[0.026]	
+Payment for DK and Correct Response	0.049	0.052	
+	[0.024]**	[0.025]**	
+Amount correct = 0.10 * Democrat			-0.082
+			[0.033]**
+Amount correct = 0.25 * Democrat			-0.092
+			[0.033]***
+Amount correct = 0.50 * Democrat			-0.096
+			[0.033]***
+Amount correct = 0.75 * Democrat			-0.061
+			[0.036]*
+Amount correct = 1.00 * Democrat			-0.116
+			[0.036]***
+Prop. payment for DK=.20 * Democrat			-0.031
+			[0.018]*
+Prop. payment for DK=.25 * Democrat			-0.016
+			[0.020]
+Prop. payment for DK=.33 * Democrat			-0.041
+			[0.020]**
+Amount correct = 0.10			0.010
+			[0.027]
+Amount correct = 0.25			0.028
+			[0.027]
+Amount correct = 0.50			0.020
+			[0.027]
+Amount correct = 0.75			0.005
+			[0.029]
+Amount correct = 1.00			0.042
+			[0.029]
+Prop. payment for DK=.20			0.023
+			[0.013]*
+Prop. payment for DK=.25			0.030
+			[0.017]*
+Prop. payment for DK=.33			0.034
+			[0.016]**
+Constant	0.614	0.617	0.614
+	[0.026]***	[0.026]***	[0.026]***
+Observations	4608	4608	4608
+R-squared	0.179		0.181
+F-test, Pay Correct * Dem. > Pay DK and Correct * Dem.	0.02	0.02	
+Robust standard errors in brackets			
+* significant at 10%; ** significant at 5%; *** significant at 1%			
+Note: Source: 2012 MTURK study. Includes only Democrats and Republicans. Robust standard errors, clustered by respondent. F-test p-values are one-tailed. Question fixed effects not reported. Number of participants is 795			

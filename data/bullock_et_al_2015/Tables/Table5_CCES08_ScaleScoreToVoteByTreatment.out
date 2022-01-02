@@ -1,0 +1,14 @@
+	Presidential Vote (1=Dem., 0=Rep., .=Else)
+Average scale score (1= Most Dem.)	1.770
+	[0.222]***
+Pay Correct condition	0.418
+	[0.224]*
+Pay Correct * Average scale score	-0.741
+	[0.367]**
+Constant	-0.548
+	[0.135]***
+Observations	373
+R-squared	0.130
+Robust standard errors in brackets	
+* significant at 10%; ** significant at 5%; *** significant at 1%	
+Note: Source: 2008 CCES. Includes only Democrats and Republicans. Scale score is pooled across 8 questions non-placebo questions with partisan gaps in control condition.	

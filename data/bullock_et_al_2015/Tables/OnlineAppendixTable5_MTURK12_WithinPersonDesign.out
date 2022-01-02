@@ -1,0 +1,22 @@
+	(1)	(2)
+	Post-treatment cases asked in pre, all questions with partisan gap among pre-treatment cases, p<.10	Post-treatment cases asked in pre, all questions with partisan gap among pre-treatment cases, p<.10
+Pre (Lagged) directed slider response	0.636	
+	[0.015]***	
+Democrat (1=Yes, 0=Republican)	0.077	0.160
+	[0.014]***	[0.029]***
+Payment Correct * Democrat	-0.066	-0.098
+	[0.016]***	[0.033]***
+Payment DK and Correct * Democrat	-0.090	-0.127
+	[0.017]***	[0.031]***
+Payment for Correct Response	0.032	0.022
+	[0.011]***	[0.027]
+Payment for DK and Correct Response	0.057	0.056
+	[0.012]***	[0.026]**
+Constant	0.198	0.608
+	[0.016]***	[0.027]***
+Observations	3275	3275
+R-squared	0.638	0.190
+F-test, Pay Correct * Dem. > Pay DK and Correct * Dem.	0.03	0.06
+Robust standard errors in brackets		
+* significant at 10%; ** significant at 5%; *** significant at 1%		
+Note: Source: 2012 MTURK study. Includes only Democrats and Republicans. Robust standard errors, clustered by respondent. F-test p-values are one-tailed. Question fixed effects not reported. Number of participants is 794		

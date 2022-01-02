@@ -1,0 +1,15 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+	Iraq 07 to 08 Change Casualties	Bush Inflation Change	Bush Unemployment Change	Est. Bush Approval	Iraq Total Casualties	Est. Bush Approval Among Reps.	Obama Age	McCain Age
+Democrat (1=Yes, 0=Republican)	0.239	0.201	0.168	0.092	0.087	0.070	0.050	0.044
+	[0.052]***	[0.044]***	[0.056]***	[0.023]***	[0.038]**	[0.039]*	[0.031]	[0.025]*
+Payment for Correct Response * Democrat	-0.078	-0.026	-0.074	-0.100	-0.064	-0.072	-0.048	-0.053
+	[0.077]	[0.061]	[0.079]	[0.034]***	[0.054]	[0.055]	[0.045]	[0.033]
+Payment for Correct Response	0.043	0.059	0.091	0.018	0.051	0.026	0.005	0.010
+	[0.051]	[0.052]	[0.058]	[0.024]	[0.036]	[0.039]	[0.034]	[0.024]
+Constant	0.177	0.694	0.598	0.818	0.114	0.724	0.508	0.637
+	[0.033]***	[0.036]***	[0.042]***	[0.016]***	[0.024]***	[0.029]***	[0.023]***	[0.019]***
+Observations	415	409	407	421	412	416	419	422
+R-squared	0.064	0.093	0.032	0.044	0.014	0.008	0.008	0.012
+Percentage of Partisan Gap Eliminated by Payment for Correct Response	32.45	12.94	44.35	108.73	73.34	103.39	95.23	119.10
+Robust standard errors in brackets								
+* significant at 10%; ** significant at 5%; *** significant at 1%								

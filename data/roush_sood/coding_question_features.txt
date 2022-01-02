@@ -1,0 +1,64 @@
+Important note: Jerit & Barabas exclude leaners from their categories of partisans;
+the table included in the paper and the dataset include these people under the regular "prop_d_corr" or "prop_r_corr" categories. That is, for Jerit & Barabas items, these variables have the same values as the variables "prop_r_corr_nolean" and "prop_d_corr_nolean." 
+
+PARTISAN_CUE
+1 = yes, 0 = otherwise
+
+RESPONSE OPTIONS
+0 = open ended, 9 = continuous
+
+EXP_DK
+1 = explicit DK offered; 0 = otherwise
+
+EXP_NS 
+1 = explicit not sure offered; 0 = otherwise
+
+TBYK 
+1 = "To the best of your knowledge"; 0 = otherwise
+
+DYT 
+1 = "Do you think"; 0 = otherwise
+
+AFAYK 
+1 = "As far as you know"; 0 = otherwise
+
+OTHER_ENC_WORDING
+1 = other types of wording that entice guessing; 0 = otherwise
+
+QUESTION BLOCK
+1 = question part of a randomized block; 0 = otherwise
+
+ADDRESS_MISINFO
+1 = topic touches on misinformation debate; 0 = otherwise
+
+
+
+TOPIC
+
+1 - economy/economic
+
+2 - healthcare
+
+3 - foreign policy/national security
+
+4 - office/candidate recognition
+
+5 - environment
+
+6 - Social Security
+
+7 - guns
+
+8 - education
+
+9 - misc.
+
+
+
+P_CORR_IND = percent of Independents who answered correctly
+
+N_IND = number of Independents in sample
+
+MONTHS_MIDTERM = months until next midterm election; if survey spans multiple months, date is calculated from latest month
+
+MONTHS_PRESIDENTIAL = months until next presidential election; if survey spans multiple months, date is calculated from latest month

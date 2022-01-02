@@ -1,0 +1,2438 @@
+FILE nes04int.txt
+-----------------
+2004 American National Election Study (2004.T)
+Codebook introduction file
+VERSION 20050816 (Aug 16, 2005)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 AMERICAN NATIONAL ELECTION STUDIES:
+
+                     2004 PRE-POST ELECTION STUDY
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                               CODEBOOK
+
+
+
+
+
+
+
+
+
+
+
+                     Center for Political Studies
+                     Institute for Social Research
+                      The University of Michigan
+
+
+
+
+
+                         
+
+CITATION
+
+
+
+The National Election Studies (www.umich.edu/~nes). THE 2004 NATIONAL 
+ELECTION STUDY [dataset]. Ann Arbor, MI: University of Michigan, Center for 
+Political Studies [producer and distributor].
+
+These materials are based on work supported by the National Science 
+Foundation under grant SES-0118451, and the University of Michigan.
+
+Any opinions, findings and conclusions or recommendations expressed in these
+materials are those of the author(s) and do not necessarily reflect the
+views of the funding organizations.
+
+                          2004 NES CODEBOOK
+                           TABLE OF CONTENTS
+                          ==================
+
+The 2004 Codebook comprises 3 files : NES04INT.TXT  Introduction [this file]
+                                      NES04VAR.TXT  Variable Documentation
+                                      NES04APP.TXT  Appendices
+
+Note:  sections in the current file can be navigated by searching ">>".
+
+
+
+2004 CODEBOOK INTRODUCTION (file "NES04INT.TXT")
+------------------------------------------------
+>> 2004 General Introduction
+>> 2004 Study Description
+>> 2004 Study Design, Content and Administration
+        >> 2004 Study Design
+        >> 2004 Study Content
+        >> 2004 Study Administration
+>> 2004 Special Note about Texas incumbents
+>> 2004 National Election Study Sample Design
+        >> Study Population
+        >> Multi-Stage Area Probability Design
+        >> Sample Design Assumptions, Specifications, and Outcomes
+        >> Post-Election Sample Outcomes
+        >> Weighted Analysis
+        >> Construction of Analysis Weights
+        >> Procedures for Sampling Error Estimation
+>> 2004 Note on Confidential Materials
+>> 2004 File Structure and Processing information
+>> 2004 Codebook Information (how to read)
+>> 2004 Variable Description List
+
+
+
+2004 VARIABLE DOCUMENTATION (file "NES04VAR.TXT")
+-------------------------------------------------
+V040001 - V041214a  Identification, Weights, and Study Descriptive
+V042001 - V042428   Pre-Election Administrative
+V043001 - V043413g  Pre-Election Survey
+V044001 - V044517d  Post-Election Administrative
+V045001 - V045308g  Post-Election Survey
+
+
+
+2004 CODEBOOK APPENDICES (file "NES04APP.TXT")
+----------------------------------------------
+>> 2004 Census (2000) Combined Statistical Area
+>> 2004 Candidate Number Master Code (House and Senate)
+>> 2004 Type Race Master Code (House and Senate)
+>> 2004 Party-Candidate Master Code ('Likes-Dislikes')
+>> 2004 Religion Master Code
+>> 2004 Census 2000 Occupation Master Code
+>> 2004 Census 2000 Industry Master Code
+>> 2004 Census 1990 Occupation Master Code
+>> 2004 Ethnicity Master Code
+>> 2004 ICSPR State and Country Master Code
+>> 2004 Cities Master Code
+>> 2004 Most Important Problem Master Code
+Note: sections in the Appendices file can be navigated  by searching ">>".>> 2004 General Introduction 
+________________________
+
+In the fall of 2004 the National Election Studies (NES) carried out a time
+series study both before and after the 2004 Presidential Election in the
+United States.
+
+The number of cases in this Full Release file, 1212, includes all
+respondents from both the pre-election and post-election surveys. 
+Respondents who completed a pre-election survey but not a post-election
+survey are shown as missing in the post-election survey variables.
+
+Accompanying the dataset is codebook documentation containing detailed
+variable descriptions, as well as data descriptor statement files that can 
+be used to read the raw data file into common data analysis software
+packages such as SAS, SPSS, and STATA.
+
+
+
+>> 2004 Study Description 
+_________________________
+
+The 2004 American National Election Study was conducted by the Center for
+Political Studies at the Institute for Social Research, under the general
+direction of the Principal Investigators, Nancy Burns and Donald R. Kinder.
+Data collection services were provided by the Survey Research Center (SRC)
+of the University of Michigan's Institute for Social Research.
+
+This is the latest in a series of studies of American national elections
+produced by the University of Michigan's Center for Political Studies. The
+study would not have been possible without the financial support of the
+National Science Foundation and the University of Michigan (the Center for
+Political Studies, the Department of Political Science, the Survey Research
+Center, and the Office of the Provost).
+
+The 2004 National Election Study was designed through consultation between
+the Principal Investigators, a national Board of Overseers, a specially
+appointed Planning Committee, and the NES user community.
+
+Board members during the 2004 National Election Study included John H.
+Aldrich (Duke University), Stephen Ansolabehere (Massachusetts Institute of
+Technology), Nancy Burns, ex officio (University of Michigan), Russell
+Dalton (University of California - Irvine), John Mark Hansen, chair
+(University of Chicago), Simon Jackman (Stanford University), Donald Kinder,
+ex officio (University of Michigan), Jon A. Krosnick (Ohio State
+University), Arthur Lupia (University of Michigan), Diana C. Mutz
+(University of Pennsylvania), and Wendy Rahn (University of Minnesota).
+
+Planning Committee members for the 2004 National Election Study included
+John H. Aldrich (Duke University), Stephen Ansolabehere (Massachusetts
+Institute of Technology), David W. Brady (Stanford University), Nancy E.
+Burns (University of Michigan), Raymond Duch (University of Houston), John
+Mark Hansen (University of Chicago), Simon Jackman (Stanford University),
+Jon A. Krosnick (Ohio State University), Donald R. Kinder (University of
+Michigan), Arthur Lupia, chair (University of Michigan), Kathleen McGraw
+(Ohio State University), Diana C. Mutz (University of Pennsylvania), Wendy
+Rahn (University of Minnesota), Robert Y. Shapiro (Columbia University), and
+Daron Shaw (University of Texas).
+
+A stimulus letter was sent to members of the scholarly community and a
+special website and message board system were set up in order to solicit 
+input on study plans.
+
+Additional information concerning the 2004 NES, including notification of
+select errors discovered and made known to NES Staff after the data release
+date, can be found on the NES Website (http://www.umich.edu/~nes). Any
+questions not answered on the website or by this codebook can be directed to
+the NES Staff by e-mail to "nes@umich.edu" or by regular postal service to
+the address below.
+
+National Election Studies (NES) Staff
+Center for Political Studies
+Institute for Social Research, 4100 Bay
+University of Michigan
+426 Thompson Street
+Ann Arbor, MI 48104-2321
+E-Mail: nes@umich.edu
+Website: http://www.umich.edu/~nes
+
+
+
+>> 2004 Study Design, Content and Administration
+________________________________________________
+
+>> 2004 STUDY DESIGN
+
+The 2004 National Election Study entailed both a pre-election interview and
+a post-election re-interview. A freshly drawn cross section of the
+electorate was taken to yield 1,212 cases. The 70-minute pre-election survey
+went into the field September 7th, approximately eight weeks before Election
+Day. No interviewing was conducted on Election Day, November 2nd. The
+65-minute post-election study went into the field the day after the
+election, November 3rd, and remained in the field until December 20th.
+Further details of the administration of the surveys are given in "2004
+STUDY ADMINISTRATION," below.
+
+>> 2004 STUDY CONTENT
+
+Like its predecessors, the 2004 NES was divided between questions necessary
+for tracking long-term trends and questions necessary to understand the
+particular political moment of 2004.  The study maintains and extends the
+NES time-series 'core' by collecting data on Americans' basic political
+beliefs, allegiances, and behaviors: aspects of political belief and action
+so basic to the understanding of politics that they must be monitored at
+every election, no matter the nature of the specific campaign or the broader
+setting.  Core consists of: (1) attachments to the parties; (2) evaluations
+of incumbents and their challengers; (3) opinions on political issues; (4)
+ideological identification and political values; (5) general attitudes
+toward democratic procedure and the political system; (6) engagement and
+participation in politics; (7) immersion in mass media; (8) identification
+with and attitude toward social groups; and (9) social background.
+
+The study also carried topical and study-specific instrumentation. Questions
+covering issues prominent in 2004 addressed job outsourcing, private
+investment of Social Security funds, and President Bush's tax cut.
+Americans' views on foreign policy, the war on terrorism, and the Iraq War
+and its consequences were also addressed.  In addition, the study carried
+expanded instrumentation on inflation, immigration, gender politics, and gay
+and lesbian politics.  It also extended the experiment on the measurement of
+voter turnout that began in 2002.  A special feature was the incorporation
+of the module on representation and accountability, Module 2, from the
+Comparative Study of Electoral Systems (CSES), at the end of the Post-
+election interview.
+
+Finally, a mergeable ancillary file of contextual data is an additional
+component of the 2004 election study.  The file, available by the summer of
+2005, contains 435 records representing all House districts.  It includes
+biographical information, district and state descriptive variables, and
+other data related to the 2004 election and its candidates. 
+
+>> 2004 STUDY ADMINISTRATION
+
+The pre-election survey began on September 7th, 2004 and ended November 1st,
+2004. No interviewing was conducted on Election Day, November 2nd. The
+post-election reinterviews began on November 3rd, 2004 and ended
+December 20th, 2004.
+
+Data collection was conducted by the Survey Research Center (SRC) of the
+University of Michigan's Institute for Social Research. All interviewing was
+conducted face-to-face using Computer-Assisted Personal Interviewing (CAPI)
+technology. The CAPI instrument was programmed using Blaise, a software
+package developed by Statistics Netherland. All interviews were conducted
+in English, as there were no translations of the questionnaire to a language
+other than English.
+
+The pre-election study sample was released all at once at the beginning of
+the field period. All individuals who completed a pre-election interview
+were contacted to be interviewed again in the post-election study. The
+post-election design was managed as a "quick take," with as many completions
+gained as close to Election Day as possible.
+
+For interview proper (defined as the portion of the interview after the
+front end, but prior to the interviewer observations), the pre-election
+study ran approximately 70 minutes per interview, and the post-election
+study approximately 65 minutes per interview. Both studies made use of
+respondent booklets, and the post-election study also made use of ballot
+cards.  Randomization was used extensively throughout both the pre-election
+and post-election questionnaires, for purposes of randomizing order within
+batteries or question series, application of half-sampling to some
+questions, and random ordering of question blocks.
+
+The sample for the 2004 study was comprised of 2,374 cases, a freshly drawn
+cross section intended to be nationally representative of the electorate.
+All respondents were United States citizens aged 18 years or older by
+election Day (November 2nd, 2004).
+
+Users are advised to become familiar with the weight variables provided in
+the dataset, and apply them as appropriate to their analyses to correct for
+non-response and other sampling issues.
+
+Final disposition codes for each case were provided by the data collection
+organization, coded to categories identified in the American Association for
+Public Opinion Research (AAPOR) Standards and Best Practices guide. The
+citation for the AAPOR document is:
+
+        The American Association for Public Opinion Research. 2000.
+        Standard Definitions: Final Dispositions of Case Codes and Outcome
+        Rates for Surveys.  Ann Arbor, Michigan: AAPOR.
+
+Cases were divided into eligible and non-eligible categories, where unknown
+eligibility was grouped with eligible cases.  All interviews were fully
+completed, with no partial interviews accepted.  Eligible (or unknown
+eligibility) cases that did not provide an interview were categorized as
+non-response.  The sample of 2,374 cases yielded 1,833 cases that were
+considered eligible.  Of special note among these are cases representing
+households with no person available who spoke English, and for which no
+multi-lingual interviewer was available to determine eligibility.  Such
+cases were categorized as eligible non-response, since eligibility was
+uncertain. Regardless, an interview could not have been conducted for these
+cases because the 2004 questionnaire was only available in English. The
+sample yielded 1,212 pre-election interviews and 622 non-response cases (429
+of which were refusals). 1,066 pre-election respondents went on to also
+provide a post-election interview (146 non-response in the Post, including
+91 refusals).
+
+2004 Election Study Response Rates
+
+                 Interviews  Eligible    Response Rate
+------------------------------------------------------
+Pre-Election          1212      1833             66.1%
+Post-Election         1066      1212             88.0% 
+
+The Pre-Election response rate of 66.1% is calculated as the total number of
+Pre-Election interviews over the total number of eligible (and unknown
+eligibility) cases in the sample.  The Post-Election response rate of 88.0%
+is a re-interview rate, calculated as the total number of Post-Election
+Interviews over the total number of Pre-Election Interviews. (Note: these
+response rates are unweighted. Double samples and other such techniques were
+not employed in the 2004 study.)
+
+The field and study staff implemented a number of strategies throughout
+the study to bolster response rates.
+
+1) In the pre-election study:
+
+Households were sent advance mailings by first class mail in a stamped 9.5
+by 13.5 inch padded manila envelope, with a hand-signed letter, a brochure,
+a $5 bill, and a University of Michigan refrigerator magnet enclosed. A
+respondent incentive of $20 per interview was initially offered to all
+cases. Households were contacted and screened face-to-face.
+
+Cases that showed resistance to interview were usually mailed a letter
+tailored to their reason for resistance.  A refusal conversion attempt was
+then made.
+
+Near the end of the pre-election study, on October 20th, a two-day UPS
+mailing containing a hand-signed letter was sent to all outstanding sample
+lines that did not have a hard appointment set; the letter offered an
+increased incentive of $50 per interview.
+
+2) In the post-election study:
+
+Respondents received an advance hand-signed letter by first class mail in
+a stamped 9.5 by 13.5 inch padded manila envelope. As an incentive for their
+post-election interview, respondents were offered the same dollar amount as
+they received in the pre-election study, and respondents were paid by the
+interviewer at the time of the interview.  During the first two weeks of the
+post-election study, interviewers were allowed to contact households by
+telephone in order to set up an appointment to interview at a convenient
+time, although all interviewing was conducted face-to-face.
+
+As in the pre-election study, cases that showed resistance to interview were
+usually mailed a letter tailored to their reason for resistance. A refusal
+conversion attempt was then made.
+
+3) Interviewer incentives:
+
+Throughout both the pre-election and post-election study a number of
+interviewer and team leader incentive strategies were implemented, including
+monetary incentives for meeting management goals at different junctures
+during the study period.
+
+
+>> 2004 Special note about Texas House Incumbents
+_________________________________________________
+
+Names of candidates were preloaded into the post-election survey instrument
+following identification of the respondent's Congressional district. 
+(District identification was supplied by Marketing Systems group in
+combination with staff research.)
+
+In general, candidates are identified as House incumbents in this file to
+establish the context of pre-existing association with the respondent.
+Incumbents are thus regarded as candidates that are (already) in office in
+representation of a district at the time of the 2004 election, where
+district is regarded as a geographic location rather than a political unit.  
+The extent of Texas redistricting from 108th to 109th Congressional district
+boundaries consistently produced 2004 House races with incumbent candidates
+running to represent areas where he or she had provided little or no
+previous representation.  Consequently, no Texas candidate has been
+identified as a (true)incumbent for any 109th Congressional district, as
+neither the running nor retiring incumbent for the district.  All Texas
+Congressional races have been considered open races, all Texas candidates
+have been given candidate codes corresponding to nonincumbent candidates,
+and retiring Texas House incumbents were not associated with any new
+district as the retiree.
+
+
+>> 2004 National Election Study Sample Design
+_____________________________________________
+
+>> STUDY POPULATION
+
+The study population for the 2004 National Election Study (NES) is defined
+to include all United States citizens of voting age on or before the 2004
+Election Day.  Eligible citizens must have resided in housing units in the
+forty-eight coterminous states.  This definition excludes persons living in
+Alaska or Hawaii and requires eligible persons to have been both a United
+States citizen and eighteen years of age on or before the 2nd of November
+2004.
+
+>> MULTI-STAGE AREA PROBABILITY DESIGN
+
+The area sample is based on a multi-stage area probability sample selected
+from the Survey Research Center's (SRC) 1990 National Sample design. 
+Identification of the 2004 NES sample respondents was conducted using a four
+stage sampling process: a primary stage sampling of U.S. Metropolitan
+Statistical Areas (MSAs) or New England County Metropolitan Areas (NECMAs)
+and non-MSA counties, followed by a second stage sampling of area segments,
+a third stage sampling of housing units within sampled area segments and
+concluding with the random selection of a single respondent from selected
+housing units.  A detailed documentation of the 1990 SRC National Sample,
+from which the 2004 NES sample was drawn, is provided in the SRC
+publication titled 1990 SRC National Sample: Design and Development.  
+
+The 2004 NES sample design called for an entirely new cross-section sample
+to be drawn from the 1990 SRC National Sample.    The 1990 SRC National
+Sample is a multi-stage area probability sample.  The 2004 NES sample was
+drawn from both the 1990 SRC National Sample strata (MSA PSUs) and the 1980
+SRC National Sample strata  (non-MSA PSUs).  The modification of the 1990
+design in which the 1980 strata definitions were used for the non-MSA
+counties fully represents the non-MSA domain of the 48 contiguous states. 
+This modification was made for cost and interviewing efficiency reasons
+related to the availability of interviewers in these areas who work on some
+of SRC's large panel studies.  The following sections will focus on the 1990
+SRC National Sample design.
+         
+Selection Stages for the 2004 NES Sample: 1990 SRC National Sample
+
+- Primary Stage Selection
+
+The selection of primary stage sampling units (PSUs) for the 1990 SRC
+National Sample, which depending on the sample stratum are either MSAs, New
+England County Metropolitan Areas (NECMAs), single counties, independent
+cities, county equivalents or groupings of small counties, is based on the
+county level 1990 Census Reports of Population and Housing[1].  Primary
+stage units were assigned to 108 explicit strata based on MSA/NECMA or
+nonMSA/NECMA status, PSU size, Census Region and geographic location within
+region.  Twenty-eight of the 108 strata contain only a single
+selfrepresenting PSU, each of which is included with certainty in the
+primary stage of sample selection.  The remaining 80 non-selfrepresenting
+strata contain more than one PSU.  From each of these nonselfrepresenting
+strata, one PSU was sampled with probability proportionate to its size (PPS)
+measured in 1990 occupied housing units. 
+
+The full 1990 SRC National Sample of 108 primary stage selections was
+designed to be optimal for surveys roughly three to five times the size of
+the 2004 NES.  To permit the flexibility needed for optimal design of
+smaller survey samples, the primary stage of the SRC National Sample can be
+readily partitioned into smaller subsamples of PSUs such as a one-half
+sample or a three-quarter sample partition.  Each of the partitions
+represents a stratified sub-selection from the full 108 PSU design.  The
+2004 NES sample of 44 PSUs is a stratified random subsample of PSUs from the
+"A" half-sample partition of the 1990 SRC National Sample.  Because of the
+small size of this NES sample, both the number of PSUs (selected primary
+areas) and the secondary stage units (area segments) in the National
+half-sample were reduced by sub-selection for the 2004 NES sample design. 
+The 18 self-representing areas in the 1990 SRC National half-sample were all
+retained for the 2004 NES sample (8 of these remained self-representing in
+the 2004 NES and 10 represent not only their own MSA but their "pair" among
+the twenty additional self-representing primary areas of the full 1990 SRC
+National Sample design).  Nineteen of the 26 nonself-representing
+half-sample MSAs and 7 of the 14 half-sample non-MSAs were retained by the
+sub-selection for the 2004 NES sample (or 26 of 40 NSR PSUs).  
+
+- Second Stage Selection of Area Segments
+
+The second stage of the 1990 SRC National Sample, used for the 2004 NES
+sample, was selected directly from computerized files that were extracted
+for the selected PSUs from the 1990 U.S. Census summary file series STF1-B. 
+These files (on CD Rom) contain the 1990 Census total population and housing
+unit (HU) data at the census block level.  The designated second stage
+sampling units (SSUs), termed "area segments", are comprised of census
+blocks in both the metropolitan (MSA) primary areas and in the rural areas
+of non-MSA primary areas.  Each SSU block or block combination was assigned
+a measure of size equal to the total 1990 occupied housing unit count for
+the area.  SSU block(s) were assigned a minimum measure of 72 total HUs per
+MSA SSU and a minimum measure of 48 total HUs per non-MSA SSU.   Second
+stage sampling of area segments was performed with probabilities
+proportionate to the assigned measures of size (PPS).  
+         
+For the 2004 NES sample the number of area segments used in each PSU varies. 
+In the self-representing (SR) PSUs the number of area segments varies in
+proportion to the size of the primary stage unit, from a high of 12 area
+segments to a low of 6 area segments.
+
+For the 2004 NES sample the number of area segments used in each PSU varies. 
+In the self-representing (SR) PSUs the number of area segments varies in
+proportion to the size of the primary stage unit, from a high of 12 area
+segments to a low of 6 area segments in smaller self-representing PSUs [2].
+
+- Third Stage Selection of Housing Units: 2004 NES Sample
+
+For each area segment selected in the second sampling stage, a listing had
+been made of all housing units located within the physical boundaries of the
+segment.  For segments with a very large number of expected housing units,
+all housing units in a sub-selected part of the segment were listed.  The
+final equal probability sample of housing units for the 2004 NES sample was
+systematically selected from the housing unit listings for the sampled area
+segments.  
+
+The 2004 NES sample design was selected from the 1990 SRC National Sample to
+yield an equal probability sample of 2,756 listed housing units.  This total
+included 2,366 housing units for the main sample and three reserve
+replicates of 130 cases each.  Table A below shows the assumptions that were
+used to determine the number of sample housing units.  The overall
+probability of selection for 2004 NES cross-section sample of households was
+f=0.00002575 or 0.2575 in 10,000.  The equal probability sample of
+households was achieved for the 2004 NES sample by using the standard
+multistage sampling technique of setting the sampling rate for selecting
+housing units within area segments to be inversely proportional to the PPS
+probabilities used to select the PSU and area segment (Kish, 1965).
+
+- Fourth Stage Respondent Selection: 2004 NES Sample
+  
+Within each sampled 2004 NES occupied housing unit, the SRC interviewer
+prepared a complete listing of all eligible household members.  A single
+respondent was then selected at random to be interviewed. Regardless of
+circumstances, no substitutions were permitted for the designated
+respondent.  
+
+>> SAMPLE DESIGN ASSUMPTIONS, SPECIFICATIONS AND OUTCOMES
+
+The 2004 National Election Study sought a total of 1200 in-person
+interviews.  It was estimated that this would require a NES sample draw of
+2,366 housing units.  This assumed an occupancy/growth rate of 0.83, an
+eligibility rate of 0.94 and a response rate of 0.65.  These assumptions
+were based on the 2000 NES field experience.  The overall 2004 NES area
+sample design specifications, assumptions and outcomes appear in Table A,
+below.  A sample of 2,756 listed housing units was actually selected for the
+2004 NES study. This allowed for three reserve replicates of 130 cases each. 
+Use of half-open intervals in the field led to the addition of 8 additional
+lines. These were housing units that were not identified during the listing
+stage, but were located between the selected housing unit and the next unit
+on the original listing. The use of this procedure insures full coverage of
+housing units.
+         
+A comparison of the 2004 NES sample outcome figures to the design
+specifications and assumptions in table A below shows that the actual
+occupancy, eligibility, and response rates were very close to the expected
+rates.          
+
+                              Table A.
+     2004 NES Area Sample Pre and Post-Election Design Specifications 
+           and Assumptions Compared to Sample Outcome.
+
+                            2004 NES    2004 NES       2004 NES     2004 NES
+                          Pre Design  Pre Sample    Post Design  Post Sample
+                       Specification     Outcome  Specification      Outcome 
+                       -------------  ----------  -------------  -----------
+
+TOTAL SAMPLE LINES           2366          2374
+Completed Interviews         1200          1212         1020          1066
+Eligible Sample HHs          1946          1825         1200          1212
+Occupied Households          1964          1886
+Response Rate                 .65           .66          .85           .88
+Eligibility Rate              .94           .97
+Occupancy/growth rate         .83           .79
+
+
+>> POST-ELECTION SAMPLE OUTCOMES
+
+Of the 1,212 respondents interviewed in the Pre-Election Study, 1,066
+completed Post-Election interviews for an overall response rate of 0.88.  
+
+>> WEIGHTED ANALYSIS OF THE 2004 NES DATA
+
+The 2004 NES data set includes a person-level analysis weight, which
+incorporates sampling, nonresponse and post-stratification factors. Analysts
+interested in developing their own nonresponse or stratification adjustment
+factors must request access to the necessary sample control data from the
+NES Board.
+
+>> CONSTRUCTION OF ANALYSIS WEIGHTS
+
+Household Selection Weight Component
+
+Each household selected for the 2004 NES had an equal probability of
+selection. The inverse of this probability results in an inflation factor of
+38,832.4 for each household in the sample.
+
+Person-Level Sample Selection Weight Component
+
+Within sample households a single adult respondent is chosen at random to be
+interviewed.  Since the number of eligible adults varies from one household
+to another, the random selection of a single adult introduces inequality
+into respondents' selection probabilities.  In analysis, a respondent
+selection weight should be used to compensate for these unequal selection
+probabilities.  The person-level selection weight is the product of the
+household selection weight and the within household selection weight.  The
+within household selection weight is equal to the number of eligible persons
+in the household and is capped at 3. The use of the respondent selection
+weight is strongly encouraged, despite past evaluations that have shown
+these weights to have little significant impact on the values of NES
+estimates of descriptive statistics. 
+
+Nonresponse Adjusted Selection Weight
+
+The base weight equals the product of the selection weight and the household
+level nonresponse adjustment factors. Nonresponse adjustment cells for the
+2004 NES sample were formed by crossing MSA status by the four Census
+regions.  A nonresponse adjustment factor equal to the inverse of the
+response rate in each cell was applied to the interview cases.  Table B
+below shows the response rates and nonresponse adjustment factors for the
+2004 NES.
+
+                               Table B.
+              Computation of Nonresponse Adjustment Weights 
+                       2004 NES Area Sample.
+
+     PSU TYPE     CENSUS REGION     RESPONSE RATE     NONRESP.
+                                                    ADJUSTMENT FACTOR
+
+     MSAs         Northeast            56.18           1.78
+                  Midwest              69.96           1.43
+                  South                65.86           1.52
+                  West                 68.50           1.46
+
+     Non-MSAs     Northeast            66.44           1.51
+                  Midwest              77.08           1.30
+                  South                68.57           1.46
+                  West                 65.64           1.52
+
+
+Post-stratification factor
+
+The 2004 NES weights are post-stratified to 2004 CPS March Supplement
+proportions for six (6) ages by four (4) education categories.    Table C
+shows the weighted estimates and proportions for the 24 cells for the 2004
+CPS and the 2004 NES.  The post-stratification adjustment is computed by
+dividing the CPS weighted total by the 2004 NES total weighted by the
+nonresponse adjusted selection weight.  The final two columns show the NES
+weighted totals using the final post-stratified analysis weight and the
+resulting percents, which match the CPS percents.
+
+Final Analysis Weights
+
+The final analysis weight is the product of the household level non-response
+adjustment factor, the number of eligible persons, and a person-level
+post-stratification factor.  The final analysis weight for the 2004 NES
+sample is scaled to sum to 1212, the total number of respondents.  This
+weight is trimmed at the 1st and 99th percentiles and then re-scaled to
+match the 2004 CPS proportions for the 24 age-by-education cells.
+         
+Post-Election Attrition Weight
+
+The 1,066 Post-Election cases were post-stratified to 2004 CPS March
+Supplement proportions for six (6) ages by four (4) education categories
+(the same categories used for post-stratifying the Pre-Election cases).  The
+post-stratification compensates for differential non-response by age group
+and education level.  Response rates for the Post-Election Study ranged from
+a high of 100 percent for persons 70 or older with some college to a low of
+58 percent for persons age 30 – 39 who did not graduate from high school. 
+The panel attrition weight for the Post-Election Study is the product of the
+Pre-Election final weight and the post-stratification factor formed by
+dividing the CPS proportion by the weighted NES proportion for each of the
+24 age by education cells.  The weight is scaled to sum to the number of
+cases, 1,066. 
+
+                                 Table C.
+           2004 NES Sample Weight:  Post-stratification Factors    
+
+                                                 PRELIM           NES  FINAL
+                               2004 CPS  2004  2004 NES  POST-    WTD    NES
+AGE    EDUCATION                Est. in   CPS  WTD. EST  STRAT      N   WTD.
+GROUP  LEVEL                N   000s[3]     %   IN 000s   ADJ.   CTRD      %
+
+18-29  < High School Grad  17   6246.8  3.183   2107.7   2.964  38.58  3.183
+       High School Grad    74  12310.9  6.274  10089.9   1.220  76.04  6.274 
+       Some College        97  15337.3  7.816  12556.4   1.221  94.73  7.816
+       College Grad        53   6950.8  3.542   6275.0   1.108  42.93  3.542
+30-39  < High School Grad  12   2844.8  1.450   1432.3   1.986  17.57  1.450
+       High School Grad    45  10866.0  5.537   5309.0   2.047  67.11  5.537 
+       Some College        72  10391.4  5.296   8536.8   1.217  64.18  5.296
+       College Grad        69  11277.4  5.747   8168.7   1.381  69.95  5.747
+40-49  < High School Grad  15   3654.2  1.862   1751.5   2.086  22.57  1.862
+       High School Grad    66  13453.9  6.856   7767.5   1.732  83.10  6.856 
+       Some College        80  11737.5  5.982   9572.5   1.226  72.50  5.982
+       College Grad        78  12124.4  6.179   8616.0   1.407  74.89  6.179
+50-69  < High School Grad  12   3183.4  1.622   1634.8   1.947  19.66  1.622
+       High School Grad    67  10523.7  5.363   8438.9   1.247  65.00  5.363 
+       Some College        70   9437.2  4.809   9110.4   1.036  58.29  4.809
+       College Grad        82  10571.3  5.387   9854.1   1.073  65.29  5.387
+60-69  < High School Grad  21   3589.4  1.829   1972.7   1.820  22.17  1.829
+       High School Grad    63   7807.9  3.979   7258.0   1.076  48.23  3.979 
+       Some College        36   4727.6  2.409   4367.0   1.083  29.20  2.409
+       College Grad        52   5009.8  2.553   6766.7   0.740  30.94  2.553
+70+    < High School Grad  22   6801.0  3.466   1975.7   3.442  42.01  3.466
+       High School Grad    52   8761.4  4.465   5598.5   1.565  54.11  4.465 
+       Some College        29   4309.9  2.196   3072.6   1.403  26.62  2.197
+       College Grad        28   4311.5  2.197   3243.8   1.329  26.63  2.192
+       ----------------- ---- --------  ----- --------  ------  -----  -----
+       TOTALS            1212 196229.7   100%  145476.6   100%   1212   100%
+
+
+>> PROCEDURES FOR SAMPLING ERROR ESTIMATION
+
+The 2004 NES sample design is based on a stratified multi-stage area
+probability sample of United States households.  Although smaller in scale,
+the NES sample design is very similar in its basic structure to the
+multi-stage designs used for major federal survey programs such as the
+Health Interview Survey (HIS) or the Current Population Survey (CPS).  The
+survey literature refers to the NES, HIS and CPS samples as complex designs,
+a loosely-used term meant to denote the fact that the sample incorporates
+special design features such as stratification, clustering and differential
+selection probabilities (i.e., weighting) that analysts must consider in
+computing sampling errors for sample estimates of descriptive statistics and
+model parameters.  This section of the 2004 NES sample design description
+focuses on sampling error estimation and construction of confidence
+intervals for survey estimates of descriptive statistics such as means,
+proportions, ratios, and coefficients for linear and logistic linear
+regression models.  
+
+Standard analysis procedures in software systems such as SAS and SPSS assume
+simple random sampling (SRS) or equivalently independence of observations in
+computing standard errors for sample estimates.  In general, the SRS
+assumption results in underestimation of variances of survey estimates of
+descriptive statistics and model parameters.  Confidence intervals based on
+computed variances that assume independence of observations will be biased
+(generally too narrow) and design-based inferences will be affected
+accordingly.  
+
+Sampling Error Computation Methods and Programs
+
+Over the past 50 years, advances in survey sampling theory have guided the
+development of a number of methods for correctly estimating variances from
+complex sample data sets. A number of sampling error programs which
+implement these complex sample variance estimation methods are available to
+NES data analysts.   The two most common approaches to the estimation of
+sampling error for complex sample data are through the use of a Taylor
+Series Linearization of the estimator (and corresponding approximation to
+its variance) or through the use of resampling variance estimation
+procedures such as Balanced Repeated Replication (BRR) or Jackknife Repeated
+Replication (JRR).  New Bootstrap methods for variance estimation can also
+be included among the resampling approaches.  See Rao and Wu (1988).
+
+1.  Taylor series linearization method:
+
+When survey data are collected using a complex sample design with unequal
+size clusters, most statistics of interest will not be simple linear
+functions of the observed data.  The linearization approach applies Taylor's
+method to derive an approximate form of the estimator that is linear in
+statistics for which variances and covariances can be directly and easily
+estimated (Woodruff, 1971).  SUDAAN and Stata are two commercially available
+statistical software packages that include procedures that apply the Taylor
+series method to estimation and inference for complex sample data. SAS has
+also recently added procedures that make use of the Taylor series
+linearization method.
+
+SUDAAN  (Research Triangle Institute, 2001) is a commercially available
+software system developed and marketed by the Research Triangle Institute of
+Research Triangle Park, North Carolina (USA).  SUDAAN was developed as a
+stand-alone software system with capabilities for the more important methods
+for descriptive and multivariate analysis of survey data, including:
+estimation and inference for means, proportions and rates (PROC DESCRIPT and
+PROC RATIO); contingency table analysis (PROC CROSSTAB); linear regression
+(PROC REGRESS); logistic regression (PROC LOGISTIC); log-linear models (PROC
+LOGLINK); and survival analysis (PROC SURVIVAL).  The latest versions of
+SUDAAN permit procedures to be called directly from the SAS system. 
+Information on SUDAAN is available at the following web site address:
+http://www.rti.org.
+
+Stata  (StataCorp, 2003) is another commercially available software system
+for analysis of complex sample survey data and has a growing body of
+research users.  Stata includes special versions of its standard analysis
+routines that are designed for the analysis of complex sample survey data. 
+Special survey analysis programs are available for descriptive estimation of
+means (SVYMEAN), ratios (SVYRATIO), proportions (SVYPROP) and population
+totals (SVYTOTAL).  Stata programs for multivariate analysis of survey data
+currently include linear regression (SVYREGRESS), logistic regression
+(SVYLOGIT) and probit regression (SVYPROBT).  Information on the Stata
+analysis software system can be found on the Web at: http://www.stata.com.
+         
+SAS versions 8 and higher have added several procedures for the analysis of
+survey data. Programs for the estimation of means (PROC SURVEYMEANS) and
+linear regression models (PROC SURVEYREG) have been included in the STAT
+module. Other procedures planned for version 9 include procedures for
+estimating totals and proportions (PROC SURVEYFREQ) and for logistic
+regression models (PROC SURVEYLOGISTIC).     
+
+2.  Resampling methods:
+
+BRR, JRR and the bootstrap comprise a second class of nonparametric methods
+for conducting estimation and inference from complex sample data.  As
+suggested by the generic label for this class of methods, BRR, JRR and the
+bootstrap utilize replicated subsampling of the sample database to develop
+sampling variance estimates for linear and nonlinear statistics.  WesVar 
+(Brick et al., 2002) is a commercially available software system for
+personal computers that employs replicated variance estimation methods to
+conduct the more common types of statistical analysis of complex sample
+survey data.  WesVar  was developed by Westat, Inc. Information about WesVar
+is available from Westat's Web site: http://www.westat.com/.  WesVar
+includes a Windows-based application generator that enables the analyst to
+select the form of data input (SAS data file, SPSS for Windows data base,
+dBase file, ASCII data set) and the computation method (BRR or JRR methods). 
+Analysis programs contained in WesVar provide the capability for basic
+descriptive (means, proportions, totals, cross tabulations) and regression
+(linear, logistic) analysis of complex sample survey data.  
+
+These new and updated software packages include an expanded set of user
+friendly, well-documented analysis procedures.  Difficulties with sample
+design specification, data preparation, and data input in the earlier
+generations of survey analysis software created a barrier to use by analysts
+who were not survey design specialists.  The new software enables the user
+to input data and output results in a variety of common formats, and the
+latest versions accommodate direct input of data files from the major
+analysis software systems.   Readers who are interested in a more detailed
+comparison of these and other survey analysis software alternatives are
+referred to Cohen (1997).
+
+Sampling Error Computation Models
+
+Regardless of whether linearization or a resampling approach is used,
+estimation of variances for complex sample survey estimates requires the
+specification of a sampling error computation model.  NES data analysts who
+are interested in performing sampling error computations should be aware
+that the estimation programs identified in the preceding section assume a
+specific sampling error computation model and will require special sampling
+error codes.  Individual records in the analysis data set must be assigned
+sampling error codes that identify to the programs the complex structure of
+the sample (stratification, clustering) and are compatible with the
+computation algorithms of the various programs.  To facilitate the
+computation of sampling error for statistics based on 2004 NES data,
+design-specific sampling error codes will be routinely included in all
+public-use versions of the data set.  Although minor recoding may be
+required to conform to the input requirements of the individual programs,
+the sampling error codes that are provided should enable analysts to conduct
+either Taylor Series or Replicated estimation of sampling errors for survey
+statistics.
+
+Two sampling error code variables are defined for each case based on the
+sample design primary stage unit (PSU) and area segment in which the sample
+household is located.
+
+Sampling Error Stratum Code 
+
+The Sampling Error Computation Stratum Code (digit 1 of V040103) is the
+variable that defines the sampling error computation strata for all sampling
+error analysis of the NES data.  Each self-representing (SR) design stratum
+is represented by one sampling error computation stratum.   Pairs of similar
+nonself-representing (NSR) primary stage design strata are "collapsed"
+(Kalton, 1977) to create NSR sampling error computation strata.  Since there
+was an uneven number of nonself-representing MSA and non-MSA strata used in
+the 2004 NES, and since it was felt that a nonself-representing MSA PSU
+should be paired with a non-MSA PSU, one of each of these PSUs stands alone
+within its Sampling Error Stratum Code.
+
+For the 1990 SRC National Sample design, controlled selection and a
+"one-per-stratum" PSU allocation are used to select the primary stage of the
+2004 NES national sample.  The purpose in using controlled selection and the
+"one-per-stratum" sample allocation is to reduce the between-PSU component
+of sampling variation relative to a "two-per-stratum" primary stage design.
+Despite the expected improvement in sample precision, a drawback of the
+"one-per-stratum" design is that two or more sample selection strata must be
+collapsed or combined to form a sampling error computation stratum. 
+Variances are then estimated under the assumption that a multiple PSU per
+stratum design was actually used for primary stage selection.  The expected
+consequence of collapsing design strata into sampling error computation
+strata is the overestimation of the true sampling error; that is, the
+sampling error computation model will yield estimates of sampling errors
+which in expectation will be slightly greater than the true sampling error
+of the statistic of interest.  
+         
+SECU - Stratum-specific Sampling Error Computation Unit code (last 2 digits
+of V040103) is a half sample code for analysis of sampling error using the
+BRR method or approximate "two-per-stratum" Taylor Series method (Kish and
+Hess, 1959).  Within the SR sampling error strata, the SECU half sample
+units are created by dividing sample cases into random halves, SECU=1 and
+SECU=2. The assignment of cases to half-samples is designed to preserve the
+stratification and second stage clustering properties of the sample within
+an SR stratum. Sample cases are assigned to SECU half samples based on the
+area segment in which they were selected.  For this assignment, sample cases
+were placed in original stratification order (area segment number order) and
+beginning with a random start entire area segment clusters were
+systematically assigned to either SECU=1 or SECU=2.
+
+In the general case of nonself-representing (NSR) strata, the half sample
+units are defined according to the PSU to which the respondent was assigned
+at sample selection (with the exception of the two unpaired NSR strata
+mentioned above).  That is, the half samples for each NSR sampling error
+computation stratum bear a one-to-one correspondence to the sample design
+NSR PSUs.  The particular sample coding provided on the NES public use data
+set is consistent with the "ultimate cluster" approach to complex sample
+variance estimation (Kish, 1965; Kalton, 1977).  Individual stratum, PSU and
+segment code variables may be needed by NES analysts interested in
+components of variance analysis or estimation of hierarchical models in
+which PSU-level and neighborhood-level effects are explicitly estimated.
+
+
+References
+
+Alegria, M., Kessler, R., Bijl, R., Lin, E., Heeringa, S.G., Takeuchi, D.T., 
+     Kolody, B. (2000).  To appear in The Unmet Need for Treatment. 
+     Proceedings of a Symposium of the World Psychiatric Association,
+     Sydney, Australia, October, 1997.
+
+Binder, D.A. (1983), "On the variances of asymptotically normal estimators
+     from complex surveys," International Statistical Review, Vol. 51, pp.
+     279-292. 
+
+Brick, J.M., et.al. (2002).  "WesVar 4.2 User's Guide." Rockville, MD: 
+     Westat, Inc.
+
+Cochran, W.G. (1977).  Sampling Techniques.  New York: John Wiley & Sons.
+
+Cohen, S.B. (1997).  "An evaluation of alternative PC-based software 
+     packages developed for the analysis of complex survey data," The
+     American Statistician, Vol. 51, No. 3, pp. 285-292.
+
+Goldstein, H. (1987).  Multi-level Models in Educational and Social
+     Research.  London: Oxford University Press.
+
+Kalton, G. (1977), "Practical methods for estimating survey sampling
+     errors," Bulletin of the International Statistical Institute, Vol. 47,
+     3, pp. 495-514.
+
+Kish, L. (1949).  "A procedure for objective respondent selection within the
+     household," Journal of the American     Statistical Association, Vol.
+44,
+     pp. 380-387.
+
+Kish, L. (1965), Survey Sampling.  New York: John Wiley & Sons, Inc. 
+
+Kish, L., & Frankel, M.R. (1974), "Inference from complex samples," Journal
+      of the Royal Statistical Society, B, Vol. 36, pp. 1-37.
+
+Kish, L., Groves, R.M., & Krotki, K.P. (1975).  "Sampling errors for
+      fertility surveys." Occasional Paper No. 17.  Voorburg, Netherlands:
+      World Fertility Survey, International Statistical Institute.
+
+Kish, L., & Hess, I. (1959), "On variances of ratios and their differences
+      in multi-stage samples," Journal of the American Statistical
+      Association, 54, pp. 416-446.
+
+LePage, R., & Billard, L. (1992), Exploring the Limits of Bootstrap. New
+      York: John Wiley & Sons, Inc.
+
+Mahalanobis, P.C. (1946), "Recent experiments in statistical sampling at the
+      Indian Statistical Institute," Journal of the Royal Statistical
+      Society, Vol. 109, pp. 325-378.
+
+McCullagh, P.M. & Nelder, J.A. (1989). Generalized Linear Models, 2nd
+      Edition. Chapman and Hall.  London.
+
+Rao, J.N.K & Wu, C.F.J. (1988.), "Resampling inference with complex sample
+      data," Journal of the American Statistical Association, 83, pp.
+      231-239.
+
+Rosenstone, Steven J., Kinder, Donald R., Miller, Warren E., & the National
+      Election Studies Sample Design: Technical Memoranda, 1994 Election
+      Study pp. 882-905 in Rosenstone, Steven J., Kinder, Donald R., Miller,
+      Warren E., & the National Election Studies, AMERICAN NATIONAL ELECTION
+      STUDY, 1994:  ELECTION SURVEY (ENHANCED WITH 1992 AND 1993 DATA)
+      (Computer file).  Conducted by University of Michigan Center for
+      Political Studies.  2nd ICPSR ed.  Ann Arbor MI: University of
+      Michigan, Center for Political Studies, and Inter-university
+      Consortium for Political and Social Research (producer), 1995.  Ann
+      Arbor MI: Inter-university Consortium for Political and Social
+      Research (distributor), 1995.
+
+Research Triangle Institute (2001). SUDAAN User's Manual, Release 8.0. 
+      Research Triangle Park, NC: Research Triangle Institute.
+
+Rust, K. (1985).  "Variance estimation for complex estimators in sample
+      surveys," Journal of Official Statistics, Vol. 1, No. 4.
+
+
+SAS Institute, Inc. (2004).  SAS/STAT User's Guide, Version 9.1, Vol. 1-9.
+     Cary, NC: SAS Institute, Inc.
+
+Skinner, C.J., Holt, D., & Smith, T.M.F. (1989).  Analysis of Complex
+     Surveys.  New York: John Wiley & Sons.
+
+SPSS, Inc. (2003).  SPSS 12.0 Base User's Guide.  Chicago, IL: SPSS Inc.
+
+StataCorp. (2003).  Stata Statistical Software: Release 8.0.  College
+     Station, TX: Stata Corporation.
+
+Wolter, K.M.  (1985).  Introduction to Variance Estimation. New York:
+     Springer-Verlag.
+
+Woodruff, R.S. (1971), "A simple method for approximating the variance of a
+     complicated estimate," Journal of the American Statistical Association,
+     Vol. 66, pp. 411-414.
+
+Yamageuchi, K. (1991).  Event History Analysis. Applied Social Research
+     Methods Series, Vol. 28.  Newbury Park, CA/London: Sage Publications.
+
+............
+
+Footnotes
+
+[1] Office of Management and Budget (OMB) June 1990 definitions of MSAs,
+    NECMAs, counties, parishes, independent cities.  These, of course,
+    differ in some respects from the primary stage unit (PSU) definitions
+    used in the 1980 SRC National Sample so will not be strictly comparable
+    to the 1996 NES Panel PSUs--particularly in New England where MSAs were
+    used as PSUs in the 1980 National Sample and NECMAs were used as PSUs in
+    the 1990 National Sample.
+[2] One selected segment was in a former trailer park that had no
+    housing units to be listed in January 1996.  All had been destroyed in
+    1992 by hurricane Andrew and there were no plans to rebuild.
+[3] Because U.S. citizenship is required for NES eligibility, the CPS counts
+    used for stratification include only U.S. citizens.  
+
+
+
+>> 2004 Note on Confidential Materials
+______________________________________
+
+Starting with the 1986 Election Study, NES has released occupation code
+variables in less detail than preceding years.  The full release of
+this dataset includes a two-digit code with 25 categories corresponding
+to 2000 Census Bureau occupational groupings.  Those who need the full
+occupation code for their research should contact the NES project staff for
+information about the conditions under which access may be provided.  
+
+The National Election Studies have also not included information for
+census tracts or minor civil divisions since 1978, and since 2000 county
+and PSU identification have no longer been made available. Permission to use 
+detailed geographic information for scholarly research may be obtained from
+the Board of Overseers.  More information about this is available from NES 
+project staff. 
+
+Note that coding of the full religious denomination variable is in some
+cases based on alphabetic "other, please specify" variables, which are
+restricted for reasons of confidentiality, although access may be provided
+to legitimate scholars under established NES procedures. 
+
+Finally, the National Election Studies have traditionally contained several
+minutes of open-ended responses (for example, the candidate likes and
+dislikes).  These questions are coded by the SRC coding section according to
+master code schemes.  Other scholars have developed alternative or
+supplemental coding schemes for such questions (for example, the levels of
+conceptualization, released as ICPSR 8151).  The Board of Overseers wishes
+to encourage these efforts but in ways which respect the NES and SRC
+obligation to protect the privacy and anonymity of respondents. 
+Circumstances under which individuals may have access to transcribed
+versions of these questions have been worked out and those interested should
+contact the NES project staff for further details.
+
+
+>> 2004 File Structure and Processing Information
+_________________________________________________
+
+The data file for the 2004 American National Election Study is constructed
+with a single logical record for each respondent. Records are in comma-
+delimited ASCII format with variable names comprising the first data line. 
+
+The data collection was processed according to standard processing
+procedures.  The data were checked for inconsistent code values which, when
+found, were corrected or recoded to missing data values. Consistency checks
+were performed.  Annotation was added by the processors for explanatory
+purposes.
+
+
+
+
+
+>> 2004 CODEBOOK INFORMATION (how to read)
+__________________________________________
+
+
+              EXAMPLE OF CODEBOOK VARIABLE DOCUMENTATION
+
+01  ========================================================================
+02  V035246     Q9a. Party of Pres vote -party performance past 4 yrs
+03  ========================================================================
+04
+05  IF R VOTED:
+06  IF R VOTED FOR PRESIDENT:
+07  IF PRESIDENTIAL VOTE WAS FOR MAJOR PARTY CANDIDATE/
+08  IF PRESIDENTIAL VOTE WAS FOR OTHER PARTY CANDIDATE:
+09
+10  QUESTION:
+11  ---------
+12  You've indicated that you voted for the [>NAME OF MAJOR PARTY<
+13  Presidential candidate/Presidential candidate from the >NAME
+14  OF OTHER PARTY< party] in 2004.
+15  How well has [the >NAME OF MAJOR PARTY< party/ that party] performed 
+16  over the past four years? Has it done a VERY GOOD job? a GOOD job? 
+17  A BAD job? A VERY BAD job? (in general)
+18
+19  INTERVIEWER INSTRUCTION:
+20  ------------------------
+21  {INTERVIEWER: DO NOT PROBE DON'T KNOW}
+22
+23  VALID CODES:
+24  ------------
+25  1. Very good job
+26  2. Good job
+27  3. Bad job
+28  4. Very bad job
+29
+30  MISSING CODES:
+31  --------------
+32  8. Don't know
+33  9. Refused
+34  INAP. 5,8,9 in C1a or 1-3,8,9 in C1b; 5,8,9 in C6; 7,8,9 in
+35  Q9x; no post IW
+36
+37  NOTES:
+38  ------
+39  Text corresponding to C6a party of vote for President was
+40  included in the question text.
+41
+42  TYPE:
+43  -----
+44  Numeric  Dec 0
+45
+
+..........................................................................
+NOTE: THIS EXAMPLE DOES NOT REPRESENT AN ACTUAL NES VARIABLE
+
+LINE 02
+Contains identifiers, including (left to right) the variable name, the
+question "tag" or item number (Q9a), and the variable label.  Since the
+variable label begins with the question tag, the question tag only appears
+once, as part of the variable label.
+
+LINES 05-08
+This describes who is being asked the question, inverse to the INAP
+conditions (lines 34-35).  Each line ending with ":" describes one condition
+that has been met to reach this question.
+"/" at the end of a line is equivalent to an "OR" between the condition
+preceding and the condition following the "/".  In this example, respondents
+who were asked this question were respondents who 1) said they voted, and
+who 2) said they voted specifically for President, and who 3) voted for a
+major party Presidential candidate OR for another party's candidate.  Note
+that a corresponding "/" sometimes appears in the question text when
+question wording varies according to which of the OR conditions applies. See
+lines 12-17.
+
+LINES 12-17
+Several conventions are observed in codebook presentation of question text.
+1) Text bracketed between ">" and "<" (line 12, line 15) indicates that
+   case-specific text was loaded onto the instrument by the survey
+   application.
+   In this example, ">NAME OF MAJOR PARTY<" indicates that either 
+   "Democratic" or "Republican" was loaded into the question text, 
+   depending up which major party candidate R indicated he had voted for
+   earlier in the questionnaire   
+2) Text bracketed between "[" and "]" (lines 12-14; line 15) displays
+   text options, separated by "/".  In this example, the first option is for
+   Rs who had voted for a major party candidate; the first 2 sentences read
+   to these respondent are:
+  "You've indicated that you voted for the >NAME OF MAJOR PARTY< 
+   Presidential candidate in 2004. How well has the >NAME OF MAJOR PARTY<
+   party performed over the past four years?"
+   On the other hand, in this example, if R voted for another party's
+   candidate, the first 2 sentences are:
+  "You've indicated that you voted for the >NAME OF OTHER PARTY< party in
+   2004. How well has that party performed over the past four years?"
+3) Text in parentheses (line 17) is read at the interviewer's discretion.
+4) Text in CAPS, other than text bracketed with ">" "<" per 1), indicates
+   words or phrases that appeared underlined in the instrument for emphasis.
+   In this example (lines 16-17), the words "very good", "good", "bad", and 
+   "very bad" had appeared underlined for interviewer emphasis..
+
+LINE 21
+With few exceptions, interviewer instructions appear in the instrument
+immediately following the question text.
+
+LINES 34-35
+INAP describes the specific paths of all respondents whom the instrument
+skips over the question.  Each condition which results in a skip is listed,
+separated by ";".>> 2004 Variable Description List
+_________________________________
+
+
+============================================================================
+ Variable      Description
+============================================================================
+
+           STUDY IDS
+
+  VERSION      Study.1. Dataset version
+  DSETID       Study.1. Dataset ID number
+  V040001      Study.3. 2004 Pre Case ID
+  V040002      Study.4. 2004 Post Case ID
+
+          STUDY WEIGHTS AND SAMPLING ERROR CODE
+
+  V040101      Study.5. Pre-election post-stratified sample weight
+  V040102      Study.6. Post-election post-stratified sample weight
+  V040103      Study.7. Sampling error code
+
+          STUDY DESCRIPTIVE 
+
+  V041001      Study.8. Pre only or pre and post interviews
+  V041101      HHListing.1. HH listing summary: number of persons in HH
+  V041102      HHListing.2. HH listing summary: number of adults in HH
+  V041102a     HHListing.2a. HH listing summary: no. eligible adults in HH
+  V041102b     HHListing.2b. HH listing summary:no. ineligible adults in HH
+  V041102c     HHListing.2c. HH listing summary: no. female adults in HH
+  V041103      HHListing.3. HH listing summary: number of children in HH
+  V041104      HHListing.4. HH listing summary: no. female children in HH
+  V041105      HHListing.5. HH listing summary: no. children under 5 in HH
+  V041106      HHListing.6. HH listing summary: no. children age 5-9 in HH
+  V041107      HHListing.7. HH listing summary:no. children age 10-13 in HH
+  V041108      HHListing.8. HH listing summary:no. children age 14-17 in HH
+  V041109      HHListing.9. Respondent person number in HH listing
+  V041109a     HHListing.9a. Respondent gender
+  V041109b     HHListing.9b. Respondent relationship to informant
+  V041109c     HHListing.9c. Respondent's number of children in HH
+  V041109d     HHListing.9d. Respondent's number of female children in HH
+  V041110      HHListing.10. Household composition
+  V041111a     HHListing.11a. 1st HH adult - age
+  V041111b     HHListing.11b. 1st HH adult - gender
+  V041112a     HHListing.12a. 2nd HH adult age
+  V041112b     HHListing.12b. 2nd HH adult gender
+  V041113a     HHListing.13a. 3rd HH adult age
+  V041113b     HHListing.13b. 3rd HH adult gender
+  V041114a     HHListing.14a. 4th HH adult age
+  V041114b     HHListing.14b. 4th HH adult gender
+  V041115a     HHListing.15a. 5th HH adult age
+  V041115b     HHListing.15c. 5th HH adult gender
+  V041116a     HHListing.16a. 6th HH adult age
+  V041116b     HHListing.16b. 6th HH adult gender
+  V041201      Sampling.1. State name
+  V041201a     Sampling.1a. Postal abbreviation of state
+  V041202      Sampling.2. FIPS state code
+  V041203      Sampling.3. ICPSR state code
+  V041204      Sampling.4. Congressional District number
+  V041204a     Sampling.4a. State postal abbrev and congr district number
+  V041204b     Sampling.4b. State FIPS code and congr district number
+  V041204c     Sampling.4c. State ICPSR code and congr district number
+  V041205      Sampling.5. Census region
+  V041206      Sampling.6. Primary area (PSU) number
+  V041206a     Sampling.6a. PSU name
+  V041207      Sampling.7. Segment number
+  V041207a     Sampling.7a. Segment name
+  V041208      Sampling.8. FIPS state-county code
+  V041208a     Sampling.8a. FIPS county name
+  V041209      Sampling.9. Census tract
+  V041210      Sampling.10. Census Place code
+  V041211      Sampling.11. Census Minor Civil Division (MCD)
+  V041212      Sampling.12. Census MSA 1990
+  V041213      Sampling.13. Census Urban/Rural classification
+  V041214      Sampling.14. Census CSA 2000
+  V041214a     Sampling.14a. Census CBSA
+
+          PRE-ELECTION FIELD AND ADMINISTRATION
+
+  V042001      PreAdmin.1. Form of interview
+  V042002      PreAdmin.2. Pre IW beginning month
+  V042003      PreAdmin.3. Pre IW beginning day
+  V042004      PreAdmin.4. Pre IW beginning date MMDD
+  V042005      PreAdmin.5. Pre IW beginning version of instrument
+  V042006      PreAdmin.6. Pre IW ending month
+  V042007      PreAdmin.7. Pre IW ending day
+  V042008      PreAdmin.8. Pre IW ending date MMDD
+  V042009      PreAdmin.9. Pre IW ending version of instrument
+  V042010a     PreAdmin.10a. No. days before election beginning IW date
+  V042010b     PreAdmin.10b. No. days before election ending IW date
+  V042011      PreAdmin.11. Total number of Pre interview sessions
+  V042012      PreAdmin.12. Pre instrument version changed before IW end
+  V042013      PreAdmin.13. Total number of Pre interviewers
+  V042014a     PreAdmin.14a. Pre IW session 1 date MMDD
+  V042014b     PreAdmin.14b. Pre IW session 2 date MMDD
+  V042014c     PreAdmin.14c. Pre IW session 3 date MMDD
+  V042014d     PreAdmin.14d. Pre IW session 4 date MMDD
+  V042015a     PreAdmin.15a. Pre IW session 1 version of instrument
+  V042015b     PreAdmin.15b. Pre IW session 2 version of instrument
+  V042015c     PreAdmin.15c. Pre IW session 3 version of instrument
+  V042015d     PreAdmin.15d. Pre IW session 4 version of instrument
+  V042016a     PreAdmin.16a. Pre IW session 1 breakoff/end
+  V042016b     PreAdmin.16b. Pre IW session 2 breakoff/end
+  V042016c     PreAdmin.16c. Pre IW session 3 breakoff/end
+  V042017      PreAdmin.17. Total number of calls
+  V042018      PreAdmin.18. Number of FTF calls
+  V042019      PreAdmin.19. Number of phone calls
+  V042020      PreAdmin.20. Interviewer interview number (nth IW)
+  V042021      PreAdmin.21. Refusal conversion indicator
+  V042022      PreAdmin.22. Release
+  V042023      PreAdmin.23. Mode of interview
+  V042024      PreAdmin.24. Result
+  V042025      PreAdmin.25. Length of interview
+  V042026      PreAdmin.26. Language of interview
+  V042027      PreAdmin.27. Interview verification
+  V042028      PreAdmin.28. Interviewer evaluation
+  V042029      PreAdmin.29. Interview tape-recorded
+  V042030      PreAdmin.30. Payment offer amount
+  V042031      PreAdmin.31. Payment amount
+  V042032      PreAdmin.32. Payment date
+  V042033      PreAdmin.33. Payment mode
+  V042034      PreAdmin.34 Respondent incentive
+  V042035      PreAdmin.35. Persuasion letters
+  V042036a     PreAdmin.36x1a. Summary: R made positive comment
+  V042036b     PreAdmin.36x1b. Summary: R made time-delay comment
+  V042036c     PreAdmin.36x1c. Summary: R made negative comment
+  V042036d     PreAdmin.36x1d. Summary: R made eligibility comment
+  V042036e     PreAdmin.36x1e. Summary: R made privacy comment
+  V042036f     PreAdmin.36x1f. Summary: R made comment no int in politics
+  V042037a     PreAdmin.37a. Comment: positive - help community
+  V042037b     PreAdmin.37b. Comment: positive - enjoy surveys
+  V042037c     PreAdmin.37c. Comment: other positive
+  V042037d     PreAdmin.37d. Comment: time delay - too busy
+  V042037e     PreAdmin.37e. Comment: time delay - bad time
+  V042037f     PreAdmin.37f. Comment: time delay - think about it
+  V042037g     PreAdmin.37g. Comment: other time delay
+  V042037h     PreAdmin.37h. Comment: negative - waste of time
+  V042037j     PreAdmin.37j. Comment: negative - don't trust surveys
+  V042037k     PreAdmin.37k. Comment: negative - surveys waste money
+  V042037m     PreAdmin.37m. Comment: negative - never do surveys
+  V042037n     PreAdmin.37n. Comment: negative - not interested
+  V042037p     PreAdmin.37p. Comment: other negative
+  V042037q     PreAdmin.37q. Comment: eligibility -don't know about topic
+  V042037r     PreAdmin.37r. Comment: eligibility - no spouse/partn/child
+  V042037s     PreAdmin.37s. Comment: eligibility - too young/too old
+  V042037t     PreAdmin.37t. Comment: eligibility - don't/can't vote
+  V042037u     PreAdmin.37u. Comment: other eligibility
+  V042037v     PreAdmin.37v. Comment: privacy - personal questions
+  V042037w     PreAdmin.37w. Comment: privacy - govt knows everything
+  V042037y     PreAdmin.37y. Comment: other privacy
+  V042038      PreAdmin.38. Respondent initial refusal
+  V042039      PreAdmin.39. Informant initial refusal
+  V042040      PreAdmin.40. Type of structure
+  V042041      PreAdmin.41. Structure description
+  V042042      PreAdmin.42. Structure residential status
+  V042043      PreAdmin.43. Observed urbanicity of segment
+  V042044      PreAdmin.44. Political signs
+  V042044a     PreAdmin.44a. Type political sign 1
+  V042044b     PreAdmin.44b. Type political sign 2
+  V042045x     PreAdmin.45x. Summary: any specified impediment noted
+  V042045a     PreAdmin.45a. Structure impediment - locked entrance
+  V042045b     PreAdmin.45b. Structure impediment - locked gates
+  V042045c     PreAdmin.45c. Structure impediment - gatekeeper
+  V042045d     PreAdmin.45d. Structure impediment - intercom
+  V042046x     PreAdmin.46x. Summary: any specified security measure
+  V042046a     PreAdmin.46a. Structure security - bars
+  V042046b     PreAdmin.46b. Structure security - crime watch/sec system
+  V042046c     PreAdmin.46c. Structure security - no trespassing sign
+  V042046d     PreAdmin.46d. Structure security - security door
+  V042046e     PreAdmin.46e. Structure security - guard dogs
+  V042047      PreAdmin.47. Gatekeeper present
+  V042047a     PreAdmin.47a. Type gatekeeper
+  V042048a     PreAdmin.48a. Summary: gatekeeper status
+  V042048b     PreAdmin.48b. Summary: locked status
+
+          PRE-ELECTION INTERVIEWER DESCRIPTION
+
+  V042101      PreIwr.1. Interviewer of record ID
+  V042101a     PreIwr.1a. Other interviewer ID
+  V042102      PreIwr.2. Supervisor ID
+  V042103      PreIwr.3. Interviewer gender
+  V042104      PreIwr.4. Interviewer education level
+  V042105      PreIwr.5. Interviewer race
+  V042106      PreIwr.6. Interviewer ethnicity
+  V042107      PreIwr.7. Interviewer languages
+  V042108      PreIwr.8. Interviewer experience
+  V042109      PreIwr.9. Interviewer age group
+
+
+          PRE-ELECTION ERROR FLAGS
+
+  V042201      PreErr.1. Pre interview error flag
+  V042202      PreErr.2. Pre interview error flag
+
+          PRE-ELECTION RANDOMIZATION
+
+  V042401      PreRand.1. Random order Pres cands A3-A6 Likes-Dislikes
+  V042402      PreRand.2. Random order Pres cands B1b-B1c thermometers
+  V042403a     PreRand.3a. Random order B1d Cheney thermometer
+  V042403b     PreRand.3b. Random order B1e John Edwards thermometer
+  V042403c     PreRand.3c. Random order B1f Laura Bush thermometer
+  V042403d     PreRand.3d. Random order B1g Hillary Clinton thermometer
+  V042403e     PreRand.3e. Random order B1h Bill Clinton thermometer
+  V042403f     PreRand.3f. Random order B1j Colin Powell thermometer
+  V042403g     PreRand.3g. Random order B1k John Ashcroft thermometer
+  V042403h     PreRand.3h. Random order B1m John McCain thermometer
+  V042404      PreRand.4. Random order parties B1n-B1p thermometers
+  V042405      PreRand.5. Random order parties C1-C2 Likes-Dislikes
+  V042406      PreRand.6. Random order Pres cands D1-D2 affects
+  V042407a     PreRand.7a. Random order D1a Bush angry affect
+  V042407b     PreRand.7b. Random order D1b Bush hopeful affect
+  V042407c     PreRand.7c. Random order D1c Bush afraid affect
+  V042407d     PreRand.7d. Random order D1d Bush proud affect
+  V042408a     PreRand.8a. Random order D2a Kerry angry affect
+  V042408b     PreRand.8b. Random order D2b Kerry hopeful affect
+  V042408c     PreRand.8c. Random order D2c Kerry afraid affect
+  V042408d     PreRand.8d. Random order D2d Kerry proud affect
+  V042409      PreRand.9. Random order Pres cand E3-E4 liberal-conservative
+  V042410      PreRand.10. Random order parties E5-E6 liberal-conservative
+  V042411      PreRand.11. Random order F3-F6 unemployment or inflation
+  V042412      PreRand.12. Random order names G1-G3 party performance
+  V042413      PreRand.13. Random order Pres cands K1-K2 traits
+  V042414a     PreRand.14a.  Random order K1a Bush moral trait
+  V042414b     PreRand.14b.  Random order K1b Bush leadership trait
+  V042414c     PreRand.14c.  Random order K1c Bush cares trait
+  V042414d     PreRand.14d.  Random order K1d Bush knowledgeable trait
+  V042414e     PreRand.14e.  Random order K1e Bush intelligent trait
+  V042414f     PreRand.14f.  Random order K1f Bush dishonest trait
+  V042414g     PreRand.14g.  Random order K1g Bush make up mind trait
+  V042415a     PreRand.15a.  Random order K1a Kerry moral trait
+  V042415b     PreRand.15b.  Random order K1b Kerry leadership trait
+  V042415c     PreRand.15c.  Random order K1c Kerry cares trait
+  V042415d     PreRand.15d.  Random order K1d Kerry knowledgeable trait
+  V042415e     PreRand.15e.  Random order K1e Kerry intelligent trait
+  V042415f     PreRand.15f.  Random order K1f Kerry dishonest trait
+  V042415g     PreRand.15g.  Random order K1g Kerry make up mind trait
+  V042416      PreRand.16. Random order Pres cands N1b-c spending-services
+  V042417      PreRand.17. Random order parties N1d-e spending-services
+  V042418      PreRand.18. Random order Pres cands N2b-c defense spending
+  V042419      PreRand.19. Random order parties N2d-e defense spending
+  V042420      PreRand.20. Random order Pres cands N5b-c guaranteed jobs
+  V042421      PreRand.21. Random order parties N5d-e guaranteed jobs
+  V042422      PreRand.22. Random order Pres cands N6b-c aid to blacks
+  V042423      PreRand.23. Random order parties N6d-e aid to blacks
+  V042424a     PreRand.24a. Random order P1b Social Security Fed. spending
+  V042424b     PreRand.24b. Random order P1c public schools Fed. spending
+  V042424c     PreRand.24c.  Random order P1d science/tech Fed. spending
+  V042424d     PreRand.24d.  Random order P1e prevent crime Fed. spending
+  V042424e     PreRand.24e.  Random order P1f welfare Fed. spending
+  V042424f     PreRand.24f.  Random order P1g child care Fed. spending
+  V042424g     PreRand.24g.  Random order P1h foreign aid Fed. spending
+  V042424h     PreRand.24h.  Random order P1j aid to poor Fed. spending
+  V042424j     PreRand.24j.  Random order P1k illegal immigr Fed. spending
+  V042424k     PreRand.24k.  Random order P1m war on terror Fed. spending
+  V042425      PreRand.25. Random order Pres cands P3b-c environment/jobs
+  V042426      PreRand.26. Random order Pres cands P5b-c gun control
+  V042427      PreRand.27. Random order Pres cands P6b-c women's role
+  V042428      PreRand.28. Random order parties P6d-e women's role
+
+          PRE-ELECTION SURVEY
+
+  V043001      A1. Interested in following campaigns?
+  V043002      A1a. Did R vote 2000?
+  V043003      A1a1. Recall of last President vote choice
+  V043004      A2. Was 2000 Pres election fair or unfair
+  V043005      A2a. How strongly feels 2000 Pres election was fair/unfair
+  V043006      A3a. Is there anything R likes about GW Bush
+  V043007      A3b. Summary: No. Mentions - Likes About GW Bush
+  V043007a     A3b1. What does R like about GW Bush MENTION 1
+  V043007b     A3b2. What does R like about GW Bush MENTION 2
+  V043007c     A3b3. What does R like about GW Bush MENTION 3
+  V043007d     A3b4. What does R like about GW Bush MENTION 4
+  V043007e     A3b5. What does R like about GW Bush MENTION 5
+  V043008      A4a. Is there anything R dislikes about GW Bush
+  V043009      A4b. Summary: No. Mentions - Dislikes About GW Bush
+  V043009a     A4b1. What does R dislike about GW Bush MENTION 1
+  V043009b     A4b2. What does R dislike about GW Bush MENTION 2
+  V043009c     A4b3. What does R dislike about GW Bush MENTION 3
+  V043009d     A4b4. What does R dislike about GW Bush MENTION 4
+  V043009e     A4b5. What does R dislike about GW Bush MENTION 5
+  V043010      A5a. Is there anything R likes about Kerry
+  V043011      A5b. Summary: No. Mentions - Likes About John Kerry
+  V043011a     A5b1. What does R like about John Kerry MENTION 1
+  V043011b     A5b2. What does R like about John Kerry MENTION 2
+  V043011c     A5b3. What does R like about John Kerry MENTION 3
+  V043011d     A5b4. What does R like about John Kerry MENTION 4
+  V043011e     A5b5. What does R like about John Kerry MENTION 5
+  V043012      A6a. Is there anything R dislikes about Kerry
+  V043013      A6b. Summary: No. Mentions - Dislikes About John Kerry
+  V043013a     A6b1. What does R dislike about John Kerry MENTION 1
+  V043013b     A6b2. What does R dislike about John Kerry MENTION 2
+  V043013c     A6b3. What does R dislike about John Kerry MENTION 3
+  V043013d     A6b4. What does R dislike about John Kerry MENTION 4
+  V043013e     A6b5. What does R dislike about John Kerry MENTION 5
+  V043014      A7. Days past week watch natl news on TV
+  V043015      A7a. Attention to national (network) news
+  V043016      A8a. Days past week watch local TV news late aft/early eve
+  V043017      A8b. Days past week watch local news on TV in the late eve
+  V043018      A8c. Attention to local news
+  V043019      A9. How many days past week read a daily newspaper?
+  V043020      A9(1). How many days past week read a daily online newsp
+  V043021      A9a. Did R read about campaign in newspaper?
+  V043022      A9a1. Attention to newspaper articles
+  V043023      A10. Are things in the country on right track
+  V043024      A10a. Presidential approval: general job handling
+  V043025      A10a1. Presidential approval: general job handling strength
+  V043026      A10b. Approval of Presidents handling of economy
+  V043027      A10b1. Strength approve/disappr President handling of econ
+  V043028      A10c. Approval of President handling foreign relations
+  V043029      A10c1. Strength approve/disappr Pres handling foreign rel
+  V043030      A10d. Approve Bush handling budget deficit
+  V043031      A10d1. Strength approve/disappr Bush handling budget defct
+  V043032      A10e. Approve Bush handling war on terror
+  V043033      A10e1. Strength approve/disappr Bush handling war on terr
+  V043034      A11. Are things in the country on right track
+  V043034x     A11x. SUMMARY: A10/A11 country on right track
+  V043035      A12. Care who wins House election
+  V043036      A13. Approval of Congress handling its job
+  V043037      A13a. Strength appr/disapprove Congress handling its job
+  V043038      B1a. Feeling Thermometer: GW Bush
+  V043039      B1b. Feeling Thermometer: John Kerry
+  V043040      B1c. Feeling Thermometer: Nader
+  V043041      B1d. Feeling Thermometer: Cheney
+  V043042      B1e. Feeling Thermometer: John Edwards
+  V043043      B1f. Feeling Thermometer: Laura Bush
+  V043044      B1g. Feeling Thermometer: Hillary Clinton
+  V043045      B1h. Feeling Thermometer: Bill Clinton
+  V043046      B1j. Feeling Thermometer: Colin Powell
+  V043047      B1k. Feeling Thermometer: John Ashcroft
+  V043048      B1m. Feeling Thermometer: John McCain
+  V043049      B1n. Feeling Thermometer: Democratic party
+  V043050      B1p. Feeling Thermometer: Republican party
+  V043051      B1q. Feeling Thermometer: Ronald Reagan
+  V043052      C1a. Is there anything R likes about Democratic Party
+  V043053      C1b. Summary: No. Mentions - Likes About Democratic Party
+  V043053a     C1b1. What does R like about Democratic Party MENTION 1
+  V043053b     C1b2. What does R like about Democratic Party MENTION 2
+  V043053c     C1b3. What does R like about Democratic Party MENTION 3
+  V043053d     C1b4. What does R like about Democratic Party MENTION 4
+  V043053e     C1b5. What does R like about Democratic Party MENTION 5
+  V043054      C1c. Is there anything R dislikes about Democratic Party
+  V043055      C1d. Summary: No. Mentions - Dislikes About Democratic Party
+  V043055a     C1d1. What does R dislike about Democratic Party MENTION 1
+  V043055b     C1d2. What does R dislike about Democratic Party MENTION 2
+  V043055c     C1d3. What does R dislike about Democratic Party MENTION 3
+  V043055d     C1d4. What does R dislike about Democratic Party MENTION 4
+  V043055e     C1d5. What does R dislike about Democratic Party MENTION 5
+  V043056      C2a. Is there anything R likes about Republican Party
+  V043057      C2b. Summary: No. Mentions - Likes About Republican Party
+  V043057a     C2b1. What does R like about Republican Party MENTION 1
+  V043057b     C2b2. What does R like about Republican Party MENTION 2
+  V043057c     C2b3. What does R like about Republican Party MENTION 3
+  V043057d     C2b4. What does R like about Republican Party MENTION 4
+  V043057e     C2b5. What does R like about Republican Party MENTION 5
+  V043058      C2c. Is there anything R dislikes about Republican Party
+  V043059      C2d. Summary: No. Mentions - Dislikes About Republican Party
+  V043059a     C2d1. What does R dislike about Republican Party MENTION 1
+  V043059b     C2d2. What does R dislike about Republican Party MENTION 2
+  V043059c     C2d3. What does R dislike about Republican Party MENTION 3
+  V043059d     C2d4. What does R dislike about Republican Party MENTION 4
+  V043059e     C2d5. What does R dislike about Republican Party MENTION 5
+  V043060      C3. Better when one party controls presidency and Congress
+  V043061      C4. R better/worse off than 1 year ago
+  V043062      C4a. R how much better/worse off than 1 year ago
+  V043063      C5. Will R be financially better/worse off year from now
+  V043064      C5a. R how much better/worse off 1 year from now
+  V043065      C6. Does R/spouse have any money invested in stock market
+  V043066      C7. Did R put off medical treatment R could not afford
+  V043067      C8. Can R afford needed health care
+  V043068      C9. Does R have health insurance
+  V043069      D1a. Affect for GW Bush: angry
+  V043070      D1a1. How often GW Bush: angry
+  V043071      D1b. Affect for GW Bush: hopeful
+  V043072      D1b1. How often GW Bush: hopeful
+  V043073      D1c. Affect for GW Bush: afraid
+  V043074      D1c1. How often GW Bush: afraid
+  V043075      D1d. Affect for GW Bush: proud
+  V043076      D1d1. How often GW Bush: proud
+  V043077      D2a. Affect for Kerry: angry
+  V043078      D2a1. How often Kerry: angry
+  V043079      D2b. Affect for Kerry: hopeful
+  V043080      D2b1. How often Kerry: hopeful
+  V043081      D2c. Affect for Kerry: afraid
+  V043082      D2c1. How often Kerry: afraid
+  V043083      D2d. Affect for Kerry: proud
+  V043084      D2d1. How often Kerry: proud
+  V043085      E1a. Liberal/conservative self-placement -7-point scale
+  V043085a     E1b. If R had to choose liberal or conservative self-place
+  V043086      E1x. SUMMARY: R self-placement liberal-conservative
+  V043087      E2. Liberal/conservative Placement - GW Bush
+  V043088      E3. Liberal/conservative Placement - Kerry
+  V043089      E4. Liberal/conservative Placement - Nader
+  V043090      E5. Liberal/conservative Placement - Dem Party
+  V043091      E6. Liberal/conservative Placement - Rep party
+  V043092      E7. Care who wins Presidential Election
+  V043093      E8. Who does R think will be elected President?
+  V043094      E8a. Will Pres race be close or will (winner) win by a lot
+  V043095      E9. Which Pres cand will carry state
+  V043096      E9a. Will Pres race be close in state
+  V043097      F1. National economy better/worse in last year
+  V043098      F1a. How much economy better/worse in last year
+  V043099      F2. Will national economy be better or worse in next 12 mo
+  V043100      F2a. How much economy better or worse in next 12 months
+  V043101      F3. Unemployment better or worse in last year
+  V043102      F3a. How much unemployment better or worse in last year
+  V043103      F4. R think there more or less unemployment in next year
+  V043104      F5. Inflation better or worse in last year
+  V043105      F5a. Inflation much or somewhat better/worse in last year
+  V043106      F6. Inflation in next year
+  V043107      F7a. Interventionism by diplomacy/military: self-placement
+  V043108      F7a1. Importance of diplomacy issue to R
+  V043109      G1. Which party better: handling nations economy
+  V043110      G2. Which party better: handle war on terrorism
+  V043111      G3. Which party better: handle keeping out of war
+  V043112      H1. During last year, U.S. position in world weaker/strong
+  V043113      H2. Country would be better off if we just stayed home
+  V043114      J1. Party ID: R think of self as Dem, Rep, Ind or what
+  V043114a     J1a. Party Identification Democrat/Republican-strong/not
+  V043115      J1b. No Party Identification-closer democrat or republican
+  V043116      J1x. Summary: R party ID
+  V043117      K1a. Traits for GW Bush: Moral
+  V043118      K1b. Traits for GW Bush: Provides strong leadership
+  V043119      K1c. Traits for GW Bush: really cares
+  V043120      K1d. Traits for GW Bush: knowledgeable
+  V043121      K1e. Traits for GW Bush: intelligent
+  V043122      K1f. Traits for GW Bush: dishonest
+  V043123      K1g. Traits for GW Bush: can't make up own mind
+  V043124      K2a. Traits for Kerry: Moral
+  V043125      K2b. Traits for Kerry: provides strong leadership
+  V043126      K2c. Traits for Kerry: really cares about people like you
+  V043127      K2d. Traits for Kerry: knowledgeable
+  V043128      K2e. Traits for Kerry: intelligent
+  V043129      K2f. Traits for Kerry: dishonest
+  V043130      K2g. Traits for Kerry: can't make up mind
+  V043131      M1a. War in Afghanistan worth the cost
+  V043132      M2a. Approve Bush handling of war in Iraq
+  V043133      M2a1. How much approve/disapprove Bush handling Iraq war
+  V043134      M3. Was Iraq war worth the cost
+  V043135      M4. Iraq war increased or decreased threat of terrorism
+  V043136      N1a. Spending and Services - 7-point scale self-placement
+  V043137      N1a1. Importance of spending/services issue to R
+  V043138      N1b. Spending and Services Placement: GW Bush
+  V043139      N1c. Spending and Services Placement: Kerry
+  V043140      N1d. Spending and Services Placement: Dem party
+  V043141      N1e. Spending and Services Placement: Rep party
+  V043142      N2a. Defense spending - 7-point scale self-placement
+  V043143      N2a1. Importance of defense spending issue to R
+  V043144      N2b. Defense spending scale: GW Bush placement
+  V043145      N2c. Defense spending scale: Kerry placement
+  V043146      N2d. Defense spending scale: Dem party placement
+  V043147      N2e. Defense spending scale: Rep party placement
+  V043148      N3. Does R favor/oppose tax cuts Pres. Bush initiated
+  V043149      N3a. How strongly R favors/opposes the Pres Bush tax cuts
+  V043150      N4a. Govt/private medical insurance scale: self-placement
+  V043151      N4a1. Importance of govt health insurance issue to R
+  V043152      N5a. Job and Good Standard of Living -scale self-placement
+  V043153      N5a1. Importance of guaranteed jobs/standard living issue
+  V043154      N5b. Job and Good Standard of Living - GW Bush placement
+  V043155      N5c. Job and Good Standard of Living - Kerry placement
+  V043156      N5d. Job and Good Standard of Living - Dem party placement
+  V043157      N5e. Job and Good Standard of Living - Rep party placement
+  V043158      N6a. Government assistance to blacks-7 point scale self-pl
+  V043159      N6a1. Importance of aid to blacks issue to R
+  V043160      N6b. Aid to blacks Placement: GW Bush
+  V043161      N6c. Aid to blacks Placement: Kerry
+  V043162      N6d. Aid to blacks Placement: Dem party
+  V043163      N6e. Aid to blacks Placement: Rep party
+  V043164      P1a. Federal Budget Spending: building/repairing highways
+  V043165      P1b. Federal Budget Spending: Social Security
+  V043166      P1c. Federal Budget Spending: public schools
+  V043167      P1d. Federal Budget Spending: science and technology
+  V043168      P1e. Federal Budget Spending: dealing with crime
+  V043169      P1f. Federal Budget Spending: welfare programs
+  V043170      P1g. Federal Budget Spending: child care
+  V043171      P1h. Federal Budget Spending: foreign aid
+  V043172      P1j. Federal Budget Spending: aid to the poor
+  V043173      P1k. Fed Budget Spending: border sec to prevent illeg imm
+  V043174      P1m. Federal Budget Spending: war on terrorism
+  V043175      P2a. Does R think pays right amount of taxes
+  V043176      P2a1. Do rich pay right amount of taxes
+  V043177      P2a2. Do poor pay right amount of taxes
+  V043178      P2b. Favor govt funds to pay for abortions
+  V043179      P2b1. Strength favor/oppose govt funds to pay for abortion
+  V043180      P2c. Favor/oppose ban on late-term/partial-birth abortions
+  V043181      P2c1. Strength favor/oppose ban on partial-birth abortions
+  V043182      P3a. Environment vs. jobs tradeoff scale - self-placement
+  V043183      P3a1. Importance of environment/jobs issue to R
+  V043184      P3b. Environment vs. jobs tradeoff scale - GW Bush placemt
+  V043185      P3c. Environment vs. jobs tradeoff scale - Kerry placement
+  V043186      P4. R favor/oppose death penalty
+  V043187      P4a. Strength R favors/opposes death penalty
+  V043188      P5a. Should fed govt make more difficult to buy gun - self
+  V043189      P5a1. How much easier/harder to buy gun - self-placement
+  V043190      P5a2. Importance of gun access issue to R
+  V043191      P5b. Easier or harder to buy gun - GW Bush
+  V043192      P5b1. How much easier or harder to buy gun - GW Bush
+  V043193      P5c. Easier or harder to buy gun - Kerry
+  V043194      P5c1. How much easier or harder to buy gun - Kerry
+  V043195      P5d. Does R have a gun in his or her home or garage?
+  V043196      P6a. Women's role - 7-point scale self-placement
+  V043197      P6a1. How important is the issue of women's equal role
+  V043198      P6b. Women's role - GW Bush placement
+  V043199      P6c. Women's role - Kerry placement
+  V043200      P6d. Women's role - Dem party placement
+  V043201      P6e. Women's role - Rep party placement
+  V043202      Q1. Does R think will vote this November
+  V043203      Q1a. Who does R think will/would vote for President
+  V043204      Q1a1. Strength of pref for Pres cand R will/would vote for
+  V043205      Q2a. How good does seeing US flag make R feel
+  V043206      Q2b. Things about America that make R ashamed
+  V043207      Q2c. Things about America that make R angry
+  V043208      Q2d. How strong is love for country
+  V043209      Q2e. How important is being an American
+  V043210      R1. R position on gay marriage
+  V043211      S2. Have taxes increased or decreased under GW Bush
+  V043212      S2a. How much taxes increased or decreased under GW Bush
+  V043213      S3. National economy better/worse since GW Bush took ofc
+  V043214      S3a. How much national economy better/worse last 4 years
+  V043215      S4. Has current admin made U.S. more/less secure
+  V043216      S4a. How much more/less secure has admin made US
+  V043217      S5. Has US moral climate gotten better/worse since 2000
+  V043218      S5a. How much better/worse is moral climate since 2000
+  V043219      W1. Is religion important part of R life?
+  V043220      W2. Religion provides some guidance in day-to-day living
+  V043221      W3. How often does R pray
+  V043222      W4. Bible is word of God or men
+  V043223      X1. Ever attend church/religious services?
+  V043224      X1a. Attend religious services how often
+  V043225      X1a1. Attend church more often than once a week?
+  V043226      X2. Active at church besides attendance
+  V043227      X2a. Active at church - meeting
+  V043228      X2b. Active at church - speech
+  V043229      X3. Ever think of self as part of church or denomination?
+  V043230a     X3a. (Attends) R major religious group
+  V043230b     X3b. (Nonattendance) R major religious group
+  V043231      X4. Major relig denomination
+  V043232      X4a. Specific Baptist denomination
+  V043233      X4a1. Specific indep. Baptist denomination
+  V043234      X4b. Specific Lutheran denomination
+  V043235      X4c. Specific Methodist denomination
+  V043236      X4d. Specific Presbyterian denomination
+  V043237      X4e. Specific Reformed denomination
+  V043238      X4f. Specific Brethren denomination
+  V043239      X4g. Specific denomination for Just Christian
+  V043240      X4h. Specific Church of Christ denomination
+  V043241      X4j. Specific Church of God denomination
+  V043242      X4k. Specific Holiness/Pentecostal denomination
+  V043243      X5a. Specific other denomination
+  V043244      X5b. Specific other denomination Christian?
+  V043245a     X6a. (Attends) Specific Jewish denomination
+  V043245b     X6b. (Nonattendance) Specific Jewish denomination
+  V043246      X7x. Other specify text - all denominations X4a-X6b
+  V043247      X8x1. SUMMARY: RESPONDENT MAJOR RELIGIOUS GROUP
+  V043247a     X8x1a. SUMMARY: RESPONDENT MAJOR DENOMINATION
+  V043248      X8x2. SUMMARY: RESPONDENT RELIGION FULL
+  V043249a     Y1a. Birth date Year
+  V043249b     Y1b. Birthdates Month
+  V043250      Y1x. Summary: Respondent age
+  V043251      Y2. Marital status
+  V043251x     Y2x. SUMMARY Marital status
+  V043252      Y3. Highest grade of school or year of college R completed
+  V043253a     Y3a. Did R get high school diploma
+  V043253b     Y3b. Highest degree R has earned
+  V043254      Y3x. Summary: Respondent education level
+  V043255      Y4. Spouse: highest grade or year of college
+  V043256a     Y4a. Did spouse get high school diploma
+  V043256b     Y4b. Highest degree spouse has earned
+  V043257      Y4x. Summary: Spouse/partner education level
+  V043258      Y5a. R military service
+  V043259      Y5b. Family member military service
+  V043260a     Y6(1). Employment summary: R employmt status 2-digit full
+  V043260b     Y6(2). Employment summary: R employment status 1-digit
+  V043260c     Y6c. Respondent initial employment status
+  V043261      Y6x. Occupation in stacked variables Y6x1-Y6x7
+  V043262a     Y6x1. STACKED: R past/current occupation 3 digit
+  V043262b     Y6x2. STACKED: R past/current occupation 2 digit
+  V043262c     Y6x3. STACKED: Collapsed past/current occup prestige score"    
+  V043262d     Y6x4. STACKED: R past/current occupation prestige score
+  V043262e     Y6x5. STACKED: Industry of R past/current occupation
+  V043262f     Y6x6. STACKED: R past/current occ work(ed) for self
+  V043262g     Y6x7. STACKED: R past/current occ work(ed) for govt
+  V043262h     Y6x8. STACKED: R recent/current occ hours work(ed)
+  V043262j     Y6x9. STACKED: R worried about losing/finding job
+  V043262k     Y6x10. STACKED: R had job in last 6 months
+  V043263      Y7. Current/past employment information
+  V043264      Y7a. Initial status Homemaker/student: also working now?
+  V043265      Y7b. Initial status Homemaker/student: job in last 6 month
+  V043266a     Y8a. Initial status retiree - when retired Year
+  V043266b     Y8b. Initial status retiree - when retired Month
+  V043267      Y9. Initial status unempl/disabled - R ever work for pay
+  V043268      Y10a. Initial status ret/dis/unemp/hmkr/stud - past occ 3
+  V043268a     Y10b1. Initial status ret/dis/unemp/hmkr/stud - past occ 2
+  V043268b     Y10b2. Init status ret/dis/unemp/hmkr/stu prestige collapsed 
+  V043268c     Y10b3. Init status ret/dis/unem/hkr/stu -past occ prestige
+  V043268d     Y10b4. Init status ret/dis/unemp/hmkr/stu occup 1990 3-digit
+  V043268e     Y10b5. Init status ret/dis/unemp/hmkr/stu occup 1990 71-catg
+  V043268f     Y10b6. Init status ret/dis/unemp/hmkr/stu occup 1990 14-catg
+  V043269      Y10c. Init status ret/dis/unem/hkr/stu -past occ industry
+  V043270      Y10d. Init status ret/dis/unem/hkr/stu -past occ self-empl
+  V043271      Y10e. Init status ret/dis/unem/hkr/stu -past occ govt work
+  V043272      Y11a. Initial status unemp/ret/dis - job in last 6 months
+  V043273      Y12. Recent occupation: how many hours worked average
+  V043274      Y13a. Initial status retired/disabled: also working now?
+  V043275      Y14. Init status ret/dis/unemp/hmkr/stud: looking for wk?
+  V043276      Y15. Init status ret/dis/unemp/hkr/stu: worried finding wk
+  V043277      Y16. Summary: ret/dis/unemp/hkr/stu also working now?
+  V043278      Y16a. Working/TLO now occupation 3 digit
+  V043278a     Y16b. Working/TLO now occupation 2 digit
+  V043278b     Y16b2. Init status ret/dis/unemp/hmkr/stu prestige collapsed
+  V043278c     Y16d. Prestige score of working/TLO now occupation
+  V043278d     Y16b4. Init status working/TLO now occup 1990 3-digit
+  V043278e     Y16b5. Init status working/TLO now occup 1990 71-categ
+  V043278f     Y16b6. Init status working/TLO now occup 1990 14-categ
+  V043279      Y16c. Working/TLO - industry
+  V043280      Y16d. Working/TLO now - work for self
+  V043281      Y16e. Working/TLO now - work for govt
+  V043282      Y16f. Working/TLO now - how many hours works
+  V043283      Y16g. Working/TLO now - hours R works satisfactory
+  V043284      Y16h. Working/TLO now: worried abt losing job near future
+  V043285      Y16j. Working now: out of work or laid off last 6 mos
+  V043286      Y16k. Working now: had reduction in work hours or pay
+  V043287      Y17a. Working now/TLO: presentation at job in last 6 mos
+  V043288      Y17b. Working now/TLO: plan/chair meetg at job last 6 mos
+  V043289      Y18a1. Spouse/partner working status 1
+  V043289a     Y18a2. Spouse/partner working status 2
+  V043290      Y19. Anyone in HH belong to labor union?
+  V043291      Y19a. Who in HH belongs to union
+  V043292      Y20. INTERVIEWER CHECKPOINT- PERSONS IN HH AGE 14 OR OLDER
+  V043292x     Y20x. Summary: no. persons aged 14 and older
+  V043293      Y21a. R not only HH member age 14+: Household income
+  V043293x     Y21a. Summary: Household income
+  V043294      Y21b. Respondent income
+  V043295      Y22. Think of self as belonging to class?
+  V043296      Y22a. Subjective Social Class: Working or Middle
+  V043297      Y22b. Subjective Social Class: had to choose wkng/Middle
+  V043298      Y23. Summary: subjective social class
+  V043299      Y24x. SUMMARY: Race of Respondent
+  V043299a     Y24a. Race of Respondent MENTION 1
+  V043299b     Y24b. Race of Respondent MENTION 2
+  V043300      Y25. Both parents born in U.S.?
+  V043301a     Y26a. Main ethnic or nationality group mention 1
+  V043301b     Y26b. Main ethnic or nationality group mention 2
+  V043301c     Y26c. Main ethnic or nationality group mention 3
+  V043302      Y27. Interviewer CKPT: number of ethnic mentions
+  V043303      Y27a. Ethnic group most close
+  V043303x     Y27ax. Summary: ethnic group
+  V043304x     Y28x. Did R mention Hispanic group?
+  V043305      Y28a. Is R of Hispanic descent
+  V043306      Y29. Spanish or Hispanic descent - type
+  V043307      Y30. Where R grew up
+  V043308      Y31x. Summary: How long lived in this community
+  V043309a     Y33a. Where R lived previously - state/country
+  V043309b     Y33b. Where R lived previously - city
+  V043310      Y34. Distance where R used to live
+  V043311      Y32x. Summary: How long lived in current home
+  V043312      Y35. Does R family own/rent home
+
+          PRE-ELECTION INTERVIEWER OBSERVATION
+
+  V043401a     ZZ1a. PRE IWR obs: others present - children under 6
+  V043401b     ZZ1b. PRE IWR obs: others present - older children
+  V043401c     ZZ1c. PRE IWR obs: others present - spouse
+  V043401d     ZZ1d. PRE IWR obs: others present - other relatives
+  V043401e     ZZ1e. PRE IWR obs: others present - other adults
+  V043401f     ZZ1f. PRE IWR obs: others present - someone, not sure who
+  V043402      ZZ2. PRE IWR OBS: R cooperation
+  V043403      ZZ3. PRE IWR OBS: R level of information
+  V043404      ZZ4. PRE IWR OBS: R intelligence
+  V043405      ZZ5. PRE IWR OBS: R suspicious
+  V043406      ZZ6. PRE IWR OBS: R interest in IW
+  V043407      ZZ7. PRE IWR OBS: R sincere
+  V043408      ZZ8. PRE IWR OBS: places where doubted R sincerity
+  V043409      ZZ9. PRE IWR OBS: R seem to report income accurately
+  V043409a     ZZ10. PRE IWR OBS: est of family income
+  V043410      ZZ11. PRE IWR OBS: R age estimate
+  V043411      ZZ11a. PRE IWR OBS: R gender
+  V043412      ZZ12. PRE IWR OBS: R education estimate
+  V043413a     ZZ13a.. PRE IWR OBS: Mention 1 - R reactions to IW
+  V043413b     ZZ13b. PRE IWR OBS: Mention 2 - R reactions to IW
+  V043413c     ZZ13c. PRE IWR OBS: Mention 3 - R reactions to IW
+  V043413d     ZZ13d. PRE IWR OBS: Mention 4 - R reactions to IW
+  V043413e     ZZ13e. PRE IWR OBS: Mention 5 - R reactions to IW
+  V043413f     ZZ13f. PRE IWR OBS: Mention 6 - R reactions to IW
+  V043413g     ZZ13g. PRE IWR OBS: Mention 7 - R reactions to IW
+
+          POST-ELECTION FIELD AND ADMINISTRATION
+
+  V044001      PostAdmin.1. Form of interview
+  V044002      PostAdmin.2. Post IW beginning month
+  V044003      PostAdmin.3. Post IW beginning day
+  V044004      PostAdmin.4. Post IW beginning date MMDD
+  V044005      PostAdmin.5. Post IW beginning version of instrument
+  V044006      PostAdmin.6. Post IW ending month
+  V044007      PostAdmin.7. Post IW ending day
+  V044008      PostAdmin.8. Post IW ending date MMDD
+  V044009      PostAdmin.9. Post IW ending version of instrument
+  V044010a     PostAdmin.10a. No. days after election beginning IW date
+  V044010b     PostAdmin.10b. No. days after election ending IW date
+  V044011      PostAdmin.11. Total number of Post interview sessions
+  V044012      PostAdmin.12. Post instrument version changed before IW end
+  V044013      PostAdmin.13. Total number of Post interviewers
+  V044014a     PostAdmin.14a. Post IW session 1 date MMDD
+  V044014b     PostAdmin.14b. Post IW session 2 date MMDD
+  V044014c     PostAdmin.14c. Post IW session 3 date MMDD
+  V044015a     PostAdmin.15a. Post IW session 1 version of instrument
+  V044015b     PostAdmin.15b. Post IW session 2 version of instrument
+  V044015c     PostAdmin.15c. Post IW session 3 version of instrument
+  V044016a     PostAdmin.16a. Post IW session 1 breakoff/end
+  V044016b     PostAdmin.16b. Post IW session 2 breakoff/end
+  V044017      PostAdmin.17. Total number of calls
+  V044018      PostAdmin.18. Number of FTF calls
+  V044019      PostAdmin.19. Number of phone calls
+  V044020      PostAdmin.20. Interviewer interview number (nth IW)
+  V044021      PostAdmin.21. Refusal conversion indicator
+  V044022      PostAdmin.22. Post non-interview result date (MMDD)
+  V044023      PostAdmin.23. Mode of interview
+  V044024      PostAdmin.24. Result
+  V044025      PostAdmin.25. Length of interview
+  V044026      PostAdmin.26. Language of interview
+  V044027      PostAdmin.27. Interview verification
+  V044028      PostAdmin.28. Interviewer evaluation
+  V044029      PostAdmin.29. Interview tape-recorded
+  V044030      PostAdmin.30. Payment offer amount
+  V044031      PostAdmin.31. Payment amount
+  V044032      PostAdmin.32. Payment date
+  V044033      PostAdmin.33. Payment mode
+  V044034      PostAdmin.34 Respondent incentive
+  V044035      PostAdmin.35. Persuasion letters
+  V044036a     PostAdmin.36x1a. Summary: R made positive comment
+  V044036b     PostAdmin.36x1b. Summary: R made time-delay comment
+  V044036c     PostAdmin.36x1c. Summary: R made negative comment
+  V044036d     PostAdmin.36x1d. Summary: R made eligibility comment
+  V044036e     PostAdmin.36x1e. Summary: R made privacy comment
+  V044036f     PostAdmin.36x1f. Summary: R made comment no int in politics
+  V044037a     PostAdmin.37a. Comment: positive - help community
+  V044037b     PostAdmin.37b. Comment: positive - enjoy surveys
+  V044037c     PostAdmin.37c. Comment: other positive
+  V044037d     PostAdmin.37d. Comment: time delay - too busy
+  V044037e     PostAdmin.37e. Comment: time delay - bad time
+  V044037f     PostAdmin.37f. Comment: time delay - think about it
+  V044037g     PostAdmin.37g. Comment: other time delay
+  V044037h     PostAdmin.37h. Comment: negative - waste of time
+  V044037j     PostAdmin.37j. Comment: negative - don't trust surveys
+  V044037k     PostAdmin.37k. Comment: negative - surveys waste money
+  V044037m     PostAdmin.37m. Comment: negative - never do surveys
+  V044037n     PostAdmin.37n. Comment: negative - not interested
+  V044037p     PostAdmin.37p. Comment: other negative
+  V044037q     PostAdmin.37q. Comment: eligibility-don't know about topic
+  V044037r     PostAdmin.37r. Comment: eligibility -no spouse/partn/child
+  V044037s     PostAdmin.37s. Comment: eligibility - too young/too old
+  V044037t     PostAdmin.37t. Comment: eligibility - don't/can't vote
+  V044037u     PostAdmin.37u. Comment: other eligibility
+  V044037v     PostAdmin.37v. Comment: privacy - personal questions
+  V044037w     PostAdmin.37w. Comment: privacy - govt knows everything
+  V044037y     PostAdmin.37y. Comment: other privacy
+  V044038      PostAdmin.38. Respondent initial refusal
+  V044039      PostAdmin.39. Informant initial refusal
+
+          POST-ELECTION INTERVIEWER DESCRIPTION
+
+  V044101      PostIwr.1. Interviewer of record ID
+  V044101a     PostIwr.1a. Other interviewer ID
+  V044102      PostIwr.2. Supervisor ID
+  V044103      PostIwr.3. Interviewer gender
+  V044104      PostIwr.4. Interviewer education level
+  V044105      PostIwr.5. Interviewer race
+  V044106      PostIwr.6. Interviewer ethnicity
+  V044107      PostIwr.7. Interviewer languages
+  V044108      PostIwr.8. Interviewer experience
+  V044109      PostIwr.9. Interviewer age group
+
+          POST-ELECTION ERROR FLAGS
+
+  V044201      PostErr.1. Post interview error flag
+
+          POST-ELECTION RANDOMIZATION
+
+  V044401      PostRand.1. Order of D1b-c Pres candidate thermometers
+  V044402a     PostRand.2a. Order of D1d Democratic House cand thermometer
+  V044402b     PostRand.2b. Order of D1e Republican House cand thermometer
+  V044402c     PostRand.2c. Order of D1f Ind/3rd party House cand therm
+  V044402d     PostRand.2d. Order of D1g retiring House incumbent therm
+  V044403a     PostRand.3a. Order of D1h Democratic Senate cand thermometer
+  V044403b     PostRand.3b. Order of D1j Republican Senate cand thermometer
+  V044403c     PostRand.3c. Order of D1k Ind/3rd party Senate cand therm
+  V044403d     PostRand.3d. Order of D1m Senator #1 thermometer
+  V044403e     PostRand.3e. Order of D1n Senator #2 thermometer
+  V044403f     PostRand.3f. Order of D1p Senator term not up thermometer
+  V044404a     PostRand.4a. Order of D2a Hispanics thermometer
+  V044404b     PostRand.4b. Order of D2b Christian fundamentalists therm
+  V044404c     PostRand.4c. Order of D2c Catholics thermometer
+  V044404d     PostRand.4d. Order of D2d feminists thermometer
+  V044404e     PostRand.4e. Order of D2e Federal government thermometer
+  V044404f     PostRand.4f. Order of D2f Jews thermometer
+  V044404g     PostRand.4g. Order of D2g Liberals thermometer
+  V044404h     PostRand.4h. Order of D2h middle class people thermometer
+  V044404j     PostRand.4j. Order of D2j labor unions thermometer
+  V044404k     PostRand.4k. Order of D2k poor people thermometer
+  V044404m     PostRand.4m. Order of D2m the military thermometer
+  V044404n     PostRand.4n. Order of D2n big business thermometer
+  V044404p     PostRand.4p. Order of D2p people on welfare thermometer
+  V044404q     PostRand.4q. Order of D2q conservatives thermometer
+  V044404r     PostRand.4r. Order of D2r working class people thermometer
+  V044404s     PostRand.4s. Order of D2s the elderly thermometer
+  V044404t     PostRand.4t. Order of D2t environmentalists thermometer
+  V044404u     PostRand.4u. Order of D2u US Supreme Court thermometer
+  V044404v     PostRand.4v. Order of D2v gay men and lesbians thermometer
+  V044404w     PostRand.4w. Order of D2w Asian Americans thermometer
+  V044404y     PostRand.4y. Order of D2y Congress thermometer
+  V044404z     PostRand.4z. Order of D2z blacks thermometer
+  V044405a     PostRand.5a. Order of D2aa southerners thermometer
+  V044405b     PostRand.5b. Order of D2ab men thermometer
+  V044405c     PostRand.5c. Order of D2ac young people thermometer
+  V044405d     PostRand.5d. Order of D2ad illegal immigrants thermometer
+  V044405e     PostRand.5e. Order of D2ae rich people thermometer
+  V044405f     PostRand.5f. Order of D2af women thermometer
+  V044405g     PostRand.5g. Order of D2ag business people thermometer
+  V044405h     PostRand.5h. Order of D2ah Catholic church thermometer
+  V044405j     PostRand.5j. Order of D2aj whites thermometer
+  V044405k     PostRand.5k. Order of D2ak Israel thermometer
+  V044405m     PostRand.5m. Order of D2am Muslims thermometer
+  V044406a     PostRand.6a. Order of F1a prevent nuclear weapons goal
+  V044406b     PostRand.6b. Order of F1b promote human rights goal
+  V044406c     PostRand.6c. Order of F1c strengthen U.N. goal
+  V044406d     PostRand.6d. Order of F1d combat world hunger goal
+  V044406e     PostRand.6e. Order of F1e  protect US jobs goal
+  V044406f     PostRand.6f. Order of F1f promote democracy goal
+  V044406g     PostRand.6g. Order of F1g control illegal immigration goal
+  V044406h     PostRand.6h. Order of F1h promote market economies goal
+  V044406j     PostRand.6j. Order of F1j combat intl terrorism goal
+  V044407      PostRand.7. Order of G4b-c House cand lib-cons placement
+  V044408      PostRand.8. Order of G5b-c House cand spending-serv placemt
+  V044409      PostRand.9. Order of G6b-c Pres cand interventionism placemt
+  V044410      PostRand.10. Order of G6d-e Hse cand interventionism placemt
+  V044411      PostRand.11. Order of G6f-g party interventionism placemt
+  V044412      PostRand.12. Order of G7b-c Pres cand abortion placement
+  V044413      PostRand.13. Order of G7d-e Hse cand abortion placement
+  V044414      PostRand.14. Order of G7f-g party abortion placement
+  V044415a     PostRand.15a. Order of P4b blacks hardworking scale
+  V044415b     PostRand.15b. Order of P4c Hispanics hardworking scale
+  V044415c     PostRand.15c. Order of P4d Asian-Americans hardworking scale
+  V044416a     PostRand.16a. Order of P5b blacks intelligent scale
+  V044416b     PostRand.16b. Order of P5c Hispanics intelligent scale
+  V044416c     PostRand.16c. Order of P5d Asian-Americans intelligent scale
+  V044417a     PostRand.17a. Order of P6b blacks trustworthy scale
+  V044417b     PostRand.17b. Order of P6c Asian-Americans trustworthy scale
+  V044417c     PostRand.17c. Order of P6d Hispanics trustworthy scale
+
+          POST-ELECTION CANDIDATES
+
+  V044501      Cand.1. State and congressional district of IW
+  V044502      Cand.2. Type of House race
+  V044503a     Cand.3a. U.S. House Democratic candidate name
+  V044503b     Cand.3b. U.S. House Democratic candidate code
+  V044503c     Cand.3c. U.S. House Democratic candidate gender
+  V044504a     Cand.4. U.S. House Republican candidate name
+  V044504b     Cand.4b. U.S. House Republican candidate code
+  V044504c     Cand.4c. U.S. House Republican candidate gender
+  V044505a     Cand.5. U.S. House independent/third party candidate name
+  V044505b     Cand.5b. U.S. House independent/third party candidate code
+  V044505c     Cand.5c. U.S. House independent/third party cand gender
+  V044505d     Cand.5d. U.S. House independent/third party cand party
+  V044506a     Cand.6. U.S. House retiring incumbent name
+  V044506b     Cand.6b. U.S. House retiring incumbent code
+  V044506c     Cand.6c. U.S. House retiring incumbent gender
+  V044507      Cand.7. Type of Senate race
+  V044508a     Cand.8a. U.S. Senate Democratic candidate name
+  V044508b     Cand.8b. U.S. Senate Democratic candidate code
+  V044508c     Cand.8c. U.S. Senate Democratic candidate gender
+  V044509a     Cand.9. U.S. Senate Republican candidate name
+  V044509b     Cand.9b. U.S. Senate Republican candidate code
+  V044509c     Cand.9c. U.S. Senate Republican candidate gender
+  V044510a     Cand.10. U.S. Senate independent/third party cand name
+  V044510b     Cand.10b. U.S. Senate independent/third party cand code
+  V044510c     Cand.10c. U.S. Senate independent/third party cand gender
+  V044510d     Cand.10d. U.S. Senate independent/third party cand party
+  V044511a     Cand.11a.  U.S. Senator term not up (state with race) name
+  V044511b     Cand.11b. U.S. Senator term not up (state with race) code
+  V044511c     Cand.11c. U.S. Senator term not up (state with race) gender
+  V044512a     Cand.12a.  U.S. Senator #1 (state without race) name
+  V044512b     Cand.12b. U.S. Senator #1 (state without race) code
+  V044512c     Cand.12c. U.S. Senator #1 (state without race) gender
+  V044513a     Cand.13a.  U.S Senator #2 (state without race) name
+  V044513b     Cand.13b. U.S. Senator #2 (state without race) code
+  V044513c     Cand.13c. U.S. Senator #2 (state without race) gender
+  V044514a     Cand.14a. Winner Party U.S. House race
+  V044514b     Cand.14b. Winner Cand code U.S. House race
+  V044515a     Cand.15a. Percent Incumbent House candidate
+  V044515b     Cand.15b. Percent Democratic House candidate
+  V044515c     Cand.15c. Percent Republican House candidate
+  V044515d     Cand.15d. Percent Ind/3rd-party House candidate
+  V044516a     Cand.16a. Winner Party U.S. Senate race
+  V044516b     Cand.16b. Winner Cand code U.S. Senate race
+  V044517a     Cand.17a. Percent Incumbent Senate candidate
+  V044517b     Cand.17b. Percent Democratic Senate candidate
+  V044517c     Cand.17c. Percent Republican Senate candidate
+  V044517d     Cand.17d. Percent Ind/3rd-party House candidate
+
+          POST-ELECTION SURVEY
+
+  V045001      A1. How interested in political campaigns
+  V045002      A2. Did R watch programs about campaign on TV
+  V045002a     A2a. Watched how many programs about campaign on TV
+  V045003      A3. How many days in past week watched TV news
+  V045003a     A4. How much attention to news on TV about Pres campaign
+  V045004      A5. Did R read about campaign in any magazines
+  V045004a     A5a. How much atten to Pres campaign articles in magazines
+  V045005      A6. R listen to campaign speeches or discussions on radio
+  V045005a     A6a. How many campaign speeches or discussions on radio
+  V045006      A7. How much attention to Pres campaign news in general
+  V045007      A8. How much of the time trust media to report news fairly
+  V045008      B1. Mobilization: anyone from political parties contact R
+  V045008a     B1a. Mobilization: which political party contacted R
+  V045009      B2. Mobilization: anyone other than parties contacted R
+  V045010      B3. Campaign: R try to influence vote of others
+  V045011      B4. Campaign: R go to campaign meetings, rallies, speeches
+  V045012      B5. Campaign: R display campaign button/sticker/sign
+  V045013      B6. Campaign: R do any other campaign work for party/cand
+  V045014      B7. Contributions: R contribute to candidate
+  V045014a     B7a. Contributions: party of candidate R contributed to
+  V045015      B8. Contributions: Did R give money to party
+  V045015a     B8a. Contributions: which party did R give money to
+  V045016      B9. Did R give money to other group for/against cand/party
+  V045017a     C1a. Did R vote (standard version)
+  V045017b     C1b. Did R vote (experimental version)
+  V045018      C2. Nonvoter: registered to vote in this election
+  V045018x     C3.  Summary: vote and registration status
+  V045019      C4. Is R registered in county of residence
+  V045019a     C4a. State where registered if outside county of residence
+  V045019b     C4b. County where registered if outside county of resid
+  V045019c     C4c.Voter:state-distr where regist outside county of resid
+  V045020x     C4x. Summary: voter registration in/out of county
+  V045021x     C4x1. Voter summary: state of registr same as state of IW?
+  V045022x     C4x2. Voter summary: distr of registr same as distr of IW?
+  V045023      C5. Did R vote on election day or before
+  V045023a     C5a. How long before election R voted
+  V045024      C5a1. Did R vote in person or by absentee ballot
+  V045025      C6. Voter: did R vote for President
+  V045026      C6a. Voter: R's vote for President
+  V045026a     C6a1. Voter: preference strength for Pres cand of vote
+  V045027      C6b. Voter: how long before election decision on Pres vote
+  V045028      C6c. Nonvoter: any preference for President
+  V045029      C6c1. Nonvoter: what preference for President
+  V045029a     C6c2. Nonvoter: strength of preference for President
+  V045030x     C6x.  Summary: voter type
+  V045031x     C7bx. Summary: Did R vote for House of Representatives
+  V045032x     C7bx1. Summary: vote for party House of Representatives
+  V045033x     C7bx2. Summary: vote for cand House of Representatives
+  V045034      C7c. Nonvoter: did R prefer US House candidate
+  V045035      C7c. Nonvoter: what US House candidate R preferred
+  V045035x     C7dx. Nonvoter: cand code US House preference
+  V045036x     C7x.  Summary: Senate race and voter status
+  V045037x     C8bx. Summary: Did R vote for Senate
+  V045038x     C8bx1. Summary: vote for party in Senate race
+  V045039x     C8bx2. Summary: vote for cand in Senate race
+  V045040      C8c. Nonvoter: did R prefer US Senate candidate
+  V045041      C8c1. Nonvoter: what US Senate candidate R preferred
+  V045041x     C8c2. Nonvoter: cand code US Senate preference
+  V045042      C9. How fair was November election
+  V045043      D1a. Feeling Thermometer: GW Bush
+  V045044      D1b. Feeling Thermometer: John Kerry
+  V045045      D1c. Feeling Thermometer: Ralph Nader
+  V045046      D1d. Feeling Thermometer: Democratic House cand
+  V045047      D1e. Feeling Thermometer: Republican House cand
+  V045048      D1f. Feeling Thermometer: Ind/3rd party House cand
+  V045049      D1g. Feeling Thermometer: Retiring incumbent
+  V045050      D1h. Feeling Thermometer: Democratic Senate cand
+  V045051      D1j. Feeling Thermometer: Republican Senate cand
+  V045052      D1k. Feeling Thermometer: Ind/Third Party Senate cand
+  V045053      D1m. Feeling Thermometer: Senator #1 in state with no race
+  V045054      D1n. Feeling Thermometer: Senator #2 in state with no race
+  V045055      D1p. Feeling Thermometer: Senator not up - state with race
+  V045056      D2a. Feeling Thermometer: Hispanics (Hispanic-Americans)
+  V045057      D2b. Feeling Thermometer: Christian Fundamentalists
+  V045058      D2c. Feeling Thermometer: Catholics
+  V045059      D2d. Feeling Thermometer: Feminists
+  V045060      D2e. Feeling Thermometer: Federal Government in Washington
+  V045061      D2f. Feeling Thermometer: Jews
+  V045062      D2g. Feeling Thermometer: Liberals
+  V045063      D2h. Feeling Thermometer - middle class people
+  V045064      D2j. Feeling Thermometer: Labor Unions
+  V045065      D2k. Feeling Thermometer: Poor people
+  V045066      D2m. Feeling Thermometer: The Military
+  V045067      D2n. Feeling Thermometer: Big Business
+  V045068      D2p. Feeling Thermometer: People on welfare
+  V045069      D2q. Feeling Thermometer: Conservatives
+  V045070      D2r. Feeling Thermometer: working class people
+  V045071      D2s. Feeling Thermometer: Older people (the elderly) 
+  V045072      D2t. Feeling Thermometer: environmentalists
+  V045073      D2u. Feeling Thermometer: U.S. Supreme Court
+  V045074      D2v. Feeling Thermometer: Gay Men and Lesbians
+  V045075      D2w. Feeling Thermometer: Asian Americans
+  V045076      D2y. Feeling Thermometer: Congress
+  V045077      D2z. Feeling Thermometer: Blacks
+  V045078      D2aa. Feeling Thermometer - Southerners
+  V045079      D2ab. Feeling Thermometer - men
+  V045080      D2ac. Feeling Thermometer - young people
+  V045081      D2ad. Feeling Thermometer - illegal immigrants
+  V045082      D2ae. Feeling Thermometer - rich people
+  V045083      D2af. Feeling Thermometer - women
+  V045084      D2ag. Feeling Thermometer - business people
+  V045085      D2ah. Feeling Thermometer - the Catholic Church
+  V045086      D2aj. Feeling Thermometer: Whites
+  V045087      D2ak. Feeling Thermometer: Israel
+  V045088      D2am. Feeling Thermometer: Muslims
+  V045089      E1a. Which party had most members in House prior to electn
+  V045090      E1b. Which party had most members in Senate prior to elect
+  V045091      E1x. Summary: type of House incumbent
+  V045092      E2. Does R approve/disapprove House incumbent job
+  V045092a     E2a. How strongly  R approves/disapproves House incumbent
+  V045093      E3a. How often has House incumbent supported President
+  V045094      E3b. How well House incumbent keeps in touch with district
+  V045095      E4. How often R follows govt and public affairs
+  V045096      E5a. Favor incr budget deficit to increase domestic spendg
+  V045097      E5b. Favor increasing budget deficit to cut taxes
+  V045098      E5c. Favor reduc spendg on domestic programs to cut  taxes
+  V045099      F1a. US foreign policy goal: preventing spread of nuclear 
+  V045100      F1b. US foreign policy goal: promote human rights
+  V045101      F1c. US foreign policy goal: strengthen United Nations
+  V045102      F1d. US foreign policy goal: combating world hunger
+  V045103      F1e. US foreign policy goal: protect jobs of American wkrs
+  V045104      F1f. US foreign policy goal: promote democracy
+  V045105      F1g. US foreign policy goal: control illegal immigration
+  V045106      F1h. US foreign policy goal: promote market economies abrd
+  V045107      F1j. US foreign policy goal: combat intl terrorism
+  V045108      F2. How important is it for US to have strong military
+  V045109      F3. Have opinion - govt see to fair employmt for blacks
+  V045109a     F3a. Should government see to fair employment for blacks?
+  V045109b     F3a1. Strength feels govt should/shd not see to fair empl
+  V045110      G1a. Favor reduc domestic spend progrs to cut budg deficit
+  V045111      G1b. Favor increasing taxes to cut budget deficit
+  V045112      G1c. Favor incr taxes to increase domestic spending progs
+  V045113      G2a. Change in gap between rich and poor in last 20 yrs
+  V045113a     G2a1. How much change in gap between rich and poor
+  V045113b     G2b. Is change in gap between rich and poor good or bad
+  V045114      G3. Favor or oppose limits on foreign imports
+  V045115      G3a. Should immigration be increased, decreased, stay same
+  V045116      G3b. Effect of Hispanic immigration: take jobs away
+  V045117      G4a. Liberal/conservative 7-point scale: self-placement
+  V045117a     G4a1. If R had to choose lib-con self-placement
+  V045118      G4ax. Summary: liberal-conservative self-placement
+  V045119      G4b. Liberal/conservative 7-point scale: US House Dem cand
+  V045120      G4c. Liberal/conservative 7-point scale: US House Rep cand
+  V045121      G5a. Services/spending tradeoff 7-pt scale: self-placement
+  V045122      G5b. Services/spending tradeoff 7-pt scale: Dem House cand
+  V045123      G5c. Services/spending tradeoff 7-pt scale: Rep House cand
+  V045124      G6a. Interventionism by diplomacy/military: self-placement
+  V045125      G6a1. Interventionism by diplomacy/military: importance
+  V045126      G6b. Interventionism by diplomacy/military: GW Bush
+  V045127      G6c. Interventionism by diplomacy/military: John Kerry
+  V045128      G6d. Interventionism by diplomacy/military: Dem House cand
+  V045129      G6e. Interventionism by diplomacy/military: Rep House cand
+  V045130      G6f. Interventionism by diplomacy/military: Dem party
+  V045131      G6g. Interventionism by diplomacy/military: Rep party
+  V045132      G7a. Abortion position: self-placement
+  V045133      G7a1. Importance of abortion issue to R
+  V045134      G7b. Abortion position: GW Bush
+  V045135      G7c. Abortion position: John Kerry
+  V045136      G7d. Abortion position: Dem House candidate
+  V045137      G7e. Abortion position: Rep House candidate
+  V045138      G7f. Abortion position: Dem party
+  V045139      G7g. Abortion position: Rep party
+  V045140      H1a. R position on aid to Hispanic-Americans scale
+  V045141      H1b. How important is issue of aid to Hispanic-Americans
+  V045142      H2. What should federal govt do about outsourcing
+  V045142a     H2a. How much should govt discourage/encourage outsourcing
+  V045143      H3. Favor allowing Social Sec funds invested in the market
+  V045143a     H3a. Strength favor/oppose investing Soc Sec funds in mkt
+  V045143b     H3b. Summary: favor/oppose investing Soc Sec funds
+  V045144      H4. Does R favor/oppose school vouchers
+  V045144a     H4a. How strongly does R favor/oppose school vouchers
+  V045145      H5. How good does seeing US flag make R feel
+  V045145x     H5x. Summary: Pre-Post US flag makes R feel
+  V045146      H6. Things about America that make R ashamed
+  V045146x     H6x. Summary: Pre-Post America makes ashamed
+  V045147      H7. Things about America that make R angry
+  V045147x     H7x. Summary: Pre-Post America makes angry
+  V045148      H8. How strong is love for country
+  V045148x     H8x. Summary: Pre-Post how strong love for country
+  V045149      H9. How important is being an American
+  V045149x     H9x. Summary: Pre-Post importance of being American
+  V045150      J1a. Limit Government: problems have become bigger
+  V045151      J1b. Limit Government: need strong govt for complex probs
+  V045152      J1c. Limit Government: less government the better
+  V045153      J2. Does R ever talk politics with family and friends
+  V045153a     J2a. How many days in past week R discussed politics
+  V045154      J3. Does R listen to political talk radio
+  V045155      J3a. Does R have access to the internet or web
+  V045155a     J3b. Did R see any information about campaign on Web
+  V045156      J4a. Should laws protect homosexuals against job discrim
+  V045156a     J4a1. Strength favor/oppose laws to protect homosexuals
+  V045157      J4b. Should homosexuals serve in U.S. armed forces
+  V045157a     J4b1. Strength favor/oppose homosexuals in military
+  V045158      J4c. Should homosexual couples be allowed to adopt
+  V045159      J5a. Important differences between Democrats and Repubs
+  V045160      J5b. Is one party is more conservative at national level
+  V045160a     J5b1. Which party is more conservative at national level
+  V045161      J6a. R have interest in equal treatment for women in jobs
+  V045161a     J6b. R opinion on equal treatment for women in jobs
+  V045161b     J6c. Strength opinion on equal treatment for women in jobs
+  V045162      J7a. Politl knowledge office recognition Dennis Hastert
+  V045162a     J7a1. PROBE used for recognition of Hastert
+  V045163      J7b. Political knowledge office recognition Dick Cheney
+  V045163a     J7b1. PROBE used for recognition of Cheney
+  V045164      J7c. Political knowledge office recognition Tony Blair
+  V045164a     J7c1. PROBE used for recognition of Blair
+  V045165      J7d. Political knowledge office recognition Wm Rehnquist
+  V045165a     J7d1. PROBE used for recognition of Rehnquist
+  V045166      J8a. R worked/joined organization on community problem
+  V045167      J8b. Contacted public official to express views
+  V045168      J8c. Attended community meeting about issue
+  V045169      J8d. R taken part in Protest or march in last year
+  V045170      J9a. Is R a member of any organizations
+  V045170a     J9a1. Number of organizations R is a member of
+  V045171      J10. Able to devote time to volunteer work in last 12 mo
+  V045172      J11. In last 12 mos, made contributions of money to church
+  V045173      K0. Summary: R gender/race/ethnicity status
+  V045174      K1. Is R linked to what happens with women
+  V045174a     K1a. How much R linked to what happens to women
+  V045175      K1b. R feeling pride in accomplishments of women
+  V045176      K1c. R angry about the way women are treated in society
+  V045177      K2. Is R linked to what happens to blacks
+  V045177a     K2a. How much R linked to what happens with blacks
+  V045178      K2b. R feeling pride in accomplishments of blacks
+  V045179      K2c. R angry about the way blacks are treated in society
+  V045180      K3. Is R linked to what happens to Hispanics
+  V045180a     K3a. How much R linked to what happens with Hispanics
+  V045181      K3b. R feeling pride in accomplishments of Hispanics
+  V045182      K3c. R angry about the way Hispanics treated in society
+  V045183      K4a. Women demanding equality seek special favors
+  V045184      K4b. Women miss good jobs because of discrimination
+  V045185      K4c.Women complaining abt harassment cause problems
+  V045186      L1. Would R say most people can be trusted
+  V045187      L2. Would people try to take advantage of R
+  V045188      L3. Most people try to be helpful or look out for selves
+  V045189      L4a. Should adjust moral views to changing world
+  V045190      L4b. Newer lifestyles causing society breakdown
+  V045191      L4c. Should be more tolerant of different moral standards
+  V045192      L4d. Should be more emphasis on traditional family ties
+  V045193      L5a. Blacks should work their way up like other groups
+  V045194      L5b. History makes more difficult for blacks to succeed
+  V045195      L5c. Blacks gotten less than they deserve
+  V045196      L5d. Blacks should try harder to succeed
+  V045197      M1a. How often trust government in Washington to do right
+  V045198      M1b. Is govt run by few big interests or benefit of all
+  V045199      M1c. How much does government waste tax money
+  V045200      M1d. How many crooked people running government
+  V045201      M2a. Public officials don't care what people think
+  V045202      M2b. People like me don't have any say in what govt does
+  V045203      M3a. How much attention does govt pay to what people think
+  V045204      M3b. Elections make govt pay attn to what people think
+  V045205      M4a. Working mother can have warm relationship with kids
+  V045206      M4b. Better if woman cares for home-family and man achieve
+  V045207      M5a. R for or against preference for blacks in jobs
+  V045207a     M5b. Strength R favors/opposes preference for blacks in jobs
+  V045208      N1a. Qualities for children: Independent or respect elders
+  V045209      N1b. Qualities for children: Curiosity or good manners
+  V045210      N1c. Qualities for children: Obedience or self-reliance
+  V045211      N1d. Qualities for children: Considerate or well behaved
+  V045212      N2a. Should do what is necessary for equal opportunity
+  V045213      N2b. Have gone too far pushing equal rights
+  V045214      N2c. Big problem is not giving everyone equal chance
+  V045215      N2d. Better off if worried less about equality
+  V045216      N2e. Not that big a problem if people have unequal chance
+  V045217      N2f. Many fewer problems if people treated equally
+  V045218      P1a. How opinionated is R
+  V045219      P1b. R have fewer or more opinions than average
+  V045219a     P1c. R have many or somewhat fewer/more opinions
+  V045220      P2a. Does R like responsibility for thinking
+  V045220a     P2b. How much R likes/dislikes responsibility for thinking
+  V045221      P3. Does R like simple or complex problems
+  V045222      P4a. Hardworking 7-pt scale: whites
+  V045223      P4b. Hardworking 7-pt scale: blacks
+  V045224      P4c. Hardworking 7-pt scale: Hispanic-Americans
+  V045225      P4d. Hardworking 7-pt scale: Asian-Americans
+  V045226      P5a. Intelligent 7-pt scale: whites
+  V045227      P5b. Intelligent 7-pt scale: blacks
+  V045228      P5c. Intelligent 7-pt scale: Hispanic-Americans
+  V045229      P5d. Intelligent 7-pt scale: Asian-Americans
+  V045230      P6a. Trustworthy 7-pt scale: whites
+  V045231      P6b. Trustworthy 7-pt scale: blacks
+  V045232      P6c. Trustworthy 7-pt scale: Hispanic-Americans
+  V045233      P6d. Trustworthy 7-pt scale: Asian-Americans
+  V045235      Q1a. CSES Did R talk to others to persuade how to vote
+  V045235a     Q1a1. CSES How often R talked to others about how to vote
+  V045236      Q2. CSES Did R attend meeting, etc. for party or candidate
+  V045236a     Q2a. CSES How often R attended meeting etc. for party/cand
+  V045237      Q3. CSES Did candidate or party contact R about vote
+  V045238      Q4. CSES Most important issue in past 4 years
+  V045239      Q4a. CSES How well has govt done on most imp issue
+  V045240      Q5. CSES How good job in general govt has done past 4 yrs
+  V045241      Q6. CSES How satisfied with democracy in US
+  V045242      Q7. CSES Makes a difference who is in power
+  V045243      Q8. CSES Who people vote for makes a difference
+  V045244      Q9. CSES Democracy is best form of govt
+  V045245      Q9x. Interviewer checkpoint - party of vote
+  V045246      Q9a. CSES Party of Pres vote -party performance past 4 yrs
+  V045247      Q10. CSES Elections ensure voters views are represented
+  V045248      Q11. CSES Does any party represent Rs views
+  V045248a     Q11a. CSES Which party represents R's views
+  V045249      Q12. CSES Does any 2004 Pres cand represent R views
+  V045249a     Q12a. CSES Which cand in last election represents R views
+  V045250      Q13. CSES R think of self as close to any party
+  V045250a     Q13a1. CSES Mention 1 party R thinks of self as close to
+  V045250b     Q13a2. CSES Mention 2 party R thinks of self as close to
+  V045251      Q13a0. CSES IWR checkpoint: number of parties R close to
+  V045252      Q13a1. CSES Which party R feels closest to among multiple 
+  V045253      Q13b. CSES Is R a little closer to one party than others
+  V045253a     Q13b1. CSES If a little closer to one party, which one
+  V045254      Q13x. CSES Summary: most close party
+  V045255      Q14. CSES How close to this party
+  V045257      Q15. CSES Like/dislike scale - Democratic Party
+  V045258      Q16. CSES Like/dislike scale - Republican Party
+  V045259      Q17. CSES Like/dislike scale - Reform party
+  V045260      Q19. CSES Left-right scale - Democratic Party
+  V045261      Q20. CSES Left-right scale - Republican Party
+  V045262      Q21. CSES Left-right scale - Reform party
+  V045263      Q22. CSES Left-right scale - GW Bush
+  V045264      Q23. CSES Left-right scale - John Kerry
+  V045265      Q24. CSES Left-right scale - Ralph Nader
+  V045266      Q25a. CSES Has R contacted politician or govt official
+  V045267      Q25b. CSES Has R taken part in protest or demonstration
+  V045268      Q25c. CSES Has R worked with others on shared concern
+  V045269      Q27a. CSES How much respect for human rights in US
+  V045270      Q27b. CSES How much corruption in US
+  V045271      Q28. CSES Left-Right scale - self placement
+
+          POST-ELECTION INTERVIEWER OBSERVATION
+
+  V045300a     Z1a. Flag Terminology Left-Right
+  V045300b     Z1b. Flag Terminology Liberal-Conservative
+  V045301a     ZZ1a. POST IWR obs: others present - children under 6
+  V045301b     ZZ1b. POST IWR obs: others present - older children
+  V045301c     ZZ1c. POST IWR obs: others present - spouse
+  V045301d     ZZ1d. POST IWR obs: others present - other relatives
+  V045301e     ZZ1e. POST IWR obs: others present - other adults
+  V045301f     ZZ1f. POST IWR obs: others present - someone, not sure who
+  V045302      ZZ2. POST IWR OBS: R cooperation
+  V045303      ZZ3. POST IWR OBS: R level of information
+  V045304      ZZ4. POST IWR OBS: R intelligence
+  V045305      ZZ5. POST IWR OBS: R suspicious
+  V045306      ZZ6. POST IWR OBS: R interest in IW
+  V045307      ZZ7. POST IWR OBS: R sincere
+  V045307a     ZZ7a. POST IWR OBS: places where doubted R sincerity
+  V045308a     ZZ8a. POST IWR OBS: Mention 1 - R reactions to IW
+  V045308b     ZZ8b. POST IWR OBS: Mention 2 - R reactions to IW
+  V045308c     ZZ8c. POST IWR OBS: Mention 3 - R reactions to IW
+  V045308d     ZZ8d. POST IWR OBS: Mention 4 - R reactions to IW
+  V045308e     ZZ8e. POST IWR OBS: Mention 5 - R reactions to IW
+  V045308f     ZZ8f. POST IWR OBS: Mention 6 - R reactions to IW
+  V045308g     ZZ8g. POST IWR OBS: Mention 7 - R reactions to IW

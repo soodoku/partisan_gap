@@ -1,0 +1,65 @@
+	(1)	(2)	(3)
+	All non-placebo cases with p<.10 partisan gaps in control	All non-placebo cases with p<.10 partisan gaps in control	All non-placebo cases with p<.10 partisan gaps in control
+Democrat (with leaners; 1=Yes, 0=Republican)	0.115	0.104	0.088
+	[0.013]***	[0.015]***	[0.021]***
+Payment for Correct Response * Democrat	-0.061	-0.056	-0.060
+	[0.020]***	[0.019]***	[0.034]*
+Payment for Correct Response	0.032	0.029	0.039
+	[0.014]**	[0.014]**	[0.026]
+Knowledge (0-1)		0.000	
+		[0.015]	
+Race: White (1=yes)		-0.030	
+		[0.017]*	
+Race: Black (1=yes)		-0.045	
+		[0.026]*	
+Race: Hispanic (1=yes)		-0.020	
+		[0.025]	
+o. Race: Other Race (1=yes)		0.000	
+		[0.000]	
+Female (1=yes)		0.012	
+		[0.010]	
+Age (Years)		0.002	
+		[0.002]	
+Age-squared/100		-0.003	
+		[0.002]	
+Region: Northeast		0.029	
+		[0.015]**	
+Region: Midwest		0.028	
+		[0.014]**	
+Region: South		0.002	
+		[0.013]	
+Income (1=<10k; 14=>150k; 15=RF/Missing)		0.004	
+		[0.002]**	
+Income Missing		-0.036	
+		[0.022]*	
+Education (1=No HS; 6=Post-grad)		-0.004	
+		[0.005]	
+Education: No HS		-0.003	
+		[0.024]	
+Education: Some college		0.021	
+		[0.013]*	
+Education: 2-year college		0.020	
+		[0.020]	
+Education: 4-year college		0.008	
+		[0.016]	
+o. Education: Post-graduate		0.000	
+		[0.000]	
+Married/Domestic Partnership (1=yes)		-0.008	
+		[0.011]	
+Religious Attendance (1-6)		-0.001	
+		[0.003]	
+Interest * Democrat			0.042
+			[0.027]
+Pay Correct * Interest * Democrat			-0.007
+			[0.042]
+Pay Correct * Interest			-0.007
+			[0.032]
+Political Interest (0,1)			-0.026
+			[0.019]
+Constant	0.231	0.205	0.248
+	[0.018]***	[0.053]***	[0.022]***
+Observations	4229	4199	4213
+R-squared	0.405	0.414	0.407
+Robust standard errors in brackets			
+* significant at 10%; ** significant at 5%; *** significant at 1%			
+Note: Source: 2008 CCES. Includes only Democrats and Republicans. Robust standard errors, clustered by respondent. Question fixed effects not reported.			

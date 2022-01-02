@@ -1,0 +1,19 @@
+	Obama Unemployment Performance
+Democrat (1=Yes, 0=Republican)	0.366
+	[0.050]***
+Democrat * Pay Correct	-0.132
+	[0.074]*
+Democrat * Pay Correct and Don't Know	-0.222
+	[0.072]***
+Pay Correct	0.130
+	[0.053]**
+Pay Correct and Don't Know	0.161
+	[0.053]***
+Constant	0.235
+	[0.035]***
+Observations	593
+R-squared	0.109
+F-test, Pay Correct * Dem. > Pay DK and Correct * Dem.	0.11
+Robust standard errors in brackets	
+* significant at 10%; ** significant at 5%; *** significant at 1%	
+Note: Source: 2012 CCES. Includes only Democrats and Republicans. Robust standard errors. F-test p-values are one-tailed.	

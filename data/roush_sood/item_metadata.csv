@@ -1,0 +1,188 @@
+﻿item_name,description,study,year,partisan_cue,response_options,exp_dk,exp_ns,tbyk,dyt,afayk,other_enc_wording,question_block,topic,address_misinfo,months_midterm,months_presidential,jnj_miscode,asked_election_year,response_open_int,actual_partisan,survey,sign
+infl_1986_anes,Inflation over past year,anes,1986,0,3,0,0,0,0,0,0,0,1,0,1,25,0,1,1,1,1,1
+unemp_1986_anes,Unemployment over past year,anes,1986,0,3,0,0,0,0,0,0,0,1,0,1,25,0,1,1,1,1,1
+school_since80_1988_anes,School spending since 1980,anes,1988,0,3,0,0,0,0,0,0,0,8,0,25,1,0,1,1,1,2,1
+ss_since80_1988_anes,Social Security benefits since 1980,anes,1988,0,3,0,0,0,0,0,0,0,6,0,25,1,0,1,1,1,2,1
+deficit_since80_1988_anes,Deficit compared to 1980,anes,1988,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,2,-1
+infl_1988_anes,Inflation over past year,anes,1988,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,2,1
+unemp_1988_anes,Unemployment over past year,anes,1988,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,2,1
+unemp_1992_anes,Unemployment over past year,anes,1992,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,3,-1
+infl_1992_anes,Inflation over past year,anes,1992,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,3,-1
+taxes_clinton_1996_anes,Taxes under Clinton,anes,1996,1,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,4,1
+deficit_clinton_1996_anes,Deficit under Clinton,anes,1996,1,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,4,-1
+deficit_92_2000_anes,Deficit compared to 1992,anes,2000,1,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,5,-1
+crime_92_2000_anes,Crime compared to 1992,anes,2000,0,3,0,0,0,0,0,0,0,9,0,25,1,0,1,1,1,5,-1
+infl_2004_anes,Inflation over past year,anes,2004,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,6,-1
+unemp_2004_anes,Unemployment over past year,anes,2004,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,6,1
+taxes_gwb_2004_anes,Income tax for average person under Bush,anes,2004,1,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,6,1
+unemp_2008_anes,Unemployment over past year,anes,2008,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,7,-1
+infl_2008_anes,Inflation over past year,anes,2008,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,7,1
+death_panels,Health care end of life,anes,2012,0,4,0,0,0,0,0,0,0,2,1,25,1,0,1,1,1,8,-1
+9_11_2012,Government knew about 9/11 -2012,anes,2012,0,4,0,0,0,0,0,0,0,9,1,25,1,0,1,1,1,8,-1
+katrina,Katrina flooding,anes,2012,0,4,0,0,0,1,0,0,0,5,1,25,1,0,1,1,1,8,1
+unemp_2012_anes,Unemployment over past year,anes,2012,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,8,-1
+obama_muslim,Obama Muslim,anes,2016,1,2,0,0,0,0,0,0,0,9,1,25,1,0,1,0,1,9,-1
+9_11_2016,Government knew about 9/11 -2016 ,anes,2016,0,4,0,0,0,0,0,0,0,9,1,25,1,0,1,1,1,9,1
+exist_warm_2016_anes,Existence of global warming,anes,2016,0,3,0,0,0,1,0,0,0,5,1,25,1,0,1,1,1,9,-1
+cause_warm_2016_anes,Cause of global warming,anes,2016,0,2,0,0,0,1,0,0,0,5,1,25,1,0,1,1,1,9,-1
+unemp_2016_anes,Unemployment over past year,anes,2016,0,3,0,0,0,0,0,0,0,1,0,25,1,0,1,1,1,9,-1
+birther,Obama born in U.S. ,anes ,2012,1,4,0,0,0,0,0,0,0,9,1,25,1,0,1,1,1,8,-1
+afgh_change_b,"Afghanistan casualties, 2007 vs. 2008",bullock_a,2008,0,3,0,0,0,0,0,0,0,3,0,24,0,0,1,1,1,10,-1
+gwb_app_reps_b,Estimated Bush approval among Republicans,bullock_a,2008,1,5,0,0,0,0,0,0,0,9,0,24,0,0,1,0,1,10,1
+gwb_infl_change_b,Bush inflation change,bullock_a,2008,1,3,0,0,0,0,0,0,0,1,0,24,0,0,1,1,1,10,-1
+gwb_unemp_change_b,Bush unemployment change,bullock_a,2008,1,3,0,0,0,0,0,0,0,1,0,24,0,0,1,1,1,10,-1
+iraq_change_b,"Iraq casualties, 2007 vs. 2008",bullock_a,2008,0,3,0,0,0,0,0,0,0,3,0,24,0,0,1,1,1,10,1
+iraq_total_b,Iraq total casualties,bullock_a,2008,0,5,0,0,0,0,0,0,0,3,0,24,0,0,1,0,1,10,1
+gwb_def_change_b,Bush deficit change,bullock_a,2008,1,3,0,0,0,0,0,0,0,1,0,24,0,0,1,1,1,10,-1
+obama_age_b,Obama age,bullock_a,2008,1,4,0,0,0,0,0,0,0,9,0,24,0,0,1,0,0,10,-1
+gwb_approval_b,Estimated Bush approval,bullock_a,2008,1,5,0,0,0,0,0,0,0,9,0,24,0,0,1,0,1,10,-1
+mccain_age_b,McCain age,bullock_a,2008,1,4,0,0,0,0,0,0,0,9,0,24,0,0,1,0,0,10,1
+iraq_death_b,Iraq deaths,bullock_b,2012,0,9,0,0,0,0,0,0,0,3,0,31,7,0,0,0,1,11,-1
+obama_vote_b,Obama vote in 2008,bullock_b,2012,1,9,0,0,0,0,0,0,0,9,0,31,7,0,0,0,1,11,1
+obama_unemp_b,Obama unemployment,bullock_b,2012,1,9,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,11,1
+medicaid_b,Medicaid spending,bullock_b,2012,0,9,0,0,0,0,0,0,0,2,0,31,7,0,0,0,0,11,-1
+tarp_b,TARP: percent paid back,bullock_b,2012,0,9,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,11,-1
+def_spend_b,Defense spending,bullock_b,2012,0,9,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,11,1
+gwb_emp_change_b,Bush II unemployment,bullock_b,2012,1,9,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,11,-1
+debt_service_b,Debt service spending,bullock_b,2012,0,9,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,11,-1
+amount_warm_b,Global warming,bullock_b,2012,0,9,0,0,0,0,0,0,0,5,1,31,7,0,0,0,1,11,-1
+foreign_b,Foreign born population,bullock_b,2012,0,9,0,0,0,0,0,0,0,9,0,31,7,0,0,0,0,11,-1
+iraq_deaths_black_b,Iraq deaths: percent black,bullock_b,2012,0,9,0,0,0,0,0,0,0,3,0,31,7,0,0,0,1,11,1
+jnj_113,Clinton health plan - all Americans,jnj,1993,1,2,0,0,0,0,0,1,1,2,0,11,35,0,0,0,1,12,-1
+jnj_114,Clinton health plan - unemployed workers,jnj,1993,1,2,0,0,0,0,0,1,1,2,0,11,35,0,0,0,1,12,-1
+jnj_115,Congress considered - raise Medicare eligibility,jnj,1997,0,2,0,0,1,0,0,0,1,1,0,15,39,0,0,0,1,13,1
+jnj_116,Congress considered - rich seniors pay higher Medicare premiums,jnj,1997,0,2,0,0,1,0,0,0,1,2,0,15,39,0,0,0,1,13,1
+jnj_117,Congress considered - no Medicare for rich seniors,jnj,1997,0,2,0,0,1,0,0,0,1,2,0,15,39,0,0,0,1,13,-1
+jnj_118,Congress considered - expand choice under Medicare,jnj,1997,0,2,0,0,1,0,0,0,1,2,0,15,39,0,0,0,1,13,-1
+jnj_119,Congress considered - cut Medicare payments,jnj,1997,0,2,0,0,1,0,0,0,1,2,0,15,39,0,0,0,1,13,1
+jnj_154,Clinton SOTU health mention - children,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,21,45,0,0,0,1,14,-1
+jnj_155,Clinton SOTU health mention - workers,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,21,45,0,0,0,1,14,-1
+jnj_156,Clinton SOTU health mention - low-income people,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,21,45,0,0,0,1,14,1
+jnj_157,Clinton SOTU health mention - long-term care,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,21,45,0,0,0,1,14,1
+jnj_78,Trent Lott recognition,jnj,1997,1,0,0,0,0,0,0,0,1,4,0,18,42,0,0,0,0,15,1
+jnj_79,Louis Freeh recognition,jnj,1997,1,0,0,0,0,0,0,0,1,4,0,18,42,0,0,0,0,15,-1
+jnj_80,John Huang recognition,jnj,1997,1,0,0,0,0,0,0,0,1,4,0,18,42,0,0,0,0,15,1
+jnj_82,Kenneth Starr recognition,jnj,1997,1,0,0,0,0,0,0,0,1,4,0,18,42,0,0,0,0,15,1
+jnj_84,Ralph Reed recognition,jnj,1997,1,0,0,0,0,0,0,0,1,4,0,18,42,0,0,0,0,15,1
+jnj_86,Wester Hubbell recognition,jnj,1997,1,0,0,0,0,0,0,0,1,4,0,18,42,0,0,0,0,15,1
+jnj_159,Budget agreement - increase senior premiums,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,17,41,0,0,0,1,16,1
+jnj_160,Budget agreement - prescription drugs,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,17,41,0,0,0,1,16,1
+jnj_161,Budget agreement - raising payroll tax,jnj,1997,1,2,0,0,0,0,0,0,1,2,0,17,41,0,0,0,1,16,-1
+jnj_74,Control of House - 1997,jnj,1997,0,2,0,0,0,0,0,1,0,9,0,17,41,0,0,0,0,17,1
+jnj_75,Gingrich ethics fine,jnj,1997,1,0,0,0,0,0,0,1,0,9,0,17,41,0,0,0,1,17,-1
+jnj_166,Commission rec - increasing payroll taxes,jnj,1998,0,2,0,0,0,0,1,0,1,2,0,5,29,0,0,0,0,18,-1
+jnj_167,Commission rec - increasing retirement age,jnj,1998,0,2,0,0,0,0,1,0,1,2,0,5,29,0,0,0,0,18,1
+jnj_168,Commission rec - investing Social Security $ in stock market,jnj,1998,0,2,0,0,0,0,1,0,1,2,0,5,29,0,0,0,0,18,-1
+jnj_169,Commission rec - moving Social Security $ to reitrement accounts,jnj,1998,0,2,0,0,0,0,1,0,1,2,0,5,29,0,0,0,0,18,1
+jnj_170,Law to protect consumers in HMOs,jnj,1998,0,2,0,0,0,0,0,1,0,2,0,3,27,0,1,0,0,19,1
+jnj_171,Right to sue HMO,jnj,1998,0,2,0,0,0,0,0,1,0,2,0,3,27,0,1,0,0,19,1
+jnj_122,Existence of Medicare commission,jnj,1999,0,2,0,0,0,0,0,0,0,2,0,45,21,0,0,0,0,20,-1
+jnj_71,Country stealing nuclear tech,jnj,1999,0,0,0,0,0,0,0,1,0,3,0,43,19,0,0,0,0,21,1
+jnj_172,Senate gun bill - background checks at gun shows,jnj,1999,0,2,0,0,0,0,1,0,1,7,0,41,17,0,0,0,1,22,-1
+jnj_173,Senate gun bill - prohibits concealed carry,jnj,1999,0,2,0,0,0,0,1,0,1,7,0,41,17,0,0,0,1,22,1
+jnj_174,Senate gun bill - raising gun owner age to 21,jnj,1999,0,2,0,0,0,0,1,0,1,7,0,41,17,0,0,0,1,22,1
+jnj_175,Senate gun bill - manufacture safety locks,jnj,1999,0,2,0,0,0,0,1,0,1,7,0,41,17,0,0,0,1,22,-1
+jnj_176,Senate gun bill - using gun illegal under 18,jnj,1999,0,2,0,0,0,0,1,0,1,7,0,41,17,0,0,0,1,22,1
+jnj_132,Pot panel rec - help cancer and AIDS pain,jnj,1999,0,2,0,0,0,0,0,0,1,9,0,43,19,0,0,0,0,23,-1
+jnj_133,Pot panel rec - no evidence of gateway drug,jnj,1999,0,2,0,0,0,0,0,0,1,9,0,43,19,0,0,0,0,23,-1
+jnj_134,Pot panel rec - pot smoke more toxic than tobacco smoke,jnj,1999,0,2,0,0,0,0,0,0,1,9,0,43,19,0,0,0,0,23,-1
+jnj_124,SOTU proposal - health care tax credits for elderly and disabled,jnj,1999,1,2,0,0,0,0,1,0,1,2,0,45,21,0,0,0,1,24,-1
+jnj_125,SOTU proposal - rich seniors pay more for Medicare,jnj,1999,1,2,0,0,0,0,1,0,1,2,0,45,21,0,0,0,1,24,1
+jnj_126,SOTU proposal - use budget surplus for Medicare,jnj,1999,1,2,0,0,0,0,1,0,1,2,0,45,21,0,0,0,1,24,-1
+jnj_127,SOTU proposal - offer option to buy Medicaid before 65,jnj,1999,1,2,0,0,0,0,1,0,1,2,0,45,21,0,0,0,1,24,-1
+jnj_128,SOTU proposal - use budget surplus for Social Security,jnj,1999,1,2,0,0,0,0,1,0,1,6,0,45,21,0,0,0,1,24,-1
+jnj_129,SOTU proposal - invest Social Security funds in stock market,jnj,1999,1,2,0,0,0,0,1,0,1,6,0,45,21,0,0,0,1,24,-1
+jnj_130,SOTU proposal - individual retirement savings accounts,jnj,1999,1,2,0,0,0,0,1,0,1,6,0,45,21,0,0,0,1,24,1
+jnj_131,SOTU proposal - raising age for Social Security to 70,jnj,1999,1,2,0,0,0,0,1,0,1,6,0,45,21,0,0,0,1,24,-1
+jnj_72,U.S. troops in Bosnia,jnj,1999,0,2,0,0,0,0,1,0,0,3,0,43,19,0,0,0,1,21,1
+jnj_73,U.S. troops in Haiti,jnj,1999,0,2,0,0,0,0,1,0,0,3,0,43,19,0,0,0,1,21,1
+jnj_136,Medical error report - new government agency,jnj,1999,0,2,0,0,1,0,0,0,1,2,0,25,11,0,0,0,0,25,-1
+jnj_138,Medical error report - tougher malpractice laws,jnj,1999,0,2,0,0,1,0,0,0,1,2,0,25,11,0,0,0,0,25,1
+jnj_139,SOTU proposal - offer option to buy Medicare before 65,jnj,2000,1,2,0,0,0,0,1,0,1,2,0,33,9,0,0,0,1,26,-1
+jnj_140,SOTU proposal - rich seniors pay more for Medicare,jnj,2000,1,2,0,0,0,0,1,0,1,2,0,33,9,0,0,0,1,26,1
+jnj_141,SOTU proposal - extend Medicare to provide Rx benefits,jnj,2000,1,2,0,0,0,0,1,0,1,2,0,33,9,0,0,0,1,26,-1
+jnj_142,SOTU proposal - expand CHIP to kids' parents,jnj,2000,1,2,0,0,0,0,1,0,1,2,0,33,9,0,0,0,1,26,-1
+jnj_143,SOTU proposal - tax credit for elderly health care,jnj,2000,1,2,0,0,0,0,1,0,1,2,0,33,9,0,0,0,1,26,-1
+jnj_179,Clinton on guns - make agreement with NRA,jnj,2000,1,2,0,0,0,0,0,0,1,7,0,32,8,0,0,0,1,27,-1
+jnj_180,Clinton on guns - make agreement re: safety locks,jnj,2000,1,2,0,0,0,0,0,0,1,7,0,32,8,0,0,0,1,27,-1
+jnj_181,Clinton on guns - ask Congress to pass background checks,jnj,2000,1,2,0,0,0,0,0,0,1,7,0,32,8,0,0,0,1,27,-1
+jnj_182,Clinton on guns - discontinue gun buyback,jnj,2000,1,2,0,0,0,0,0,0,1,7,0,32,8,0,0,0,1,27,-1
+jnj_186,Part of world with highest HIV/AIDS,jnj,2000,0,3,0,0,0,1,0,0,0,9,0,27,3,0,1,0,0,28,-1
+jnj_187,Teenagers die of AIDS,jnj,2000,0,3,0,0,0,0,0,0,0,9,0,27,3,0,1,0,0,28,-1
+jnj_67,Next Democratic presidential nominee,jnj,2000,0,0,0,0,0,0,0,1,1,4,0,32,8,0,0,0,0,30,-1
+jnj_68,Next Republican presidential nominee,jnj,2000,0,0,0,0,0,0,0,1,1,4,0,32,8,0,0,0,0,30,1
+jnj_183,GWB on Social Security - reduce benefits,jnj,2000,1,2,0,0,0,0,0,0,1,6,0,29,5,0,0,0,1,31,-1
+jnj_184,GWB on Social Security - allow investment of SS payroll taxes,jnj,2000,1,2,0,0,0,0,0,0,1,6,0,29,5,0,0,0,1,31,1
+jnj_185,GWB on Social Security - increase SS taxes,jnj,2000,1,2,0,0,0,0,0,0,1,6,0,29,5,0,0,0,1,31,1
+jnj_63,Which candidate allows investment of SS in stocks/bonds,jnj,2000,0,0,0,0,0,0,0,1,1,4,0,27,3,0,1,0,1,32,1
+jnj_64,Which candidate's wife advocates for mental illness,jnj,2000,0,0,0,0,0,0,0,1,1,4,0,29,5,0,0,0,1,32,-1
+jnj_65,Which candidate proposes missile defense system,jnj,2000,0,0,0,0,0,0,0,1,1,4,0,29,5,0,0,0,1,32,1
+jnj_66,Which candidate proposes using surplus Medicaid $,jnj,2000,0,0,0,0,0,0,0,1,1,4,0,29,5,0,0,0,1,32,-1
+jnj_48,Regulation of arsenic in water,jnj,2001,1,2,0,0,0,0,0,1,1,5,0,19,43,0,0,0,1,33,1
+jnj_45,Senate approve tax cut,jnj,2001,1,3,0,0,1,0,0,0,1,1,0,19,43,0,0,0,1,33,-1
+jnj_46,Senate pass McCain-Feingold,jnj,2001,1,2,0,0,0,0,0,0,1,1,0,19,43,0,0,0,1,33,-1
+jnj_47,Limits on carbon emissions,jnj,2001,1,2,0,0,0,0,0,0,1,5,0,19,43,0,0,0,1,33,1
+jnj_49,Bush support of Kyoto Protocol,jnj,2001,1,2,0,0,0,0,0,1,1,5,0,19,43,0,0,0,1,33,1
+jnj_51,Spending on education,jnj,2001,1,3,0,0,0,0,0,1,1,8,0,19,43,0,0,0,1,33,-1
+jnj_52,Regulations on lead,jnj,2001,1,2,0,0,0,0,0,1,1,5,0,19,43,0,0,0,1,33,-1
+jnj_190,Office recognition - Tommy Thompson,jnj,2001,1,3,0,0,0,0,0,0,1,4,0,22,46,0,0,0,0,34,1
+jnj_191,Office recognition - John Ashcroft,jnj,2001,1,3,0,0,0,0,0,0,1,4,0,22,46,0,0,0,0,34,1
+jnj_43,Issue behind Kyoto Protocol,jnj,2001,1,0,0,0,0,0,0,0,0,5,0,14,38,0,0,0,0,35,1
+jnj_36,Office recognition - Secretary of State - 2002,jnj,2002,0,0,0,0,0,0,0,0,1,4,0,6,30,0,0,0,0,36,1
+jnj_37,Office recognition - Secretary of Defense,jnj,2002,0,0,0,0,0,0,0,0,1,4,0,6,30,0,0,0,0,36,1
+jnj_39,Iran WMD,jnj,2002,0,3,0,0,0,1,0,0,1,3,0,9,33,0,0,0,1,37,1
+jnj_41,North Korea WMD,jnj,2002,0,3,0,0,0,1,0,0,1,3,0,9,33,0,0,0,1,37,1
+jnj_35,Office recognition - VP,jnj,2002,0,0,0,0,0,0,0,0,1,4,0,6,30,0,0,0,0,37,1
+jnj_196,HIV infection rates,jnj,2002,0,3,0,0,0,0,0,0,1,9,0,4,28,0,0,0,0,38,-1
+jnj_197,HIV/AIDS prevention,jnj,2002,0,2,0,0,0,0,0,0,1,9,0,4,28,0,0,0,0,38,-1
+jnj_198,Spread of AIDS,jnj,2002,0,2,0,0,0,0,0,0,1,9,0,4,28,0,0,0,0,38,-1
+jnj_209,Approval for military force in Iraq,jnj,2003,1,2,0,0,0,0,1,0,1,3,0,46,22,1,0,0,1,39,1
+jnj_210,Iraq allow UN inspectors,jnj,2003,0,2,0,0,0,0,1,0,0,3,0,46,22,0,0,0,1,39,1
+jnj_211,Public evidence about Iraq involvement in 9/11,jnj,2003,1,2,0,0,0,0,1,0,1,3,1,46,22,1,0,0,1,39,-1
+jnj_212,Saddam Hussein threaten Israel,jnj,2003,0,2,0,0,0,0,1,0,1,3,1,46,22,1,0,0,1,39,1
+jnj_31,Iraq nuclear weapons,jnj,2003,0,2,0,0,0,0,1,0,1,3,1,46,22,0,0,0,1,39,-1
+jnj_33,North Korea nuclear weapons - 2003,jnj,2003,0,2,0,0,0,0,1,0,1,3,0,46,22,1,0,0,1,39,1
+jnj_34,North Korea chemical/biological weapons,jnj,2003,0,2,0,0,0,0,1,0,1,3,0,46,22,1,0,0,1,39,1
+jnj_207,Discount card program - when available,jnj,2004,0,3,0,0,0,0,1,0,0,2,0,29,5,0,0,0,1,40,-1
+jnj_208,Discount card program - financial benefits for poor people,jnj,2004,0,3,1,0,1,0,0,0,0,2,0,29,5,0,0,0,1,40,-1
+jnj_25,Iraq WMD - 2004,jnj,2004,0,2,0,0,0,0,0,1,1,3,1,29,5,0,0,0,1,41,-1
+jnj_26,Iraq connected to 9/11,jnj,2004,0,2,0,0,0,0,0,1,1,3,1,29,5,0,0,0,1,41,-1
+jnj_27,Saddam Hussein a threat to Middle East,jnj,2004,0,2,0,0,0,0,0,1,0,3,0,29,5,0,0,0,1,41,1
+jnj_28,Saddam Hussein a threat to United States,jnj,2004,0,2,0,0,0,0,0,1,0,3,0,29,5,0,0,0,1,41,1
+jnj_20,Patriot Act - hold terrorism suspects indefinitely,jnj,2004,0,2,0,0,0,0,0,0,0,3,0,33,9,0,0,0,1,42,1
+jnj_21,Patriot Act - non-citizens before military tribunal,jnj,2004,0,2,0,0,0,0,0,0,1,3,0,33,9,0,0,0,1,42,1
+jnj_22,Patriot Act - enter churches or attend rallies,jnj,2004,0,2,0,0,0,0,0,0,1,3,0,33,9,0,0,0,1,42,1
+jnj_203,Medicare law - prescription drug benefit,jnj,2004,1,2,0,0,1,0,0,0,0,2,0,31,7,0,0,0,1,43,-1
+jnj_204,Medicare law - prescription drug discount card,jnj,2004,0,3,1,0,0,0,1,0,0,2,0,31,7,0,0,0,1,43,-1
+jnj_205,Medicare law - drug subsidy,jnj,2004,0,3,1,0,0,0,1,0,0,2,0,31,7,0,0,0,1,43,-1
+jnj_206,Medicare law - new cost estimates,jnj,2004,1,2,0,0,0,0,0,0,0,2,0,31,7,0,0,0,1,43,-1
+jnj_4,North Korea nuclear weapons - 2005,jnj,2005,0,2,0,0,0,0,1,0,0,3,0,13,27,0,0,0,1,44,1
+jnj_12,Iran nuclear weapons,jnj,2005,0,2,0,0,0,0,1,0,0,3,0,13,27,0,0,0,1,44,1
+jnj_2,Talks with North Korea,jnj,2005,0,0,0,0,0,0,0,0,0,3,0,13,27,0,0,0,1,44,1
+jnj_98,Medicare drug plan - wait to switch,jnj,2006,0,2,0,0,1,0,0,0,1,2,0,5,29,0,0,0,1,45,1
+jnj_99,Medicare drug plan - coverage gap,jnj,2006,0,2,0,0,0,0,0,0,0,2,0,5,29,0,0,0,1,45,1
+jnj_90,Office recognition - CT Dem Senator who lost primary,jnj,2006,0,0,0,0,0,0,0,1,0,4,0,3,27,0,1,0,0,46,1
+jnj_103,Deadline for Medicare drug plan,jnj,2006,0,4,0,0,1,0,0,0,0,2,0,7,31,0,0,0,1,47,1
+jnj_104,Financial penalty for no Rx coverage,jnj,2006,0,2,0,0,1,0,0,0,0,2,0,7,31,0,0,0,1,47,1
+jnj_105,Blacks vs. whites better off - health insurance,jnj,2006,0,3,0,0,0,1,0,0,1,9,0,7,31,0,0,1,1,47,-1
+jnj_106,Blacks vs. whites better off - infant mortality,jnj,2006,0,3,0,0,0,1,0,0,1,9,0,7,31,0,0,1,1,47,-1
+jnj_107,Blacks vs. whites better off - life expectancy,jnj,2006,0,3,0,0,0,1,0,0,1,9,0,7,31,0,0,1,1,47,-1
+jnj_108,Latinos vs. whites better off - health insurance,jnj,2006,0,3,0,0,0,1,0,0,1,9,0,7,31,0,0,1,1,47,-1
+jnj_109,Latinos vs. whites better off - infant mortality,jnj,2006,0,3,0,0,0,1,0,0,1,9,0,7,31,0,0,1,1,47,1
+jnj_110,Latinos vs. whites better off - life expectancy,jnj,2006,0,3,0,0,0,1,0,0,1,9,0,7,31,0,0,1,1,47,1
+jnj_111,Blacks vs. whites - medical attention for heart disease,jnj,2006,0,2,0,0,0,0,0,1,1,9,0,7,31,0,0,1,1,47,-1
+jnj_112,Blacks vs. whites - medical attention for HIV/AIDS,jnj,2006,0,2,0,0,0,0,0,1,1,9,0,7,31,0,0,1,1,47,-1
+jnj_100,Control of House - 2006,jnj,2006,0,2,0,0,0,0,0,1,0,9,0,6,30,0,0,0,0,48,1
+jnj_101,Office recognition - Secretary of State - 2006,jnj,2006,0,0,0,0,0,0,0,0,0,4,0,6,30,0,0,0,0,48,1
+jnj_96,Medicare drug plan - cost program for poor seniors,jnj,2006,0,2,0,0,1,0,0,0,1,2,0,5,29,0,0,0,1,45,-1
+jnj_97,Medicare drug plan - premium penalty,jnj,2006,0,2,0,0,1,0,0,0,1,2,0,5,29,0,0,0,1,45,1
+unemp_2004_p,Unemployment,prior_a,2004,0,5,0,0,0,0,0,0,0,1,0,25,1,0,1,0,1,46,1
+debt_2004_p,Debt,prior_a,2004,1,7,0,0,0,0,0,0,0,1,0,25,1,0,1,0,1,46,-1
+estate_2004_p,Estate tax,prior_a,2004,0,5,0,0,0,0,0,0,0,1,0,25,1,0,1,0,1,46,-1
+pov_2004_p,Poverty,prior_a,2004,0,9,0,0,0,0,0,0,0,1,0,25,1,0,1,0,1,46,1
+uninsur_2004_p,Uninsured,prior_a,2004,0,9,0,0,0,0,0,0,0,1,0,25,1,0,1,0,1,46,1
+debt_2008_p,Public debt,prior_b,2008,1,7,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,47,1
+estate_2008_p,Estate tax,prior_b,2008,1,5,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,47,1
+gas_2008_p,Gas price,prior_b,2008,1,9,0,0,0,0,0,0,0,9,0,31,7,0,0,0,1,47,-1
+unemp_2008_p,Unemployment,prior_b,2008,1,9,0,0,0,0,0,0,0,1,0,31,7,0,0,0,1,47,1
+uninsur_2008_p,Uninsured,prior_b,2008,1,9,0,0,0,0,0,0,0,2,0,31,7,0,0,0,1,47,1

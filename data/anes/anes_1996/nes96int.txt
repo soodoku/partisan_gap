@@ -1,0 +1,2347 @@
+VERSION July 21, 2003
+CODEBOOK INTRODUCTION FILE
+1996 PRE-POST STUDY
+(1996.TX)
+
+
+
+
+
+
+
+
+
+
+              AMERICAN NATIONAL ELECTION STUDY, 1996
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+                               CODEBOOK
+
+
+
+
+
+
+
+
+
+
+
+
+                     Center for Political Studies
+                     Institute for Social Research
+                      The University of Michigan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           TABLE OF CONTENTS
+
+
+INTRODUCTORY MATERIALS
+----------------------
+>> 1996 GENERAL INTRODUCTION
+>> STUDY DESCRIPTION FOR THE AMERICAN NATIONAL ELECTION SDTUDY, 1996
+>> 1996 STUDY DESIGN, CONTENT AND ADMINISTRATION
+>> 1996 FILE STRUCTURE
+>> 1996 SPECIAL NOTE - CHANGES IN CODING BETWEEN PRE AND POST 
+>> NEW WEIGHTS FOR THE 1996 STUDY (RELEASED MARCH 1998)
+>> 1996 CODEBOOK INFORMATION
+>> 1996 VARIABLE DESCRIPTION LIST
+
+CODEBOOK
+--------
+   1996 variables
+
+APPENDICES
+----------
+>> 1996 NATIONAL PRE/POST-ELECTION STUDY SAMPLE DESIGN
+>> 1996 NES PRE-ELECTION SAMPLE OUTCOME
+>> WEIGHTED ANALYSIS OF 1996 NES DATA
+>> 1996 PROCEDURES FOR SAMPLING ERROR ESTIMATION
+>> 1996 NES TECHNICAL REPORTS AND OTHER OCCASIONAL PAPERS
+>> 1995 Pilot Study Reports
+
+MASTER CODES
+------------
+>> 1996 TYPE OF RACE
+>> 1996 CANDIDATE NUMBERS
+>> 1996 PARTY-CANDIDATE
+>> POLITICAL ADVERTISEMENTS, 1996
+>> 1996 RELIGIOUS IDENTIFICATION
+>> 1980 CENSUS OCCUPATION CODE
+>> 1980 CENSUS INDUSTRY CODE
+>> 1996 ETHNICITY/NATIONALITY 
+>> STATE AND COUNTRY CODES, 1996
+>> MOST IMPORTANT PROBLEMS, 1996
+>> 1996 PARTY DIFFERENCES
+>> 1996 CPS 2-DIGIT OCCUPATION CODES
+>> 1990 CENSUS DEFINITIONS
+>> Post-Stratified Cross-Sectional Analysis Weights 
+   for the 1992, 1994 and 1996 NES data
+>> 1996 CANDIDATE LISTS AND SAMPLE BALLOT CARDS
+         
+>> FREQUENCY ADDENDUM 
+
+
+>> 1996 GENERAL INTRODUCTION 
+
+
+AMERICAN NATIONAL ELECTION STUDY, 1996: PRE- AND POST-ELECTION SURVEYS
+                               (ICPSR 6896)                  
+
+                                             
+     During the winter and early spring of 1997 the National Election Studies
+staff and ICPSR prepared a comprehensive version of the 1996 American National
+Election Study.  The number of cases in this file, 1714, includes all
+respondents from the 1996 Pre- and Post-Election surveys.  About three-fourths
+of these respondents or 1316 individuals also participated in the 1994
+Post-Election survey (ICPSR 6507) or in both the 1992 American National
+Election Survey (ICPSR 6067) and the 1994 Post-Election survey. 
+     Detailed variables from the Post on 'groups' which are of interest to 
+a smaller number of users are not included in this dataset but are only 
+available in the NES 1996 Auxiliary File: Group Membership mergeable dataset.  
+Please note that UNWEIGHTED FREQUENCIES AND MARGINALS ONLY appear in the 
+codebook.
+
+
+
+
+>> STUDY DESCRIPTION FOR THE AMERICAN NATIONAL ELECTION STUDY, 1996
+
+     The 1996 American National Election Study was conducted by the Center for
+Political Studies of the Institute for Social Research, under the general
+direction of Steven J. Rosenstone, Donald R. Kinder and Warren E. Miller.  M.
+Kathryn Cirksena was the Director of Studies for the National Election Studies
+and oversaw the study from early planning stages through release of the 1996
+data collection.  She was assisted by Santa Traugott, retiring Director of
+Studies, Michael J. Horvath, and Daniel Unger. This is the twenty-fourth 
+in a series of studies of American national elections produced by the
+Center for Political Studies and the Survey Research Center, and it is
+the tenth traditional time-series study to be conducted under the auspices of
+National Science Foundation Grants (SBR-9317631, SES-9209410, SES-9009379,
+SES-8808361, SES-8341310, SES-8207580 and SOC77-08885) providing long-term
+support for the National Election Studies.  Since 1978, the National Election
+Studies have been designed by a national Board of Overseers, the members of
+which meet several times a year to plan content and administration of the
+major study components.  Board members during the planning of the 1996
+National Election Study included Larry Bartels (Princeton University), Gary
+Cox (University of California, San Diego), Charles Franklin (University of
+Wisconsin), Donald Kinder, ex officio (University of Michigan), David Leege,
+Chair (University of Notre Dame), Warren Miller, ex officio (Arizona State
+University), Wendy Rahn (University of Minnesota), as of September 1996, 
+Steven Rosenstone, ex officio (University of Michigan), Virginia Sapiro 
+(University of Wisconsin), W. Phillips Shively (University of Minnesota), 
+Laura Stoker (University of California, Berkeley) and John Zaller (University
+of California, Los Angeles).  As part of the study planning process, a special
+planning committee was appointed, a pilot study conducted, and stimulus
+letters sent to members of the scholarly community soliciting input on study
+plans. Board member Larry Bartels chaired the Planning Committee for the 1996
+National Election Study which included from the Board:  Donald Kinder
+(Michigan), Warren Miller (Arizona State), Steven Rosenstone (Michigan),
+Virginia Sapiro (Wisconsin), Laura Stoker (Berkeley), and John Zaller (UCLA)
+and four other scholars, R. Michael Alvarez (Cal Tech), Jonathan Krosnick
+(Ohio State), George Rabinowitz (North Carolina) and Wendy Rahn (Minnesota),
+as well as Kathryn Cirksena and Santa Traugott (NES staff).
+
+     A pilot study was carried out in September of 1995 for the purpose of
+developing new instrumentation for the 1996 Election Study.  New items were
+tested in the areas of the environment and environmental politics, media
+exposure (including new media), issues, candidate evaluation, and new
+questions included as part of the Comparative Study of Electoral Systems. 
+Data from the 1995 Pilot Study are available through the Inter-university
+Consortium for Political and Social Research (ICPSR 6636).  Results from the
+Pilot Study (summarized in Appendix C "1995 Pilot Study Reports") were used by
+the Planning Committee in formulating recommendations to the Board about study
+content for the 1996 Pre- and Post-Election Survey.  Copies of the Pilot Study
+Reports are available on the NES Website (www.umich.edu/~nes), or may be 
+obtained by contacting the NES project staff. 
+     
+NES Project Staff
+Center for Political Studies
+Room 4026 
+Institute for Social Research
+University of Michigan   
+Ann Arbor MI  48106-1248    
+nes@umich.edu
+http://www.umich.edu/~nes
+
+
+>> 1996 STUDY DESIGN, CONTENT AND ADMINISTRATION
+ 
+STUDY DESIGN 
+     
+     The 1996 National Election Study entailed both a pre-election interview
+and a post-election re-interview.  About three-fourths of the 1996 cases
+consist of empaneled respondents who were first interviewed in the 1994 or
+1992 National Election Study.  A freshly drawn cross-section sample makes up
+the balance of the 1996 cases.  (Details of the sample design are given in
+"Sample Design of the 1996 Pre/Post Election Studies", in Appendix B.)
+Altogether, 1714 citizens were interviewed in the 9 weeks prior to the
+November 5, 1996 election. To permit analysis of the impact of the unfolding
+election campaign, the pre-election sample was divided into four subsample
+replicates, which were released approximately two weeks apart.  1316 of the
+pre-election interviews were conducted with panel respondents; 398 with
+cross-section respondents.  In the weeks following the election, 1534
+pre-election respondents were reinterviewed: 1197 panel, 337 cross-section. 
+This post-election survey included a mode experiment in which respondents were
+randomly assigned to be interviewed either by telephone or face-to-face. 
+Further details of the administration of the surveys are given in "Study
+Administration", below.  
+     The two components of the study -- the panel and the new cross-section --
+were designed to be used together to create a combined nationally
+representative sample of the American electorate.  The 1996 NES data set
+includes a weight which incorporates sampling, nonresponse and post-
+stratification factors, (V3), for analysis of the 1996 NES combined
+sample (Panel component cases plus Cross-section supplement cases).  A Time
+Series Weight (V5) which corrects for Panel attrition (but does not
+incorporate sampling, nonresponse and post-stratification adjustments) should
+be used in analyses comparing either the panel respondents or the combined
+panel and new cross-section respondents to previous (unweighted) National
+Election Studies data collections.  See "Sample Design of the 1996 Pre- and 
+Post-Election Study" and the documentation for V3, and V5 for
+further information.  The frequencies that appear in this codebook are 
+unweighted.  A set of files, data, weights, and data documentation, designed
+to enable panel analyses of the 1992-94-96 data become available sometime late
+in 1997; announcements concerning the release of data for panel analysis are 
+found at the NES website,  www.umich.edu/~nes.  The present release has been 
+prepared for cross-section and time series analyses.
+
+STUDY CONTENT
+
+Substantive themes
+     The content for the 1996 Election Study reflects its double duty, both as
+the traditional presidential election year time-series data collection and as
+a panel study.  Substantive themes represented in the 1996 questionnaires
+include:
+*  interest in the political campaigns; concern about the outcome; and 
+   attentiveness to the media's coverage of the campaign      
+*  information about politics       
+*  evaluation of the presidential candidates and placement of presidential 
+   candidates on various issue dimensions  
+*  partisanship and evaluations of the political parties    
+*  knowledge of and evaluation of House candidates
+*  political participation:  turnout in the November general election; other
+   forms of electoral campaign activity
+*  vote choice for President, the U.S. House, and the U.S. Senate, including
+   second choice for President    
+*  personal and national economic well-being
+*  positions on social welfare issues including:  government health insurance;
+   federal budget priorities, and the role of the government in the provision 
+   of jobs and good standard of living    
+*  positions on social issues including:  abortion; women's roles; prayer in
+   the schools; the rights of homosexuals and the death penalty        
+*  racial and ethnic stereotypes; opinions on affirmative action; attitudes
+   towards immigrants
+*  opinions about the nation's most important problem
+*  values and predispositions:  moral traditionalism; political efficacy; 
+   egalitarianism; humanitarianism individualism; trust in government
+*  social altruism and social connectedness       
+*  feeling thermometers on a wide range of political figures and political 
+   groups; affinity with various social groups  
+*  detailed demographic information and measures of religious affiliation and
+   religiosity.   
+
+Several new themes are included in the 1996 study: 
+
+THE CONGRESSIONAL CAMPAIGN: To better understand the dynamics of congressional
+campaigns, the pre-election wave contains a core battery of campaign-related
+congressional items (including candidate recall, thermometer ratings,
+ideological placements, and vote intention). 
+
+ISSUE IMPORTANCE AND UNCERTAINTY: Several issue questions include
+"uncertainty" and "importance" follow-ups for both respondent self-placements
+("How certain are you of your position on this scale?" "How important is this
+issue to you?") and candidate placements (e.g. "How certain are you of Bob
+Dole's position on this scale?" "How important is this issue to Bob Dole?").
+
+COMPARATIVE STUDY OF ELECTORAL SYSTEMS: An eight-minute module of questions
+developed by a consortium of electoral scholars from 52 polities is included
+in the post-election interview.  Designed to facilitate comparative analysis
+of political attitudes and voting behavior, the same questions are being asked
+in similar form in national election studies around the world, and the
+resulting survey data will eventually be merged with contextual data on
+electoral laws and political institutions to produce a rich cross-national
+data set.  This module is included as questions T1-T16 in the post-election
+survey.
+
+ISSUE COVERAGE: New issue items in the areas of crime, the environment, gun
+control, and income inequality are included.  A six-item battery carried
+forward from the 1995 Pilot Study taps respondents' reactions to proposed
+trade-offs among domestic spending, deficit reduction, and tax cuts.
+
+THE ENVIRONMENT: New items from the 1995 Pilot Study tap perceptions of
+environmental conditions (air quality and the safety of drinking water in the
+nation and in the respondent's own community), environmental
+priorities (ranging from global warming to cleaning up lakes and parks),
+self-placements and placements of candidates and parties on environmental
+issues (trading off environmental protection against jobs and living
+standards, and supporting or opposing government environmental regulations on
+businesses), and the relative effectiveness of national, state, and local
+governments in dealing with environmental problems.
+
+SOCIAL CAPITAL: Several measures of social connectedness are repeated from the
+1992 survey.  Items tapping trust in people and trust in government are
+repeated in the pre- and post-election waves to facilitate analysis of the
+effect of the campaign and election on broader social attitudes.  A battery 
+of items on membership and activity in a wide variety of social, political,
+religious, and civic organizations is included in the post-election
+questionnaire.  This battery includes several questions on as many as four
+groups in each of twenty-two categories of organizations.  Because of the
+large number of variables produced from these questions, two means of
+accessing these data are provided; one set of variables which summarize the
+groups data is available without any unusual effort by the user.  A full
+complement of variables of interest to the specialist in groups membership and
+participation is also readily available in a separate mergeable dataset
+called the NES 1996 Auxuliary File: Group Membership.
+
+MEDIA EXPOSURE: New media exposure, reception, and attention items developed
+in the 1995 Pilot Study include talk radio items, more specific exposure
+items for network and local television news, and reception items asking
+respondents to match news anchors with the networks they work for.  A battery
+of exposure items for entertainment television programs provides an indirect
+measure of exposure to campaign advertisements. There is also a new open-ended
+item on recollection of a memorable campaign ad, some expansion and
+reorganization of items tapping attention to the campaign in various media.
+
+
+
+Congressional Ballot Cards, Candidate Lists, and Candidate Numbers
+    
+     In the usual NES Post-Election survey, and for 1996, in the Pre-Election
+survey as well, respondents are asked several questions about their particular
+Congressperson and Senators.  In previous years, interviewers pre-edited
+questionnaires to fill in the names appropriate for the state and
+congressional district in which the respondent was living (or was living
+during the pre-election interview).  The use of Computer-Assisted Interviewing
+software means that information about respondents' congressional district and
+about candidates and incumbents names (including retiring incumbents) and
+parties is maintained and periodically updated in a computerized database;
+this information is loaded into the laptop computers used by interviewers and
+accessed to provide the correct CD and candidate information for displaying
+and entering responses to the relevant questions.  Each candidate and Senator
+is assigned a unique number that reflects his or her incumbency status and
+party.   Particular questions in the survey, which include feeling
+thermometers for the various candidates, automatically appear on 
+screen with the correct name filled in.  The Candidate Lists stored in 
+the database, which show which candidates are associated with which
+congressional district and with which numbers they are tagged, can also
+be found here, as can a sample ballot card.  Candidates' names were identified
+by referring to the results of primary elections published in Congressional
+Quarterly.  In the Pre-Election survey there is the additional complication
+that a number of states held their Congressional primaries after the
+Pre-Election field work had started.  In these cases, the names of those
+candidates with the greatest chance of winning their party's nomination were
+loaded into the database.  Forecasts of likely winners assumed that incumbents
+were likely to win their primaries and that unopposed non-incumbents would
+win.  Other races were forecast by Board member Charles Franklin, using a
+probit model of all 1996 contested primacies involving non-incumbents and
+utilizing FEC data from August 1, 1996.  As soon as the outcome of the primary
+was known, the correct candidate information was entered into the database and
+the new version was loaded onto the appropriate interviewers' laptop
+computers.  In nearly all races the forecasted winner was correct.  Further
+details can be found at the documentation for Pre-Election questions B2a and
+B2b.      
+
+
+
+Features of a CAI questionnaire
+
+     Using the capabilities of computer-assisted interviewing (CAI) in the
+1996 NES enabled the introduction of several features that would not be
+feasible using a paper-and-pencil questionnaire.  The most significant of
+these for users of this data are: randomization within batteries or sequences
+of questions; application of half-sampling to some questions; and random order
+of presentation of blocks of questions.  Randomization within batteries refers
+to presenting, in a randomly determined order, a series of questions about the
+same objects (or people).  An example would be the questions about the
+respondent's likes and dislikes of the three main Presidential candidates
+where the names of Clinton, Dole and Perot were inserted randomly as the
+first, second or third person to be asked about in this series.  Randomization
+of names/objects in this way avoids ordering effects that might be obtained
+if, for example, the candidates were always asked about in the same order in
+every series of questions where a parallel question is asked about each of the
+three.  Questions where randomization of order within a series was in force
+are clearly identified in the codebook.  Randomization variables, which allow
+the user to identify the order of presentation, are provided for all instances
+of randomized presentation.  A few questions, primarily open-ended questions,
+were half-sampled, so that a randomly selected half of respondents were asked
+the question.  Finally, an order experiment, where a sequence of closed-ended
+questions was asked early in the interview for a random half of respondents
+and late in the interview for the other half, was included as part of the mode
+comparison experiment described below.  For both of these features, the
+relevant codebook entries contain explanatory notes.  All random
+selections were programmed into the computer application of the questionnaire
+and occurred automatically and independently of other circumstances of the
+interview.  CAI eliminates the preparation of a paper and pencil version
+which would previously have been published in the codebook.
+
+
+
+STUDY ADMINISTRATION
+
+     Interviewing for the pre-election survey began on September 3, 1996 and
+concluded on November 4, 1996.  The average length of interview in the
+pre-election survey was 74 minutes.  The overall response rate was 71%.  (See
+"Response Rates" below for a complete discussion.)  The post-election
+interviewing occurred between November 6 and December 31, 1996 inclusive, with
+an average interview length of 70 minutes.  The overall reinterview rate was
+90%, with further details available in the Response Rate section below.
+
+Sample "Releases" in the Pre-election survey
+
+     Both parts of the sample (panel and cross-section) were randomly
+subdivided into four quarter sample releases, each of which is a proper,
+random subsample of the NES sample.  Two additional 'reserve' replicates of
+cross-section cases were held in abeyance until it was determined that the
+additional sample lines would be needed to attain study goals.  Replicates 1
+through 4 were considered the "base sample," certain to be released.  The
+release dates for sample replicates were:
+
+     Replicate           Date of release
+     1                   September 3, 1996   
+     2                   September 12, 1996
+     3                   September 26, 1996
+     4                   October 10, 1996
+     5 (Reserve)         September 26, 1996 (with replicate 3)
+     6 (Reserve)         October 10, 1996 (with replicate 4)
+
+
+For a full description of the sample design and implementation, see the 1996 NATIONAL
+PRE/POST-ELECTION STUDY SAMPLE DESIGN.
+
+Pre-election study: assignment to telephone mode
+
+     One of the administrative problems in fielding a panel study is that
+respondents have had an intervening period of time in which to relocate,
+perhaps at some remove from areas where field study staff are available to
+interview them.  We estimated that between 40 and 80 respondents might have
+moved to areas in which SRC did not have interviewers in the field.  Our
+priority was to interview as many panel respondents as possible, but we did
+not want to incur the additional costs associated with interviewer travel. 
+Accordingly, panel respondents who had moved 'out-of-range' for a face-to-face
+interview were converted to phone mode.  The criterion set for deciding if a
+case was 'out-of-range' was 90 minutes driving time one-way from the
+interviewer's home to the respondent's address under local usual driving
+conditions.  The total number of panel respondents that we interviewed who
+were "out of range" for this reason was 47.
+
+Post-Election Mode Experiment: Design and Implementation
+
+     In contrast with the usual NES practice of conducting all post-election
+interviews in person, half of the respondents in the post-election wave of the
+1996 survey were interviewed by telephone, with post-election respondents 
+randomly assigned (except in extreme circumstances) to phone or face-to-face 
+administration.  The telephone mode used the same computerized questionnaire
+developed for the face-to-face post-election interviews and was conducted by
+the same interviewers.  The mode experiment provides a direct comparison of 
+the effects of mode of interview on important indicators of data quality and
+comparability.
+     Cases were assigned to either telephone or face-to-face mode at the
+sample segment level.  Every effort to retain randomly assigned cases in their
+assigned mode was made.  Respondents who had been interviewed by telephone in
+the pre-election study were disqualified from random assignment to mode; all
+those reinterviews were done by telephone, a total of 47 cases.  Respondents
+who did not have telephones and respondents who were not able to participate
+in the mode experiment because of a physical limitation that prevented them 
+from being interviewed by one mode or another were also excluded, which
+totaled 130 additional cases (24 of these were completed by telephone).  No
+changes in mode of interview because of respondent preference or for ease of 
+administration were permitted.
+     All prospective respondents received two incentives in the mail: a check
+for $10 and a small gift.  Included in the mailing to telephone mode
+respondents was a sealed respondent booklet with the candidate ballot folded
+inside.  The contact letter instructed respondents to set these materials
+aside until told to open them by the interviewer.  Interviewers followed
+procedures to ascertain that respondents were using the booklet and ballot
+card appropriately and to note deviations from the instructions.  
+
+
+     
+Evaluation of problems in study implementation
+
+     Two implementation problems arose in the post-election field
+administration.  This resulted in two unintended systematic deviations from
+standard administration.  145 cases in the phone mode were mailed a respondent
+booklet that included the wrong ballot card.  As soon as this problem was
+discovered, new respondent booklets with correct ballot cards were mailed by
+overnight mail to these respondents.  Approximately 50 interviews were 
+conducted where the respondent had the incorrect ballot card; in these cases
+interviewers read the correct ballot card information to the respondent.  
+A full report to be issued will analyze these data to identify any systematic
+differences related to this implementation error.  It was discovered early in
+the data collection period that 39 interviews were completed using the
+training version of the survey instrument, due to a technical problem in
+transmitting files to the field.  The training version contained no randomized
+presentation of questions and lacked several last minute changes to the
+interview.  Call-backs to 37 of these 39 respondents allowed us to collect
+data on the several missed questions.  A report analyzing these cases for
+differential impact of the use of the training questionnaire is in
+preparation.
+
+
+
+RESPONSE RATES    
+
+     The response rate in the pre-election study was 71%.  Among panel
+respondents the response (reinterview) rate was 76%; among cross-section
+respondents it was 60%.   
+     The overall reinterview/response rate in the post-election interviewing
+was 90%.  Among panel respondents in the post-election survey, the response
+rate was 91% and among cross-section respondents it was 85%.  The response
+rate in face-to-face mode (including all cases in this mode, experimentally
+assigned and excluded) was 89% and for telephone mode it was 91%.
+
+
+
+INTERVIEW COMPLETION RATE    
+ 
+     Completion rates for the pre-election sample releases, for pre-election
+time periods, and for post-election time periods are presented here.  Table 1
+presents the percentage completions per quarter sample replicate (replicates 3
+and 4 include the reserve cases added to those replicates); table 2 shows the
+percentage of completions per two week time period in the pre-election survey. 
+Table 3 lays out the number of interviews taken for each week elapsing after
+the Nov. 5 General Election.  In 1996, 29% of the interviews were completed in
+the first week after the election and 86% in the first three weeks; progress
+was evenly divided between face-to-face and telephone modes.
+
+
+Table 1: % Completions by release (pre-election survey)
+
+RELEASE       Total     Panel  Cross-section
+1              28%       28%       18%
+2              27        27        24
+3+5            23        23        23
+4+6            23        22        25
+
+
+Table 2: Percent Completions by two week period (pre-election survey)
+
+DATES               Total     Panel  Cross-section
+9/3-9/16             19%       20%       18%
+9/17-10/1            24        24        22
+10/2-10/16           23        23        23
+10/17-10/30          24        24        26
+10/31-11/4           10        10        12        
+
+
+Table 3: Number of and Cumulative Percent of Interviews Taken in the
+Post-Election Study by Week of Interview    
+ 
+DATES               NUMBER OF      CUMULATIVE          CUMULATIVE
+                    INTERVIEWS     NUMBER OF           PERCENT OF    
+                                   INTERVIEWS          INTERVIEWS
+
+Nov. 6-Nov.12       449               449               29%
+Nov.13-Nov.19       551              1000               65
+Nov.20-Nov.26       314              1314               86
+Nov.27-Dec. 3        91              1405               92
+Dec.4- Dec. 10       84              1489               97
+Dec.11-Dec.17        32              1521               99
+Dec.18-Dec.24        10              1531               99
+Dec.25-Dec.31         3              1534              100%
+
+
+
+
+>> 1996 FILE STRUCTURE
+
+     The AMERICAN NATIONAL ELECTION STUDY, 1996 PRE- AND POST-ELECTION
+SURVEY are available in logical record length (LRECL) format.  The data are
+sorted in ascending order by respondent number, and contain 1,657 variables
+for 1714 respondents.
+
+The machine-readable codebook, which provides complete formatting and other
+information for all variables accompanies the data.  In addition, a set of SAS
+and SPSS control statements has been prepared for this collection.  The
+control statements contain formatting information as well as variable labels,
+value labels and missing data specifications for all variables in the
+collection.
+
+The data can also be accessed directly through software packages that do not
+use SAS or SPSS control statements by specifying the record locations of the
+desired variables.  The record locations for all variables are provided in the
+codebook.
+
+
+NOTES ON CONFIDENTIALITY
+
+     Starting with the 1986 Election Study, NES has released occupation code
+variables in somewhat less detail than in years past.  This dataset includes a
+two-digit code with 71 categories corresponding to Census Bureau occupational
+groupings.  Those who need the full occupation code for their research should
+contact the NES project staff for information about the conditions under
+which access may be provided.  Similarly, the National Election Studies have
+not included information for census tracts or minor civil divisions since
+1978.  Permission to use the more detailed geographic information for
+scholarly research may be obtained from the Board of Overseers.  More
+information about this is available from NES project staff. Coding of the new
+religious denomination variable is in some cases based on an alphabetic
+"other, please specify" variable.  This variable is restricted for reasons of
+confidentiality, but access may be provided to legitimate scholars under
+established NES procedures.     
+
+
+OPEN-ENDED MATERIALS  
+
+     Traditionally, the National Election Studies have contained several
+minutes of open-ended responses (for example, the candidate likes and
+dislikes).  These questions are put into Master Codes by the SRC coding
+section.  Other scholars have developed alternative or supplemental coding
+schemes for the questions (for example, the levels of conceptualization,
+released as ICPSR 8151).  The Board of Overseers wishes to encourage these
+efforts but in ways which respect the NES and SRC obligation to protect the
+privacy and anonymity of respondents.  Circumstances under which individuals
+may have access to transcribed versions of these questions have been worked
+out and those interested should contact the NES project staff for further
+details.  
+
+
+
+>>1996 SPECIAL NOTE - CHANGES IN CODING BETWEEN PRE AND POST
+
+Several questions which were asked in the Pre-election interview and then
+asked again in the Post-Election interview had some differences between
+the versions used.
+
+Variables where pre and post codes (and some code labels) don't match on
+repeated questions:
+
+Pre       Post
+
+960369      1273   (code 4 label; Respon. booklet identical both waves)
+960371      1275   (  "  "  "       "       "         "      "     "  )
+960370      1274   (  "  "  "       "       "         "      "     "  )
+960375      1277   (  "  "  "       "       "         "      "     "  )
+960376      1278   (  "  "  "       "       "         "      "     "  )
+960377      1279   (  "  "  "       "       "         "      "     "  )
+960378      1280   (  "  "  "       "       "         "      "     "  )
+960566      1251   (code 7 in Pre; code 4 in Post)
+960569      1259   (codes 1,2 in Pre; codes 1,5 in Post)
+
+For variables 960369-371,960375-378 / 961273-1275,961277-1280 (7-point
+liberal-conservative scale questions) the differences appeared onscreen 
+to the interviewer but the labeled Respondent Booklet was accurate (complete
+code 4 label) and identical for both interviews.
+
+
+
+
+>> NEW WEIGHTS FOR THE 1996 STUDY (RELEASED MARCH 1998)
+
+The steps taken to address the 1996 NES overestimation of voting in the 1996
+presidential election resulted in the development of post-stratified weights
+which account for individual selection probability, geographic related
+household nonresponse, and misrepresentation of any age by education
+subgroups.  These revised, CPS-standardized weights were computed for the 1992
+NES Pre and Post (1992 fresh cross-section component), the 1994 NES Post and
+the 1996 NES Pre and Post Election data sets.  Users of previous weights
+released with the 1994 and 1996 data will find that these weights extend and
+combine the features of previously released weights (the 1992 weight will be
+incorporated into the forthcoming 1992-1994-1996 Combined File).
+
+V960005a and V960005b, the two new weight variables for 1996, are released for
+the first time with this version of the 1996 NES data.  A review of the
+findings that led to the construction of these new weights and full details of
+their development and effect are described in Appendix G, "Post-Stratified
+Cross-sectional Analysis Weights for the 1992, 1994 and 1996 NES Data."  The
+recommendation to explore developing these weights was made by Warren Miller
+and Merrill Shanks and authorized by the NES Board of Overseers at its
+September 1997 meeting.  The SRC Sampling Section, under the direction of
+Steve Heeringa, completed the work and the technical report in consultation
+with the NES Director of Studies.
+
+There are two weights, one to be applied to the pre-election sample (V960005a)
+and the other which is for use with the post-election sample  (V960005b).  The
+post-election sample weight takes into account attrition that occurred between
+the pre- and post-election surveys.    In analyses using variables from the
+pre- and post-election data, the post-election weight should be applied.  Use
+of either weight is appropriate only for the full sample, cross-section and
+panel cases combined.  
+
+
+
+>> 1996 CODEBOOK INFORMATION
+
+The format for the NES 1996 codebook differs from that of previous years
+due to changes in production mode; the codebook is no longer Osiris-generated.
+However, there are close similarities to the Osiris-generated codebooks
+of past studies.  An example of a 1996 codebook (variable) record appears
+below with some explanatory material.  The annotations refer to portions
+of the codebook record according to the numbers [1] - [10]
+
+
+..............................................................................
+  [1]              [2]                [3]      
+
+V960021           Numeric           COLUMNS       85-  85
+                                    Missing Value 9
+                                      [4]
+    [5]   Admin.11
+
+    [6]   PRE-ELECTION - Was interview tape recorded
+          -------------------------------------------------------------------
+    [7]
+             168       1.  Yes
+
+            1288       5.  No
+
+             258       9.  NA
+
+             [8]      [9]  [10]
+..............................................................................
+
+[1] This is the variable name according to the SAS and SPSS data definition
+files which accompany the raw data.  Most of the names begin with 'V' followed
+by a number.  
+
+[2] This describes whether the variable is character or numeric.  If a numeric
+variable has decimal places, it appears below the variable type.  If a numeric
+variable has no indication for decimal places, then there are 0 decimal
+places.
+
+[3] Column locations (beginning and ending) in the raw ASCII data file are
+provided.
+
+[4] Missing values, if they appear, identify the codes which are 
+by default assigned to missing data in the SAS and SPSS data definition
+files which accompany the raw ASCII data.  In the example above, the value
+9 is considered missing data and is so assigned in the SAS and SPSS data
+definition files.  If two missing data values appear, the second will appear
+preceded by "GE" to designate that codes equal to or greater than it are
+missing data.
+
+[5] This is the question number.  The survey questions have alphanumeric
+numbering (e.g. A1); the processing and administration variables have question
+numbers which are identified with the type of variable, for example, Iwr.1 is
+the first variable describing the interviewer.
+
+[6]  This is the question text for the administered question; it can also be,
+as in this example, a description of the processing or administration
+variable.  All question text appears above the dashed line.
+
+[7]  Explanatory notes or other material provided by NES may appear below the
+dashed line, preceding the code values.
+
+[8] These are the frequency counts for the code values.  The frequency counts
+are unweighted in 1996.
+
+[9] These are the code values representing response categories used for the
+question.
+
+[10] These are the code labels for the numbered response categories (code
+values).  "DK" is equivalent to "don't know," "NA" represents "not
+ascertained" and "INAP" indicates "inappropriate" (not applicable).>> 1996 VARIABLE DESCRIPTION LIST
+
+ICSPRNO   ICPSR Study Number
+EDITION   ICPSR Edition Number
+PARTNO    ICPSR Part Number
+RELDATE   ICPSR Release Date
+960001    Pre. 1996 Case ID
+960002    Pre. 1996 Panel/Cross indicator
+960003    Pre. 1996 Full sample weight
+960004    Pre. 1996 Panel-only weight
+960005    Pre. 1996 Time-series weight
+960005a   Pre. New 1996 Time-series weight - Pre
+960005b   Pre. New 1996 Time-series weight - Post
+960006    Pre. 1995 Case ID (panel)
+960007    Pre. 1994 Case ID (panel)
+960008    Pre. 1993 Case ID (panel)
+960009    Pre. 1992 Case ID (panel)
+960010    Pre. 1996 Pre Only or Pre-and-Post
+960010A   Pre. Time Series participation 1992,1994,1996
+960010B   Pre. Panel participation summary
+960011    Pre. Day of interview
+960012    Pre. Month of interview
+960013    Pre. Number of days between pre IW and election day
+960014    Pre. Beginning time
+960015    Pre. Ending time
+960016    Pre. Interview length in minutes
+960017    Pre. Interview number
+960018    Pre. Date of beginning VQ file
+960019    Pre. Date of ending VQ file
+960020    Pre. Payment amount
+960021    Pre. Was interview tape recorded
+960022    Pre. Verification indicator
+960023    Pre. Evaluation indicator
+960024    Pre. Refusal conversion indicator
+960025    Pre. Was persuasion letter sent
+960026    Pre. Type of  persuasion letter
+960027    Pre. Number of telephone calls
+960028    Pre. Number of face to face calls
+960029    Pre. Total number of calls (Phone + FtF)
+960030    Pre. Final result code
+960031    Pre. Beginning interview mode
+960031A   Pre. Mode summary - pre and post
+960032    Pre. Ending interview mode
+960033    Pre. Sample release
+960034    Pre. Sample release summary
+960035    Pre. Question 'form' summary
+960036    Pre. (Panel only) Does R still live at address on sample label
+960037    Pre. (Panel only) New address is:
+960038    Pre. Panel - correct name, birth date and gender on coversheet
+960039    Pre. Panel - coversheet name marked different
+960040    Pre. Panel coversheet - gender marked different
+960041    Pre. Panel coversheet - birth data marked different
+960042    Pre. Cross - Household listing obtained from
+960043    Pre. Cross - Selection table
+960044    Pre. Cross - Person number selected as R
+960045    Pre. Cross - Total number of persons in HH
+960046    Pre. Cross - Total number of eligible adults in HU
+960046A   Pre. Panel and Cross - Total number of eligible adults in HU
+960047    Pre. Cross - Household composition code
+960048    Pre. Cross - Number of children under 6 years old in household
+960049    Pre. Cross - Number of children 6-9 years old in household
+960050    Pre. Cross - Number of children 10-13 years old in household
+960051    Pre. Cross - Number of children 14-17 years old in household
+960052    Pre. Type of structure in which the respondent lives
+960053    Pre. Is there a blding manager, security grd, other gatekeeper
+960054    Pre. Type of blding manager, security grd, or other gatekeeper
+960055    Pre. Did R refuse initially
+960056    Pre. Did R break any appointment
+960057    Pre. Was there resistance from R
+960058    Pre. R Resistance: Waste of time; previous bad experience
+960059    Pre. R Resistance: Very ill
+960060    Pre. R Resistance: Too busy
+960061    Pre. R Resistance: Stressful family situation
+960062    Pre. R Resistance: Confidentiality
+960063    Pre. R Resistance: Invasion of privacy
+960064    Pre. R Resistance: No reason given
+960065    Pre. R Resistance: Other
+960066    Pre. R's gender
+960067    Pre. R race
+960068    Pre. Others present during IW
+960069    Pre. R's cooperation
+960070    Pre. R's general level of info about politics, public affairs
+960071    Pre. R's apparent intelligence
+960072    Pre. How suspicious did R seem to be about the study
+960073    Pre. R's interest in the interview
+960074    Pre. R's sincerity
+960075    Pre. Did R reported income correctly
+960076    Pre. Estimate of what  R's actual family income is
+960077    Pre. R's reaction to interview 1
+960078    Pre. R's reaction to interview 2
+960079    Pre. R's reaction to interview 3
+960080    Pre. R's reaction to interview 4
+960081    Pre. R's reaction to interview 5
+960082    Pre. R's reaction to interview 6
+960083    Pre. R's reaction to interview 7
+960084    Pre. R's reaction to interview 8
+960085    Pre. R's reaction to interview 9
+960086    Pre. R's reaction to interview 10
+960087    Pre. R's reaction to interview 11
+960088    Pre. Interviewer of record ID
+960089    Pre. Supervisor ID
+960090    Pre. Interviewer gender
+960091    Pre. Interviewer education
+960092    Pre. Interviewer race
+960093    Pre. Interviewer ethnicity
+960094    Pre. Interviewer languages
+960095    Pre. Interviewer experience
+960096    Pre. Interviewer age (bracketed)
+960097    Pre. House race type
+960098    Pre. Senate race type
+960099    Pre. Democratic House candidate code
+960100    Pre. Republican House candidate code
+960101    Pre. Retiring House Representative code
+960102    Pre. Democratic Senate candidate code
+960103    Pre. Republican Senate candidate code
+960104    Pre. Retiring Senator code
+960105    Pre. State abbreviation and congressional district
+960105A   Pre. State and CD of Rs who voted out of CD of Interview
+960106    Pre. State code and congressional district
+960106A   Pre. State and Congressional District 1994 (Panel)
+960106B   Pre. State and Congressional District 1992 (Panel)
+960106C   Pre. State and Congressional District 1993 (Panel)
+960107    Pre. Congressional district number
+960108    Pre. FIPS state code
+960109    Pre. ICPSR state code of Interview Location
+960110    Pre. FIPS state and county
+960111    Pre. Primary area name
+960112    Pre. Primary area code
+960113    Pre. Segment Number
+960114    Pre. Number of household units
+960115    Pre. 1996 Census region of Interview Location
+960116    Pre. Census Region in 1994 (Panel Respondents)
+960117    Pre. Census Region in 1992 (Panel Respondents)
+960118    Pre. Belt Code
+960119    Pre. Population in 1000s
+960120    Pre. Size of Place
+960121    Pre. 1980 Census tract/ed indicator
+960122    Pre. 1996 Sampling Error Code
+960122A   Pre. 1994 Sampling error code
+960122B   Pre. 1992 Sampling error code
+960123    Pre. 1980 SMSA
+960124    Pre. 1990 SMSA/NECMA
+960125    Pre. 1990 CMSA
+960126    Pre. 1990 Census Tract 1
+960126A   Pre. 1990 Census Tract 2
+960127    Pre. Flag - changed congressional race status
+960128    Pre. Race type at time of interview
+960129    Pre. CD error flag - Pre
+960129A   Pre. CD error flag - Post
+960130    Pre. Was R's Congressional District redistricted in 1996
+960131    Pre. (Panel only) Move status 1994-1996
+960131A   Pre. Move status 1996 Pre-1996 Post
+960201    Pre. How interested has R been in campaigns this year
+960202    Pre. How much does R care who wins the presidential election
+960203    Pre. Did R vote for President in the 1992 election
+960204    Pre. For whom did R vote in the 1992 presidential race
+960205    Pre. Anything that would make R vote for Clinton ("likes")
+960206    Pre. What would make R vote for Clinton ("likes") #1
+960207    Pre. What would make R vote for Clinton ("likes") #2
+960208    Pre. What would make R vote for Clinton ("likes") #3
+960209    Pre. What would make R vote for Clinton ("likes") #4
+960210    Pre. What would make R vote for Clinton ("likes") #5
+960211    Pre. Anything that would make R vote agnst Clinton ("dislikes")
+960212    Pre. What would make R vote agnst Clinton ("dislikes") #1
+960213    Pre. What would make R vote agnst Clinton ("dislikes") #2
+960214    Pre. What would make R vote agnst Clinton ("dislikes") #3
+960215    Pre. What would make R vote agnst Clinton ("dislikes") #4
+960216    Pre. What would make R vote agnst Clinton ("dislikes") #5
+960217    Pre. Anything that would make R vote for Dole ("likes")
+960218    Pre. What would make R vote for Dole ("likes") #1
+960219    Pre. What would make R vote for Dole ("likes") #2
+960220    Pre. What would make R vote for Dole ("likes") #3
+960221    Pre. What would make R vote for Dole ("likes") #4
+960222    Pre. What would make R vote for Dole ("likes") #5
+960223    Pre. Anything that would make R vote agnst Dole ("dislikes")
+960224    Pre. What would make R vote agnst Dole ("dislikes") #1
+960225    Pre. What would make R vote agnst Dole ("dislikes") #2
+960226    Pre. What would make R vote agnst Dole ("dislikes") #3
+960227    Pre. What would make R vote agnst Dole ("dislikes") #4
+960228    Pre. What would make R vote agnst Dole ("dislikes") #5
+960229    Pre. Anything that would make R vote for Perot ("likes")
+960230    Pre. What would make R vote for Perot ("likes") #1
+960231    Pre. What would make R vote for Perot ("likes") #2
+960232    Pre. What would make R vote for Perot ("likes") #3
+960233    Pre. What would make R vote for Perot ("likes") #4
+960234    Pre. What would make R vote for Perot ("likes") #5
+960235    Pre. What would make R vote agnst Perot ("dislikes")
+960236    Pre. What would make R vote agnst Perot ("dislikes") #1
+960237    Pre. What would make R vote agnst Perot ("dislikes") #2
+960238    Pre. What would make R vote agnst Perot ("dislikes") #3
+960239    Pre. What would make R vote agnst Perot ("dislikes") #4
+960240    Pre. What would make R vote agnst Perot ("dislikes") #5
+960241    Pre. Does R have cable or satellite TV
+960242    Pre. How many days in past week R watched nat'l news on TV
+960243    Pre. Attention R paid to TV nat news shows about pres campaign
+960244    Pre. How many days in past week R watched the local news on TV
+960245    Pre. Attention R paid to local TV news shows about pres campaign
+960246    Pre. How many days in past week R read the newspaper
+960247    Pre. Did R read about presidential campaign in the newspaper
+960248    Pre. Attention R paid to presidential campaign in the newspaper
+960249    Pre. Does R recall seeing any ads for political cand on TV
+960250    Pre. R recall of cand who sponsored political ad remembers best
+960251    Pre. Content of political ad R remembers best -- #1
+960252    Pre. Content of political ad R remembers best -- #2
+960253    Pre. Content of political ad R remembers best -- #3
+960254    Pre. Content of political ad R remembers best -- #4
+960255    Pre. Content of political ad R remembers best -- #5
+960256    Pre. Does R care about result of House election
+960257    Pre. Does R remember names of House candidates in R's district
+960258    Pre. R's recall of name of House candidate (first mention)
+960259    Pre. R's recall of party of House candidate (first mention)
+960260    Pre. Actual party of House candidate recalled by R (#1 mention)
+960261    Pre. Accuracy of R's recall of House candidate (#1 mention)
+960262    Pre. R's recall of name of House candidate (#2 mention)
+960263    Pre. R's recall of party of House candidate (#2 mention)
+960264    Pre. Actual party of House candidate recalled by R (#2 mention)
+960265    Pre. Accuracy of R's recall of House candidate (#2 mention)
+960266    Pre. R's recall of name of House candidate (#3 mention)
+960267    Pre. R's recall of party of House candidate (#3 mention)
+960268    Pre. Actual party of House candidate recalled by R (#3 mention)
+960269    Pre. Accuracy of R's recall of House candidate (#3 mention)
+960270    Pre. Does R approve or disapprove of Congress
+960271    Pre. Does R strongly approve or disapprove of Congress
+960272    Pre. Clinton feeling thermometer
+960273    Pre. Dole feeling thermometer
+960274    Pre. Perot feeling thermometer
+960275    Pre. Gore feeling thermometer
+960276    Pre. Kemp feeling thermometer
+960277    Pre. Choate feeling thermometer
+960277A   Pre. Campbell feeling thermometer
+960278    Pre. Democratic House candidate feeling thermometer
+960279    Pre. Republican House candidate feeling thermometer
+960280    Pre. Retiring House incumbent feeling thermometer
+960281    Pre. Hillary Clinton feeling thermometer
+960282    Pre. Pat Buchanan feeling thermometer
+960283    Pre. Jesse Jackson feeling thermometer
+960284    Pre. Newt Gingrich feeling thermometer
+960285    Pre. Colin Powell feeling thermometer
+960286    Pre. Steve Forbes feeling thermometer
+960287    Pre. Phil Gramm feeling thermometer
+960288    Pre. Louis Farrakhan feeling thermometer
+960289    Pre. Lamar Alexander feeling thermometer
+960290    Pre. Elizabeth Dole feeling thermometer
+960291    Pre. Pat Robertson feeling thermometer
+960292    Pre. Democratic Party feeling thermometer
+960293    Pre. Republican Party feeling thermometer
+960294    Pre. Political parties feeling thermometer
+960295    Pre. Does R approve or disapprove of Clinton
+960296    Pre. Does R strgly approve or disapprove of Clinton
+960297    Pre. Does R app/disapp of Clinton's handling of the econ
+960298    Pre. Does R strgly app/disapp of Clinton's handling of the econ
+960299    Pre. Does R app/disapp of Clinton's handling of foreign rels
+960300    Pre. Does R strgly app or disapp  Clinton's handling for relat
+960301    Pre. Does R app or disapp  Clinton's handling  the environment
+960302    Pre. Does R strgly app or disapp of Clinton's hand of the envir
+960303    Pre. Does R approve or disapprove of Clinton's hand of hlth care
+960304    Pre. Does R strgly app or disapp of Clinton's hand of hlth care
+960305    Pre. Which pres cand would do the best job of protect enviro
+960306    Pre. Which pres cand would do the best job of reducing budget def
+960307    Pre. Which pres cand would do the best job of improve education
+960308    Pre. Which pres cand would do the best job of campgn reform
+960309    Pre. Which pres cand would be most likely to raise taxes
+960310    Pre. Which pres cand would be most likely to cut Soc Security
+960311    Pre. Is Clinton or Congress more to blame for the budget def
+960312    Pre. (Interviewer checkpoint) Was R random selected for q F1-F4
+960313    Pre. Is there anything R likes about the Republican Party
+960314    Pre. What does R like about the Republican Party #1
+960315    Pre. What does R like about the Republican Party #2
+960316    Pre. What does R like about the Republican Party #3
+960317    Pre. What does R like about the Republican Party #4
+960318    Pre. What does R like about the Republican Party #5
+960319    Pre. Is there anything R dislikes about the Republican Party
+960320    Pre. What does R dislike about the Republican Party #1
+960321    Pre. What does R dislike about the Republican Party #2
+960322    Pre. What does R dislike about the Republican Party #3
+960323    Pre. What does R dislike about the Republican Party #4
+960324    Pre. What does R dislike about the Republican Party #5
+960325    Pre. Is there anything R likes about the Democrat Party
+960326    Pre. What does R like about the Democrat Party #1
+960327    Pre. What does R like about the Democrat Party #2
+960328    Pre. What does R like about the Democrat Party #3
+960329    Pre. What does R like about the Democrat Party #4
+960330    Pre. What does R like about the Democrat Party #5
+960331    Pre. Is there anything R dislikes about the Democrat Party
+960332    Pre. What does R dislike about the Democrat Party #1
+960333    Pre. What does R dislike about the Democrat Party #2
+960334    Pre. What does R dislike about the Democrat Party #3
+960335    Pre. What does R dislike about the Democrat Party #4
+960336    Pre. What does R dislike about the Democrat Party #5
+960337    Pre. Is R better or worse off financially than a year ago
+960338    Pre. Is R much better or worse off financially than a year ago
+960339    Pre. Does R think R will be better or worse off financ next yr
+960340    Pre. Does R think R will be much better/worse off financ next yr
+960341    Pre. Has Clinton ever made R feel angry
+960342    Pre. How often has Clinton made R feel angry
+960343    Pre. Has Clinton ever made R feel hopeful
+960344    Pre. How often has Clinton made R feel hopeful
+960345    Pre. Has Clinton ever made R feel afraid
+960346    Pre. How often has Clinton made R feel afraid
+960347    Pre. Has Clinton ever made R feel proud
+960348    Pre. How often has Clinton made R feel proud
+960349    Pre. Has Dole ever made R feel angry
+960350    Pre. How often has Dole made R feel angry
+960351    Pre. Has Dole ever made R feel hopeful
+960352    Pre. How often has Dole made R feel hopeful
+960353    Pre. Has Dole ever made R feel afraid
+960354    Pre. How often has Dole made R feel afraid
+960355    Pre. Has Dole ever made R feel proud
+960356    Pre. How often has Dole made R feel proud
+960357    Pre. Has Perot ever made R feel angry
+960358    Pre. How often has Perot made R feel angry
+960359    Pre. Has Perot ever made R feel hopeful
+960360    Pre. How often has Perot made R feel hopeful
+960361    Pre. Has Perot ever made R feel afraid
+960362    Pre. How often has Perot made R feel afraid
+960363    Pre. Has Perot ever made R feel proud
+960364    Pre. How often has Perot made R feel proud
+960365    Pre. R's self-placement on liberal/conservative scale
+960366    Pre. If R had to choose, would R be lib or con
+960367    Pre. How certain is R of self-placement on lib/con scale
+960368    Pre. Summary of R's self-placement on lib/con scale
+960369    Pre. R's placement of Clinton on liberal-con scale
+960370    Pre. How certain is R of placement of Clinton on lib/con scale
+960371    Pre. R's placement of Dole on lib-con scale
+960372    Pre. How certain is R of placement of Dole on lib/con scale
+960373    Pre. R's placement of Perot on lib-con scale
+960374    Pre. How certain is R of placement of Perot on lib/con scale
+960375    Pre. R's placement of Dem Hse cand on lib/con scale
+960376    Pre. How certain is R of place of Dem Hse cand on lib/con scale
+960377    Pre. R's placement of Rep Hse cand on lib/con scale
+960378    Pre. How certain is R of place of Rep Hse cand on lib/con scale
+960379    Pre. R's placement of Democratic Party on lib/con scale
+960380    Pre. R's placement of Republican Party on lib/con scale
+960381    Pre. Who does R think will be elected President
+960382    Pre. Does R think the Presidential race will be close
+960383    Pre. Which Pres cand does R think will carry R's state
+960384    Pre. R think the Pres race will be close in R's state
+960385    Pre. R think econ has gotten better/worse over past year
+960386    Pre. R think econ has gotten much better/worse over past year
+960387    Pre. R expect econ to get better/worse over the next year
+960388    Pre. R expect econ to get much better or worse over the next year
+960389    Pre. R think the stand of living will be better or worse in 20 yrs
+960390    Pre. Have fed govt policy made the nation's econ better or worse
+960391    Pre. Have fed gov policy made nation's econ much better or worse
+960392    Pre. R think the budg def incr/decr under Clinton
+960393    Pre. R think the budg def incr/decr a lot under Clinton
+960394    Pre. R think avg fed income tax incr/decr under Clinton
+960395    Pre. R think the avg fed income tax incr/decr a lot under Clinton
+960396    Pre. (Interviewer checkpoint) Was R randomly select for q H4a-H8
+960397    Pre. Which party would do a better job handling the economy
+960398    Pre. Which party would do a better job handling for aff
+960399    Pre. Which party would do a better job hlth care afford
+960400    Pre. Which party would do a better job reform welfare
+960401    Pre. Which party would do a better job hand the poverty prob
+960402    Pre. Which party would do a better job hand the budget deficit
+960403    Pre. Which party would do a better job hand the enviro
+960404    Pre. Which party would do a better job dealing with crime
+960405    Pre. Which party would be more likely to cut soc security
+960406    Pre. Which party would be more likely to improve race relat
+960407    Pre. Which party would be more likely to raise taxes
+960408    Pre. Which party would be more likely to keep out of war
+960409    Pre. Has the US pos in the world grown str/weaker in the past year
+960410    Pre. Should the US not concern itself with problems abroad
+960411    Pre. How willing should the US be to use military force
+960412    Pre. Does R favor a 12-year term limit on members of Congress
+960413    Pre. Does R know if either House cand the incumb
+960414    Pre. Candidate code of recalled incumb (two-cand race)
+960415    Pre. Does R know if the unopposed Hse cand is the incumbent
+960416    Pre. Candidate code of recalled incumbent (unopposed race)
+960417    Pre. R's party identification
+960418    Pre. Strength of R's party identification
+960419    Pre. (If R is independent/no preference) R closer to one party
+960420    Pre. Summary of R's party identification
+960421    Pre. Does R consider Clinton intelligent
+960422    Pre. Does R consider Clinton compassionate
+960423    Pre. Does R consider Clinton moral
+960424    Pre. How certain is R about whether Clinton is moral
+960425    Pre. Does R consider Clinton inspiring
+960426    Pre. Does R think that Clinton provides strong leadership
+960427    Pre. Does R think that Clinton really cares about people like R
+960428    Pre. Does R consider Clinton knowledgeable
+960429    Pre. Does R consider Clinton honest
+960430    Pre. Does R think that Clinton gets things done
+960431    Pre. How certain is R about whether Clinton gets things done
+960432    Pre. Does R consider Dole moral
+960433    Pre. How certain is R about whether Dole is moral
+960434    Pre. Does R consider Dole inspiring
+960435    Pre. Does R think that Dole provides strong leadership
+960436    Pre. Does R think that Dole really cares about people like R
+960437    Pre. Does R consider Dole knowledgeable
+960438    Pre. Does R consider Dole honest
+960439    Pre. Does R think that Dole gets things done
+960440    Pre. How certain is R about whether Dole gets things done
+960441    Pre. Does R consider Perot moral
+960442    Pre. How certain is R about whether Perot is moral
+960443    Pre. Does R consider Perot inspiring
+960444    Pre. Does R think that Perot provides strong leadership
+960445    Pre. Does R think that Perot really cares about people like R
+960446    Pre. Does R consider Perot knowledgeable
+960447    Pre. Does R consider Perot honest
+960448    Pre. Does R think that Perot gets things done
+960449    Pre. How certain is R about whether Perot gets things done
+960450    Pre. R's self-placement on services/spending scale
+960451    Pre. How certain is R of self-place on service/spend scale
+960452    Pre. How important is the services/spending issue to R
+960453    Pre. R's placement of Clinton on services/spending scale
+960454    Pre. How certain is R of place of Clinton on service/spend scale
+960455    Pre. R's placement of Dole on services/spending scale
+960456    Pre. How certain is R of place of Dole on service/spend scale
+960457    Pre. R's placement of Perot on services/spending scale
+960458    Pre. How certain is R of place of Perot on service/spend scale
+960459    Pre. R's placement of Dem Hse cand on service/spending scale
+960460    Pre. R's placement of Rep Hse cand on services/spending scale
+960461    Pre. R's placement of Dem Party on services/spending scale
+960462    Pre. R's placement of Rep Party on services/spending scale
+960463    Pre. R's self-placement on defense spending scale
+960464    Pre. How certain is R of self-plac on defense spending scale
+960465    Pre. How important is the defense spending issue to R
+960466    Pre. R's placement of Clinton on defense spending scale
+960467    Pre. How certain is R of place of Clinton on defense spend scale
+960468    Pre. How important does R think defense spending is to Clinton
+960469    Pre. R's placement of Dole on defense spending scale
+960470    Pre. How certain is R of place of Dole on defense spending scale
+960471    Pre. How important does R think defense spending is to Dole
+960472    Pre. R's placement of Perot on defense spending scale
+960473    Pre. How certain is R of place of Perot on defense spend scale
+960474    Pre. How important does R think defense spending is to Perot
+960475    Pre. R's placement of Dem Hse candidate on defense spend scale
+960476    Pre. R's placement of Rep Hse candidate on defense spending scale
+960477    Pre. R's placement of Dem Party on defense spending scale
+960478    Pre. R's place of Rep Party on defense spending scale
+960479    Pre. R's self-placement on govt health insurance scale
+960480    Pre. R's place of Clinton on govt hlth insurance scale
+960481    Pre. R's place of Dole on gov hlth insurance scale
+960482    Pre. R's place of Perot on govt hlth insurance scale
+960483    Pre. R's self-placement on guar job/standard of living scale
+960484    Pre. R's place of Clinton on guar job/standard of living scale
+960485    Pre. R's place of Dole on guar job/standard of living scale
+960486    Pre. R's place of Perot on guar job/standard of living scale
+960487    Pre. R's self-place on aid to blacks scale
+960488    Pre. How certain is R of self-place on aid to blacks scale
+960489    Pre. How important is the aid to blacks issue to R
+960490    Pre. R's place of Clinton on aid to blacks scale
+960491    Pre. How certain is R of place of Clinton on aid to blacks scale
+960492    Pre. R's place of Dole on aid to blacks scale
+960493    Pre. How certain is R of placement of Dole on aid to blacks scale
+960494    Pre. R's place of Perot on aid to blacks scale
+960495    Pre. How certain is R of place of Perot on aid to blacks scale
+960496    Pre. Spending on food stamps should be incr/decr
+960497    Pre. Spending on welfare programs should be incr/decr
+960498    Pre. Spending on AIDS research should be incr/decr
+960499    Pre. Spending on foreign aid should be incr/decr
+960500    Pre. Spending on aid to college students should be incr/decr
+960501    Pre. Spending on the homeless should be incr/decr
+960502    Pre. Spending on immigr control should be incr/decr
+960503    Pre. R's self-placement on abortion issue
+960504    Pre. How certain is R of self-placement on abortion issue
+960505    Pre. How important is the abortion issue to R
+960506    Pre. R's placement of Clinton on abortion issue
+960507    Pre. How certain is R of placement of Clinton on abortion issue
+960508    Pre. How important does R think the abortion issue is to Clinton
+960509    Pre. R's placement of Dole on abortion issue
+960510    Pre. How certain is R of placement of Dole on abortion issue
+960511    Pre. How important does R think the abortion issue is to Dole
+960512    Pre. R's placement of Perot on abortion issue
+960513    Pre. How certain is R of placement of Perot on abortion issue
+960514    Pre. How important does R think the abortion issue is to Perot
+960515    Pre. R's placement of Dem House candidate on abortion issue
+960516    Pre. R's placement of Rep House candidate on abortion issue
+960517    Pre. R's placement of Dem Party on abortion issue
+960518    Pre. R's placement of Rep Party on abortion issue
+960519    Pre. R's self-placement on reduction of crime scale
+960520    Pre. R's placement of Clinton on reduction of crime scale
+960521    Pre. R's placement of Dole on reduction of crime scale
+960522    Pre. R's placement of Perot on reduction of crime scale
+960523    Pre. R's self-placement on jobs/environment scale
+960524    Pre. How certain is R of self-placement on jobs/environment scale
+960525    Pre. How important is the jobs/environment issue to R
+960526    Pre. R's placement of Clinton on jobs/environment scale
+960527    Pre. How certain is R of place of Clinton on jobs/enviro scale
+960528    Pre. How important does R think jobs/enviro issue is to Clinton
+960529    Pre. R's placement of Dole on jobs/environment scale
+960530    Pre. How certain is R of place of Dole on jobs/enviro scale
+960531    Pre. How important does R think jobs/enviro issue is to Dole
+960532    Pre. R's placement of Perot on jobs/environment scale
+960533    Pre. How certain is R of placement of Perot on jobs/enviro scale
+960534    Pre. How important does R think jobs/enviro issue is to Perot
+960535    Pre. R's placement of Dem Party on jobs/environment scale
+960536    Pre. R's placement of Rep Party on jobs/environment scale
+960537    Pre. R's self-placement on environmental regulation scale
+960538    Pre. R's placement of Clinton on environmental regulation scale
+960539    Pre. R's placement of Dole on environmental regulation scale
+960540    Pre. R's placement of Perot on environmental regulation scale
+960541    Pre. R's placement of Dem Party on enviro regulation scale
+960542    Pre. R's placement of Rep Party on enviro regulation scale
+960543    Pre. R's self-placement on women's rights scale
+960544    Pre. R's placement of Clinton on women's rights scale
+960545    Pre. R's placement of Dole on women's rights scale
+960546    Pre. R's placement of Perot on women's rights scale
+960547    Pre. Does R expect to vote in the national elections
+960548    Pre. (Voters) For whom does R plan to vote for President
+960549    Pre. (Voters) Strength of R's Presidential candidate preference
+960550    Pre. (Nonvoters) For whom would R vote for President
+960551    Pre. (Nonvoters) Strength of R's Presidential cand preference
+960552    Pre. Who would R most like to see elected President
+960553    Pre. Which other Pres cand would R find acceptable
+960554    Pre. (Voters) For whom does R plan to vote for House
+960555    Pre. (Voters) Candidate code of R's House vote
+960556    Pre. (Voters) Strength of R's House candidate preference
+960557    Pre. (Nonvoters) For whom would R vote for House
+960558    Pre. (Nonvoters) Candidate code of R's preferred House candidate
+960559    Pre. (Nonvoters) Strength of R's House candidate preference
+960560    Pre. Spending on Soc Sec should be incr or decr
+960561    Pre. Spending on env protection should be incr or decreased
+960562    Pre. Spending on public schools should be increased or decreased
+960563    Pre. Spending on crime reduction should be increased or decreased
+960564    Pre. Spending on child care should be increased or decreased
+960565    Pre. Spending on poor people should be incr/decr
+960566    Pre. How much of the time does R trust the fed govt to do right
+960567    Pre. Does R think that most people can be trusted
+960568    Pre. Does R agree that "People like me have no say in government"
+960569    Pre. Does R think that most pple would try to take advan of R
+960570    Pre. How similar does R think other people are to R
+960571    Pre. Is religion an important part of R's life
+960572    Pre. How much guidance does religion provide in R's life
+960573    Pre. How frequently does R pray
+960574    Pre. How frequently does R read the Bible
+960575    Pre. R's view on whether the Bible is the word of God
+960576    Pre. Does R attend religious services (apart from special events)
+960577    Pre. Does R consider himself/herself part of a church
+960578    Pre. How frequently does R attend religious services
+960579    Pre. Does R attend religious services more often than once a week
+960580    Pre. (Interviewer checkpoint) Does R attend a place of worship
+960581    Pre. Religious affiliation of R's place of worship
+960582    Pre. R's religious affiliation
+960583    Pre. (Protestant) R's church/denomination
+960584    Pre. With what Baptist group is R's church affiliated
+960585    Pre. (Baptist) Is R's church local or affil with a Baptist grp
+960586    Pre. With what Lutheran group is R's church affiliated
+960587    Pre. With what Methodist group is R's church affiliated
+960588    Pre. With what Presbyterian group is R's church affiliated
+960589    Pre. With what Reformed group is R's church affiliated
+960590    Pre. With what Brethren group is R's church affiliated
+960591    Pre. By "Christian" does R mean Disciples of Christ
+960592    Pre. With what Church of Christ group is R's church affiliated
+960593    Pre. With what Church of God group is R's church affiliated
+960594    Pre. (Holiness or Pentecostal) What is R's church
+960595    Pre. (Other Protestant group) What is the name/affil of R's church
+960596    Pre. (Not Prot/Cath/Jewish) What is R's place of worship
+960597    Pre. (R not alry ident as Chrst) Is R's place of worship Christian
+960598    Pre. (Jewish) Is R (or R's place of worship) Orth, Conser, or Ref
+960599    Pre. Is R officially a member of a place of worship
+960600    Pre. Type of R's Christianity
+960601    Pre. Is R a born-again Christian
+960602    Pre. Summary of R's religion
+960603    Pre. R's month of birth
+960604    Pre. R's year of birth
+960605    Pre. R's Age
+960606    Pre. R's marital status
+960607    Pre. Highest grade R has completed
+960608    Pre. Has R earned a high school diploma/passed the GED
+960609    Pre. Highest degree R has earned
+960610    Pre. Summary of R's education
+960611    Pre. Highest grade R's spouse has completed
+960612    Pre. Has R's spouse earned a high sch diploma earned/pass the GED
+960613    Pre. Highest degree R's spouse has earned
+960614    Pre. Summary of R's spouse's education
+960615    Pre. R's employment status
+960616    Pre. R's employment status (collapsed)
+960617    Pre. (Unemployed) Has R ever worked for pay
+960618    Pre. (Unemployed) Past occupation code
+960619    Pre. (Unemployed) Collapsed past occupation code
+960620    Pre. (Unemployed) Past occupation prestige score
+960621    Pre. (Unemployed) Past business/industry code
+960622    Pre. (Unemployed) Was R self-employed
+960623    Pre. (Unemployed) Did R work for the government
+960624    Pre. (Unemployed) Has R worked for pay in the last six months
+960625    Pre. (Unemployed) Hours per week R worked
+960626    Pre. (Unemployed) Is R looking for work
+960627    Pre. (Unemployed) How worried is R about finding work
+960628    Pre. (Retired) Month of retirement
+960629    Pre. (Retired) Year of retirement
+960630    Pre. (Retired) Past occupation code
+960631    Pre. (Retired) Collapsed past occupation code
+960632    Pre. (Retired) Past occupation prestige score
+960633    Pre. (Retired) Past business/industry code
+960634    Pre. (Retired) Was R self-employed
+960635    Pre. (Retired) Did R work for the government
+960636    Pre. (Retired) Has R worked for pay in the last six months
+960637    Pre. (Retired) Hours per week R worked
+960638    Pre. (Retired) Is R currently working for pay
+960639    Pre. (Retired) Is R looking for work
+960640    Pre. (Retired) How worried is R about finding work
+960641    Pre. (Disabled) Has R ever worked for pay
+960642    Pre. (Disabled) Past occupation code
+960643    Pre. (Disabled) Collapsed past occupation code
+960644    Pre. (Disabled) Past occupation prestige score
+960645    Pre. (Disabled) Past business/industry code
+960646    Pre. (Disabled) Was R self-employed
+960647    Pre. (Disabled) Did R work for the government
+960648    Pre. (Disabled) Has R worked for pay in the last six months
+960649    Pre. (Disabled) Hours per week R worked
+960650    Pre. (Disabled) Is R currently working for pay
+960651    Pre. (Disabled) Is R looking for work
+960652    Pre. (Disabled) How worried is R about finding work
+960653    Pre. (Homemaker/Student) Is R currently working for pay
+960654    Pre. (Homemaker/Student) Has R worked for pay in the last 6 mos
+960655    Pre. (Homemaker/Student) Past occupation code
+960656    Pre. (Homemaker/Student) Collapsed past occupation code
+960657    Pre. (Homemaker/Student) Past occupation prestige score
+960658    Pre. (Homemaker/Student) Past business/industry code
+960659    Pre. (Homemaker/Student) Was R self-employed
+960660    Pre. (Homemaker/Student) Did R work for the government
+960661    Pre. (Homemaker/Student) Hours per week R worked
+960662    Pre. (Homemaker/Student) Is R looking for work
+960663    Pre. (Homemaker/Student) How worried is R about finding work
+960664    Pre. (Working now) Occupation code
+960665    Pre. (Working now) Collapsed occupation code
+960666    Pre. (Working now) Occupation prestige score
+960667    Pre. (Working now) Business/industry code
+960668    Pre. (Working now) Is R self-employed
+960669    Pre. (Working now) Does R work for the government
+960670    Pre. (Working now) Hours per week R works
+960671    Pre. (Working now) Is R satisfied with num hrs R works per week
+960672    Pre. (Working now) How worried is R about losing job
+960673    Pre. (Working now) Was R out of work in the last six months
+960674    Pre. (Working now) Did R have reduction in wrk hrs in last 6 mos
+960675    Pre. Stacked -- R occupation code
+960676    Pre. Stacked -- R collapsed occupation code
+960677    Pre. Stacked -- R occupation prestige score
+960678    Pre. Stacked -- R business/industry code
+960679    Pre. Stacked -- is R self-employed
+960680    Pre. Stacked -- does R work for the government
+960681    Pre. Stacked -- hours per week R worked
+960682    Pre. Stacked -- how worried is R about finding/losing job
+960683    Pre. Stacked -- has R worked for pay in the last six months
+960684    Pre. Stacked -- is R looking for work
+960685    Pre. Stacked -- has R ever worked for pay
+960686    Pre. R's spouse's employment status
+960687    Pre. R spouse employment status (collapsed)
+960688    Pre. Has R's spouse ever worked for pay
+960689    Pre. (Spouse retired) Month of retirement
+960690    Pre. (Spouse retired) Year of retirement
+960691    Pre. Is R's spouse currently working for pay
+960692    Pre. Has R's spouse worked for pay in the last six months
+960693    Pre. R's spouse's occupation code (1)
+960694    Pre. R's spouse's occupation code (collapsed) (1)
+960695    Pre. R's spouse's occupation prestige score (1)
+960696    Pre. R's spouse's business/industry code (1)
+960697    Pre. R's spouse's average hours worked per week (1)
+960698    Pre. Do any of R's household members belong to a labor union
+960699    Pre. R's household members who belong to a labor union
+960700    Pre. (Interviewer checkpoint) is R the only hsehold member 14+
+960701    Pre. R's family income in 1995
+960702    Pre. R's own income in 1995
+960703    Pre. R's ethnic/nationality group -- MENTION 1
+960704    Pre. R's ethnic/nationality group -- MENTION 2
+960705    Pre. (Interviewer checkpoint) # of ethnic/national grps mentioned
+960706    Pre. Ethnic/nationality group with which R most closely identifies
+960707    Pre. Were both of R's parents born in the United States
+960708    Pre. Is R of Spanish/Hispanic origin or descent
+960709    Pre. Category of Hispanic origin that best describes R
+960710    Pre. R's father's occupation code
+960711    Pre. Where did R grow up
+960712    Pre. How long has R lived in R's present city
+960713    Pre. How long has R  lived in R's present house
+960714    Pre. Does R own a home or pay rent
+960715    Pre. How many miles does R drive in a typical day
+960716    Pre. Clinton Position A4-A9a(5) Random [Likes/Dislikes]
+960717    Pre. Dole Position A4-A9a(5) Random [Likes/Dislikes]
+960718    Pre. Perot Position A4-A9a(5) Random [Likes/Dislikes]
+960719    Pre. Gore Position Thermometer Random (D1d-D1w)
+960720    Pre. Kemp Position Thermometer Random (D1d-D1w)
+960721    Pre. Choate/Campbell Position Therm Random (D1d-D1w)
+960722    Pre. Democratic Hse Cand Pos Thermometer Random (D1d-D1w)
+960723    Pre. Republican Hse Cand Pos Thermometer Random (D1d-D1w)
+960724    Pre. Retiring Hse Representative Position Therm Random (D1d-D1w)
+960725    Pre. Hillary Clinton Position Thermometer Random (D1d-D1w)
+960726    Pre. Buchanan Position Thermometer Random (D1d-D1w)
+960727    Pre. Jackson Position Thermometer Random (D1d-D1w)
+960728    Pre. Gingrich Position Thermometer Random (D1d-D1w)
+960729    Pre. Powell Position Thermometer Random (D1d-D1w)
+960730    Pre. Forbes Position Thermometer Random (D1d-D1w)
+960731    Pre. Gramm Position Thermometer Random (D1d-D1w)
+960732    Pre. Farrakhan Position Thermometer Random (D1d-D1w)
+960733    Pre. Alexander Position Thermometer Random (D1d-D1w)
+960734    Pre. Elizabeth Dole Position Thermometer Random (D1d-D1w)
+960735    Pre. Robertson Position Thermometer Random (D1d-D1w)
+960736    Pre. Democratic Party Position Thermometer Random (D2a-D2b)
+960737    Pre. Republican Party Position Thermometer Random (D2a-D2b)
+960738    Pre. Economy Position in Presidential Performance Random E2-E5
+960739    Pre. Foreign Affairs Postion in Pres Performance Random E2-E5
+960740    Pre. Environment Position in Pres Performance Random E2-E5
+960741    Pre. Health Care Position in Pres Performance Random E2-E5
+960742    Pre. Order: random Pres Cand names E6a-E6d,E7,E8 perform items
+960743    Pre. Environment Position in Cand Performance Random E6a-E6b
+960744    Pre. Budget Deficit Position in Cand Performance Random E6a-E6b
+960745    Pre. Public Educ- Position in Cand Performance Random E6a-E6b
+960746    Pre. Reduce Spec Interests -Pos in Cand Perform Random E6a-E6b
+960747    Pre. Republican Party Position F1-F4a(5) Random [Likes/Dislikes]
+960748    Pre. Democratic Party Position F1-F4a(5) Random [Likes/Dislikes]
+960749    Pre. Clinton Position in G1a-G3d(1) Random [Pres Cand Affects]
+960750    Pre. Dole Position in G1a-G3d(1) Random [Pres Candidate Affects]
+960751    Pre. Perot Position in G1a-G3d(1) Random [Pres Cand Affects]
+960752    Pre. Angry in G1a-G1d(1) Randomization [Clinton Affects]
+960753    Pre. Hopeful in G1a-G1d(1) Randomization [Clinton Affects]
+960754    Pre. Afraid in G1a-G1d(1) Randomization [Clinton Affects]
+960755    Pre. Proud in G1a-G1d(1) Randomization [Clinton Affects]
+960756    Pre. Angry in G2a-G2d(1) Randomization [Dole Affects]
+960757    Pre. Hopeful in G2a-G2d(1) Randomization [Dole Affects]
+960758    Pre. Afraid in G2a-G2d(1) Randomization [Dole Affects]
+960759    Pre. Proud in G2a-G2d(1) Randomization [Dole Affects]
+960760    Pre. Angry in G3a-G3d(1) Randomization [Perot Affects]
+960761    Pre. Hopeful in G3a-G3d(1) Randomization [Perot Affects]
+960762    Pre. Afraid in G3a-G3d(1) Randomization [Perot Affects]
+960763    Pre. Proud in G3a-G3d(1) Randomization [Perot Affects]
+960764    Pre. Clinton Pos in G5-G7a Random [Lib-Con Place of Pres.Cands]
+960765    Pre. Dole Pos in G5-G7a Random [Lib-Con of Pres. Cand]
+960766    Pre. Perot Pos in G5-G7a Random [Lib-Con of Pres. Cand]
+960767    Pre. Dem Hse Cand Pos in G8-G9a Random [Lib-Con Hse Cand Pl]
+960768    Pre. Rep Hse Cand Pos in G8-G9a Random [Lib-Con Hse Cand Pl]
+960769    Pre. Dem Party Position in G10-G11 Random [Lib-Con Party Pl]
+960770    Pre. Rep Party Position in G10-G11 Random [Lib-Con Party Pl]
+960771    Pre. Order of randomized parties in H4a-H4h performance items
+960772    Pre. Pos of Nation's Econ in H4a-H4h Rand [Pres Cand Perform]
+960773    Pre. Pos of Foreign Affairs in H4a-H4h Rand [Pres Cand Perform]
+960774    Pre. Pos of Health Care in H4a-H4h Random [Pres Cand Perform]
+960775    Pre. Pos of Welfare Reform in H4a-H4h Random [Pres Cand Perform]
+960776    Pre. Pos of Poverty in H4a-H4h Randomization [Pres Cand Perform]
+960777    Pre. Pos of Budget Deficit in H4a-H4h Random [Pres Cand Perform]
+960778    Pre. Pos of Pollut/Envir in H4a-H4h Random [Pres Cand Perform]
+960779    Pre. Pos of Crime in H4a-H4h Random [Pres Cand Performance]
+960780    Pre. Order of parties in H5 perform item [Cut Soc Security]
+960781    Pre. Order of parties in H6 perform item [Imprve Race Relat]
+960782    Pre. Order of parties in H7 perform item [Raise Taxes]
+960783    Pre. Order of parties in H8 perform item [Keep Out of War]
+960784    Pre. Order of House cand names in H13a [Incumbency Status]
+960785    Pre. Pos of Intelligent in K2a-j Random [Clinton Traits]
+960786    Pre. Pos of Compassionate in K2a-j Random [Clinton Traits]
+960787    Pre. Pos of Moral in K2a-j Random [Clinton Traits]
+960788    Pre. Pos of Inspiring in K2a-j Random [Clinton Traits]
+960789    Pre. Pos of Strong Leadership in K2a-j Random [Clinton Traits]
+960790    Pre. Pos of Really Cares in K2a-j Random [Clinton Traits]
+960791    Pre. Pos of Knowledgeable in K2a-j Random [Clinton Traits]
+960792    Pre. Pos of Honest in K2a-j Random [Clinton Traits]
+960793    Pre. Pos of Gets Things Done in K2a-j Random [Clinton Traits]
+960794    Pre. Pos of Dole in K3a-K3g/K4a-K4g Random [Pres Cand Traits]
+960795    Pre. Pos of Perot in K3a-K3g/K4a-K4g Random [Pres Cand Traits]
+960796    Pre. Pos of Moral in K3-K3g/K4a-K4g Random [Dole/PerotTraits]
+960797    Pre. Pos of Inspiring in K3-K3g/K4a-K4g Random [Dole/PerotTraits]
+960798    Pre. Pos of Strong Lead in K3-K3g/K4a-K4g [Dole/PerotTraits]
+960799    Pre. Really Cares in K3-K3g/K4a-K4g Random [Dole/Perot
+960800    Pre. Knowledgeable in K3-K3g/K4a-K4g Random [Dole/PerotTraits]
+960801    Pre. Honest in K3-K3g/K4a-K4g Random [Dole/PerotTraits]
+960802    Pre. Gets Things Done in K3-K3g/K4a-K4g Random [Dole/PerotTraits]
+960803    Pre. Clinton in L1b-L1d Random [Pres Cand Services/Spend scales]
+960804    Pre. Dole in L1b-L1d Random [Pres Cand Services/Spending scales]
+960805    Pre. Perot in L1b-L1d Random [Pres Cand Services/Spending scales]
+960806    Pre. Dem House Cand in L1e-L1f Random [Services/Spending scale]
+960807    Pre. Rep House Cand in L1e-L1f Random [Services/Spending scale]
+960808    Pre. Dem Party in L1g-L1h Random [Services/Spending scale]
+960809    Pre. Rep Party in L1g-L1h Random [Services/Spending scale]
+960810    Pre. Clinton in L2b-L2d Random [Defense Spending scale]
+960811    Pre. Dole in L2b-L2d Random [Defense Spending scale]
+960812    Pre. Perot in L2b-L2d Random [Defense Spending scale]
+960813    Pre. Dem House cand in L2e-L2f Random [Defense Spending scale]
+960814    Pre. Rep House cand in L2e-L2f Random [Defense Spending scale]
+960815    Pre. Dem Party in L2e-L2f Random [Defense Spending scale]
+960816    Pre. Rep Party in L2e-L2f Random [Defense Spending scale]
+960817    Pre. Clinton in L3b-L3d Random [Gov Health Insurance scale]
+960818    Pre. Dole in L3b-L3d Random [Gov Health Insurance scale]
+960819    Pre. Perot in L3b-L3d Random [Gov Health Insurance scale]
+960820    Pre. Clinton in L4b-L4d Random [Gov Gur Job/Standard of Livin
+960821    Pre. Dole in L4b-L4d Random [Gov Gur Job/Standard of Living sc
+960822    Pre. Perot in L4b-L4d Random [Gov Gur Job/Standard of Living s
+960823    Pre. Clinton in L5b-L5d Randomization [Gov Ass to Blacks scale]
+960824    Pre. Dole in L5b-L5d Randomization [Gov Ass to Blacks scale]
+960825    Pre. Perot in L5b-L5d Randomization [Gov Ass to Blacks scale]
+960826    Pre. Food Stamps in L6a-L6g Randomization [Federal Spending]
+960827    Pre. Welfare Programs in L6a-L6g Randomization [Federal Spending]
+960828    Pre. AIDS Research in L6a-L6g Randomization [Federal Spending]
+960829    Pre. Foreign Aid in L6a-L6g Randomization [Federal Spending]
+960830    Pre. Aid to College Students in L6a-L6g Random [Fed Spending]
+960831    Pre. Assistance to the Homeless in L6a-L6g Random [Fed Spending]
+960832    Pre. Prevent Illegal Immigr in L6a-L6g Random [Fed Spending]
+960833    Pre. Clinton in M1b-M1d Random [Abortion Scale]
+960834    Pre. Dole in M1b-M1d Random [Abortion Scale]
+960835    Pre. Perot in M1b-M1d Random [Abortion Scale]
+960836    Pre. Dem House Cand in M1e-M1f Random [Abortion Scale]
+960837    Pre. Rep House Cand in M1e-M1f Random [Abortion Scale]
+960838    Pre. Dem Party in M1g-M1h Randomization [Abortion Scale]
+960839    Pre. Republican Party in M1g-M1h Random [Abortion Scale]
+960840    Pre. Clinton in M2b-M2d Random [Crime Scale]
+960841    Pre. Dole in M2b-M2d Random [Crime Scale]
+960842    Pre. Perot in M2b-M2d Random [Crime Scale]
+960843    Pre. Clinton in M3b-M3d Random [Jobs/Environment Scale]
+960844    Pre. Dole in M3b-M3d Random [Jobs/Environment Scale]
+960845    Pre. Perot in M3b-M3d Random [Jobs/Environment Scale]
+960846    Pre. Dem Party in M3e-M3f Random [Jobs/Environment Scale]
+960847    Pre. Rep Party in M3e-M3f Random [Jobs/Environment Scale]
+960848    Pre. Clinton in M4b-M4d Random [Environmental Regulation Scale]
+960849    Pre. Dole in M4b-M4d Random [Environmental Regulation Scale]
+960850    Pre. Perot in M4b-M4d Random [Environmental Regulation Scale]
+960851    Pre. Dem Party in M4e-M4f Random [Environmental Regulation Scale]
+960852    Pre. Rep Party in M4e-M4f Random [Environmental Regulation Scale]
+960853    Pre. Clinton in N1b-N1d Random [Women's Role]
+960854    Pre. Dole in N1b-N1d Random [Women's Role]
+960855    Pre. Perot in N1b-N1d Random [Women's Role]
+960856    Pre. Pres. cand names in text of N3a [Who R Would Most Like Pres]
+960857    Pre. Social Security Benefits in N5a-N5f [Federal Spending]
+960858    Pre. Improve/Protect the Environment in N5a-N5f [Fed Spending]
+960859    Pre. Public Schools in N5a-N5f [Federal Spending]
+960860    Pre. Dealing with Crime in N5a-N5f [Federal Spending]
+960861    Pre. Child Care in N5a-N5f [Federal Spending]
+960862    Pre. Poor People in N5a-N5f [Federal Spending]
+960900    Post. 1996 Post ID
+960901    Post. Form of questionnaire
+960902    Post. Day of interview
+960903    Post. Month of interview
+960904    Post. Number of days since election day
+960905    Post. Beginning time (local)
+960906    Post. Ending time (local)
+960907    Post. Interview length in minutes
+960908    Post. Interview number
+960909    Post. Date of beginning VQ file
+960910    Post. Date of ending VQ file
+960911    Post. Respondent payment amount
+960912    Post. Was the interview tape recorded
+960913    Post. Verification indicator
+960914    Post. Evaluation indicator
+960915    Post. Refusal conversion indicator
+960916    Post. Was R sent a persuasion letter
+960917    Post. Type of persuasion letter sent to R
+960918    Post. Number of telephone calls
+960919    Post. Number of face to face calls
+960920    Post. Total number of calls (phone + FtF)
+960921    Post. Final result on interview
+960922    Post. Beginning mode of interview
+960923    Post. Ending mode of interview
+960924    Post. R live at same address
+960925    Post. R name/birth/gender same
+960926    Post. Type of structure in which R lives
+960927    Post. Did R refuse initially
+960928    Post. Did R break any appointments
+960929    Post. Was there resistance from this person
+960930    Post. Reason for resistance - waste of time/bad experience
+960931    Post. Reason for resistance - very ill
+960932    Post. Reason for resistance - too busy
+960933    Post. Reason for resistance - stressful family situation
+960934    Post. Reason for resistance - confidentiality
+960935    Post. Reason for resistance - invasion of privacy
+960936    Post. Reason for resistance - no reason given
+960937    Post. Reason for resistance - other
+960938    Post. Others present at the interview
+960939    Post. R's level of cooperation
+960940    Post. R's level of information about politics
+960941    Post. R's apparent intelligence
+960942    Post. R's suspiciousness
+960943    Post. R's interest in interview
+960944    Post. R's sincerity
+960945    Post. #1 reaction to interview
+960946    Post. #2 reaction to interview
+960947    Post. #3 reaction to interview
+960948    Post. #4 reaction to interview
+960949    Post. #5 reaction to interview
+960950    Post. #6 reaction to interview
+960951    Post. #7 reaction to interview
+960952    Post. #8 reaction to interview
+960953    Post. Interviewer of record ID
+960954    Post. Field supervisor ID
+960955    Post. Interviewer gender
+960956    Post. Interviewer education
+960957    Post. Interviewer race
+960958    Post. Interviewer ethnicity
+960959    Post. Interviewer languages
+960960    Post. Interviewer experience
+960961    Post. Interviewer age
+961001    Post. R's interest in the political campaign
+961002    Post. Did R watch any programs about the campaign
+961003    Post. Amount of programs R watched about the campaign
+961004    Post. Did R discuss politics with family/friends
+961005    Post. Frequency of political discussion w/ friends/family
+961006    Post. Does R recall names of congressional candidates
+961007    Post. #1 recall - code
+961008    Post. #1 recall - party
+961009    Post. #1 recall - actual party
+961010    Post. #1 recall - summary
+961011    Post. #2 recall - code
+961012    Post. #2 recall - party
+961013    Post. #2 recall - actual party
+961014    Post. #2 recall - summary
+961015    Post. #3 recall - code
+961016    Post. #3 recall - party
+961017    Post. #3 recall - actual party
+961018    Post. #3 recall - summary
+961019    Post. Feeling thermometer - Bill Clinton
+961020    Post. Feeling thermometer - Bob Dole
+961021    Post. Feeling thermometer - Ross Perot
+961022    Post. Feeling thermometer - Democratic House Candidate
+961023    Post. Feeling thermometer - Republican House Candidate
+961024    Post. Feeling thermometer - Retiring House Candidate
+961025    Post. Feeling thermometer - Supreme Court
+961026    Post. Feeling thermometer - Congress
+961027    Post. Feeling thermometer - The military
+961028    Post. Feeling thermometer - Federal government
+961029    Post. Feeling thermometer - blacks
+961030    Post. Feeling thermometer - whites
+961031    Post. Feeling thermometer - conservatives
+961032    Post. Feeling thermometer - liberals
+961033    Post. Feeling thermometer - labor unions
+961034    Post. Feeling thermometer - big business
+961035    Post. Feeling thermometer - poor people
+961036    Post. Feeling thermometer - people on welfare
+961037    Post. Feeling thermometer - Hispanics
+961038    Post. Feeling thermometer - Christian fundamentalists
+961039    Post. Feeling thermometer - the women's movement
+961040    Post. Feeling thermometer - older people
+961041    Post. Feeling thermometer - environmentalists
+961042    Post. Feeling thermometer - gay men and lesbians
+961043    Post. Feeling thermometer - the Christian coalition
+961044    Post. Was there anything R liked about Dem House candidate
+961045    Post. #1 mention - R like of Democratic House candidate
+961046    Post. #2 mention - R like of Democratic House candidate
+961047    Post. #3 mention - R like of Democratic House candidate
+961048    Post. #4 mention - R like of Democratic House candidate
+961049    Post. #5 mention - R like of Democratic House candidate
+961050    Post. Was there anything R disliked about Dem House candidate
+961051    Post. #1 mention - R dislike of Democratic House candidate
+961052    Post. #2 mention - R dislike of Democratic House candidate
+961053    Post. #3 mention - R dislike of Democratic House candidate
+961054    Post. #4 mention - R dislike of Democratic House candidate
+961055    Post. #5 mention - R dislike of Democratic House candidate
+961056    Post. Was there anything R liked about Repub House candidate
+961057    Post. #1 mention - R like of Republican House candidate
+961058    Post. #2 mention - R like of Republican House candidate
+961059    Post. #3 mention - R like of Republican House candidate
+961060    Post. #4 mention - R like of Republican House candidate
+961061    Post. #5 mention - R like of Republican House candidate
+961062    Post. Was there anything R disliked about Repub House cand
+961063    Post. #1 mention - R dislike of Republican House candidate
+961064    Post. #2 mention - R dislike of Republican House candidate
+961065    Post. #3 mention - R dislike of Republican House candidate
+961066    Post. #4 mention - R dislike of Republican House candidate
+961067    Post. #5 mention - R dislike of Republican House candidate
+961068    Post. Does R know if either House candidate is the incumbent
+961069    Post. Code of candidate recalled as House incumbent
+961070    Post. If only 1 candidate ran - was that candidate incumbent
+961071    Post. Unopposed race: Code of cand recalled as House incum
+961072    Post. Does R recall which party was in majority in the House
+961073    Post. Does R recall which party was in majority in the Senate
+961074    Post. Did R vote
+961075    Post. Was R registered
+961076    Post. Is R registered to vote in county
+961077    Post. (If not registered in county) What county registered in
+961078    Post. Did R vote on Nov 5th or before that
+961079    Post. (If before) How long before Nov 5th
+961080    Post. Did R vote is person or by absentee ballot
+961081    Post. Did R vote for candidate for president
+961082    Post. Which presidential candidate did R vote for
+961083    Post. Was R's preference for presidential candidate strong
+961084    Post. How long before election had R decided who to vote for
+961085    Post. If R had > 1 vote, who else would have voted for - #1
+961086    Post. If R had > 1 vote, who else would have voted for - #2
+961087    Post. Did R vote for U.S. House candidate
+961088    Post. R's vote - U.S. House candidate - code
+961089    Post. R's vote - U.S. House candidate - party
+961090    Post. Was there a senate race in state of interview
+961090A   Post. Senate race in state of vote 
+961091    Post. Did R vote for a Senate candidate
+961092    Post. R's vote - Senate - code
+961093    Post. R's vote - Senate - party
+961094    Post. #1 - Kansas Senate race - code
+961095    Post. #1 - Kansas Senate race - party
+961096    Post. #2 - Kansas Senate race - code
+961097    Post. #2 - Kansas Senate race - party
+961098    Post. (If R did not vote) Did R prefer a cand for president
+961099    Post. (If R did not vote) Which candidate did R prefer
+961100    Post. (If R did not vote) Was R's preference strong/not
+961101    Post. (If R did not vote) Did R prefer candidate for House
+961102    Post. (If R did not vote) Which House cand did R prefer - code
+961103    Post. (If R did not vote) Which House cand R prefer - party
+961104    Post. Assignment to half sample
+961105    Post. Level of govt effort to protect the environment
+961106    Post. Level of govt effort to reduce air pollution
+961107    Post. Level of govt effort to manage natural resources
+961108    Post. Level of govt effort to clean up lakes and parks
+961109    Post. Level of govt effort to clean up toxic waste
+961110    Post. Level of govt effort to clean up solid waste
+961111    Post. Level of govt effort to address global warming
+961112    Post. Trait: Clinton - moral
+961113    Post. Certainty of Clinton - moral
+961114    Post. Trait: Clinton - gets things done
+961115    Post. Certainty of Clinton - gets things done
+961116    Post. Trait: Dole - moral
+961117    Post. Certainty of Dole - moral
+961118    Post. Trait: Dole - gets things done
+961119    Post. Certainty of Dole - gets things done
+961120    Post. Trait: Perot - gets things done
+961121    Post. Certainty of Perot - gets things done
+961122    Post. Checkpoint: Running incumbent in R's district
+961123    Post. Does R approve/disapprove of running House incumbent
+961124    Post. Strength of R's approval/disapproval of House incumbent
+961125    Post. Does R know the number yrs that incum has been in House
+961126    Post. (If yes) How many years has incumbent been in House
+961127    Post. (If DK) Has incum been in House less/about/more 12 yrs
+961128    Post. How well has incumbent kept in touch with district
+961129    Post. Does R know House incumbent's vote on welfare reform
+961130    Post. (If DK) R's guess -House incumb vote on welfare reform
+961131    Post. How often does R thinkHouse incumbent supports Clinton
+961132    Post. (If more than half) Almost always
+961133    Post. (If less than half) Almost never
+961134    Post. How much does R follow government and public affairs
+961135    Post. Checkpoint: Half-sample
+961136    Post. What does R think is most imp prob facing country - #1
+961137    Post. What does R think is most imp prob facing country - #2
+961138    Post. What does R think is most imp prob facing country - #3
+961139    Post. What does R think is most imp prob facing country - #4
+961140    Post. Checkpoint: Number of mentions- 'Most important problem'
+961141    Post. What does R think is the single most important problem
+961142    Post. How does R think fed govt is handling most imp problem
+961143    Post. Which party would do better job on most imp prob
+961144    Post. Does R think: Less govt the better /govt should do more
+961145    Post. Does R think: Strg govt for econ prob /free markts handle
+961146    Post. Does R think: Govt big -too involved/govt big -probs big
+961147    Post. Does R think: More import to be cooperative / self-reliant
+961148    Post. How often does R watch 'Jeopardy' and 'Wheel of Fortune'
+961149    Post. How often does R watch sports on TV
+961150    Post. How often does R watch 'ER' on TV
+961151    Post. How often does R watch 'Frasier' on TV
+961152    Post. How often does R watch 'Dr. Quinn' on TV
+961153    Post. How of does R watch 'Friends' on TV
+961154    Post. How often does R watch 'Prime Time Live' on TV
+961155    Post. Does R ever listen to political talk radio programs
+961156    Post. How often does R listen to polit talk radio program
+961157    Post. How much attention does R pay polit talk radio programs
+961158    Post. Does R ever listen to Rush Limbaugh
+961159    Post. How often does R listen to Rush Limbaugh
+961160    Post. Does R have access to the Internet or the World Wide Web
+961161    Post. Did R see any information about campaign on the Internet
+961162    Post. Was R contacted by any political party
+961163    Post. Which party contracted R
+961164    Post. Did anyone else contact R about candidate in the election
+961165    Post. Did R talk to others about voting for/against party or cand
+961166    Post. Did R wear a button, place a sign, or put a sticker on car
+961167    Post. Did R attend any meetings, speeches, rallies for cand
+961168    Post. Did R work for any one of the parties or candidates
+961169    Post. Did R contribute money to a candidate running for office
+961170    Post. Which party the candidate that R contributed to belong
+961171    Post. Did R give money to a polit cand during election year
+961172    Post. Which party did R contribute money to
+961173    Post. Did R give money to other group that supported/opposed cand
+961174    Post. Did anyone talk to R about registering to vote
+961175    Post. Did relig/moral group contact R about R's vote
+961176    Post. Campaign information available at R's place of worship
+961177    Post. Did R's clergy give advice to R on how to vote
+961178    Post. Which candidate did R's clergy recommend - #1 mention
+961179    Post. Which candidate did R's clergy recommend - #2 mention
+961180    Post. Which candidate did R's clergy recommend - #3 mention
+961181    Post. Checkpoint: Half-sample
+961182    Post. Does R think there are imp diffs between Reps and Dems
+961183    Post. Important difference: #1 mention
+961183A   Post. Important difference: Party reference - #1 mention
+961184    Post. Important difference: #2 mention
+961184A   Post. Important difference: Party reference - #2 mention
+961185    Post. Important difference: #3 mention
+961185A   Post. Important difference: Party reference - #3 mention
+961186    Post. Important difference: #4 mention
+961186A   Post. Important difference: Party reference - #4 mention
+961187    Post. Important difference: #5 mention
+961187A   Post. Important difference: Party reference - #5 mention
+961188    Post. Important difference: #6 mention
+961188A   Post. Important difference: Party reference - #6 mention
+961189    Post. Does R know what office Al Gore holds
+961190    Post. Does R know what office William Rehnquist hold
+961191    Post. Does R know what office Boris Yeltsin holds
+961192    Post. Does R know what office Newt Gingrich holds
+961193    Post. Does R favor/opp laws to protect homosexuals fr job discrim
+961194    Post. How strongly favor/oppose laws protecting homosexuals
+961195    Post. Does R think homosexuals should be allowed in the army
+961196    Post. How strongly feel homosexuals serve / not serve in army
+961197    Post. Does R favor or oppose the death penalty
+961198    Post. How strongly favor /oppose death penalty
+961199    Post. R agree/disagree: mothers w/ children should not work
+961200    Post. Which level of govt should handle envir problems
+961201    Post. Which level of govt should handle welfare
+961202    Post. Which level of govt should handle crime
+961203    Post. In which level govt does R have most faith /confidence
+961204    Post. In which level govt does R have least faith / confidence
+961205    Post. Does R have opinion: govt see to fair job treatmt for blacks
+961206    Post. R opinion: govt see to fair job treatment for blacks
+961207    Post. How strongly feel about fair job treat for blacks
+961208    Post. Does R favor affirmative action in hiring and promotion
+961209    Post. Does R favor/oppose affir action strongly / not strongly
+961210    Post. R's position on aid to blacks - 7 point scale
+961211    Post. Clinton's position on aid to blacks - 7 point scale
+961212    Post. Dole's position on aid to blacks - 7 point scale
+961213    Post. Perot's position on aid to blacks - 7 point scale
+961214    Post. R's opinion on the issue of school prayer
+961215    Post. Strength of R's position on school prayer
+961216    Post. How afraid is R of being crime victim in the coming year
+961217    Post. Does R favor / oppose handgun control
+961218    Post. (Phone IW only) Does R have a handgun in the house
+961219    Post. R favor increasing deficit to increase domestic programs
+961220    Post. R favor cuts in domestic programs to cut taxes
+961221    Post. R favor an increase in the deficit to cut taxes
+961222    Post. How would R rate quality of air in our nation
+961223    Post. How would R rate quality of air in R's local community
+961224    Post. How would R rate quality of drinking water in our nation
+961225    Post. How would R rate quality of drinking water in community
+961226    Post. R favor tax increase to increase spending on domestic progs
+961227    Post. R favor cuts in spending on domestic progs to cut taxes
+961228    Post. Does R favor an increase in taxes to cut budget deficit
+961229    Post. R opinion: Society should see to equal opportunity
+961230    Post. R opinion: We have gone too far pushing equal rights
+961231    Post. R opinion: Big problem is that we don't give an equal chance
+961232    Post. R opinion: Better off if we worried less about equality
+961233    Post. R opinion: Not a problem if not equal chance
+961234    Post. R opinion: Fewer problems if people treated more equally
+961235    Post. R opinion: One should help those less fortunate
+961236    Post. R opinion: One should always be concerned with others
+961237    Post. R opinion: It is best not to get involved helping others
+961238    Post. R opinion: People pay too much attn to others' wellbeing
+961239    Post. Which network does R think that Tom Brokaw works for
+961240    Post. Which network does R think that Peter Jennings works for
+961241    Post. Which network does R think that Dan Rather works for
+961242    Post. Which network does R think that Bernard Shaw works for
+961243    Post. What does R think of his/her financial situation
+961244    Post. R opinion: pub officials don't care what people like R think
+961245    Post. R opinion: People like R don't have much say in govt
+961246    Post. R opinion: Politics and govt are too complicated
+961247    Post. R opinion: Newer lifestyles contribute to social breakdown
+961248    Post. R opinion: We should adjust moral behavior to world changes
+961249    Post. R opinion: Fewer problems if more emphasis on trad'l family
+961250    Post. R opinion: We should be more tolerant of other moral stds
+961251    Post. How much of the time R trusts the govt to do what is right
+961252    Post. How much of tax money does R think the govt wastes
+961253    Post. Is govt run by a few big interests or the benefit of all
+961254    Post. How many of the people in govt are crooked
+961255    Post. How much does R think elections make govt pay attention
+961256    Post. How much attention does govt pay to people in decisions
+961257    Post. Does R have time to do volunteer work
+961258    Post. Does R think that people can be trusted
+961259    Post. Does R think that most people would take advantage of R
+961260    Post. Does R talk to neighbors regularly
+961261    Post. How many neighbors does R talk to regularly
+961262    Post. Would R be willing to serve on a jury
+961263    Post. Has R worked with others or in a community organization
+961264    Post. Has R contributed money to church or charity last 12 months
+961265    Post. R's tax burden up / down during the Clinton administration
+961266    Post. Has R's tax burden gone up / done a lot / a little
+961267    Post. Companies which discriminate shd have to have affirm action
+961268    Post. Does R feel strong / not strong about forced affirm action
+961269    Post. R's self-placement on lib-con 7 point scale
+961270    Post. How certain is R of placement on lib-con scale
+961271    Post. If R had to choose - placement on lib-con scale
+961272    Post. Summary: Self-placement on lib-con scale
+961273    Post. R's placement of Clinton - lib-con 7 point scale
+961274    Post. How certain is R of Clinton's placement on lib-con
+961275    Post. R' placement of Dole - lib-con 7 point scale
+961276    Post. How certain is R of Dole's placement on lib-con
+961277    Post. R's placement of Dem Hse cand - lib-con 7 point scale
+961278    Post. How certain is R of Dem Hse cand placement
+961279    Post. R's placement of Rep Hse cand - lib-con 7 point scale
+961280    Post. How certain is R of Rep Hse cand placement
+961281    Post. Does R feel that he/she pays the right amount in taxes
+961282    Post. Does R have an opinion on the 15% tax cut issue
+961283    Post. R's opinion on tax cut
+961284    Post. What does R think that Clinton's position on tax cut is
+961285    Post. What does R think that Dole's position on tax cut is
+961286    Post. What does R think that Perot's position on tax cut is
+961287    Post. Has R heard anything about the effects of a tax cut
+961288    Post. Does R think that inflation would increase w/ tax cut
+961289    Post. Does R think that employment would increase w/ tax cut
+961290    Post. Does R think tax cut would benefit business more than R
+961291    Post. Does R think services would be cut because of tax cut
+961292    Post. Does R think deficit would increase because of tax cut
+961293    Post. Does R think govt revenue be same even after tax cut
+961294    Post. Does R feel close to poor people
+961295    Post. Does R feel close to Asian-Americans
+961296    Post. Does R feel close to liberals
+961297    Post. Does R feel close to the elderly
+961298    Post. Does R feel close to blacks
+961299    Post. Does R feel close to labor unions
+961300    Post. Does R feel close to feminists
+961301    Post. Does R feel close to southerners
+961302    Post. Does R feel close to business people
+961303    Post. Does R feel close to young people
+961304    Post. Does R feel close to conservatives
+961305    Post. Does R feel close to Hispanic Americans
+961306    Post. Does R feel close to women
+961307    Post. Does R feel close to working-class people
+961308    Post. Does R feel close to whites
+961309    Post. Does R feel close to middle-class people
+961310    Post. Does R feel close to men
+961311    Post. Where would R rate whites on hardworking scale
+961312    Post. Where would R rate blacks on hardworking scale
+961313    Post. Where would R rate Hispanics on hardworking scale
+961314    Post. Where would R rate whites on intelligent scale
+961315    Post. Where would R rate blacks on intelligent scale
+961316    Post. Where would R rate Hispanics on intelligent scale
+961317    Post. Where would R rate whites on trustworthy scale
+961318    Post. Where would R rate blacks on trustworthy scale
+961319    Post. Where would R rate Hispanics on trustworthy scale
+961320    Post. R position: Govt reduce diff betw rich/poor 7 point scale
+961321    Post. R favor/opp welfare limit women having more children
+961322    Post. Strength - position on limiting welfare for more children
+961323    Post. Does R favor/oppose 2 year limit on welfare
+961324    Post. Strength - position on 2 year limit on welfare
+961325    Post. Should number of immigrants should be increase/decreased
+961326    Post. Does R think immigrants should be eligible for benefits
+961327    Post. Does R favor/oppose limiting imports
+961328    Post. Which network new programs does R watch most often
+961329    Post. Did R watch 1st presidential debate
+961330    Post. Did R watch the entire debate or just part of it
+961331    Post. Did R watch 2nd presidential debate
+961332    Post. Did R watch the entire debate or just part of it
+961333    Post. Did R read about the campaign in any magazine
+961334    Post. R's attention to articles about campaign in magazines
+961335    Post. Did R listen to speeches/discussions on the radio
+961336    Post. How many programs did R listen to on the radio
+961337    Post. R's attention to news about presidential campaign
+961338    Post. R's attention to news about congressional campaign
+961339    Post. How much of the time R trusts news media to report fairly
+961340    Post. Does R think the political system should remain two party
+961341    Post. How similar are R's beliefs to other people
+961342    Post. Is R a smoker
+961343    Post. Has R ever smoked
+961344    Post. Number of labor unions R is involved with
+961345    Post. Number of labor groups R is a member of
+961346    Post. Number of labor unions groups R pays dues to
+961347    Post. Number of labor unions groups R has had activities in
+961348    Post. Number of labor unions groups which discuss politics
+961349    Post. Number of business groups R is involved with
+961350    Post. Number of business groups R is a member of
+961351    Post. Number of business groups R pays dues to
+961352    Post. Number of business groups R has had activities in
+961353    Post. Number of business groups which discuss politics
+961354    Post. Number of veterans groups R is involved with
+961355    Post. Number of veterans groups R is a member of
+961356    Post. Number of veterans groups R pays dues to
+961357    Post. Number of veterans groups R has had activities in
+961358    Post. Number of veterans groups which discuss politics
+961359    Post. Number of church groups R is involved with
+961360    Post. Number of church groups R is a member of
+961361    Post. Number of church groups R pays dues to
+961362    Post. Number of church groups R has had activities in
+961363    Post. Number of church groups which discuss politics
+961364    Post. Number of other religious groups R is involved with
+961365    Post. Number of other religious groups R is a member of
+961366    Post. Number of other religious groups R pays dues to
+961367    Post. Number of other religious groups R has had activities in
+961368    Post. Number of other religious groups which discuss politics
+961369    Post. Number of elderly groups R is involved with
+961370    Post. Number of elderly groups R is a member of
+961371    Post. Number of elderly  groups R pays dues to
+961372    Post. Number of elderly groups R has had activities in
+961373    Post. Number of elderly groups which discuss politics
+961374    Post. Number of ethnic groups R is involved with
+961375    Post. Number of ethnic groups R is a member of
+961376    Post. Number of ethnic groups R pays dues to
+961377    Post. Number of ethnic groups R has had activities in
+961378    Post. Number of ethnic groups which discuss politics
+961379    Post. Number of women's groups R is involved with
+961380    Post. Number of women's groups R is a member of
+961381    Post. Number of women's groups R pays dues to
+961382    Post. Number of women's groups R has had activities in
+961383    Post. Number of women's groups which discuss politics
+961384    Post. Number of polit. issue groups R is involved with
+961385    Post. Number of polit. issue groups R is a member of
+961386    Post. Number of polit. issue groups R pays dues to
+961387    Post. Number of polit. issue groups R has had activities in
+961388    Post. Number of polit. issue groups which discuss politics
+961389    Post. Number of civic groups R is involved with
+961390    Post. Number of civic groups R is a member of
+961391    Post. Number of civic groups R pays dues to
+961392    Post. Number of civic groups R has had activities in
+961393    Post. Number of civic groups which discuss politics
+961394    Post. Number of liberal/conserv groups R is involved with
+961395    Post. Number of liberal/conserv groups R is a member of
+961396    Post. Number of liberal/conserv groups R pays dues to
+961397    Post. Number of liberal/conserv groups R has had activities in
+961398    Post. Number of liberal/conserv groups which discuss politics
+961399    Post. Number of party/cand groups R is involved with
+961400    Post. Number of party/cand groups R is a member of
+961401    Post. Number of party/cand groups R pays dues to
+961402    Post. Number of party/cand groups R has had activities in
+961403    Post. Number of party/cand groups which discuss politics
+961404    Post. Number of children's groups R is involved with
+961405    Post. Number of children's groups R is a member of
+961406    Post. Number of children's groups R pays dues to
+961407    Post. Number of children's groups R has had activities in
+961408    Post. Number of children's groups which discuss politics
+961409    Post. Number of literary/art groups R is involved with
+961410    Post. Number of literary/art groups R is a member of
+961411    Post. Number of literary/art groups R pays dues to
+961412    Post. Number of literary/art groups R has had activities in
+961413    Post. Number of literary/art groups which discuss politics
+961414    Post. Number of hobby groups R is involved with
+961415    Post. Number of hobby groups R is a member of
+961416    Post. Number of hobby groups R pays dues to
+961417    Post. Number of hobby groups R has had activities in
+961418    Post. Number of hobby groups which discuss politics
+961419    Post. Number of community groups R is involved with
+961420    Post. Number of community groups R is a member of
+961421    Post. Number of community groups R pays dues to
+961422    Post. Number of community groups R has had activities in
+961423    Post. Number of community groups which discuss politics
+961424    Post. Number of fraternal groups R is involved with
+961425    Post. Number of fraternal groups R is a member of
+961426    Post. Number of fraternal  groups R pays dues to
+961427    Post. Number of fraternal groups R has had activities in
+961428    Post. Number of fraternal groups which discuss politics
+961429    Post. Number of service to needy groups R is involved with
+961430    Post. Number of service to needy groups R is a member of
+961431    Post. Number of service to needy groups R pays dues to
+961432    Post. Number of service to needy groups R has had activities in
+961433    Post. Number of service to needy groups which discuss politics
+961434    Post. Number of educational groups R is involved with
+961435    Post. Number of educational groups R is a member of
+961436    Post. Number of educational groups R pays dues to
+961437    Post. Number of educational groups R has had activities in
+961438    Post. Number of educational groups which discuss politics
+961439    Post. Number of cultural groups R is involved with
+961440    Post. Number of cultural groups R is a member of
+961441    Post. Number of cultural groups R pays dues to
+961442    Post. Number of cultural groups R has had activities in
+961443    Post. Number of cultural groups which discuss politics
+961444    Post. Number of self-help groups R is involved with
+961445    Post. Number of self-help groups R is a member of
+961446    Post. Number of self-help groups R pays dues to
+961447    Post. Number of self-help groups R has had activities in
+961448    Post. Number of self-help groups which discuss politics
+961449    Post. Number of other groups R is involved with
+961450    Post. Number of other groups R is a member of
+961451    Post. Number of other groups R pays dues to
+961452    Post. Number of other groups R has had activities in
+961453    Post. Number of other groups which discuss politics
+961454    Post. Total Number of groups R is involved in
+961455    Post. Total Number of groups R is a member of
+961456    Post. Total Number of groups R pays dues to
+961457    Post. Total Number of groups R has had activities in
+961458    Post. Total Number of R groups which discuss politics
+961459    Post. Is R satisfied with the way that democracy works in the US
+961460    Post. Does R think that the last election was conducted fairly
+961461    Post. Does R think to self as close to a particular party
+961462    Post. Which party does R think of self as close to - #1
+961463    Post. Which party does R think of self as close to - #2
+961464    Post. Checkpoint: Number of parties that R feels close to
+961465    Post. Does R feel a little closer to one of the parties
+961466    Post. Which party does R feel closer to
+961467    Post. Strength of R's to closeness to political party
+961468    Post. R self placement on scale -'party cares what people think'
+961469    Post. Where does R place self on need for polit. parties scale
+961470    Post. R's placement of Dem party on like / dislike scale
+961471    Post. R's placement of Rep party on like / dislike scale
+961472    Post. R's placement of Reform party on like / dislike scale
+961473    Post. R's placement of Clinton on like / dislike scale
+961474    Post. R's placement of Dole on like / dislike scale
+961475    Post. R's placement of Perot on like / dislike scale
+961476    Post. How would R rate the state of the economy in the US
+961477    Post. Has the state of the economy gotten better / worse / same
+961478    Post. Has economy gotten much better / much worse
+961479    Post. R's placement on 'Congress knows what people think' scale
+961480    Post. Has R had contact with a member of Congress
+961481    Post. R's placement on 'make difference who is in power' scale
+961482    Post. R's placement on 'voting makes a difference' scale
+961483    Post. R's placement on 'people say what they think' scale
+961484    Post. R's placement on left / right scale
+961485    Post. Position of House candidates in Thermometers
+961486    Post. Position of Supreme Court in Thermometers
+961487    Post. Position of Congress in Thermometers
+961488    Post. Position of the Military in Thermometers
+961489    Post. Position of Federal Govt in Thermometers
+961490    Post. Position of Blacks in Thermometers
+961491    Post. Position of Whites in Thermometers
+961492    Post. Position of Conservatives in Thermometers
+961493    Post. Position of Liberals in Thermometers
+961494    Post. Position of Labor Unions in Thermometers
+961495    Post. Position of Big Business in Thermometers
+961496    Post. Position of Poor People in Thermometers
+961497    Post. Position of People on Welfare in Thermometers
+961498    Post. Position of Hispanics in Thermometers
+961499    Post. Position of Christian Fundamentalists in Thermometers
+961500    Post. Position of Women's Movement in Thermometers
+961501    Post. Position of Older People in Thermometers
+961502    Post. Position of Environmentalists in Thermometers
+961503    Post. Position of Gay Men and Lesbians in Thermometers
+961504    Post. Position of Christian Coalition in Thermometers
+961505    Post. Order of House candidates in Likes/Dislikes
+961506    Post. Order of Clinton and Dole in Traits
+961507    Post. Order of Clinton, Dole, Perot in Aid to Blacks scale
+961508    Post. Order of Clinton and Dole in Liberal/Conserv scale
+961509    Post. Order of House candidates in Liberal/Conserv scale
+961510    Post. Order of Clinton, Dole, Perot in Tax Cut scale
+961511    Post. Order of Blacks and Hispanics in Hardworking scale
+961512    Post. Order of Blacks and Hispanics in Intelligent scale
+961513    Post. Order of Blacks and Hispanics in Trustworthy scale
+967000A   Congressional district number
+967000B   FIPS state code
+967000C   ICPSR state code
+967000D   FIPS state and county code
+967000E   State abbreviation
+967001   Number of Democrats in lower state house 1994
+967002   Number of Republicans in lower state house 1994
+967003   Number of Democrats in upper state house 1994
+967004   Number of Republicans in upper state house 1994
+967005   Party of state governor pre-election 1996
+967006   State percent vote for Clinton 1992
+967007   State percent vote for Bush 1992
+967008   State percent vote for Perot 1992
+967009   Number of U.S. House districts in state
+967010   Number of Democrats U.S. House pre-election 1996
+967011   Number of Republicans U.S. House pre-election 1996
+967012   Erikson-Wright-McIver percent Democrats in state
+967013   Erikson-Wright-McIver percent Republicans in state
+967014   Erikson-Wright-McIver percent liberals in state
+967015   Erikson-Wright-McIver percent conservatives in state
+967016   Name of Senator #1
+967017   Party of Senator #1
+967018   Is Senator #1 running for reelection?
+967019   Name of Senator #2
+967020   Party of Senator #2
+967021   Is Senator #2 running for reelection?
+967022   Senator #1 1995 Natl Jrnl economic liberalism score
+967023   Senator #1 1995 Natl Jrnl social liberalism score
+967024   Senator #1 1995 Natl Jrnl foreign liberalism score
+967025   Senator #1 1995 Natl Jrnl economic conservatism score
+967026   Senator #1 1995 Natl Jrnl social conservatism score
+967027   Senator #1 1995 Natl Jrnl foreign conservatism score
+967028   Senator #1 1995 U.S. Chamber of Commerce score
+967029   Senator #1 1995 Party unity support score
+967030   Senator #1 1995 Party unity opposition score
+967031   Senator #1 1995 Party unity adjusted support score
+967032   Senator #1 1995 Presidential support score
+967033   Senator #1 1995 Presidential opposition score
+967034   Senator #1 1995 Presidential adjusted support score
+967035   Senator #1 1995 Conserv coalition support score
+967036   Senator #1 1995 Conserv coalition opposition score
+967037   Senator #1 1995 Conserv coalition adjusted support
+967038   Senator #1 1995 Americans for Democratic Action score
+967039   Senator #1 1996 Natl Jrnl economic liberalism score
+967040   Senator #1 1996 Natl Jrnl social liberalism score
+967041   Senator #1 1996 Natl Jrnl foreign liberalism score
+967042   Senator #1 1996 Natl Jrnl economic conservatism score
+967043   Senator #1 1996 Natl Jrnl social conservatism score
+967044   Senator #1 1996 Natl Jrnl foreign conservatism score
+967045   Senator #1 1996 U.S. Chamber of Commerce score
+967046   Senator #1 1996 Party unity support score
+967047   Senator #1 1996 Party unity opposition score
+967048   Senator #1 1996 Party unity adjusted support score
+967049   Senator #1 1996 Presidential support score
+967050   Senator #1 1996 Presidential opposition score
+967051   Senator #1 1996 Presidential adjusted support score
+967052   Senator #1 1996 Conserv coalition support score
+967053   Senator #1 1996 Conserv coalition opposition score
+967054   Senator #1 1996 Conserv coalition adjusted support
+967055   Senator #1 1996 Americans for Democratic Action score
+967056   Senator #2 1995 Natl Jrnl economic liberalism score
+967057   Senator #2 1995 Natl Jrnl social liberalism score
+967058   Senator #2 1995 Natl Jrnl foreign liberalism score
+967059   Senator #2 1995 Natl Jrnl economic conservatism score
+967060   Senator #2 1995 Natl Jrnl social conservatism score
+967061   Senator #2 1995 Natl Jrnl foreign conservatism score
+967062   Senator #2 1995 U.S. Chamber of Commerce score
+967063   Senator #2 1995 Party unity support score
+967064   Senator #2 1995 Party unity opposition score
+967065   Senator #2 1995 Party unity adjusted support score
+967066   Senator #2 1995 Presidential support score
+967067   Senator #2 1995 Presidential opposition score
+967068   Senator #2 1995 Presidential adjusted support score
+967069   Senator #2 1995 Conserv coalition support score
+967070   Senator #2 1995 Conserv coalition opposition score
+967071   Senator #2 1995 Conserv coalition adjusted support
+967072   Senator #2 1995 Americans for Democratic Action score
+967073   Senator #2 1996 Natl Jrnl economic liberalism score
+967074   Senator #2 1996 Natl Jrnl social liberalism score
+967075   Senator #2 1996 Natl Jrnl foreign liberalism score
+967076   Senator #2 1996 Natl Jrnl economic conservatism score
+967077   Senator #2 1996 Natl Jrnl social conservatism score
+967078   Senator #2 1996 Natl Jrnl foreign conservatism score
+967079   Senator #2 1996 U.S. Chamber of Commerce score
+967080   Senator #2 1996 Party unity support score
+967081   Senator #2 1996 Party unity opposition score
+967082   Senator #2 1996 Party unity adjusted support score
+967083   Senator #2 1996 Presidential support score
+967084   Senator #2 1996 Presidential opposition score
+967085   Senator #2 1996 Presidential adjusted support score
+967086   Senator #2 1996 Conserv coalition support score
+967087   Senator #2 1996 Conserv coalition opposition score
+967088   Senator #2 1996 Conserv coalition adjusted support
+967089   Senator #2 1996 Americans for Democratic Action score
+967090   CQ pre-election Senate race outlook
+967091   Democratic Senate candidate prior political experience
+967092   Republican Senate candidate prior political experience
+967093   Kansas race #2: Democratic political experience
+967094   Kansas race #2: Republican political experience
+967095   Total votes cast for Democratic Senate candidate 1996
+967096   Total votes cast for Republican Senate candidate 1996
+967097   Total votes cast in Senate race 1996
+967098   Kansas race #2: Total votes Democratic candidate
+967099   Kansas race #2: Total votes Republican candidate
+967100   Kansas race #2: Total votes cast in Senate race
+967101   Campaign receipts by Democratic Senate candidate 1996
+967102   Campaign expenditures by Democratic Senate candidate
+967103   Campaign receipts by Republican Senate candidate 1996
+967104   Campaign expenditures by Republican Senate candidate
+967105   Kansas race #2: Democratic campaign receipts
+967106   Kansas race #2: Democratic campaign expenditures
+967107   Kansas race #2: Republican campaign receipts
+967108   Kansas race #2: Republican campaign expenditures
+967109   House incumbents party
+967110   Year House incumbent was first elected
+967111   House incumbents seniority in party
+967112   House incumbents sex
+967113   House incumbents race
+967114   House incumbents number of district offices
+967115   House incumbent 1995 Natl Jrnl economic liberalism
+967116   House incumbent 1995 Natl Jrnl social liberalism
+967117   House incumbent 1995 Natl Jrnl foreign liberalism
+967118   House incumbent 1995 Natl Jrnl economic conservatism
+967119   House incumbent 1995 Natl Jrnl social conservatism
+967120   House incumbent 1995 Natl Jrnl foreign conservatism
+967121   House incumbent 1995 U.S. Chamber of Commerce score
+967122   House incumbent 1995 Party unity support score
+967123   House incumbent 1995 Party unity opposition score
+967124   House incumbent 1995 Party unity adjusted support score
+967125   House incumbent 1995 Presidential support score
+967126   House incumbent 1995 Presidential opposition score
+967127   House incumbent 1995 Presidential adjusted support
+967128   House incumbent 1995 Conserv coalition support score
+967129   House incumbent 1995 Conserv coalition opposition score
+967130   House incumbent 1995 Conserv coalition adjusted support
+967131   House incumbent 1995 ADA score
+967132   House incumbent 1995 League of Cons Voters score
+967133   House incumbent 1996 Natl Jrnl economic liberalism
+967134   House incumbent 1996 Natl Jrnl social liberalism
+967135   House incumbent 1996 Natl Jrnl foreign liberalism
+967136   House incumbent 1996 Natl Jrnl economic conservatism
+967137   House incumbent 1996 Natl Jrnl social conservatism
+967138   House incumbent 1996 Natl Jrnl foreign conservatism
+967139   House incumbent 1996 U.S. Chamber of Commerce score
+967140   House incumbent 1996 Party unity support score
+967141   House incumbent 1996 Party unity opposition score
+967142   House incumbent 1996 Party unity adjusted support score
+967143   House incumbent 1996 Presidential support score
+967144   House incumbent 1996 Presidential opposition score
+967145   House incumbent 1996 Presidential adjusted support
+967146   House incumbent 1996 Conserv coalition support score
+967147   House incumbent 1996 Conserv coalition opposition score
+967148   House incumbent 1996 Conserv coalition adjusted support
+967149   House incumbent 1996 ADA score
+967150   House incumbent 1996 League of Cons Voters score
+967151   House incumbent Committee assignment #1
+967152   House incumbent rank on Committee #1
+967153   House incumbent Committee assignment #2
+967154   House incumbent rank on Committee #2
+967155   House incumbent Committee assignment #3
+967156   House incumbent rank on Committee #3
+967157   CQ pre-election House race outlook
+967158   Democratic House candidate political experience 1996
+967159   Republican House candidate political experience 1996
+967160   Total votes cast for Democratic House candidate 1996
+967161   Total votes cast for Republican House candidate 1996
+967162   Total votes cast in House race 1996
+967163   Campaign receipts by Democratic House candidate 1996
+967164   Campaign expenditures by Democratic House candidate
+967165   Campaign receipts by Republican House candidate 1996
+967166   Campaign expenditures by Republican House candidate
+967167   Total votes cast for Democratic House candidate 1994
+967168   Total votes cast for Republican House candidate 1994
+967169   Total votes cast in House race 1994
+967170   Total votes House district Democratic presidential 1992
+967171   Total votes House district Republican presidential 1992
+967172   Total votes House district presidential election 1992
+967173   Estimated number of DMA households in House district
+967174   Estimated average DMA cost per point in House district
+967175   Est DMA Early News cost per point in House district
+967176   Est DMA Prime Access cost per point House district
+967177   Est DMA Prime Time cost per point in House district
+967178   Est DMA Late News cost per point in House district
+967179   County percent vote for Clinton 1992
+967180   County percent vote for Bush 1992
+967181   County percent vote for Perot 1992
+967182   Estimated number of DMA households
+967183   Estimated average DMA cost per point
+967184   Estimated DMA Early News cost per point
+967185   Estimated DMA Prime Access cost per point
+967186   Estimated DMA Prime Time cost per point
+967187   Estimated DMA Late News cost per point
