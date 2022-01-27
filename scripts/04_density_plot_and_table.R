@@ -283,7 +283,7 @@ p_retro_small$n_rep <- as.integer(p_retro_small$n_rep)
 
 # Mean gap on econ. retrospection items
 mean(p_retro_small$sign_gap)
-# [1] 0.1493458
+# [1] 0.1725713
 
 names(p_retro_small) <- c("Item", "Study", "Year", "R", "n(R)", "D", "n(D)", "Signed Gap", "$\\textit{p(Gap)}$")
 
