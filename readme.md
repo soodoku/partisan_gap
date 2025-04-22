@@ -42,7 +42,7 @@
 
 ## Cite
 
-Roush, Carrie and Gaurav Sood. 20XX. "A Gap in Our Understanding? Reconsidering the Evidence for Partisan Knowledge Gaps." The Quarterly Journal of Political Science. 
+Roush, Carrie and Gaurav Sood. 2023. "A Gap in Our Understanding? Reconsidering the Evidence for Partisan Knowledge Gaps." The Quarterly Journal of Political Science. 
 
 ### Authors
 
